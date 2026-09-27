@@ -1,0 +1,2677 @@
+[
+  {
+    "name": "Gastroesophageal reflux disease (GERD)",
+    "summary": "Chronic symptoms or mucosal damage from reflux of stomach contents into the esophagus. Diagnosis is clinical in many uncomplicated cases; alarm features warrant investigation.",
+    "typical_symptoms": [
+      "heartburn",
+      "acid regurgitation",
+      "chest discomfort (non-cardiac)",
+      "chronic cough",
+      "sour taste"
+    ],
+    "red_flags": [
+      "dysphagia",
+      "odynophagia",
+      "unintentional weight loss",
+      "GI bleeding",
+      "persistent vomiting",
+      "anemia"
+    ],
+    "when_to_seek_care": "Seek care for alarm features, symptoms not responding to short OTC courses, or age/risk factors prompting endoscopy per guidelines. Emergency care for severe chest pain that could be cardiac.",
+    "evidence_overview": "Lifestyle measures and acid suppression (H2RA/PPI) are guideline-supported for typical GERD. Long-term PPI should match a clear indication.",
+    "symptoms": [
+      {
+        "symptom": "heartburn",
+        "synonyms": [
+          "burning chest",
+          "acid burn",
+          "pyrosis"
+        ],
+        "weight": 2,
+        "supporting": "Worse after meals or lying down",
+        "against": "Exertional pain relieved by rest may suggest cardiac cause"
+      },
+      {
+        "symptom": "acid regurgitation",
+        "synonyms": [
+          "sour taste",
+          "acid in throat",
+          "water brash"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "persistent heartburn",
+        "synonyms": [
+          "chronic heartburn",
+          "ongoing reflux"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "stomach pain",
+        "synonyms": [
+          "upper abdominal pain",
+          "epigastric pain"
+        ],
+        "weight": 1,
+        "supporting": "May overlap with peptic ulcer disease",
+        "against": "Severe sudden abdominal pain needs urgent evaluation"
+      },
+      {
+        "symptom": "nighttime reflux",
+        "synonyms": [
+          "nocturnal heartburn",
+          "reflux in bed"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "chronic cough from reflux",
+        "synonyms": [
+          "reflux cough"
+        ],
+        "weight": 1.2,
+        "supporting": "Especially after meals/lying down",
+        "against": "Smoking/ACEI cough mimics"
+      }
+    ]
+  },
+  {
+    "name": "Peptic ulcer disease",
+    "summary": "Defects in gastric or duodenal mucosa, often related to H. pylori or NSAIDs. Can present with epigastric pain; complications include bleeding and perforation.",
+    "typical_symptoms": [
+      "epigastric pain",
+      "nocturnal pain",
+      "nausea",
+      "bloating",
+      "black stools if bleeding"
+    ],
+    "red_flags": [
+      "coffee-ground vomiting",
+      "melena",
+      "sudden severe abdominal pain",
+      "syncope",
+      "anemia symptoms"
+    ],
+    "when_to_seek_care": "Urgent care for signs of bleeding or perforation. Elective evaluation for persistent epigastric pain, especially with NSAID use or prior ulcers.",
+    "evidence_overview": "Test-and-treat or endoscopy strategies depend on age and alarm features. PPI and H. pylori eradication are evidence-based when indicated.",
+    "symptoms": [
+      {
+        "symptom": "epigastric pain",
+        "synonyms": [
+          "stomach pain",
+          "upper belly pain",
+          "burning stomach"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "nocturnal abdominal pain",
+        "synonyms": [
+          "night stomach pain"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "black stools",
+        "synonyms": [
+          "melena",
+          "tarry stools"
+        ],
+        "weight": 2.5,
+        "supporting": "Suggests possible upper GI bleeding — urgent care",
+        "against": null
+      }
+    ]
+  },
+  {
+    "name": "Hypertension",
+    "summary": "Persistently elevated blood pressure increasing long-term risk of stroke, heart disease, and kidney disease. Usually asymptomatic until complications develop.",
+    "typical_symptoms": [
+      "often none",
+      "headache (nonspecific)",
+      "detected on measurement"
+    ],
+    "red_flags": [
+      "severe headache with neurologic symptoms",
+      "chest pain",
+      "shortness of breath",
+      "vision changes",
+      "BP crisis with end-organ symptoms"
+    ],
+    "when_to_seek_care": "Confirm elevated readings with proper technique. Seek urgent care for symptoms of hypertensive emergency. Routine care for sustained elevated BP.",
+    "evidence_overview": "Lifestyle and medication strategies are strongly guideline-supported (ACC/AHA, NICE, ESC).",
+    "symptoms": [
+      {
+        "symptom": "high blood pressure",
+        "synonyms": [
+          "elevated BP",
+          "hypertension"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "headache",
+        "synonyms": [
+          "head pain"
+        ],
+        "weight": 0.5,
+        "against": "Most headaches are not caused by hypertension"
+      },
+      {
+        "symptom": "elevated blood pressure reading",
+        "synonyms": [
+          "high BP",
+          "hypertension numbers"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "morning headache hypertension",
+        "synonyms": [
+          "BP headache"
+        ],
+        "weight": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Type 2 diabetes mellitus",
+    "summary": "Disorder of insulin resistance and progressive insulin deficiency leading to hyperglycemia and microvascular/macrovascular complications.",
+    "typical_symptoms": [
+      "polyuria",
+      "polydipsia",
+      "fatigue",
+      "blurred vision",
+      "slow wound healing",
+      "often asymptomatic early"
+    ],
+    "red_flags": [
+      "vomiting with confusion",
+      "deep rapid breathing",
+      "severe dehydration",
+      "very high glucose readings"
+    ],
+    "when_to_seek_care": "Urgent care for signs of DKA/HHS. Routine screening and care for risk factors or abnormal labs.",
+    "evidence_overview": "ADA/EASD/NICE guidelines support metformin first-line for many, with SGLT2i/GLP-1RA for cardiorenal risk.",
+    "symptoms": [
+      {
+        "symptom": "excessive thirst",
+        "synonyms": [
+          "polydipsia",
+          "very thirsty"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "frequent urination",
+        "synonyms": [
+          "polyuria",
+          "urinating a lot"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "fatigue",
+        "synonyms": [
+          "tiredness",
+          "low energy"
+        ],
+        "weight": 0.8
+      },
+      {
+        "symptom": "blurred vision",
+        "synonyms": [
+          "blurry vision"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "polyuria",
+        "synonyms": [
+          "urinating a lot",
+          "frequent large volumes"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "polydipsia",
+        "synonyms": [
+          "excessive thirst"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "blurred vision with hyperglycemia",
+        "synonyms": [
+          "blurry vision high sugar"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Asthma",
+    "summary": "Chronic inflammatory airway disease with variable airflow obstruction and hyperresponsiveness. Symptoms often episodic and reversible.",
+    "typical_symptoms": [
+      "wheeze",
+      "shortness of breath",
+      "chest tightness",
+      "cough (often nocturnal)"
+    ],
+    "red_flags": [
+      "inability to speak full sentences",
+      "cyanosis",
+      "silent chest",
+      "severe distress",
+      "poor response to reliever"
+    ],
+    "when_to_seek_care": "Emergency care for severe breathlessness or poor response to reliever. Clinical diagnosis and controller therapy planning with a clinician.",
+    "evidence_overview": "GINA guidelines emphasize anti-inflammatory controller therapy; SABA-only treatment is discouraged for most adults.",
+    "symptoms": [
+      {
+        "symptom": "wheeze",
+        "synonyms": [
+          "wheezing",
+          "whistling breath"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "shortness of breath",
+        "synonyms": [
+          "breathlessness",
+          "dyspnea",
+          "hard to breathe"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "night cough",
+        "synonyms": [
+          "nocturnal cough",
+          "cough at night"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "chest tightness",
+        "synonyms": [
+          "tight chest"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "nighttime cough asthma",
+        "synonyms": [
+          "cough at night"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "rescue inhaler overuse",
+        "synonyms": [
+          "using blue inhaler often"
+        ],
+        "weight": 1.7
+      }
+    ]
+  },
+  {
+    "name": "COPD",
+    "summary": "Progressive airflow limitation usually related to smoking or other exposures. Not fully reversible. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "chronic cough",
+      "sputum",
+      "exertional dyspnea",
+      "recurrent bronchitis"
+    ],
+    "red_flags": [
+      "severe dyspnea at rest",
+      "cyanosis",
+      "altered mental status",
+      "signs of cor pulmonale"
+    ],
+    "when_to_seek_care": "Urgent care for exacerbations with severe breathlessness. Spirometry-confirmed diagnosis and smoking cessation support.",
+    "evidence_overview": "GOLD guidelines: bronchodilators, inhaled therapies, vaccination, pulmonary rehab, smoking cessation.",
+    "symptoms": [
+      {
+        "symptom": "chronic cough",
+        "synonyms": [
+          "smoker's cough",
+          "ongoing cough"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "sputum production",
+        "synonyms": [
+          "phlegm",
+          "mucus cough"
+        ],
+        "weight": 1.3
+      },
+      {
+        "symptom": "exertional dyspnea",
+        "synonyms": [
+          "breathless on walking",
+          "short of breath on exertion"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "chronic sputum production",
+        "synonyms": [
+          "smoker's cough phlegm"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "progressive breathlessness",
+        "synonyms": [
+          "DOE worsening years"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Major depressive disorder",
+    "summary": "Common mood disorder with persistent low mood and/or anhedonia plus associated cognitive and somatic symptoms lasting ≥2 weeks (diagnostic criteria require clinical assessment).",
+    "typical_symptoms": [
+      "low mood",
+      "loss of interest",
+      "sleep change",
+      "appetite change",
+      "guilt",
+      "poor concentration",
+      "fatigue",
+      "suicidal thoughts"
+    ],
+    "red_flags": [
+      "suicidal ideation with plan/intent",
+      "psychosis",
+      "inability to care for self",
+      "mania symptoms suggesting bipolar"
+    ],
+    "when_to_seek_care": "Seek urgent/emergency help for suicidal thoughts or inability to stay safe. Professional assessment for persistent mood symptoms.",
+    "evidence_overview": "NICE and other guidelines support psychotherapy and/or antidepressants based on severity; SSRIs commonly first-line pharmacotherapy in adults.",
+    "symptoms": [
+      {
+        "symptom": "low mood",
+        "synonyms": [
+          "depression",
+          "feeling down",
+          "sadness"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "loss of interest",
+        "synonyms": [
+          "anhedonia",
+          "no pleasure"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "insomnia",
+        "synonyms": [
+          "can't sleep",
+          "trouble sleeping"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "fatigue",
+        "synonyms": [
+          "exhaustion",
+          "no energy"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "anhedonia",
+        "synonyms": [
+          "loss of interest",
+          "no pleasure"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "guilt or worthlessness",
+        "synonyms": [
+          "feeling worthless"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "early morning waking",
+        "synonyms": [
+          "wakes at 4am depressed"
+        ],
+        "weight": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Generalized anxiety disorder",
+    "summary": "Excessive, difficult-to-control worry about multiple domains with associated physical symptoms, causing impairment. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "excessive worry",
+      "restlessness",
+      "muscle tension",
+      "irritability",
+      "sleep disturbance",
+      "concentration difficulty"
+    ],
+    "red_flags": [
+      "panic with chest pain needing ACS exclusion",
+      "suicidal ideation",
+      "substance withdrawal"
+    ],
+    "when_to_seek_care": "Professional assessment for persistent anxiety impairing function. Emergency care if chest pain or safety concerns.",
+    "evidence_overview": "CBT and SSRIs/SNRIs have supporting evidence; benzodiazepines for short-term selected use only.",
+    "symptoms": [
+      {
+        "symptom": "excessive worry",
+        "synonyms": [
+          "constant worry",
+          "anxiety",
+          "can't stop worrying"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "restlessness",
+        "synonyms": [
+          "on edge",
+          "keyed up"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "muscle tension",
+        "synonyms": [
+          "tense muscles",
+          "tight shoulders"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "worry hard to control",
+        "synonyms": [
+          "can't stop worrying"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "muscle tension anxiety",
+        "synonyms": [
+          "tense muscles worry"
+        ],
+        "weight": 1.3
+      },
+      {
+        "symptom": "panic attack",
+        "synonyms": [
+          "sudden panic",
+          "fear of dying attack"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Migraine",
+    "summary": "Recurrent primary headache disorder, often unilateral and throbbing, with sensitivity to light/sound and/or nausea; aura may occur.",
+    "typical_symptoms": [
+      "throbbing headache",
+      "photophobia",
+      "phonophobia",
+      "nausea",
+      "visual aura"
+    ],
+    "red_flags": [
+      "thunderclap onset",
+      "neurologic deficit",
+      "fever/neck stiffness",
+      "new headache after age 50",
+      "cancer/HIV with new headache"
+    ],
+    "when_to_seek_care": "Emergency care for thunderclap or neurologic deficits. Clinical diagnosis and preventive therapy discussion for frequent attacks.",
+    "evidence_overview": "Triptans and NSAIDs for acute treatment in appropriate patients; preventive options per guidelines.",
+    "symptoms": [
+      {
+        "symptom": "throbbing headache",
+        "synonyms": [
+          "pulsating headache",
+          "migraine headache"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "sensitivity to light",
+        "synonyms": [
+          "photophobia",
+          "light hurts"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "nausea with headache",
+        "synonyms": [
+          "sick with headache"
+        ],
+        "weight": 1.3
+      },
+      {
+        "symptom": "visual aura",
+        "synonyms": [
+          "zigzag lights",
+          "scintillating scotoma"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "unilateral throbbing headache",
+        "synonyms": [
+          "one-sided pounding headache"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "migraine aura",
+        "synonyms": [
+          "zigzag vision",
+          "scintillating scotoma"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "photophobia phonophobia",
+        "synonyms": [
+          "light and sound sensitivity"
+        ],
+        "weight": 1.7
+      }
+    ]
+  },
+  {
+    "name": "Urinary tract infection (cystitis)",
+    "summary": "Common bacterial infection of the bladder, more frequent in women. Dysuria and frequency are typical; upper tract involvement is more serious.",
+    "typical_symptoms": [
+      "dysuria",
+      "frequency",
+      "urgency",
+      "suprapubic discomfort",
+      "cloudy urine"
+    ],
+    "red_flags": [
+      "flank pain",
+      "fever",
+      "rigors",
+      "vomiting",
+      "confusion in elderly",
+      "pregnancy"
+    ],
+    "when_to_seek_care": "Prompt care if pregnant, male, recurrent, or systemic symptoms (possible pyelonephritis). Uncomplicated cystitis pathways vary by region.",
+    "evidence_overview": "Empiric antibiotics based on local resistance; stewardship important. Fluoroquinolones reserved.",
+    "symptoms": [
+      {
+        "symptom": "painful urination",
+        "synonyms": [
+          "dysuria",
+          "burning urine"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "urinary frequency",
+        "synonyms": [
+          "peeing often",
+          "frequent urination"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "urinary urgency",
+        "synonyms": [
+          "sudden urge to urinate"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "flank pain",
+        "synonyms": [
+          "side pain",
+          "kidney pain"
+        ],
+        "weight": 2,
+        "supporting": "May suggest pyelonephritis",
+        "against": null
+      },
+      {
+        "symptom": "dysuria",
+        "synonyms": [
+          "burning urination",
+          "painful pee"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "urinary frequency cystitis",
+        "synonyms": [
+          "peeing often small amounts"
+        ],
+        "weight": 1.7
+      },
+      {
+        "symptom": "suprapubic pain",
+        "synonyms": [
+          "bladder pain"
+        ],
+        "weight": 1.4
+      }
+    ]
+  },
+  {
+    "name": "Community-acquired pneumonia",
+    "summary": "Acute infection of the lung parenchyma acquired outside hospital. Severity ranges from mild ambulatory disease to life-threatening.",
+    "typical_symptoms": [
+      "cough",
+      "fever",
+      "dyspnea",
+      "pleuritic chest pain",
+      "sputum"
+    ],
+    "red_flags": [
+      "severe dyspnea",
+      "confusion",
+      "low oxygen saturation",
+      "hypotension",
+      "hemoptysis"
+    ],
+    "when_to_seek_care": "Urgent evaluation for breathing difficulty, confusion, or high-risk patients. Do not rely on online tools for severity triage alone.",
+    "evidence_overview": "Guidelines guide empiric antibiotics by setting and severity; vaccination prevention important.",
+    "symptoms": [
+      {
+        "symptom": "productive cough",
+        "synonyms": [
+          "cough with phlegm"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "fever",
+        "synonyms": [
+          "high temperature",
+          "pyrexia"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "pleuritic chest pain",
+        "synonyms": [
+          "chest pain on breathing",
+          "sharp chest pain breathing"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "shortness of breath",
+        "synonyms": [
+          "breathlessness"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Atrial fibrillation",
+    "summary": "Common arrhythmia with irregular atrial activation, increasing stroke risk and possibly reducing cardiac efficiency. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "palpitations",
+      "fatigue",
+      "dyspnea",
+      "irregular pulse",
+      "sometimes asymptomatic"
+    ],
+    "red_flags": [
+      "chest pain",
+      "syncope",
+      "severe dyspnea",
+      "stroke symptoms"
+    ],
+    "when_to_seek_care": "Urgent care for instability. Evaluation for rate/rhythm control and anticoagulation based on stroke risk scores.",
+    "evidence_overview": "Strong evidence for anticoagulation in elevated stroke risk; rate vs rhythm strategies individualized.",
+    "symptoms": [
+      {
+        "symptom": "palpitations",
+        "synonyms": [
+          "heart racing",
+          "fluttering heart",
+          "irregular heartbeat"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "irregular pulse",
+        "synonyms": [
+          "irregular heartbeat felt"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "fatigue",
+        "synonyms": [
+          "tiredness"
+        ],
+        "weight": 0.8
+      },
+      {
+        "symptom": "irregular heartbeat",
+        "synonyms": [
+          "AF",
+          "irregular pulse"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "palpitations irregular",
+        "synonyms": [
+          "heart fluttering irregular"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Heart failure",
+    "summary": "Clinical syndrome from structural/functional cardiac impairment leading to congestion and/or inadequate perfusion. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "dyspnea on exertion",
+      "orthopnea",
+      "paroxysmal nocturnal dyspnea",
+      "edema",
+      "fatigue"
+    ],
+    "red_flags": [
+      "acute severe dyspnea",
+      "pink frothy sputum",
+      "syncope",
+      "chest pain with ACS features"
+    ],
+    "when_to_seek_care": "Emergency care for acute pulmonary edema. Specialist management for confirmed HF; do not stop HF meds abruptly without advice.",
+    "evidence_overview": "ESC/AHA guidelines: foundational therapy for HFrEF (ARNi/ACEI/ARB, beta-blocker, MRA, SGLT2i).",
+    "symptoms": [
+      {
+        "symptom": "orthopnea",
+        "synonyms": [
+          "can't lie flat",
+          "breathless lying down"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "leg swelling",
+        "synonyms": [
+          "ankle edema",
+          "swollen legs",
+          "edema"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "paroxysmal nocturnal dyspnea",
+        "synonyms": [
+          "waking up breathless"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "exertional dyspnea",
+        "synonyms": [
+          "breathless on exertion"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "ankle swelling HF",
+        "synonyms": [
+          "leg edema heart"
+        ],
+        "weight": 1.6
+      }
+    ]
+  },
+  {
+    "name": "Hypothyroidism",
+    "summary": "Thyroid hormone deficiency, most often autoimmune (Hashimoto) in iodine-sufficient regions. Treated with levothyroxine replacement.",
+    "typical_symptoms": [
+      "fatigue",
+      "weight gain",
+      "cold intolerance",
+      "constipation",
+      "dry skin",
+      "bradycardia"
+    ],
+    "red_flags": [
+      "myxedema coma features (hypothermia, altered mental status)",
+      "severe bradycardia"
+    ],
+    "when_to_seek_care": "Lab confirmation (TSH/free T4). Urgent care for severe presentations. Do not adjust doses without clinician guidance.",
+    "evidence_overview": "Levothyroxine is standard; monitor TSH; pregnancy needs closer follow-up.",
+    "symptoms": [
+      {
+        "symptom": "cold intolerance",
+        "synonyms": [
+          "feeling cold",
+          "cold all the time"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "weight gain",
+        "synonyms": [
+          "gaining weight"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "constipation",
+        "synonyms": [
+          "hard stools",
+          "infrequent stools"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "fatigue",
+        "synonyms": [
+          "tiredness"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "constipation hypothyroidism",
+        "synonyms": [
+          "constipated and tired"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "weight gain hypothyroid",
+        "synonyms": [
+          "gaining weight tired"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Osteoarthritis",
+    "summary": "Degenerative joint disease causing pain and functional limitation, commonly knees, hips, hands. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "activity-related joint pain",
+      "stiffness after inactivity",
+      "reduced range of motion",
+      "bony enlargement"
+    ],
+    "red_flags": [
+      "hot swollen joint with fever (septic arthritis concern)",
+      "acute monoarthritis (gout/infection/crystal)"
+    ],
+    "when_to_seek_care": "Urgent care for hot swollen joint. Routine care for chronic joint pain limiting function.",
+    "evidence_overview": "Exercise, weight management, topical/oral NSAIDs as appropriate; surgery for selected advanced cases.",
+    "symptoms": [
+      {
+        "symptom": "joint pain",
+        "synonyms": [
+          "arthralgia",
+          "knee pain",
+          "hip pain"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "morning stiffness brief",
+        "synonyms": [
+          "stiff joints in morning"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "activity-related joint pain",
+        "synonyms": [
+          "pain when walking",
+          "pain with use"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Gout",
+    "summary": "Crystal arthropathy from monosodium urate deposition, classically acute monoarthritis of the first MTP joint. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "sudden severe joint pain",
+      "redness",
+      "swelling",
+      "exquisite tenderness",
+      "often big toe"
+    ],
+    "red_flags": [
+      "fever with hot joint (must exclude infection)",
+      "polyarticular severe attacks"
+    ],
+    "when_to_seek_care": "Urgent evaluation to exclude septic arthritis when uncertain. Urate-lowering therapy decisions are individualized.",
+    "evidence_overview": "Anti-inflammatories for acute flares; allopurinol/febuxostat for chronic management when indicated.",
+    "symptoms": [
+      {
+        "symptom": "sudden joint pain",
+        "synonyms": [
+          "acute arthritis",
+          "hot joint"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "big toe pain",
+        "synonyms": [
+          "podagra",
+          "pain in big toe"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "red swollen joint",
+        "synonyms": [
+          "inflamed joint"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "acute monoarthritis big toe",
+        "synonyms": [
+          "podagra",
+          "hot red big toe"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "exquisite joint tenderness",
+        "synonyms": [
+          "can't tolerate bed sheet on joint"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Allergic rhinitis",
+    "summary": "IgE-mediated inflammation of the nasal mucosa triggered by allergens, causing sneezing, rhinorrhea, and congestion. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "sneezing",
+      "runny nose",
+      "itchy nose/eyes",
+      "nasal congestion"
+    ],
+    "red_flags": [
+      "unilateral symptoms with bleeding (consider other diagnoses)",
+      "wheeze suggesting asthma overlap",
+      "anaphylaxis features"
+    ],
+    "when_to_seek_care": "Care for uncontrolled symptoms, asthma overlap, or uncertain diagnosis. Emergency care for anaphylaxis.",
+    "evidence_overview": "Antihistamines and intranasal corticosteroids are mainstays; allergen immunotherapy selected cases.",
+    "symptoms": [
+      {
+        "symptom": "sneezing",
+        "synonyms": [
+          "sneeze attacks"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "runny nose",
+        "synonyms": [
+          "rhinorrhea",
+          "clear nasal discharge"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "itchy eyes",
+        "synonyms": [
+          "eye itching",
+          "allergic eyes"
+        ],
+        "weight": 1.3
+      },
+      {
+        "symptom": "nasal congestion",
+        "synonyms": [
+          "blocked nose",
+          "stuffy nose"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Iron deficiency anemia",
+    "summary": "Anemia due to insufficient iron for hemoglobin synthesis; causes include blood loss and inadequate intake/absorption. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "fatigue",
+      "pallor",
+      "dyspnea on exertion",
+      "pica",
+      "restless legs"
+    ],
+    "red_flags": [
+      "black stools / GI bleeding signs",
+      "heavy menstrual bleeding with syncope",
+      "very low hemoglobin symptoms"
+    ],
+    "when_to_seek_care": "Lab confirmation and investigation of underlying cause (especially GI blood loss in men and postmenopausal women).",
+    "evidence_overview": "Oral or IV iron as appropriate; investigate source of loss.",
+    "symptoms": [
+      {
+        "symptom": "pallor",
+        "synonyms": [
+          "pale skin",
+          "pale conjunctiva"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "fatigue",
+        "synonyms": [
+          "tiredness"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "pica",
+        "synonyms": [
+          "craving ice",
+          "eating ice"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Insomnia disorder",
+    "summary": "Persistent difficulty initiating or maintaining sleep with daytime impairment, despite adequate opportunity to sleep. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "difficulty falling asleep",
+      "night awakenings",
+      "early morning waking",
+      "daytime fatigue"
+    ],
+    "red_flags": [
+      "witnessed apneas (sleep apnea)",
+      "restless legs with urge to move",
+      "depression/suicidality"
+    ],
+    "when_to_seek_care": "Evaluate for contributing conditions. CBT-I preferred long-term; hypnotics short-term selected cases.",
+    "evidence_overview": "CBT-I has strongest long-term evidence; medications have dependency and safety tradeoffs.",
+    "symptoms": [
+      {
+        "symptom": "difficulty falling asleep",
+        "synonyms": [
+          "can't fall asleep",
+          "sleep onset insomnia"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "frequent night waking",
+        "synonyms": [
+          "waking at night",
+          "sleep maintenance insomnia"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "daytime sleepiness",
+        "synonyms": [
+          "sleepy during day"
+        ],
+        "weight": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Benign prostatic hyperplasia",
+    "summary": "Noncancerous prostate enlargement causing lower urinary tract symptoms in aging men. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "weak stream",
+      "hesitancy",
+      "nocturia",
+      "incomplete emptying",
+      "urgency"
+    ],
+    "red_flags": [
+      "inability to urinate (retention)",
+      "hematuria",
+      "recurrent UTIs",
+      "constitutional symptoms suggesting malignancy workup"
+    ],
+    "when_to_seek_care": "Urgent care for acute retention. Urologic evaluation for progressive LUTS or red flags.",
+    "evidence_overview": "Alpha-blockers and 5-ARIs as indicated; surgery for refractory cases.",
+    "symptoms": [
+      {
+        "symptom": "weak urine stream",
+        "synonyms": [
+          "poor stream",
+          "slow urination"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "nocturia",
+        "synonyms": [
+          "waking to urinate",
+          "nighttime urination"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "urinary hesitancy",
+        "synonyms": [
+          "difficulty starting urination"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Osteoporosis",
+    "summary": "Low bone mass and microarchitectural deterioration increasing fracture risk; often silent until fracture. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "often asymptomatic",
+      "height loss",
+      "kyphosis",
+      "fragility fracture"
+    ],
+    "red_flags": [
+      "acute back pain after minimal trauma (vertebral fracture)",
+      "secondary causes of bone loss"
+    ],
+    "when_to_seek_care": "DXA screening per age/risk guidelines. Treat after fragility fracture assessment.",
+    "evidence_overview": "Bisphosphonates and other agents reduce fracture risk; calcium/vitamin D as adjunct when appropriate.",
+    "symptoms": [
+      {
+        "symptom": "height loss",
+        "synonyms": [
+          "getting shorter",
+          "lost height"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "fragility fracture",
+        "synonyms": [
+          "fracture from fall standing height",
+          "broken bone easy"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "height loss kyphosis",
+        "synonyms": [
+          "got shorter",
+          "dowager hump"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Acute bronchitis (typically viral)",
+    "summary": "Self-limited lower airway inflammation, usually viral, with cough lasting up to 2–3 weeks. Antibiotics generally not indicated in otherwise healthy adults.",
+    "typical_symptoms": [
+      "cough",
+      "sputum (may be colored)",
+      "mild dyspnea",
+      "chest discomfort"
+    ],
+    "red_flags": [
+      "high fever prolonged",
+      "hemoptysis",
+      "severe dyspnea",
+      "suspected pneumonia"
+    ],
+    "when_to_seek_care": "Care if symptoms suggest pneumonia or high-risk host. Avoid unnecessary antibiotics for typical viral bronchitis.",
+    "evidence_overview": "Guidelines discourage routine antibiotics for uncomplicated acute bronchitis.",
+    "symptoms": [
+      {
+        "symptom": "cough",
+        "synonyms": [
+          "chesty cough",
+          "lingering cough"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "colored sputum",
+        "synonyms": [
+          "yellow phlegm",
+          "green phlegm"
+        ],
+        "weight": 0.8,
+        "against": "Color alone does not confirm bacterial infection needing antibiotics"
+      }
+    ]
+  },
+  {
+    "name": "COVID-19",
+    "summary": "Illness caused by SARS-CoV-2 with variable severity from asymptomatic to critical respiratory failure. Management evolves with variants and immunity.",
+    "typical_symptoms": [
+      "fever",
+      "cough",
+      "fatigue",
+      "anosmia/ageusia",
+      "sore throat",
+      "myalgia",
+      "dyspnea"
+    ],
+    "red_flags": [
+      "severe dyspnea",
+      "hypoxia",
+      "chest pain",
+      "confusion",
+      "blue lips"
+    ],
+    "when_to_seek_care": "Emergency care for breathing difficulty. Early antivirals (e.g., nirmatrelvir/ritonavir) for eligible high-risk outpatients per current guidance — interaction check essential.",
+    "evidence_overview": "Vaccination reduces severe outcomes. Antivirals for high-risk early disease have RCT support; interaction screening mandatory for Paxlovid.",
+    "symptoms": [
+      {
+        "symptom": "loss of smell",
+        "synonyms": [
+          "anosmia",
+          "can't smell"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "loss of taste",
+        "synonyms": [
+          "ageusia",
+          "can't taste"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "fever",
+        "synonyms": [
+          "high temperature"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "dry cough",
+        "synonyms": [
+          "cough"
+        ],
+        "weight": 1
+      },
+      {
+        "symptom": "sore throat",
+        "synonyms": [
+          "throat pain"
+        ],
+        "weight": 0.8
+      },
+      {
+        "symptom": "loss of taste or smell",
+        "synonyms": [
+          "anosmia",
+          "ageusia"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "fever with cough covid",
+        "synonyms": [
+          "covid-like illness"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Deep vein thrombosis",
+    "summary": "Blood clot in a deep vein, usually leg, that can embolize to the lungs (PE). Risk factors include immobility, surgery, cancer, hormones, prior VTE.",
+    "typical_symptoms": [
+      "unilateral leg swelling",
+      "pain",
+      "warmth",
+      "erythema"
+    ],
+    "red_flags": [
+      "sudden dyspnea/chest pain (possible PE)",
+      "massive swelling with arterial compromise signs"
+    ],
+    "when_to_seek_care": "Urgent medical evaluation for suspected DVT/PE — do not wait for online confirmation.",
+    "evidence_overview": "Wells score + D-dimer/ultrasound pathways; anticoagulation when confirmed unless contraindicated.",
+    "symptoms": [
+      {
+        "symptom": "unilateral leg swelling",
+        "synonyms": [
+          "one leg swollen",
+          "swollen calf"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "calf pain",
+        "synonyms": [
+          "leg pain one side"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "warm red leg",
+        "synonyms": [
+          "hot swollen leg"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Stroke / TIA (cerebrovascular)",
+    "summary": "Acute focal neurologic deficit from ischemia or hemorrhage (stroke) or transient ischemia (TIA). Time-critical emergency.",
+    "typical_symptoms": [
+      "face droop",
+      "arm weakness",
+      "speech difficulty",
+      "sudden numbness",
+      "sudden vision loss",
+      "sudden severe imbalance"
+    ],
+    "red_flags": [
+      "ANY sudden focal neurologic symptom — treat as emergency"
+    ],
+    "when_to_seek_care": "Call emergency services immediately (FAST). Do not drive yourself. This is not a wait-and-see situation.",
+    "evidence_overview": "Thrombolysis/thrombectomy windows are time-critical. Secondary prevention includes antiplatelets/anticoagulation as indicated, BP/lipid/diabetes control.",
+    "symptoms": [
+      {
+        "symptom": "face droop",
+        "synonyms": [
+          "facial droop",
+          "uneven smile"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "arm weakness",
+        "synonyms": [
+          "can't lift arm",
+          "one-sided weakness"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "speech difficulty",
+        "synonyms": [
+          "slurred speech",
+          "can't speak",
+          "aphasia"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "sudden numbness",
+        "synonyms": [
+          "sudden one-sided numbness"
+        ],
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "name": "Anaphylaxis",
+    "summary": "Severe, life-threatening systemic hypersensitivity reaction, often rapid onset, involving airway, breathing, and/or circulation, commonly with skin changes.",
+    "typical_symptoms": [
+      "urticaria",
+      "angioedema",
+      "wheeze",
+      "stridor",
+      "hypotension",
+      "GI symptoms",
+      "sense of doom"
+    ],
+    "red_flags": [
+      "ANY suspected anaphylaxis — emergency"
+    ],
+    "when_to_seek_care": "Use epinephrine if available/prescribed and call emergency services immediately. Lie flat with legs elevated if breathing allows (sit up if breathing easier).",
+    "evidence_overview": "Intramuscular epinephrine is first-line. Observation for biphasic reactions; allergist follow-up and action plan.",
+    "symptoms": [
+      {
+        "symptom": "throat swelling",
+        "synonyms": [
+          "swollen throat",
+          "throat closing"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "tongue swelling",
+        "synonyms": [
+          "swollen tongue"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "hives with breathing difficulty",
+        "synonyms": [
+          "urticaria and wheeze",
+          "rash and can't breathe"
+        ],
+        "weight": 2.5
+      },
+      {
+        "symptom": "severe allergic reaction",
+        "synonyms": [
+          "anaphylaxis",
+          "anaphylactic"
+        ],
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "name": "Constipation (functional)",
+    "summary": "Infrequent or difficult passage of stool; functional constipation is common and often lifestyle-related, but red flags need exclusion of serious causes.",
+    "typical_symptoms": [
+      "infrequent stools",
+      "hard stools",
+      "straining",
+      "sensation of incomplete evacuation"
+    ],
+    "red_flags": [
+      "blood in stool",
+      "unintentional weight loss",
+      "anemia",
+      "new onset after age 50",
+      "family history of CRC with concerning features"
+    ],
+    "when_to_seek_care": "Evaluate red flags. Trial of lifestyle and OTC measures for uncomplicated cases per local guidance.",
+    "evidence_overview": "Fiber, fluids, osmotic laxatives commonly used; investigate alarm features.",
+    "symptoms": [
+      {
+        "symptom": "constipation",
+        "synonyms": [
+          "hard stools",
+          "infrequent bowel movements",
+          "can't poop"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "straining with stools",
+        "synonyms": [
+          "straining to pass stool"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Irritable bowel syndrome",
+    "summary": "Disorder of gut-brain interaction with recurrent abdominal pain related to defecation and/or change in stool frequency/form. Diagnosis of pattern after excluding red flags.",
+    "typical_symptoms": [
+      "abdominal pain",
+      "bloating",
+      "diarrhea and/or constipation",
+      "relief with defecation"
+    ],
+    "red_flags": [
+      "nocturnal diarrhea",
+      "blood",
+      "weight loss",
+      "fever",
+      "onset after age 50",
+      "family history of IBD/CRC"
+    ],
+    "when_to_seek_care": "Clinical assessment to exclude organic disease when indicated. Not an emergency unless red flags.",
+    "evidence_overview": "Positive diagnosis using symptom criteria; diet, psychological, and pharmacologic options individualized.",
+    "symptoms": [
+      {
+        "symptom": "abdominal pain with bowel change",
+        "synonyms": [
+          "cramping with diarrhea",
+          "pain and constipation alternating"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "bloating",
+        "synonyms": [
+          "abdominal bloating",
+          "gassy"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "alternating diarrhea constipation",
+        "synonyms": [
+          "IBS mixed",
+          "diarrhea then constipation"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Hyperlipidemia / dyslipidemia",
+    "summary": "Abnormal blood lipids increasing atherosclerotic cardiovascular disease risk. Usually asymptomatic until vascular events.",
+    "typical_symptoms": [
+      "usually none",
+      "detected on labs",
+      "xanthomas (rare/severe genetic)"
+    ],
+    "red_flags": [
+      "very high triglycerides with pancreatitis symptoms",
+      "premature CHD family history needing cascade screening"
+    ],
+    "when_to_seek_care": "Cardiovascular risk assessment and lipid panel interpretation with a clinician.",
+    "evidence_overview": "Statins have robust outcome evidence for risk reduction in indicated patients.",
+    "symptoms": [
+      {
+        "symptom": "high cholesterol",
+        "synonyms": [
+          "elevated LDL",
+          "hypercholesterolemia"
+        ],
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "name": "Chronic kidney disease",
+    "summary": "Persistent reduction in kidney function or markers of kidney damage for >3 months, with staged risk based on GFR and albuminuria.",
+    "typical_symptoms": [
+      "often asymptomatic early",
+      "fatigue",
+      "edema",
+      "nocturia",
+      "hypertension"
+    ],
+    "red_flags": [
+      "anuria",
+      "severe hyperkalemia symptoms",
+      "uremic symptoms (pericarditis, encephalopathy)"
+    ],
+    "when_to_seek_care": "Nephrology referral per GFR/albuminuria thresholds. Medication review for nephrotoxins and dose adjustments.",
+    "evidence_overview": "ACEI/ARB, SGLT2i, BP/diabetes control slow progression in indicated populations.",
+    "symptoms": [
+      {
+        "symptom": "reduced kidney function",
+        "synonyms": [
+          "low eGFR",
+          "chronic kidney disease",
+          "CKD"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "foamy urine",
+        "synonyms": [
+          "proteinuria",
+          "protein in urine"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Eczema / atopic dermatitis",
+    "summary": "Chronic relapsing inflammatory skin condition with barrier dysfunction and itch. Diagnosis is clinical; secondary infection and steroid misuse are common pitfalls.",
+    "typical_symptoms": [
+      "itchy rash",
+      "dry skin",
+      "flexural eczema",
+      "sleep disturbance from itch"
+    ],
+    "red_flags": [
+      "rapidly spreading redness with fever",
+      "facial swelling",
+      "pustules suggesting serious infection",
+      "erythroderma"
+    ],
+    "when_to_seek_care": "Seek care for uncontrolled itch, suspected infection, or infant involvement. Emergency care for systemic toxicity or severe widespread disease.",
+    "evidence_overview": "Emollients are foundational. Topical corticosteroids/calcineurin inhibitors have trial support. Systemic agents reserved for refractory disease.",
+    "symptoms": [
+      {
+        "symptom": "itchy rash",
+        "synonyms": [
+          "pruritus",
+          "eczema itch"
+        ],
+        "weight": 2,
+        "supporting": "Flexural accentuation supports atopic pattern",
+        "against": "Painful rapidly progressive rash needs infection/urgent eval"
+      },
+      {
+        "symptom": "dry skin",
+        "synonyms": [
+          "xerosis"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "sleep disturbance from itch",
+        "synonyms": [
+          "night itch"
+        ],
+        "weight": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Attention-deficit/hyperactivity disorder (adult overview)",
+    "summary": "Neurodevelopmental condition with persistent inattention and/or hyperactivity-impulsivity impairing function. Adult diagnosis requires careful history; symptoms are not specific.",
+    "typical_symptoms": [
+      "inattention",
+      "restlessness",
+      "disorganization",
+      "impulsivity",
+      "time blindness"
+    ],
+    "red_flags": [
+      "suicidal ideation",
+      "substance withdrawal delirium",
+      "sudden personality change"
+    ],
+    "when_to_seek_care": "Seek evaluation via qualified clinician. Emergency care for suicidal ideation or acute psychiatric crisis. This overview does not diagnose ADHD.",
+    "evidence_overview": "Stimulants and atomoxetine have RCT support in diagnosed ADHD. Diagnosis must exclude mimics; online checklists are insufficient.",
+    "symptoms": [
+      {
+        "symptom": "inattention",
+        "synonyms": [
+          "can't focus",
+          "distractibility"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "restlessness",
+        "synonyms": [
+          "inner restlessness",
+          "can't sit still"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "disorganization",
+        "synonyms": [
+          "misses deadlines",
+          "loses items"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Bipolar disorder (overview)",
+    "summary": "Mood disorder with episodes of mania/hypomania and often depression. Self-labeling is unreliable; stimulant/substance effects and medical causes must be considered.",
+    "typical_symptoms": [
+      "elevated or irritable mood",
+      "decreased need for sleep",
+      "racing thoughts",
+      "depressive episodes",
+      "impulsivity"
+    ],
+    "red_flags": [
+      "suicidal ideation",
+      "psychosis with danger",
+      "severe mania with no sleep for days"
+    ],
+    "when_to_seek_care": "Urgent/emergency psychiatric care for mania with risk, psychosis, or suicidality. Do not stop mood stabilizers abruptly without clinical advice.",
+    "evidence_overview": "Lithium, valproate, atypical antipsychotics, and lamotrigine have role-specific evidence. Valproate is highly restricted in people who can become pregnant.",
+    "symptoms": [
+      {
+        "symptom": "decreased need for sleep",
+        "synonyms": [
+          "no need for sleep",
+          "manic insomnia"
+        ],
+        "weight": 2,
+        "supporting": "High energy despite little sleep is concerning for mania",
+        "against": "Insomnia alone is nonspecific"
+      },
+      {
+        "symptom": "racing thoughts",
+        "synonyms": [
+          "flight of ideas"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "elevated mood",
+        "synonyms": [
+          "euphoria",
+          "unusually irritable mood"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Epilepsy / seizure disorder (overview)",
+    "summary": "Tendency toward unprovoked seizures. First seizure workups differ from established epilepsy management. Driving and safety counseling are essential.",
+    "typical_symptoms": [
+      "convulsive seizure",
+      "staring spells",
+      "post-ictal confusion",
+      "tongue bite",
+      "incontinence during event"
+    ],
+    "red_flags": [
+      "seizure >5 minutes / recurrent without recovery",
+      "pregnancy seizure",
+      "new focal deficit",
+      "fever with stiff neck"
+    ],
+    "when_to_seek_care": "Call emergency services for prolonged/recurrent seizures (status protocols). New first seizure needs prompt medical evaluation. Never stop antiseizure meds abruptly.",
+    "evidence_overview": "Multiple antiseizure medications have RCT support; choice is syndrome- and patient-specific (pregnancy, interactions, comorbidities).",
+    "symptoms": [
+      {
+        "symptom": "convulsive seizure",
+        "synonyms": [
+          "tonic-clonic",
+          "fit",
+          "grand mal"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "staring spells",
+        "synonyms": [
+          "absence-like",
+          "blank out"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "post-ictal confusion",
+        "synonyms": [
+          "after-seizure confusion"
+        ],
+        "weight": 1.6
+      }
+    ]
+  },
+  {
+    "name": "Community-acquired pneumonia (overview)",
+    "summary": "Acute infection of the lung parenchyma acquired outside hospital. Severity tools and chest imaging guide site-of-care decisions.",
+    "typical_symptoms": [
+      "cough",
+      "fever",
+      "dyspnea",
+      "pleuritic chest pain",
+      "sputum"
+    ],
+    "red_flags": [
+      "severe dyspnea / hypoxia",
+      "confusion",
+      "hypotension",
+      "hemoptysis with instability",
+      "immunocompromise with fever"
+    ],
+    "when_to_seek_care": "Urgent care for breathing difficulty, confusion, or high-risk hosts. Emergency care for severe sepsis signs. Antibiotics are not always indicated before assessment.",
+    "evidence_overview": "Empiric antibiotics follow local resistance and guidelines (e.g., IDSA/ATS, NICE). Viral pneumonia is common; stewardship matters.",
+    "symptoms": [
+      {
+        "symptom": "fever with cough",
+        "synonyms": [
+          "productive cough fever"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "dyspnea",
+        "synonyms": [
+          "shortness of breath",
+          "breathlessness"
+        ],
+        "weight": 1.8,
+        "supporting": "New hypoxia is a red flag",
+        "against": "Chronic stable DOE may be COPD/HF"
+      },
+      {
+        "symptom": "pleuritic chest pain",
+        "synonyms": [
+          "pain on deep breath"
+        ],
+        "weight": 1.4
+      }
+    ]
+  },
+  {
+    "name": "Acute sinusitis (rhinosinusitis)",
+    "summary": "Inflammation of paranasal sinuses, usually viral. Bacterial infection is less common; antibiotics help only selected patients.",
+    "typical_symptoms": [
+      "facial pain/pressure",
+      "nasal congestion",
+      "purulent rhinorrhea",
+      "anosmia",
+      "upper tooth pain"
+    ],
+    "red_flags": [
+      "orbital swelling/vision change",
+      "severe headache with neck stiffness",
+      "neurologic deficit",
+      "frontal swelling"
+    ],
+    "when_to_seek_care": "Seek care for symptoms >10 days without improvement, severe onset, or double-worsening. Emergency care for orbital/CNS complications.",
+    "evidence_overview": "Guidelines emphasize symptomatic care; antibiotics reserved for specific criteria. Imaging not routine for uncomplicated acute cases.",
+    "symptoms": [
+      {
+        "symptom": "facial pressure",
+        "synonyms": [
+          "sinus pressure",
+          "face pain"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "purulent nasal discharge",
+        "synonyms": [
+          "yellow green mucus"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "nasal congestion",
+        "synonyms": [
+          "blocked nose"
+        ],
+        "weight": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Pharyngitis / tonsillitis",
+    "summary": "Sore throat from viral or bacterial (including GAS) causes. Centor/FeverPAIN-type criteria and testing reduce unnecessary antibiotics.",
+    "typical_symptoms": [
+      "sore throat",
+      "odynophagia",
+      "fever",
+      "tender cervical nodes",
+      "tonsillar exudate"
+    ],
+    "red_flags": [
+      "drooling / airway compromise",
+      "trismus",
+      "muffled hot-potato voice",
+      "neck swelling",
+      "scarlatiniform rash with toxicity"
+    ],
+    "when_to_seek_care": "Emergency care for airway concern/peritonsillar abscess signs. Testing/treatment decisions for strep should be clinician-guided.",
+    "evidence_overview": "Most pharyngitis is viral. Antibiotics for confirmed/highly likely GAS reduce complications in selected settings; symptom relief is central.",
+    "symptoms": [
+      {
+        "symptom": "sore throat",
+        "synonyms": [
+          "throat pain",
+          "pharyngitis"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "painful swallowing",
+        "synonyms": [
+          "odynophagia"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "tonsillar exudate",
+        "synonyms": [
+          "white spots on tonsils"
+        ],
+        "weight": 1.6
+      }
+    ]
+  },
+  {
+    "name": "Cellulitis",
+    "summary": "Bacterial infection of skin and subcutaneous tissue. Distinguish from stasis dermatitis, DVT, and necrotizing infections.",
+    "typical_symptoms": [
+      "spreading skin redness",
+      "warmth",
+      "tenderness",
+      "swelling",
+      "fever"
+    ],
+    "red_flags": [
+      "rapid progression with severe pain out of proportion",
+      "crepitus",
+      "purple bullae",
+      "hypotension",
+      "immunocompromise with systemic symptoms"
+    ],
+    "when_to_seek_care": "Urgent evaluation for expanding erythema with systemic symptoms. Emergency care for suspected necrotizing infection.",
+    "evidence_overview": "Empiric antibiotics target streptococci/MSSA; MRSA coverage when risk factors. Elevation and comorbidity management matter.",
+    "symptoms": [
+      {
+        "symptom": "spreading redness",
+        "synonyms": [
+          "expanding erythema",
+          "cellulitis"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "warm tender skin",
+        "synonyms": [
+          "hot skin patch"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "fever with skin infection",
+        "synonyms": [
+          "fever and red skin"
+        ],
+        "weight": 1.8
+      }
+    ]
+  },
+  {
+    "name": "Deep vein thrombosis (symptom overview)",
+    "summary": "Thrombosis in deep veins, usually legs. Clinical prediction rules plus D-dimer/ultrasound pathways guide diagnosis — not self-diagnosis.",
+    "typical_symptoms": [
+      "unilateral leg swelling",
+      "calf pain",
+      "warmth",
+      "erythema",
+      "leg heaviness"
+    ],
+    "red_flags": [
+      "signs of PE (pleuritic pain, dyspnea, hemoptysis, syncope)",
+      "phlegmasia / threatened limb",
+      "hemodynamic instability"
+    ],
+    "when_to_seek_care": "Urgent medical assessment for possible DVT. Emergency care for PE symptoms or threatened limb. Do not start anticoagulants without clinical pathway.",
+    "evidence_overview": "Anticoagulation is evidence-based once DVT/PE confirmed (or highly probable in selected protocols). Duration depends on provoked vs unprovoked and bleeding risk.",
+    "symptoms": [
+      {
+        "symptom": "unilateral leg swelling",
+        "synonyms": [
+          "one leg swollen"
+        ],
+        "weight": 2.2,
+        "supporting": "Asymmetry raises concern",
+        "against": "Bilateral chronic edema more often venous insufficiency/HF"
+      },
+      {
+        "symptom": "calf pain",
+        "synonyms": [
+          "leg pain walking"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "leg warmth and redness",
+        "synonyms": [
+          "hot calf"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Pulmonary embolism (overview)",
+    "summary": "Venous thrombus embolizing to pulmonary arteries. Presentation ranges from subtle dyspnea to collapse. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "sudden dyspnea",
+      "pleuritic chest pain",
+      "tachycardia",
+      "hemoptysis",
+      "syncope"
+    ],
+    "red_flags": [
+      "hypotension / shock",
+      "severe hypoxemia",
+      "syncope with suspected PE"
+    ],
+    "when_to_seek_care": "Emergency care for suspected PE with instability. Urgent pathways for suspected PE without shock. This tool does not rule out PE.",
+    "evidence_overview": "Diagnosis uses validated pathways (Wells/Geneva, D-dimer, CTPA/V/Q). Anticoagulation is standard when confirmed; thrombolysis reserved for selected massive PE.",
+    "symptoms": [
+      {
+        "symptom": "sudden shortness of breath",
+        "synonyms": [
+          "sudden dyspnea"
+        ],
+        "weight": 2.2
+      },
+      {
+        "symptom": "pleuritic chest pain",
+        "synonyms": [
+          "pain on breathing"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "coughing blood",
+        "synonyms": [
+          "hemoptysis"
+        ],
+        "weight": 1.7
+      }
+    ]
+  },
+  {
+    "name": "Anemia (general overview)",
+    "summary": "Low hemoglobin with diverse causes (iron deficiency, B12/folate, chronic disease, hemolysis, marrow disorders). Treat the cause, not only the number.",
+    "typical_symptoms": [
+      "fatigue",
+      "pallor",
+      "dyspnea on exertion",
+      "palpitations",
+      "dizziness"
+    ],
+    "red_flags": [
+      "chest pain with anemia",
+      "black stools / vomiting blood",
+      "neurologic symptoms of B12 deficiency severe",
+      "syncope"
+    ],
+    "when_to_seek_care": "Seek care for progressive fatigue with pallor or bleeding signs. Emergency care for unstable bleeding or cardiac ischemia symptoms.",
+    "evidence_overview": "Iron therapy helps iron deficiency; other anemias need different treatments. Blind iron use can harm hemochromatosis/other states.",
+    "symptoms": [
+      {
+        "symptom": "fatigue with pallor",
+        "synonyms": [
+          "tired and pale"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "dyspnea on exertion",
+        "synonyms": [
+          "winded easily"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "black stools",
+        "synonyms": [
+          "melena"
+        ],
+        "weight": 2.2,
+        "supporting": "Suggests GI bleeding — urgent"
+      }
+    ]
+  },
+  {
+    "name": "Hypoglycemia",
+    "summary": "Low blood glucose causing autonomic and neuroglycopenic symptoms — commonly medication-related in diabetes. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "sweating",
+      "tremor",
+      "hunger",
+      "confusion",
+      "palpitations"
+    ],
+    "red_flags": [
+      "seizure",
+      "loss of consciousness",
+      "stroke-like deficit with low glucose"
+    ],
+    "when_to_seek_care": "Treat known hypoglycemia per diabetes sick-day rules and seek help if severe/recurrent. Emergency care for seizure/unconsciousness (glucagon/EMS).",
+    "evidence_overview": "Prevention focuses on medication review (insulin/sulfonylureas), meal timing, and education. Recheck glucose after treatment.",
+    "symptoms": [
+      {
+        "symptom": "sweating and tremor",
+        "synonyms": [
+          "shaky sweaty"
+        ],
+        "weight": 1.8,
+        "supporting": "In a person on insulin/sulfonylurea highly suggestive",
+        "against": "Panic attack can mimic"
+      },
+      {
+        "symptom": "confusion with diabetes meds",
+        "synonyms": [
+          "odd behavior low sugar"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "hunger sudden",
+        "synonyms": [
+          "sudden hunger"
+        ],
+        "weight": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Hyperthyroidism / thyrotoxicosis overview",
+    "summary": "Excess thyroid hormone from Graves’, nodules, thyroiditis, or excess replacement. Symptoms overlap anxiety. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "heat intolerance",
+      "palpitations",
+      "weight loss",
+      "tremor",
+      "anxiety"
+    ],
+    "red_flags": [
+      "thyroid storm features (fever, delirium, tachyarrhythmia)",
+      "new AF with instability",
+      "eye pain/vision change in Graves"
+    ],
+    "when_to_seek_care": "Prompt clinician evaluation for suspected thyrotoxicosis. Emergency care for storm features. Do not adjust levothyroxine independently without advice.",
+    "evidence_overview": "Antithyroid drugs, beta blockers for symptoms, radioiodine, and surgery are pathway-dependent. TSH suppression on replacement needs dose review.",
+    "symptoms": [
+      {
+        "symptom": "heat intolerance",
+        "synonyms": [
+          "always hot",
+          "heat sensitivity"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "palpitations with weight loss",
+        "synonyms": [
+          "racing heart losing weight"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "fine tremor",
+        "synonyms": [
+          "shaky hands"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Parkinson disease (overview)",
+    "summary": "Neurodegenerative movement disorder with bradykinesia plus rest tremor/rigidity. Mimics include drug-induced parkinsonism.",
+    "typical_symptoms": [
+      "rest tremor",
+      "slowness of movement",
+      "rigidity",
+      "shuffling gait",
+      "reduced arm swing"
+    ],
+    "red_flags": [
+      "sudden high fever with rigidity on antipsychotics (NMS)",
+      "falls with head injury",
+      "inability to swallow secretions"
+    ],
+    "when_to_seek_care": "Neurology evaluation for suspected Parkinsonism. Emergency care for NMS-like presentations or serious aspiration.",
+    "evidence_overview": "Levodopa remains most effective motor therapy; timing, complications, and non-motor symptoms need specialist frameworks.",
+    "symptoms": [
+      {
+        "symptom": "rest tremor",
+        "synonyms": [
+          "pill rolling tremor"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "slowness of movement",
+        "synonyms": [
+          "bradykinesia",
+          "moves slowly"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "shuffling gait",
+        "synonyms": [
+          "stooped shuffle"
+        ],
+        "weight": 1.6
+      }
+    ]
+  },
+  {
+    "name": "Rheumatoid arthritis (overview)",
+    "summary": "Autoimmune inflammatory arthritis, typically symmetric small joints, with systemic features and erosive potential. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "morning stiffness >1 hour",
+      "symmetric joint swelling",
+      "hand/wrist pain",
+      "fatigue"
+    ],
+    "red_flags": [
+      "hot swollen joint with fever (septic arthritis concern)",
+      "rheumatoid lung/cardiac complications severe",
+      "cervical instability symptoms"
+    ],
+    "when_to_seek_care": "Rheumatology referral for suspected RA. Emergency care for septic arthritis possibility (single hot joint + fever).",
+    "evidence_overview": "Early DMARD therapy (methotrexate anchor) improves outcomes. Steroids bridge; biologics/tsDMARDs for inadequate response.",
+    "symptoms": [
+      {
+        "symptom": "morning stiffness",
+        "synonyms": [
+          "stiff hands in morning"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "symmetric joint swelling",
+        "synonyms": [
+          "both hands swollen joints"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "wrist pain inflammatory",
+        "synonyms": [
+          "painful swollen wrists"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Psoriasis",
+    "summary": "Immune-mediated skin disease with plaques; associated with psoriatic arthritis and cardiometabolic comorbidity. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "scaly plaques",
+      "extensor surfaces",
+      "nail pitting",
+      "scalp scale",
+      "itch"
+    ],
+    "red_flags": [
+      "erythroderma",
+      "pustular psoriasis widespread",
+      "joint destruction symptoms with fever"
+    ],
+    "when_to_seek_care": "Dermatology care for moderate-severe disease. Urgent care for unstable widespread pustular/erythrodermic psoriasis.",
+    "evidence_overview": "Topicals for limited disease; phototherapy/systemics/biologics for more extensive disease per guidelines.",
+    "symptoms": [
+      {
+        "symptom": "scaly plaques",
+        "synonyms": [
+          "silvery scale plaques"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "nail pitting",
+        "synonyms": [
+          "pitted nails"
+        ],
+        "weight": 1.4
+      },
+      {
+        "symptom": "scalp psoriasis",
+        "synonyms": [
+          "thick scalp scale"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Menopause / vasomotor symptoms",
+    "summary": "Permanent cessation of menses with estrogen decline; vasomotor symptoms and genitourinary syndrome are common. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "hot flashes",
+      "night sweats",
+      "vaginal dryness",
+      "sleep disturbance",
+      "irregular menses transitioning"
+    ],
+    "red_flags": [
+      "postmenopausal bleeding",
+      "severe mood crisis / suicidality",
+      "chest pain with hot sensations that could be cardiac"
+    ],
+    "when_to_seek_care": "Discuss symptoms with clinician; postmenopausal bleeding needs evaluation. Emergency care for possible cardiac chest pain.",
+    "evidence_overview": "Menopausal hormone therapy is most effective for vasomotor symptoms when appropriate; non-hormonal options exist. Risk–benefit is individualized (age, time since menopause, VTE/breast cancer risks).",
+    "symptoms": [
+      {
+        "symptom": "hot flashes",
+        "synonyms": [
+          "hot flushes",
+          "vasomotor"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "night sweats",
+        "synonyms": [
+          "sweating at night"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "vaginal dryness",
+        "synonyms": [
+          "GSM symptoms"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Benign prostatic hyperplasia (LUTS)",
+    "summary": "Prostate enlargement contributing to lower urinary tract symptoms in many aging men. Overlap with infection, cancer, and neurologic bladder.",
+    "typical_symptoms": [
+      "weak stream",
+      "nocturia",
+      "hesitancy",
+      "incomplete emptying",
+      "urgency"
+    ],
+    "red_flags": [
+      "inability to urinate",
+      "fever with dysuria suggesting prostatitis/sepsis",
+      "hematuria with weight loss"
+    ],
+    "when_to_seek_care": "Urgent care for acute urinary retention. Evaluate infection/hematuria red flags. Discuss PSA testing pros/cons with clinician.",
+    "evidence_overview": "Alpha blockers and 5-ARIs have evidence for LUTS/BPH; surgery for refractory obstruction. Rule out mimics.",
+    "symptoms": [
+      {
+        "symptom": "weak urinary stream",
+        "synonyms": [
+          "poor flow"
+        ],
+        "weight": 1.7
+      },
+      {
+        "symptom": "nocturia",
+        "synonyms": [
+          "nighttime urination"
+        ],
+        "weight": 1.3
+      },
+      {
+        "symptom": "urinary hesitancy",
+        "synonyms": [
+          "difficulty starting urine"
+        ],
+        "weight": 1.5
+      }
+    ]
+  },
+  {
+    "name": "Overactive bladder",
+    "summary": "Urgency with or without urge incontinence, usually with frequency/nocturia, without infection or other obvious pathology.",
+    "typical_symptoms": [
+      "urinary urgency",
+      "frequency",
+      "urge leakage",
+      "nocturia"
+    ],
+    "red_flags": [
+      "red-flag hematuria",
+      "neurologic deficits",
+      "acute retention after starting anticholinergics"
+    ],
+    "when_to_seek_care": "Seek care for hematuria, pain, or neurologic signs. Discuss behavioral therapies before/along with drugs.",
+    "evidence_overview": "Bladder training and fluid management first-line. Antimuscarinics/beta-3 agonists have trial support; cognitive effects matter in elderly.",
+    "symptoms": [
+      {
+        "symptom": "urinary urgency",
+        "synonyms": [
+          "sudden need to void"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "urge incontinence",
+        "synonyms": [
+          "leak with urgency"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "daytime frequency",
+        "synonyms": [
+          "urinates very often"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Glaucoma (chronic open-angle overview)",
+    "summary": "Optic neuropathy often related to intraocular pressure, causing irreversible field loss if untreated. Early disease is asymptomatic.",
+    "typical_symptoms": [
+      "gradual peripheral vision loss",
+      "family history concern",
+      "elevated IOP on exam",
+      "halos uncommon in open-angle"
+    ],
+    "red_flags": [
+      "acute severe eye pain with nausea/halos (angle-closure)",
+      "sudden vision loss"
+    ],
+    "when_to_seek_care": "Emergency care for acute angle-closure symptoms. Routine eye exams detect open-angle disease early — not a symptom-first diagnosis.",
+    "evidence_overview": "Pressure-lowering drops, laser, and surgery have evidence to slow progression. Adherence is critical.",
+    "symptoms": [
+      {
+        "symptom": "gradual peripheral vision loss",
+        "synonyms": [
+          "tunnel vision gradual"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "eye pain acute with nausea",
+        "synonyms": [
+          "severe eye pain vomiting"
+        ],
+        "weight": 2.2,
+        "supporting": "Possible angle-closure emergency"
+      }
+    ]
+  },
+  {
+    "name": "Otitis media (acute)",
+    "summary": "Middle ear infection common in children; adults less often. Distinguish from otitis externa and referred pain. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "ear pain",
+      "fever",
+      "hearing reduction",
+      "irritability in children",
+      "recent URI"
+    ],
+    "red_flags": [
+      "mastoid swelling",
+      "neurologic signs",
+      "severe vertigo with toxicity",
+      "immunocompromise"
+    ],
+    "when_to_seek_care": "Urgent care for severe symptoms or under-3 months with fever. Emergency for mastoiditis/neurologic signs.",
+    "evidence_overview": "Many cases are viral/self-limited; antibiotics when criteria met (age, severity, bilateral). Analgesia is essential.",
+    "symptoms": [
+      {
+        "symptom": "ear pain",
+        "synonyms": [
+          "otalgia",
+          "earache"
+        ],
+        "weight": 1.8
+      },
+      {
+        "symptom": "fever with earache",
+        "synonyms": [
+          "fever ear pain"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "reduced hearing brief",
+        "synonyms": [
+          "ear feels blocked"
+        ],
+        "weight": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Conjunctivitis (overview)",
+    "summary": "Conjunctival inflammation — viral, bacterial, or allergic. Red flags distinguish sight-threatening disease. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "red eye",
+      "discharge",
+      "gritty sensation",
+      "itch (allergic)",
+      "crusting"
+    ],
+    "red_flags": [
+      "severe pain",
+      "photophobia with vision loss",
+      "contact lens with white cornea spot",
+      "vesicles on lid suggesting HSV",
+      "pupil abnormality"
+    ],
+    "when_to_seek_care": "Urgent ophthalmology for pain/photophobia/vision change/contact-lens keratitis suspicion. Allergic/viral cases often supportive.",
+    "evidence_overview": "Avoid steroid drops without diagnosis. Antibiotics only when bacterial likely; stewardship important.",
+    "symptoms": [
+      {
+        "symptom": "red eye with discharge",
+        "synonyms": [
+          "sticky red eye"
+        ],
+        "weight": 1.6
+      },
+      {
+        "symptom": "itchy watery eyes",
+        "synonyms": [
+          "allergic eye itch"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "painful red eye vision change",
+        "synonyms": [
+          "red eye can't see"
+        ],
+        "weight": 2.2,
+        "supporting": "Not simple conjunctivitis — urgent"
+      }
+    ]
+  },
+  {
+    "name": "Low back pain (nonspecific overview)",
+    "summary": "Most acute low back pain is nonspecific and improves with time. Red flags identify fracture, infection, cauda equina, malignancy.",
+    "typical_symptoms": [
+      "lumbar ache",
+      "muscle spasm",
+      "pain worse with movement",
+      "buttock referral"
+    ],
+    "red_flags": [
+      "saddle anesthesia",
+      "new bowel/bladder incontinence",
+      "progressive leg weakness",
+      "fever with IVDU/back pain",
+      "history of cancer with night pain"
+    ],
+    "when_to_seek_care": "Emergency care for cauda equina signs. Urgent care for infection/cancer red flags. Imaging not routine early without red flags.",
+    "evidence_overview": "Stay active, brief NSAID/analgesic courses if appropriate, and reassurance. Chronic pathways emphasize exercise and psychosocial factors.",
+    "symptoms": [
+      {
+        "symptom": "low back pain",
+        "synonyms": [
+          "lumbago",
+          "lumbar pain"
+        ],
+        "weight": 1.5
+      },
+      {
+        "symptom": "back spasm",
+        "synonyms": [
+          "muscle spasm back"
+        ],
+        "weight": 1.2
+      },
+      {
+        "symptom": "saddle numbness",
+        "synonyms": [
+          "numb between legs"
+        ],
+        "weight": 2.5,
+        "supporting": "Cauda equina warning"
+      }
+    ]
+  },
+  {
+    "name": "Tension-type headache",
+    "summary": "Common primary headache with pressing bilateral pain and mild-moderate intensity, lacking migraine features usually. Clinical assessment is required; this educational summary is not a diagnosis.",
+    "typical_symptoms": [
+      "bilateral pressing headache",
+      "scalp tenderness",
+      "mild photophobia alone uncommon",
+      "stress association"
+    ],
+    "red_flags": [
+      "thunderclap onset",
+      "fever/neck stiffness",
+      "neurologic deficit",
+      "new headache in pregnancy / cancer / immunosuppression"
+    ],
+    "when_to_seek_care": "Emergency care for thunderclap or meningism. Recurrent headaches warrant clinician diagnosis to avoid missing migraine/secondary causes.",
+    "evidence_overview": "Simple analgesics carefully to avoid medication-overuse headache; non-drug approaches emphasized. Not an excuse to miss secondary headache.",
+    "symptoms": [
+      {
+        "symptom": "pressing bilateral headache",
+        "synonyms": [
+          "band-like headache"
+        ],
+        "weight": 1.7
+      },
+      {
+        "symptom": "stress headache",
+        "synonyms": [
+          "tension headache"
+        ],
+        "weight": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Medication-overuse headache",
+    "summary": "Chronic headache from frequent acute headache medication use (often ≥10–15 days/month depending on agent). Diagnosis requires clinician input.",
+    "typical_symptoms": [
+      "daily or near-daily headache",
+      "frequent analgesic/triptan use",
+      "morning headache",
+      "partial relief only"
+    ],
+    "red_flags": [
+      "thunderclap",
+      "focal neurology",
+      "fever"
+    ],
+    "when_to_seek_care": "Discuss prevention strategies with clinician; abrupt withdrawal of some agents needs supervision. Emergency for red-flag headaches.",
+    "evidence_overview": "Prevention with appropriate prophylaxis and structured withdrawal of overused acute meds is guideline-supported.",
+    "symptoms": [
+      {
+        "symptom": "daily headache with frequent painkillers",
+        "synonyms": [
+          "painkiller headache"
+        ],
+        "weight": 2
+      },
+      {
+        "symptom": "morning headache chronic",
+        "synonyms": [
+          "wake up headache every day"
+        ],
+        "weight": 1.4
+      }
+    ]
+  }
+]

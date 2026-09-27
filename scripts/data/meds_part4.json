@@ -1,0 +1,2418 @@
+[
+  {
+    "genericName": "Prednisone / Prednisolone",
+    "brandNames": [
+      "Deltasone",
+      "Prednisolon"
+    ],
+    "drugClass": "Systemic corticosteroid",
+    "mechanism": "Glucocorticoid receptor agonism — anti-inflammatory and immunosuppressive.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Potent and effective short-term; long-term toxicity well established.",
+    "benefitsSummary": "Rapid control of inflammatory and immune-mediated conditions.",
+    "whyStillPrescribed": "Rapid, broad anti-inflammatory/immunosuppressive effects remain unmatched for many acute indications despite well-known toxicity with chronic use.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Multiple inflammatory/autoimmune conditions",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Asthma/COPD exacerbations (short courses)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Inflammatory / allergic / autoimmune flares as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Asthma / COPD exacerbations (systemic short courses)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Adrenal insufficiency replacement (physiologic dosing — selected agents)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Oncology / antiemetic adjunct / COVID protocols (context-specific)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Indication and dose highly context-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Insomnia, mood changes, increased appetite (short-term)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyperglycemia, hypertension, osteoporosis, infection risk (cumulative)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Adrenal suppression after prolonged use",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Infection risk increase",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Osteoporosis with long-term use",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Adrenal suppression with prolonged therapy",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "AVN of bone / myopathy (higher dose/duration)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "GI ulcer risk especially with NSAIDs",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Prolonged therapy",
+        "severity": "major",
+        "details": "Do not stop abruptly after prolonged use — adrenal insufficiency risk."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt withdrawal after prolonged use",
+        "severity": "major",
+        "details": "Risk of adrenal crisis — taper."
+      },
+      {
+        "type": "warning",
+        "population": "Live vaccines / active untreated infections",
+        "severity": "major",
+        "details": "Immunosuppression concerns."
+      },
+      {
+        "type": "precaution",
+        "population": "Diabetes, osteoporosis, psychiatric disease, glaucoma, PUD",
+        "severity": "moderate",
+        "details": "May worsen."
+      }
+    ],
+    "special": {
+      "pregnancy": "Used when indicated (e.g., fetal lung maturation with dexamethasone/betamethasone); chronic use needs specialist balance.",
+      "lactation": "Often compatible at lower doses — discuss.",
+      "renal": "Fluid retention / hypertension considerations.",
+      "hepatic": "Prednisone needs conversion to prednisolone — prefer prednisolone in severe hepatic disease.",
+      "geriatric": "Higher delirium, fracture, infection risk."
+    },
+    "monitoring": [
+      "Glucose, BP, bone health with long-term use",
+      "Glucose / BP with higher doses",
+      "Bone protection if long-term",
+      "Ophthalmology if prolonged",
+      "HPA axis awareness when tapering"
+    ],
+    "withdrawal": "Taper after prolonged courses to avoid adrenal insufficiency; duration/dose thresholds are clinical judgments.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "nice",
+      "ema",
+      "gina_asthma",
+      "gold_copd"
+    ]
+  },
+  {
+    "genericName": "Cetirizine",
+    "brandNames": [
+      "Zyrtec",
+      "Reactine"
+    ],
+    "drugClass": "Second-generation H1 antihistamine",
+    "mechanism": "Peripheral H1 receptor antagonism.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Effective for allergic rhinitis and urticaria; less sedating than first-generation.",
+    "benefitsSummary": "Symptom relief for allergic rhinitis and chronic urticaria.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Allergic rhinitis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Urticaria",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Somnolence (possible)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dry mouth",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Somnolence (cetirizine > loratadine/fexofenadine typically)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Dry mouth, headache",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Rare serious allergic reaction",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "precaution",
+        "population": "Severe renal impairment",
+        "severity": "moderate",
+        "details": "Dose adjust per labeling."
+      },
+      {
+        "type": "precaution",
+        "population": "Severe renal impairment (cetirizine/levocetirizine)",
+        "severity": "moderate",
+        "details": "Dose adjust."
+      },
+      {
+        "type": "precaution",
+        "population": "Activities requiring alertness if sedated",
+        "severity": "moderate",
+        "details": "Individual variability."
+      }
+    ],
+    "special": {
+      "pregnancy": "Often used when needed; discuss agent choice.",
+      "lactation": "Generally compatible — prefer non-sedating; monitor infant.",
+      "renal": "Dose adjust cetirizine family.",
+      "hepatic": "Caution product-specific."
+    },
+    "monitoring": [
+      "Sedation / efficacy"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "bnf",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Loratadine",
+    "brandNames": [
+      "Claritin"
+    ],
+    "drugClass": "Second-generation H1 antihistamine",
+    "mechanism": "Peripheral H1 antagonism.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Nonsedating at usual doses for most people.",
+    "benefitsSummary": "Allergic rhinitis and urticaria symptom control.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Allergic rhinitis / urticaria",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Headache; rare sedation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Somnolence (cetirizine > loratadine/fexofenadine typically)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Dry mouth, headache",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Rare serious allergic reaction",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "precaution",
+        "population": "Severe renal impairment (cetirizine/levocetirizine)",
+        "severity": "moderate",
+        "details": "Dose adjust."
+      },
+      {
+        "type": "precaution",
+        "population": "Activities requiring alertness if sedated",
+        "severity": "moderate",
+        "details": "Individual variability."
+      }
+    ],
+    "special": {
+      "pregnancy": "Often used when needed; discuss agent choice.",
+      "lactation": "Generally compatible — prefer non-sedating; monitor infant.",
+      "renal": "Dose adjust cetirizine family.",
+      "hepatic": "Caution product-specific."
+    },
+    "monitoring": [
+      "Sedation / efficacy"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Montelukast",
+    "brandNames": [
+      "Singulair"
+    ],
+    "drugClass": "Leukotriene receptor antagonist",
+    "mechanism": "Blocks CysLT1 receptors.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Useful add-on in asthma/allergic rhinitis; boxed warning for serious neuropsychiatric events.",
+    "benefitsSummary": "Oral non-steroid option for asthma and allergic rhinitis as labeled.",
+    "whyStillPrescribed": "Oral non-steroid option for asthma/allergic rhinitis; use individualized after neuropsychiatric risk counseling.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Asthma prophylaxis (not acute attack)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Allergic rhinitis (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Asthma maintenance (not acute rescue)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Exercise-induced bronchoconstriction prevention",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Neuropsychiatric events (boxed warning)",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Headache",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Headache, abdominal pain",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Neuropsychiatric events (agitation, depression, suicidal thoughts)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All patients — mood/behavior changes",
+        "severity": "major",
+        "details": "FDA boxed warning: serious neuropsychiatric events. Discontinue if they occur."
+      },
+      {
+        "type": "boxed",
+        "population": "Serious neuropsychiatric events",
+        "severity": "major",
+        "details": "FDA boxed warning — counsel patients/caregivers; reconsider if psychiatric symptoms emerge."
+      },
+      {
+        "type": "warning",
+        "population": "Not for status asthmaticus",
+        "severity": "major",
+        "details": "Controller only."
+      }
+    ],
+    "special": {
+      "pregnancy": "Discuss; often continued if benefit clear.",
+      "lactation": "Limited data — discuss.",
+      "pediatric": "Neuropsychiatric monitoring important."
+    },
+    "monitoring": [
+      "Mood / behavior changes",
+      "Asthma control"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "gina_asthma",
+      "nice",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Gabapentin",
+    "brandNames": [
+      "Neurontin"
+    ],
+    "drugClass": "Gabapentinoid",
+    "mechanism": "Binds α2δ subunit of voltage-gated calcium channels.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Evidence for postherpetic neuralgia and partial seizures; misuse potential increasingly recognized.",
+    "benefitsSummary": "Neuropathic pain and seizure adjunct as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Postherpetic neuralgia",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Partial seizures adjunct (gabapentin/pregabalin)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Neuropathic pain (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fibromyalgia (pregabalin — labeled US)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety (pregabalin — licensed some regions)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Jurisdiction-specific"
+      },
+      {
+        "indication": "Perioperative pain / off-label uses",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Dizziness, somnolence, peripheral edema",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Respiratory depression risk with opioids",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Dizziness, somnolence, ataxia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Peripheral edema / weight gain",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Misuse / dependence potential",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Suicidal thoughts (antiepileptic class warning)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Concurrent CNS depressants",
+        "severity": "major",
+        "details": "FDA warns of serious breathing difficulties with opioids or respiratory risk."
+      },
+      {
+        "type": "warning",
+        "population": "CNS depression with opioids",
+        "severity": "major",
+        "details": "Serious breathing problems — FDA warnings."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt discontinuation",
+        "severity": "moderate",
+        "details": "Seizure risk in epilepsy; withdrawal symptoms."
+      },
+      {
+        "type": "precaution",
+        "population": "Renal impairment",
+        "severity": "moderate",
+        "details": "Renally cleared — adjust dose."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit; possible neonatal risks.",
+      "renal": "Mandatory dose adjustment.",
+      "geriatric": "Fall risk."
+    },
+    "monitoring": [
+      "Sedation / falls",
+      "Renal dosing",
+      "Misuse risk"
+    ],
+    "withdrawal": "Taper — insomnia, nausea, anxiety, pain rebound, seizures in epilepsy patients possible.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Pregabalin",
+    "brandNames": [
+      "Lyrica"
+    ],
+    "drugClass": "Gabapentinoid",
+    "mechanism": "α2δ calcium channel ligand.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Approved for neuropathic pain, fibromyalgia (US), seizures; controlled in US.",
+    "benefitsSummary": "Neuropathic pain and other labeled indications.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Diabetic neuropathy / postherpetic neuralgia",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Fibromyalgia (US)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Neuropathic pain (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Partial seizures adjunct (gabapentin/pregabalin)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fibromyalgia (pregabalin — labeled US)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety (pregabalin — licensed some regions)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Jurisdiction-specific"
+      },
+      {
+        "indication": "Perioperative pain / off-label uses",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Dizziness, somnolence, weight gain, edema",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dizziness, somnolence, ataxia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Peripheral edema / weight gain",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Respiratory depression risk with opioids",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Misuse / dependence potential",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Suicidal thoughts (antiepileptic class warning)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "CNS depressant combinations",
+        "severity": "major",
+        "details": "Respiratory depression risk with opioids; misuse potential."
+      },
+      {
+        "type": "warning",
+        "population": "CNS depression with opioids",
+        "severity": "major",
+        "details": "Serious breathing problems — FDA warnings."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt discontinuation",
+        "severity": "moderate",
+        "details": "Seizure risk in epilepsy; withdrawal symptoms."
+      },
+      {
+        "type": "precaution",
+        "population": "Renal impairment",
+        "severity": "moderate",
+        "details": "Renally cleared — adjust dose."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit; possible neonatal risks.",
+      "renal": "Mandatory dose adjustment.",
+      "geriatric": "Fall risk."
+    },
+    "monitoring": [
+      "Sedation / falls",
+      "Renal dosing",
+      "Misuse risk"
+    ],
+    "withdrawal": "Taper — insomnia, nausea, anxiety, pain rebound, seizures in epilepsy patients possible.",
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "fda",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Tramadol",
+    "brandNames": [
+      "Ultram",
+      "Tramal"
+    ],
+    "drugClass": "Atypical opioid analgesic",
+    "mechanism": "μ-opioid agonism plus serotonin/norepinephrine reuptake inhibition.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Analgesic option with seizure and serotonin syndrome risks.",
+    "benefitsSummary": "Moderate pain when non-opioid options insufficient — use caution.",
+    "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Moderate to moderately severe pain",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Moderate to severe acute pain when non-opioids insufficient",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Cancer / palliative pain (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
+      },
+      {
+        "indication": "Antitussive (codeine — labeled in some products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Restricted in many jurisdictions for children"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, dizziness, constipation, somnolence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Seizures",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Serotonin syndrome with serotonergic drugs",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Constipation, nausea, sedation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Respiratory depression",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Dependence / addiction / misuse",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Hypogonadism with chronic use",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Falls / cognitive impairment",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Seizure history; SSRI/SNRI/MAOI use",
+        "severity": "major",
+        "details": "Lower seizure threshold; dangerous serotonergic combinations."
+      },
+      {
+        "type": "boxed",
+        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
+        "severity": "major",
+        "details": "See full opioid analgesic REMS / labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "Benzodiazepines / CNS depressants co-use",
+        "severity": "major",
+        "details": "Profound sedation, respiratory depression, death."
+      },
+      {
+        "type": "warning",
+        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
+        "severity": "major",
+        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+      }
+    ],
+    "special": {
+      "pregnancy": "Neonatal opioid withdrawal risk with prolonged use; specialist care.",
+      "lactation": "Codeine/tramadol particularly hazardous in some infants — often contraindicated.",
+      "renal": "Accumulate metabolites (morphine, codeine) — caution/adjust.",
+      "hepatic": "Dose caution; tramadol/codeine activation issues.",
+      "geriatric": "High risk — start low, go slow; prefer non-opioids first."
+    },
+    "monitoring": [
+      "Sedation / respiration",
+      "Constipation plan",
+      "Misuse risk / PDMP where applicable",
+      "Functional goals"
+    ],
+    "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf",
+      "ema",
+      "nice",
+      "mhra",
+      "who"
+    ]
+  },
+  {
+    "genericName": "Codeine",
+    "brandNames": [
+      "Various combinations"
+    ],
+    "drugClass": "Opioid analgesic / antitussive (prodrug)",
+    "mechanism": "Metabolized via CYP2D6 to morphine; variable analgesia.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "Controlled; restrictions in children",
+      "EU": "Restrictions especially pediatric",
+      "UK": "Restricted in under-12s for cough/cold",
+      "CH": "Regulated opioid"
+    },
+    "evidenceQualityOverview": "Variable efficacy due to CYP2D6 polymorphisms; pediatric safety restrictions widespread.",
+    "benefitsSummary": "Mild–moderate pain in selected adults; many prefer alternatives.",
+    "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Mild to moderate pain (selected adults)",
+        "approved": true,
+        "evidence": "low"
+      },
+      {
+        "indication": "Moderate to severe acute pain when non-opioids insufficient",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Cancer / palliative pain (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
+      },
+      {
+        "indication": "Antitussive (codeine — labeled in some products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Restricted in many jurisdictions for children"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Constipation, sedation, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Respiratory depression",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Constipation, nausea, sedation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dependence / addiction / misuse",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Hypogonadism with chronic use",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Falls / cognitive impairment",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Children after tonsillectomy/adenoidectomy",
+        "severity": "major",
+        "details": "FDA contraindication in that pediatric postoperative setting."
+      },
+      {
+        "type": "boxed",
+        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
+        "severity": "major",
+        "details": "See full opioid analgesic REMS / labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "Benzodiazepines / CNS depressants co-use",
+        "severity": "major",
+        "details": "Profound sedation, respiratory depression, death."
+      },
+      {
+        "type": "warning",
+        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
+        "severity": "major",
+        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+      }
+    ],
+    "special": {
+      "pregnancy": "Neonatal opioid withdrawal risk with prolonged use; specialist care.",
+      "lactation": "Codeine/tramadol particularly hazardous in some infants — often contraindicated.",
+      "renal": "Accumulate metabolites (morphine, codeine) — caution/adjust.",
+      "hepatic": "Dose caution; tramadol/codeine activation issues.",
+      "geriatric": "High risk — start low, go slow; prefer non-opioids first."
+    },
+    "monitoring": [
+      "Sedation / respiration",
+      "Constipation plan",
+      "Misuse risk / PDMP where applicable",
+      "Functional goals"
+    ],
+    "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema",
+      "mhra",
+      "nice",
+      "bnf",
+      "who"
+    ]
+  },
+  {
+    "genericName": "Morphine",
+    "brandNames": [
+      "MS Contin",
+      "Sevredol"
+    ],
+    "drugClass": "Opioid agonist",
+    "mechanism": "μ-opioid receptor agonism.",
+    "routes": [
+      "oral",
+      "intravenous",
+      "subcutaneous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Gold-standard strong opioid for severe pain; addiction and respiratory depression established.",
+    "benefitsSummary": "Severe acute and cancer pain management under controlled frameworks.",
+    "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Severe pain",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Moderate to severe acute pain when non-opioids insufficient",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Cancer / palliative pain (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
+      },
+      {
+        "indication": "Antitussive (codeine — labeled in some products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Restricted in many jurisdictions for children"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Respiratory depression",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Constipation, sedation, nausea, dependence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Constipation, nausea, sedation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dependence / addiction / misuse",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Hypogonadism with chronic use",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Falls / cognitive impairment",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All patients — addiction, abuse, misuse",
+        "severity": "major",
+        "details": "Boxed warnings on opioids. Naloxone education where appropriate."
+      },
+      {
+        "type": "boxed",
+        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
+        "severity": "major",
+        "details": "See full opioid analgesic REMS / labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "Benzodiazepines / CNS depressants co-use",
+        "severity": "major",
+        "details": "Profound sedation, respiratory depression, death."
+      },
+      {
+        "type": "warning",
+        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
+        "severity": "major",
+        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+      }
+    ],
+    "special": {
+      "pregnancy": "Neonatal opioid withdrawal risk with prolonged use; specialist care.",
+      "lactation": "Codeine/tramadol particularly hazardous in some infants — often contraindicated.",
+      "renal": "Accumulate metabolites (morphine, codeine) — caution/adjust.",
+      "hepatic": "Dose caution; tramadol/codeine activation issues.",
+      "geriatric": "High risk — start low, go slow; prefer non-opioids first."
+    },
+    "monitoring": [
+      "Sedation / respiration",
+      "Constipation plan",
+      "Misuse risk / PDMP where applicable",
+      "Functional goals"
+    ],
+    "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "who",
+      "bnf",
+      "ema",
+      "nice",
+      "mhra"
+    ]
+  },
+  {
+    "genericName": "Digoxin",
+    "brandNames": [
+      "Lanoxin"
+    ],
+    "drugClass": "Cardiac glycoside",
+    "mechanism": "Inhibits Na/K-ATPase; vagomimetic effects.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Narrow therapeutic index; used for rate control in AF and symptomatic HFrEF as adjunct.",
+    "benefitsSummary": "Rate control and symptom benefit in selected heart failure patients.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Heart failure (adjunct)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "AF rate control",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Heart failure rate/symptom adjunct (selected patients)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Rate control in atrial fibrillation",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Arrhythmias, nausea, visual changes (toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Nausea, anorexia, visual changes (toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Arrhythmias including bradycardia / VT (toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Gynecomastia (chronic)",
+        "severity": "moderate",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Renal impairment / hypokalemia / drug interactions",
+        "severity": "major",
+        "details": "Toxicity risk rises with low potassium and reduced clearance."
+      },
+      {
+        "type": "warning",
+        "population": "Narrow therapeutic index",
+        "severity": "major",
+        "details": "Toxicity risk with renal impairment, hypokalemia, drug interactions."
+      },
+      {
+        "type": "warning",
+        "population": "Amiodarone / verapamil / macrolides raise levels",
+        "severity": "major",
+        "details": "Dose adjust / monitor."
+      }
+    ],
+    "special": {
+      "pregnancy": "May be used when needed — monitor.",
+      "renal": "Major determinant of clearance — adjust.",
+      "geriatric": "High toxicity risk."
+    },
+    "monitoring": [
+      "Electrolytes, renal function, digoxin level when indicated",
+      "Digoxin level when indicated",
+      "Electrolytes (K+, Mg2+)",
+      "Renal function",
+      "HR"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "bnf",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Amiodarone",
+    "brandNames": [
+      "Cordarone",
+      "Pacerone"
+    ],
+    "drugClass": "Class III antiarrhythmic",
+    "mechanism": "Complex multi-channel block; potassium channel predominant.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Highly effective for many arrhythmias but substantial multi-organ toxicity.",
+    "benefitsSummary": "Maintains sinus rhythm / controls arrhythmias when benefits justify monitoring.",
+    "whyStillPrescribed": "Highly effective antiarrhythmic for many atrial and ventricular arrhythmias despite multi-organ toxicity — used when benefits justify intensive monitoring.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Life-threatening ventricular arrhythmias",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Atrial arrhythmias rate/rhythm control (common use; risk–benefit)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Many uses are guideline-supported but toxicity substantial"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Pulmonary toxicity / fibrosis",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Thyroid dysfunction (hypo or hyper)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hepatotoxicity, corneal deposits, bradycardia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Corneal microdeposits / optic neuropathy",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bradycardia / QT prolongation",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Photosensitivity / blue-gray skin",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All long-term users",
+        "severity": "major",
+        "details": "Monitor lungs, thyroid, liver, eyes."
+      },
+      {
+        "type": "boxed",
+        "population": "Pulmonary, hepatic, and proarrhythmic toxicities",
+        "severity": "major",
+        "details": "Hospitalize for loading when for life-threatening VT/VF per US label."
+      },
+      {
+        "type": "warning",
+        "population": "Numerous drug interactions (warfarin, digoxin, simvastatin, etc.)",
+        "severity": "major",
+        "details": "Mandatory interaction check."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid if possible — fetal harm.",
+      "lactation": "Avoid.",
+      "hepatic": "Monitor LFTs.",
+      "renal": "Minimal renal clearance but metabolites persist."
+    },
+    "monitoring": [
+      "PFTs/CXR baseline, thyroid, LFTs regularly",
+      "ECG / QT",
+      "PFTs/CXR baseline as appropriate",
+      "LFTs",
+      "TFTs",
+      "ECG",
+      "Eye symptoms",
+      "Drug interactions"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Clopidogrel",
+    "brandNames": [
+      "Plavix"
+    ],
+    "drugClass": "P2Y12 inhibitor antiplatelet",
+    "mechanism": "Irreversible ADP P2Y12 blockade (prodrug via CYP2C19).",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "DAPT cornerstone post-ACS/stent; CYP2C19 poor metabolizers may have reduced effect.",
+    "benefitsSummary": "Reduces stent thrombosis and ischemic events in ACS/PCI as indicated.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "ACS / recent MI/stroke / PAD as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "PAD symptomatic management (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Net benefit often unfavorable in average-risk adults"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bleeding / bruising",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia / GI bleeding (aspirin)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspnea (ticagrelor)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Thrombotic thrombocytopenic purpura (rare — clopidogrel)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "CYP2C19 poor metabolizers",
+        "severity": "major",
+        "details": "Boxed warning — diminished effect; consider alternative."
+      },
+      {
+        "type": "boxed",
+        "population": "Bleeding (prasugrel/ticagrelor)",
+        "severity": "major",
+        "details": "See product boxed warnings."
+      },
+      {
+        "type": "warning",
+        "population": "CYP2C19 poor metabolizers (clopidogrel)",
+        "severity": "moderate",
+        "details": "Reduced antiplatelet effect — boxed warning in US."
+      },
+      {
+        "type": "warning",
+        "population": "Omeprazole/esomeprazole interaction discussions with clopidogrel",
+        "severity": "moderate",
+        "details": "Prefer interaction-safer acid suppression when needed."
+      }
+    ],
+    "special": null,
+    "monitoring": [
+      "Bleeding signs",
+      "Adherence after stents (critical)",
+      "Hemoglobin if occult bleed suspected"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema",
+      "aha_hypertension",
+      "nice",
+      "esc_hf"
+    ]
+  },
+  {
+    "genericName": "Heparin (unfractionated)",
+    "brandNames": [
+      "Various"
+    ],
+    "drugClass": "Anticoagulant",
+    "mechanism": "Potentiates antithrombin III.",
+    "routes": [
+      "intravenous",
+      "subcutaneous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Essential hospital anticoagulant; HIT is an established immune adverse effect.",
+    "benefitsSummary": "Rapid anticoagulation with short half-life and protamine reversibility.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "VTE, ACS, perioperative anticoagulation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "VTE treatment and prophylaxis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "ACS / procedural anticoagulation (UFH)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Bridging anticoagulation contexts",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Heparin-induced thrombocytopenia (HIT)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Osteoporosis with long UFH",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Injection-site hematoma",
+        "severity": "common",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "HIT history",
+        "severity": "major",
+        "details": "Avoid; use alternative anticoagulant."
+      },
+      {
+        "type": "warning",
+        "population": "HIT history",
+        "severity": "major",
+        "details": "Avoid heparin products; use alternatives."
+      },
+      {
+        "type": "boxed",
+        "population": "Spinal/epidural hematoma (LMWH)",
+        "severity": "major",
+        "details": "Neuraxial timing rules."
+      },
+      {
+        "type": "warning",
+        "population": "Active major bleeding",
+        "severity": "major",
+        "details": "Contraindicated."
+      }
+    ],
+    "special": {
+      "pregnancy": "LMWH preferred anticoagulant in many pregnancy VTE settings.",
+      "lactation": "Compatible.",
+      "renal": "LMWH accumulate — adjust/avoid; UFH often preferred in severe CKD.",
+      "geriatric": "Bleeding risk."
+    },
+    "monitoring": [
+      "aPTT or anti-Xa",
+      "Platelets for HIT",
+      "Anti-Xa when indicated",
+      "Platelets (HIT surveillance)",
+      "CBC / bleeding",
+      "Renal function for LMWH"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "who",
+      "bnf",
+      "ema",
+      "nice",
+      "acog"
+    ]
+  },
+  {
+    "genericName": "Enoxaparin",
+    "brandNames": [
+      "Lovenox",
+      "Clexane"
+    ],
+    "drugClass": "Low-molecular-weight heparin",
+    "mechanism": "Antithrombin-mediated anti-Xa activity.",
+    "routes": [
+      "subcutaneous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Predictable anticoagulation for VTE; renal dosing important.",
+    "benefitsSummary": "Outpatient-capable LMWH for many VTE indications.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "DVT/PE treatment and prophylaxis; ACS",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "VTE treatment and prophylaxis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "ACS / procedural anticoagulation (UFH)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Bridging anticoagulation contexts",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding, injection-site hematoma",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "HIT (lower than UFH but possible)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Heparin-induced thrombocytopenia (HIT)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Osteoporosis with long UFH",
+        "severity": "moderate",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Neuraxial anesthesia",
+        "severity": "major",
+        "details": "Spinal/epidural hematoma risk — boxed warning."
+      },
+      {
+        "type": "warning",
+        "population": "HIT history",
+        "severity": "major",
+        "details": "Avoid heparin products; use alternatives."
+      },
+      {
+        "type": "boxed",
+        "population": "Spinal/epidural hematoma (LMWH)",
+        "severity": "major",
+        "details": "Neuraxial timing rules."
+      },
+      {
+        "type": "warning",
+        "population": "Active major bleeding",
+        "severity": "major",
+        "details": "Contraindicated."
+      }
+    ],
+    "special": {
+      "renal": "LMWH accumulate — adjust/avoid; UFH often preferred in severe CKD.",
+      "pregnancy": "LMWH preferred anticoagulant in many pregnancy VTE settings.",
+      "lactation": "Compatible.",
+      "geriatric": "Bleeding risk."
+    },
+    "monitoring": [
+      "Anti-Xa when indicated",
+      "Platelets (HIT surveillance)",
+      "CBC / bleeding",
+      "Renal function for LMWH"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "nice",
+      "acog",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Allopurinol",
+    "brandNames": [
+      "Zyloprim"
+    ],
+    "drugClass": "Xanthine oxidase inhibitor",
+    "mechanism": "Inhibits xanthine oxidase → ↓ uric acid.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "First-line urate lowering for gout; HLA-B*5801 risk for SCARs in some populations.",
+    "benefitsSummary": "Prevents gout flares long-term when titrated to target urate.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Chronic gout / hyperuricemia",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Tumor lysis prevention (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Gout (urate lowering or flare)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Agent-specific roles"
+      },
+      {
+        "indication": "Tumor lysis syndrome prevention (allopurinol)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Recurrent calcium stones with hyperuricosuria (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Rash; severe hypersensitivity including SJS/TEN (rare)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute gout flare during initiation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Rash / severe SCARs including DRESS/SJS (allopurinol)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI upset / diarrhea (colchicine)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myelosuppression / myopathy (colchicine toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Liver enzyme elevations (febuxostat)",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "HLA-B*5801 positive",
+        "severity": "major",
+        "details": "Higher risk of severe cutaneous reactions — screening in at-risk groups."
+      },
+      {
+        "type": "warning",
+        "population": "HLA-B*5801 risk allele (allopurinol SCARs)",
+        "severity": "major",
+        "details": "Screen in high-risk ancestries per labels/guidelines."
+      },
+      {
+        "type": "warning",
+        "population": "Colchicine–CYP3A4/P-gp inhibitor interactions",
+        "severity": "major",
+        "details": "Can be fatal."
+      },
+      {
+        "type": "boxed",
+        "population": "Febuxostat CV death warning (US)",
+        "severity": "major",
+        "details": "Use limited to allopurinol-intolerant in US labeling."
+      }
+    ],
+    "special": null,
+    "monitoring": [
+      "Uric acid for ULT",
+      "Rash vigilance",
+      "CBC/CK if colchicine toxicity risk",
+      "LFTs"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "ema",
+      "fda",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Colchicine",
+    "brandNames": [
+      "Colcrys",
+      "Mitigare"
+    ],
+    "drugClass": "Anti-gout / anti-inflammatory",
+    "mechanism": "Disrupts microtubules; modulates neutrophils.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Effective for acute gout and FMF; narrow therapeutic index with CYP3A4/P-gp interactions.",
+    "benefitsSummary": "Acute gout flares and prophylaxis during urate-lowering initiation.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Acute gout; prophylaxis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Familial Mediterranean fever",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Gout (urate lowering or flare)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Agent-specific roles"
+      },
+      {
+        "indication": "Tumor lysis syndrome prevention (allopurinol)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Recurrent calcium stones with hyperuricosuria (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Diarrhea, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bone marrow suppression / myopathy (toxicity)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Rash / severe SCARs including DRESS/SJS (allopurinol)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI upset / diarrhea (colchicine)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myelosuppression / myopathy (colchicine toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Liver enzyme elevations (febuxostat)",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Strong CYP3A4/P-gp inhibitors in renal/hepatic impairment",
+        "severity": "major",
+        "details": "Life-threatening toxicity possible."
+      },
+      {
+        "type": "warning",
+        "population": "HLA-B*5801 risk allele (allopurinol SCARs)",
+        "severity": "major",
+        "details": "Screen in high-risk ancestries per labels/guidelines."
+      },
+      {
+        "type": "warning",
+        "population": "Colchicine–CYP3A4/P-gp inhibitor interactions",
+        "severity": "major",
+        "details": "Can be fatal."
+      },
+      {
+        "type": "boxed",
+        "population": "Febuxostat CV death warning (US)",
+        "severity": "major",
+        "details": "Use limited to allopurinol-intolerant in US labeling."
+      }
+    ],
+    "special": null,
+    "monitoring": [
+      "Uric acid for ULT",
+      "Rash vigilance",
+      "CBC/CK if colchicine toxicity risk",
+      "LFTs"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Sumatriptan",
+    "brandNames": [
+      "Imitrex",
+      "Imigran"
+    ],
+    "drugClass": "Triptan (5-HT1B/1D agonist)",
+    "mechanism": "Cranial vasoconstriction and trigeminovascular modulation.",
+    "routes": [
+      "oral",
+      "subcutaneous",
+      "nasal"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Established acute migraine therapy; contraindicated in significant CV disease.",
+    "benefitsSummary": "Abortive treatment for acute migraine as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Acute migraine treatment",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Cluster headache (sumatriptan injectable — labeled)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Chest/throat tightness, flushing, paresthesias",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Rare serious cardiac events",
+        "severity": "serious",
+        "evidence": "low"
+      },
+      {
+        "effect": "Chest/throat tightness / warm sensations (triptan sensations)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dizziness, somnolence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome with serotonergic drugs (rare)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Medication-overuse headache with frequent use",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Ischemic heart disease, uncontrolled HTN, stroke history",
+        "severity": "major",
+        "details": "Vasoconstrictive risk."
+      },
+      {
+        "type": "contraindication",
+        "population": "Ischemic heart disease / uncontrolled HTN / stroke history / significant CVD",
+        "severity": "major",
+        "details": "Vasoconstrictive risk."
+      },
+      {
+        "type": "contraindication",
+        "population": "Ergotamine coadministration within 24h",
+        "severity": "major",
+        "details": "See label."
+      },
+      {
+        "type": "warning",
+        "population": "Limit frequency to avoid medication-overuse headache",
+        "severity": "moderate",
+        "details": "Guideline counseling."
+      }
+    ],
+    "special": {
+      "pregnancy": "Limited data — discuss non-drug options and alternatives.",
+      "lactation": "Sumatriptan often considered compatible with timing — discuss."
+    },
+    "monitoring": [
+      "CV risk screening before use",
+      "Attack frequency / overuse"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Ondansetron",
+    "brandNames": [
+      "Zofran"
+    ],
+    "drugClass": "5-HT3 antagonist antiemetic",
+    "mechanism": "Blocks serotonin 5-HT3 receptors.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Highly effective for CINV and PONV; QT prolongation caution.",
+    "benefitsSummary": "Prevents and treats nausea/vomiting in labeled settings.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Chemotherapy-induced and postoperative nausea/vomiting",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chemotherapy-induced nausea/vomiting",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Radiotherapy-associated nausea",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Pregnancy nausea (off-label common; risk debates)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Headache, constipation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Serotonin syndrome with other serotonergic agents (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Congenital long QT / interacting QT drugs",
+        "severity": "major",
+        "details": "ECG monitoring in high-risk situations."
+      },
+      {
+        "type": "warning",
+        "population": "QT prolongation — avoid in congenital long QT; caution with other QT drugs",
+        "severity": "major",
+        "details": "FDA warning."
+      },
+      {
+        "type": "precaution",
+        "population": "Hepatic impairment dose limits",
+        "severity": "moderate",
+        "details": "See label."
+      }
+    ],
+    "special": {
+      "pregnancy": "Used off-label frequently; discuss evolving evidence on possible small risk signals vs benefit.",
+      "hepatic": "Dose adjust in severe impairment."
+    },
+    "monitoring": [
+      "ECG if high risk",
+      "Bowel function"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Loperamide",
+    "brandNames": [
+      "Imodium"
+    ],
+    "drugClass": "Peripheral opioid antimotility agent",
+    "mechanism": "μ-opioid agonism in gut.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Effective symptomatic antidiarrheal; high-dose abuse causes serious cardiac events.",
+    "benefitsSummary": "Short-term control of acute nonspecific diarrhea.",
+    "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Acute nonspecific diarrhea",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Moderate to severe acute pain when non-opioids insufficient",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Cancer / palliative pain (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
+      },
+      {
+        "indication": "Antitussive (codeine — labeled in some products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Restricted in many jurisdictions for children"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Constipation, abdominal cramps",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation / cardiac arrest with supra-therapeutic doses",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Constipation, nausea, sedation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Respiratory depression",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Dependence / addiction / misuse",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Hypogonadism with chronic use",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Falls / cognitive impairment",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Do not exceed labeled doses",
+        "severity": "major",
+        "details": "FDA warns against high-dose abuse."
+      },
+      {
+        "type": "boxed",
+        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
+        "severity": "major",
+        "details": "See full opioid analgesic REMS / labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "Benzodiazepines / CNS depressants co-use",
+        "severity": "major",
+        "details": "Profound sedation, respiratory depression, death."
+      },
+      {
+        "type": "warning",
+        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
+        "severity": "major",
+        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+      }
+    ],
+    "special": {
+      "pregnancy": "Neonatal opioid withdrawal risk with prolonged use; specialist care.",
+      "lactation": "Codeine/tramadol particularly hazardous in some infants — often contraindicated.",
+      "renal": "Accumulate metabolites (morphine, codeine) — caution/adjust.",
+      "hepatic": "Dose caution; tramadol/codeine activation issues.",
+      "geriatric": "High risk — start low, go slow; prefer non-opioids first."
+    },
+    "monitoring": [
+      "Sedation / respiration",
+      "Constipation plan",
+      "Misuse risk / PDMP where applicable",
+      "Functional goals"
+    ],
+    "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf",
+      "ema",
+      "nice",
+      "mhra",
+      "who"
+    ]
+  },
+  {
+    "genericName": "Oral contraceptives (combined) — class overview",
+    "brandNames": [
+      "Various (Microgynon, Yasmin, etc.)"
+    ],
+    "drugClass": "Combined hormonal contraceptive",
+    "mechanism": "Suppress ovulation via FSH/LH feedback; thicken cervical mucus.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Highly effective with perfect use; VTE risk elevated vs non-use; follow MEC criteria.",
+    "benefitsSummary": "Contraception; cycle regulation; some treat acne as labeled.",
+    "whyStillPrescribed": "Benefits for pregnancy prevention substantial when MEC criteria followed. Absolute VTE risk low in healthy young nonsmokers but higher than non-use.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Prevention of pregnancy",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Selected noncontraceptive labeled uses",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Emergency contraception (levonorgestrel / ulipristal products)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product-specific"
+      },
+      {
+        "indication": "Menstrual cycle regulation / acne / endometriosis symptoms (selected CHCs — labeled)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, breast tenderness, breakthrough bleeding",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased VTE risk",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Stroke/MI risk elevated with smoking age>35 and migraine with aura",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Venous thromboembolism (CHC)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Estrogen-dose and progestin-type dependent absolute risk still low in healthy nonsmokers"
+      },
+      {
+        "effect": "Stroke / MI risk increase in smokers >35 and other CV risk factors (CHC)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Mood changes / headache",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "VTE history, thrombophilia, migraine with aura, smoking≥15/day age≥35, etc.",
+        "severity": "major",
+        "details": "Follow CDC/WHO Medical Eligibility Criteria. Boxed warning: smoking increases CV risks."
+      },
+      {
+        "type": "boxed",
+        "population": "Smoking and age >35 (combined hormonal contraceptives)",
+        "severity": "major",
+        "details": "Increased CV event risk."
+      },
+      {
+        "type": "contraindication",
+        "population": "History of VTE, thrombophilia, migraine with aura, uncontrolled HTN (CHC — selected)",
+        "severity": "major",
+        "details": "See CDC MEC / labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Reduced efficacy with enzyme-inducing drugs / vomiting",
+        "severity": "moderate",
+        "details": "Counsel backup contraception."
+      }
+    ],
+    "special": {
+      "pregnancy": "Not abortifacient at contraceptive doses; stop CHC if pregnancy occurs.",
+      "lactation": "Progestin-only often preferred early postpartum — timing rules apply.",
+      "hepatic": "Avoid CHC in significant hepatic disease / tumors."
+    },
+    "monitoring": [
+      "Blood pressure",
+      "Assess VTE/CV risk factors",
+      "BP",
+      "Migraine / VTE risk reassessment",
+      "Drug interaction review"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "cdc_stis",
+      "acog",
+      "who",
+      "ema",
+      "mhra"
+    ]
+  }
+]

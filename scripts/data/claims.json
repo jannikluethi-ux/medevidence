@@ -1,0 +1,1323 @@
+[
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Prolonged omeprazole/PPI use is associated with hypomagnesemia, which can be serious; magnesium monitoring may be considered with long-term therapy, especially with diuretics or digoxin (FDA Drug Safety Communication and labeling).",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "fda_ppi_magnesium",
+      "label_omeprazole"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Observational studies have reported associations between long-term PPI use and increased fracture risk. Association does not prove causation; confounding by indication is plausible. Labels advise using the lowest effective dose for the shortest duration.",
+    "evidence_level": "low",
+    "evidence_type": "observational",
+    "certainty_bucket": "possible_emerging",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_omeprazole",
+      "fda",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Some observational studies have reported associations between PPI use and chronic kidney disease. Causality is not established; residual confounding remains a concern. Evidence certainty is low.",
+    "evidence_level": "low",
+    "evidence_type": "observational",
+    "certainty_bucket": "possible_emerging",
+    "jurisdiction": null,
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "cochrane_overview"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Observational associations between PPI use and dementia have been reported in some studies and not confirmed as causal in others. This is not established as a proven adverse effect; patients should not stop PPIs abruptly based on media reports alone without clinician advice.",
+    "evidence_level": "very_low",
+    "evidence_type": "observational",
+    "certainty_bucket": "not_established",
+    "jurisdiction": null,
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "PPIs including omeprazole heal erosive esophagitis and improve GERD symptoms more effectively than H2-receptor antagonists in clinical trials supporting regulatory approval.",
+    "evidence_level": "high",
+    "evidence_type": "rct",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_omeprazole",
+      "dailymed",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Fundic gland polyps can occur with long-term PPI use and are described in labeling; they are often asymptomatic.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_omeprazole",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "DRAFT FOR REVIEW: Proposed wording on enteric infection risk with acid suppression — needs citation refresh against current FDA/EMA wording before publish.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "jurisdiction": "US",
+    "status": "draft",
+    "sourceKeys": [
+      "label_omeprazole",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Warfarin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Warfarin carries a boxed warning for major or fatal bleeding. Regular INR monitoring and attention to drug/food interactions are required.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Ciprofloxacin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Systemic fluoroquinolones have boxed warnings for tendinopathy/tendon rupture, peripheral neuropathy, and CNS effects. FDA advises reserving use for serious infections when alternatives are less suitable.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "fda_fluoroquinolone",
+      "label_ciprofloxacin"
+    ]
+  },
+  {
+    "entity": "Sertraline",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Antidepressants including sertraline have a boxed warning for increased risk of suicidal thinking and behavior in children, adolescents, and young adults. Monitor closely during initiation and dose changes.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_sertraline",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Ibuprofen",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "NSAIDs including ibuprofen carry boxed warnings for serious cardiovascular thrombotic events and serious gastrointestinal bleeding, ulceration, and perforation.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_ibuprofen",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Metformin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Metformin has a boxed warning for lactic acidosis, which is rare but serious; risk is higher with significant renal impairment, hypoxia, or severe illness. Follow eGFR-based dosing rules.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "label_metformin",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Hydroxychloroquine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Hydroxychloroquine is not established as effective treatment for COVID-19 based on randomized evidence and should not be used for that purpose outside authorized research/exceptional frameworks.",
+    "evidence_level": "high",
+    "evidence_type": "rct",
+    "certainty_bucket": "not_established",
+    "jurisdiction": null,
+    "status": "published",
+    "sourceKeys": [
+      "who",
+      "fda",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Montelukast",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "FDA boxed warning: serious neuropsychiatric events have been reported with montelukast. Discuss risks and benefits; discontinue if neuropsychiatric symptoms occur and contact a clinician.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Valproate (valproic acid / divalproex)",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Valproate is highly teratogenic and associated with neurodevelopmental disorders after in utero exposure. Strict pregnancy prevention programs apply in EU/UK and strong warnings elsewhere.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "EU",
+    "status": "published",
+    "sourceKeys": [
+      "ema",
+      "mhra",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Amlodipine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "DRAFT: Compare amlodipine edema rates across doses — pending label table extraction for publish.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "jurisdiction": "US",
+    "status": "draft",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Lisinopril",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "ACE inhibitors including lisinopril improve outcomes in HFrEF and are guideline-recommended foundational therapy when tolerated.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "jurisdiction": "EU",
+    "status": "published",
+    "sourceKeys": [
+      "esc_hf",
+      "dailymed",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "PPIs heal erosive esophagitis at high rates in RCTs compared with placebo/H2RAs for appropriate indications.",
+    "evidence_level": "high",
+    "evidence_type": "rct_label",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_omeprazole",
+      "cochrane_ppi",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Hypomagnesemia is a labeled risk with prolonged PPI therapy; check magnesium if tetany, arrhythmias, or seizures occur.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_ppi_magnesium",
+      "label_omeprazole"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Observational studies report associations between long-term PPIs and dementia; confounding is likely and causation is not established.",
+    "evidence_level": "low",
+    "evidence_type": "observational",
+    "certainty_bucket": "possible_emerging",
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "ema",
+      "cochrane_overview"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "emerging_safety",
+    "claim_text": "Observational associations with chronic kidney disease have been reported; causality remains uncertain.",
+    "evidence_level": "low",
+    "evidence_type": "observational",
+    "certainty_bucket": "possible_emerging",
+    "status": "draft",
+    "sourceKeys": [
+      "fda",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Fundic gland polyps are commonly observed with long-term PPI use and are usually benign; labeled in product information.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_omeprazole",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Omeprazole",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "For uncomplicated typical GERD without alarm features, guideline pathways often start with lifestyle measures and time-limited acid suppression rather than indefinite therapy.",
+    "evidence_level": "moderate",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Warfarin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Warfarin carries a boxed warning for major or fatal bleeding; INR monitoring and interaction checks are mandatory.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_warfarin",
+      "label_warfarin_full"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Warfarin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Warfarin remains preferred anticoagulation for most mechanical heart valves where DOACs are not indicated.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "chest_vte",
+      "aha_af",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Warfarin",
+    "entityType": "medication",
+    "section": "interaction",
+    "claim_text": "Many antibiotics (e.g., metronidazole, TMP-SMX, fluoroquinolones) can raise INR — monitor or choose alternatives.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_warfarin",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Apixaban",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "In nonvalvular AF, apixaban reduced stroke/systemic embolism vs warfarin in pivotal RCT evidence reflected in labeling.",
+    "evidence_level": "high",
+    "evidence_type": "rct_label",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_apixaban",
+      "aha_af"
+    ]
+  },
+  {
+    "entity": "Apixaban",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Premature discontinuation without alternative coverage increases thrombotic risk — boxed warning concept.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_apixaban"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Ciprofloxacin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Systemic fluoroquinolones have boxed warnings for tendinopathy, peripheral neuropathy, and CNS effects; reserve for patients lacking alternatives for many uncomplicated infections.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_fluoroquinolone",
+      "label_ciprofloxacin"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Levofloxacin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "FDA safety communications advise against fluoroquinolones for uncomplicated UTI/sinusitis/bronchitis when other options exist.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_fluoroquinolone",
+      "label_levofloxacin"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Ciprofloxacin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Aortic aneurysm/dissection risk warnings exist for fluoroquinolones in susceptible patients — rare but serious.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "status": "published",
+    "sourceKeys": [
+      "fda_fluoroquinolone",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Sertraline",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Antidepressants increase risk of suicidal thinking and behavior in children, adolescents, and young adults — boxed warning; close monitoring required.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_sertraline",
+      "fda_ssri_suicidality"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Sertraline",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "SSRIs including sertraline are first-line pharmacologic options for major depression in many guidelines, with NNT benefits in meta-analyses tempered by tolerability and placebo response.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "label_sertraline"
+    ]
+  },
+  {
+    "entity": "Sertraline",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "SSRI discontinuation syndrome can occur, especially with missed doses or abrupt stop — taper under clinician guidance.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_sertraline",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Fluoxetine",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Long half-life reduces discontinuation symptoms relatively but extends washout before MAOIs — follow labeling intervals.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Ibuprofen",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "NSAIDs carry boxed warnings for cardiovascular thrombotic events and serious GI bleeding/ulceration/perforation.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_ibuprofen",
+      "fda_nsaid_boxed"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Ibuprofen",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Avoid NSAIDs in the third trimester due to fetal risks (premature ductus closure / oligohydramnios concerns).",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_ibuprofen",
+      "ema",
+      "acog"
+    ]
+  },
+  {
+    "entity": "Naproxen",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Among nonselective NSAIDs, naproxen is sometimes discussed regarding relative CV risk, but all systemic NSAIDs warrant caution — do not interpret as CV-safe.",
+    "evidence_level": "moderate",
+    "evidence_type": "guideline",
+    "certainty_bucket": "probable",
+    "status": "draft",
+    "sourceKeys": [
+      "fda_nsaid_boxed",
+      "label_ibuprofen"
+    ]
+  },
+  {
+    "entity": "Metformin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Lactic acidosis is rare when eGFR and hypoxia cautions are followed; historical overestimation of risk led to underuse — still a boxed warning.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_metformin",
+      "fda_metformin_egfr",
+      "ada_diabetes"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Metformin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Metformin remains foundational first-line therapy for many people with T2DM when tolerated and eGFR allows, per ADA/EASD consensus frameworks (individualize with SGLT2i/GLP-1 in high cardiorenal risk).",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "ada_diabetes",
+      "easd_ada",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Metformin",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Long-term metformin is associated with vitamin B12 deficiency — consider periodic monitoring.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_metformin",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Atorvastatin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "High-intensity statins produce substantial LDL-C reduction and are guideline-endorsed for secondary prevention and many primary-prevention high-risk patients.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_atorvastatin",
+      "aha_cholesterol",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Atorvastatin",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Statin-associated muscle symptoms are common complaints; true rhabdomyolysis is rare — CK testing when severe symptoms or risk factors.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_atorvastatin",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Atorvastatin",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Small absolute increase in new-onset diabetes risk is labeled for the statin class; CV benefit usually dominates in indicated patients.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_atorvastatin",
+      "aha_cholesterol"
+    ]
+  },
+  {
+    "entity": "Simvastatin",
+    "entityType": "medication",
+    "section": "interaction",
+    "claim_text": "Simvastatin has numerous absolute contraindications with strong CYP3A4 inhibitors (e.g., clarithromycin, itraconazole, some HIV drugs).",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Amoxicillin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "First-line for many susceptible streptococcal and some respiratory/UTI indications depending on local resistance — stewardship still required.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_amoxicillin",
+      "nice",
+      "cdc_adult_abx",
+      "who_aWaRe"
+    ]
+  },
+  {
+    "entity": "Amoxicillin",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Rash is common in EBV mononucleosis — not always true allergy; allergy history needs careful interpretation.",
+    "evidence_level": "moderate",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Levothyroxine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Levothyroxine replacement resolves hypothyroid symptoms and normalizes TSH when dosed and absorbed correctly.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_levothyroxine",
+      "nice"
+    ]
+  },
+  {
+    "entity": "Levothyroxine",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Not for weight loss in euthyroid individuals — boxed warning; can cause serious thyrotoxicosis.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_levothyroxine"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Lisinopril",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "ACE inhibitors improve survival in HFrEF and reduce BP; cough and angioedema are clinically important AEs.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_lisinopril",
+      "esc_hf",
+      "aha_hypertension"
+    ]
+  },
+  {
+    "entity": "Lisinopril",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Boxed warning for fetal toxicity — discontinue when pregnancy detected.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_lisinopril"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Amlodipine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Dihydropyridine CCBs effectively lower BP; peripheral edema is dose-related and common.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_amlodipine",
+      "aha_hypertension",
+      "esc_hypertension"
+    ]
+  },
+  {
+    "entity": "Amlodipine",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Edema from DHPs is largely vasodilatory, not always HF — clinical assessment still required.",
+    "evidence_level": "moderate",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_amlodipine",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Montelukast",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "FDA boxed warning for serious neuropsychiatric events — counsel before prescribing and reconsider if mood/behavior changes.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_montelukast",
+      "dailymed"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Valproate (valproic acid / divalproex)",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Valproate is a potent teratogen; pregnancy prevention programmes apply in UK/EU and use is highly restricted in people who can become pregnant.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "ema_valproate",
+      "mhra_valproate",
+      "dailymed"
+    ],
+    "jurisdiction": "EU"
+  },
+  {
+    "entity": "Lithium carbonate",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Lithium remains a gold-standard mood stabilizer with anti-suicide evidence in bipolar disorder when monitored.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Lithium carbonate",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Narrow therapeutic index — toxicity risk with dehydration, NSAIDs, ACEIs, thiazides.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Methotrexate (low-dose rheumatologic)",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Weekly dosing errors (daily by mistake) can be fatal — clarify schedule; folic acid co-prescription common in rheumatology protocols.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "acr_ra",
+      "mhra"
+    ]
+  },
+  {
+    "entity": "Prednisone / Prednisolone",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Prolonged systemic corticosteroids cause adrenal suppression — taper after extended courses; infection and hyperglycemia risks rise with dose/duration.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_prednisone",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Morphine",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Opioids carry boxed warnings for addiction, respiratory depression, and risks with benzodiazepines — use lowest effective dose/shortest duration for acute pain.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_morphine",
+      "fda"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Tramadol",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Seizure and serotonin syndrome risks; contraindicated in children after tonsillectomy/adenoidectomy in US labeling concepts; CYP2D6 ultrarapid metabolizer hazard.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Clopidogrel",
+    "entityType": "medication",
+    "section": "interaction",
+    "claim_text": "CYP2C19 poor metabolizers have reduced antiplatelet effect — boxed warning; omeprazole/esomeprazole interaction discussions persist.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_clopidogrel",
+      "fda"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Diazepam",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Benzodiazepines have boxed warnings for abuse, dependence, withdrawal, and opioid co-use risks.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda_benzo",
+      "dailymed"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Empagliflozin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "SGLT2 inhibitors reduce HF hospitalization and CKD progression in labeled populations — foundational in modern HF/CKD guidelines beyond glucose lowering.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "kdigo",
+      "ada_diabetes"
+    ]
+  },
+  {
+    "entity": "Semaglutide",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "GLP-1 receptor agonists improve glycemia and weight; selected agents reduce MACE in T2DM with CVD — GI AEs often limit titration speed.",
+    "evidence_level": "high",
+    "evidence_type": "rct_label",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "ada_diabetes",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Semaglutide",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Boxed warning for thyroid C-cell tumors (rodent); contraindicated with personal/family history of MTC or MEN2 for many products — human relevance uncertain.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Hydroxychloroquine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Not established as routine COVID-19 treatment after large RCTs; remains important for SLE/RA with retinopathy monitoring.",
+    "evidence_level": "high",
+    "evidence_type": "rct_label",
+    "certainty_bucket": "not_established_for_covid",
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "nih_covid",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Paxlovid (nirmatrelvir/ritonavir)",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Reduces progression to severe COVID-19 in high-risk outpatients when started early — interaction checklist is essential due to ritonavir boosting.",
+    "evidence_level": "high",
+    "evidence_type": "rct_label",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "nih_covid",
+      "ema",
+      "who"
+    ]
+  },
+  {
+    "entity": "Paxlovid (nirmatrelvir/ritonavir)",
+    "entityType": "medication",
+    "section": "interaction",
+    "claim_text": "Ritonavir is a strong CYP3A inhibitor — many combinations are contraindicated (certain statins, rivaroxaban, some immunosuppressants, etc.).",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "nih_covid"
+    ]
+  },
+  {
+    "entity": "Gabapentin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "FDA warns of serious breathing problems when combined with opioids or in patients with respiratory risk factors.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "fda",
+      "dailymed"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Amiodarone",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Multi-organ toxicity (lung, thyroid, liver, eyes) requires structured monitoring — still used because of antiarrhythmic efficacy.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Nitrofurantoin",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "First-line option for many uncomplicated cystitis cases per guidelines when renal function adequate — lower collateral ecologic impact than fluoroquinolones.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "idsa",
+      "who_aWaRe",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Clozapine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Most effective antipsychotic for treatment-resistant schizophrenia; unique antisuicidal evidence — requires mandatory hematologic monitoring.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Sildenafil",
+    "entityType": "medication",
+    "section": "interaction",
+    "claim_text": "Absolute contraindication with nitrates due to profound hypotension risk.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "entity": "Oral contraceptives (combined) — class overview",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "CHCs increase VTE risk; absolute risk remains low in healthy nonsmokers but rises with age, smoking, thrombophilia, and higher estrogen doses.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "acog",
+      "ema",
+      "who"
+    ]
+  },
+  {
+    "entity": "Paracetamol (Acetaminophen)",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Overdose causes acute liver failure — respect maximum daily dose and combination-product stacking.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "label_paracetamol",
+      "mhra",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Alendronate",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Rare osteonecrosis of the jaw and atypical femoral fractures with long-term use — dental assessment and duration reassessment matter.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Finasteride",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Mood changes including depression reported; pregnant persons should not handle crushed tablets due to male fetus risk.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "mhra",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Quetiapine",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Increased mortality in elderly patients with dementia-related psychosis — boxed warning; metabolic monitoring required.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ],
+    "jurisdiction": "US"
+  },
+  {
+    "entity": "Canagliflozin",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Historical label warnings for amputation risk — foot care counseling; DKA can occur with near-normal glucose.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "probable",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema"
+    ]
+  },
+  {
+    "entity": "Olmesartan",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Rare sprue-like enteropathy can occur months to years after starting — consider discontinuation if severe diarrhea/weight loss.",
+    "evidence_level": "moderate",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Ketorolac",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Systemic ketorolac is limited to short-term use due to high GI/renal/bleeding risk — not for chronic pain.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda_nsaid_boxed"
+    ]
+  },
+  {
+    "entity": "Buprenorphine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Opioid agonist treatment with buprenorphine reduces illicit opioid use and mortality risk in opioid use disorder when accessible.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "who",
+      "nice",
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Naloxone",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Community naloxone access reverses opioid overdose; effects may be temporary — emergency care still required.",
+    "evidence_level": "high",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "who",
+      "fda",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Topiramate",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Teratogenic risk (oral clefts) — avoid for migraine prophylaxis in pregnancy; cognitive AEs common.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "aan"
+    ]
+  },
+  {
+    "entity": "Levetiracetam",
+    "entityType": "medication",
+    "section": "safety",
+    "claim_text": "Irritability and behavioral changes are relatively common — counsel patients and caregivers.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "ilae"
+    ]
+  },
+  {
+    "entity": "Methylphenidate",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Controlled stimulant with abuse potential; cardiovascular screening and growth monitoring in children are standard precautions.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "fda"
+    ]
+  },
+  {
+    "entity": "Mirtazapine",
+    "entityType": "medication",
+    "section": "benefit",
+    "claim_text": "Sedating antidepressant often chosen when insomnia/poor appetite dominate depressive presentations — weight gain is common.",
+    "evidence_level": "moderate",
+    "evidence_type": "guideline",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "nice",
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "entity": "Bupropion",
+    "entityType": "medication",
+    "section": "serious_risk",
+    "claim_text": "Dose-related seizure risk — contraindicated in seizure disorders and abrupt alcohol/benzo withdrawal; also used for smoking cessation.",
+    "evidence_level": "high",
+    "evidence_type": "regulatory",
+    "certainty_bucket": "established",
+    "status": "published",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  }
+]

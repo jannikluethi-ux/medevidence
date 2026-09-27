@@ -1,0 +1,1435 @@
+[
+  {
+    "medA": "Warfarin",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "Additive antiplatelet/GI mucosal injury effects of NSAID plus anticoagulant effect of warfarin; protein-binding displacement may contribute.",
+    "clinical_effect": "Significantly increased risk of serious gastrointestinal and other bleeding. Established, clinically important interaction.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination when possible. If an NSAID is essential, use shortest duration with gastroprotection consideration and closer INR/bleed monitoring — clinician decision only. Do not stop warfarin on your own.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "label_ibuprofen",
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Aspirin (low-dose / antiplatelet)",
+    "severity": "major",
+    "mechanism": "Additive antiplatelet and anticoagulant effects.",
+    "clinical_effect": "Increased bleeding risk; sometimes intentionally combined short-term post-ACS under specialist protocols.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Only combine under clinician direction with clear indication and monitoring.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Amoxicillin/clavulanate",
+    "severity": "moderate",
+    "mechanism": "Antibiotics may alter vitamin K–producing gut flora and/or other factors affecting INR.",
+    "clinical_effect": "INR may rise; bleeding risk can increase during antibiotic courses.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Check INR during/after courses as advised by clinician/anticoagulation clinic. Do not adjust doses yourself.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sertraline",
+    "medB": "Tramadol",
+    "severity": "major",
+    "mechanism": "Additive serotonergic activity; tramadol also lowers seizure threshold.",
+    "clinical_effect": "Increased risk of serotonin syndrome and seizures.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid combination when possible; seek urgent care for agitation, hyperthermia, tremor, clonus.",
+    "sourceKeys": [
+      "label_sertraline",
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Sertraline",
+    "medB": "Warfarin",
+    "severity": "moderate",
+    "mechanism": "SSRIs can impair platelet function; possible CYP effects.",
+    "clinical_effect": "Increased bleeding risk, especially GI.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor for bleeding; clinician may adjust monitoring frequency.",
+    "sourceKeys": [
+      "label_sertraline",
+      "fda_warfarin",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lisinopril",
+    "medB": "Spironolactone",
+    "severity": "major",
+    "mechanism": "Both can raise serum potassium and affect renal hemodynamics.",
+    "clinical_effect": "Hyperkalemia and acute kidney injury risk — combination used intentionally in HFrEF with lab monitoring.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Do not start/stop on your own. Requires potassium and creatinine monitoring. Seek care for muscle weakness or irregular heartbeat.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lisinopril",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "NSAIDs can reduce antihypertensive effect and, with ACEI/diuretic, precipitate AKI ('triple whammy' with diuretic).",
+    "clinical_effect": "Reduced BP control; risk of acute kidney injury especially in elderly/dehydrated.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Prefer short NSAID courses if needed; ensure hydration; seek advice for chronic use.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Simvastatin",
+    "medB": "Clarithromycin",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition by clarithromycin markedly increases simvastatin exposure.",
+    "clinical_effect": "Myopathy and rhabdomyolysis risk — labeled contraindication/restriction.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Do not combine; clinician may hold/switch statin during macrolide course.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Atorvastatin",
+    "medB": "Clarithromycin",
+    "severity": "major",
+    "mechanism": "CYP3A4 inhibition increases atorvastatin levels.",
+    "clinical_effect": "Increased myopathy risk; dose limits or temporary interruption may be advised.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Check with clinician/pharmacist before combining; report unexplained muscle pain.",
+    "sourceKeys": [
+      "label_atorvastatin",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sildenafil",
+    "medB": "Nitroglycerin (glyceryl trinitrate)",
+    "severity": "contraindicated",
+    "mechanism": "Additive cGMP-mediated vasodilation.",
+    "clinical_effect": "Potentially life-threatening hypotension.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Never combine. Observe labeled washout intervals after PDE5 inhibitor before nitrates — emergency clinicians need to know recent use.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sildenafil",
+    "medB": "Isosorbide mononitrate",
+    "severity": "contraindicated",
+    "mechanism": "Additive vasodilation via NO-cGMP pathway.",
+    "clinical_effect": "Severe hypotension.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Absolute contraindication — discuss all ED meds with clinician.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Apixaban",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "Additive bleeding risk (anticoagulant + NSAID GI injury/antiplatelet effect).",
+    "clinical_effect": "Increased major bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid NSAIDs when possible; use alternatives like paracetamol for pain if appropriate — ask clinician/pharmacist. Do not stop apixaban abruptly without advice.",
+    "sourceKeys": [
+      "label_apixaban",
+      "label_ibuprofen",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Apixaban",
+    "medB": "Aspirin (low-dose / antiplatelet)",
+    "severity": "major",
+    "mechanism": "Additive anticoagulant and antiplatelet effects.",
+    "clinical_effect": "Increased bleeding; dual pathway sometimes used post-ACS/PCI under protocols.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Only under specialist protocols with defined duration.",
+    "sourceKeys": [
+      "label_apixaban",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Omeprazole",
+    "medB": "Clopidogrel",
+    "severity": "moderate",
+    "mechanism": "Omeprazole inhibits CYP2C19, which activates clopidogrel; possible reduced antiplatelet effect.",
+    "clinical_effect": "Potential reduction in clopidogrel efficacy — labeling and guidance vary; pantoprazole sometimes preferred.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Discuss PPI choice with clinician if on clopidogrel; do not stop either drug abruptly after stents.",
+    "sourceKeys": [
+      "label_omeprazole",
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Lithium carbonate",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "NSAIDs can reduce lithium clearance.",
+    "clinical_effect": "Lithium toxicity risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid NSAIDs or use only with lithium level monitoring under clinician advice.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lithium carbonate",
+    "medB": "Lisinopril",
+    "severity": "major",
+    "mechanism": "ACE inhibitors can increase lithium levels.",
+    "clinical_effect": "Lithium toxicity risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination requires careful monitoring if used; report toxicity symptoms (tremor, diarrhea, confusion).",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Diazepam",
+    "medB": "Morphine",
+    "severity": "major",
+    "mechanism": "Additive CNS and respiratory depression.",
+    "clinical_effect": "Profound sedation, respiratory depression, death — boxed warning for opioid+benzodiazepine.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination whenever possible; never adjust without clinician.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Gabapentin",
+    "medB": "Morphine",
+    "severity": "major",
+    "mechanism": "Additive respiratory depression risk.",
+    "clinical_effect": "Serious breathing problems, especially in elderly or respiratory disease.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "FDA warns about combining gabapentinoids with opioids.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Methotrexate (low-dose rheumatologic)",
+    "medB": "Trimethoprim/sulfamethoxazole",
+    "severity": "major",
+    "mechanism": "Additive antifolate effects / reduced methotrexate clearance.",
+    "clinical_effect": "Pancytopenia and methotrexate toxicity risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination or use only with specialist oversight and monitoring.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Paracetamol (Acetaminophen)",
+    "severity": "moderate",
+    "mechanism": "High-dose or prolonged paracetamol may elevate INR in some patients.",
+    "clinical_effect": "Possible INR increase with higher chronic doses; still often preferred analgesic over NSAIDs for patients on warfarin.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prefer labeled doses; inform anticoagulation clinic of regular high use. Still generally safer GI profile than NSAIDs.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "bnf",
+      "label_paracetamol"
+    ]
+  },
+  {
+    "medA": "Fluoxetine",
+    "medB": "Tramadol",
+    "severity": "major",
+    "mechanism": "Serotonergic potentiation; CYP2D6 inhibition may alter tramadol activation.",
+    "clinical_effect": "Serotonin syndrome and seizure risk; altered analgesia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid when possible.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Atorvastatin",
+    "severity": "major",
+    "mechanism": "Ritonavir strong CYP3A inhibition increases statin exposure.",
+    "clinical_effect": "Myopathy risk — hold or dose-adjust statin per interaction checker/labeling during Paxlovid course.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Mandatory pharmacist/clinician interaction review before Paxlovid — do not self-manage holds.",
+    "sourceKeys": [
+      "fda",
+      "ema",
+      "label_atorvastatin"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Apixaban",
+    "severity": "major",
+    "mechanism": "Ritonavir affects apixaban metabolism/transport.",
+    "clinical_effect": "Altered anticoagulant effect — may be contraindicated or require specialist management depending on dose/context.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Do not start Paxlovid without full medication review.",
+    "sourceKeys": [
+      "fda",
+      "label_apixaban",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Verapamil",
+    "medB": "Metoprolol",
+    "severity": "major",
+    "mechanism": "Additive negative chronotropic/inotropic effects.",
+    "clinical_effect": "Bradycardia, AV block, hypotension, HF exacerbation risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination only with careful specialist oversight.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Amiodarone",
+    "medB": "Warfarin",
+    "severity": "major",
+    "mechanism": "Amiodarone inhibits warfarin metabolism.",
+    "clinical_effect": "INR rises — warfarin dose often needs reduction with close monitoring.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Anticipate INR changes when starting/stopping amiodarone — anticoagulation clinic involvement.",
+    "sourceKeys": [
+      "dailymed",
+      "fda_warfarin",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Amiodarone",
+    "medB": "Digoxin",
+    "severity": "major",
+    "mechanism": "Amiodarone increases digoxin levels (P-gp).",
+    "clinical_effect": "Digoxin toxicity risk — dose reduction often required.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor levels/symptoms; clinician adjusts doses.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Omeprazole",
+    "medB": "Levothyroxine",
+    "severity": "moderate",
+    "mechanism": "Increased gastric pH may reduce levothyroxine absorption.",
+    "clinical_effect": "Possible rise in TSH / need for dose adjustment with chronic acid suppression.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Separate timing; monitor thyroid function after starting chronic PPI.",
+    "sourceKeys": [
+      "label_omeprazole",
+      "label_levothyroxine",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Furosemide",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "NSAID blunts diuretic/antihypertensive effects; kidney risk with diuretic+ACEI+NSAID.",
+    "clinical_effect": "Reduced diuresis; AKI risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid chronic NSAIDs in HF when possible.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Escitalopram",
+    "medB": "Ondansetron",
+    "severity": "moderate",
+    "mechanism": "Additive QT prolongation potential.",
+    "clinical_effect": "Increased arrhythmia risk in susceptible patients.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Caution with other QT risk factors; ECG when indicated.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Metronidazole",
+    "severity": "major",
+    "mechanism": "CYP2C9 inhibition / microbiome vitamin K effects",
+    "clinical_effect": "INR increase and bleeding risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or monitor INR closely and adjust warfarin; seek clinician/pharmacist advice before combining.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Fluconazole",
+    "severity": "major",
+    "mechanism": "CYP2C9/3A4 inhibition",
+    "clinical_effect": "INR increase / bleeding",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor INR; dose adjust warfarin; consider alternatives.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Trimethoprim/sulfamethoxazole",
+    "severity": "major",
+    "mechanism": "CYP2C9 inhibition + other mechanisms",
+    "clinical_effect": "Marked INR rise / bleeding",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Prefer alternative antibiotic when possible; if used, monitor INR closely.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Naproxen",
+    "severity": "major",
+    "mechanism": "Antiplatelet effect + GI injury + protein binding",
+    "clinical_effect": "Bleeding risk especially GI",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid NSAIDs with warfarin when possible; if unavoidable, gastroprotection/monitoring per clinician.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "label_ibuprofen",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Warfarin",
+    "medB": "Diclofenac",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet/GI effects",
+    "clinical_effect": "Increased bleeding",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination when possible.",
+    "sourceKeys": [
+      "fda_warfarin",
+      "label_ibuprofen"
+    ]
+  },
+  {
+    "medA": "Apixaban",
+    "medB": "Naproxen",
+    "severity": "major",
+    "mechanism": "Additive bleeding / P-gp effects possible",
+    "clinical_effect": "Bleeding risk increase",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid chronic NSAIDs with DOACs when possible.",
+    "sourceKeys": [
+      "label_apixaban",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Rivaroxaban",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "Additive bleeding risk",
+    "clinical_effect": "Increased major bleeding risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination when possible; clinician risk assessment.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Rivaroxaban",
+    "medB": "Clarithromycin",
+    "severity": "major",
+    "mechanism": "CYP3A4/P-gp inhibition",
+    "clinical_effect": "Increased rivaroxaban levels / bleeding",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or use with extreme caution per labeling; consider alternative antibiotic.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Dabigatran",
+    "medB": "Amiodarone",
+    "severity": "moderate",
+    "mechanism": "P-gp inhibition",
+    "clinical_effect": "Increased dabigatran exposure / bleeding",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Dose adjustment/avoidance depends on indication and label; monitor bleeding.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sertraline",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Impaired platelet function + mucosal injury",
+    "clinical_effect": "Increased GI bleeding risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Caution; consider gastroprotection/alternative analgesic; report bleeding.",
+    "sourceKeys": [
+      "label_sertraline",
+      "label_ibuprofen",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Fluoxetine",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Serotonergic antiplatelet effect + NSAID GI risk",
+    "clinical_effect": "GI bleeding risk increase",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Caution; discuss with clinician.",
+    "sourceKeys": [
+      "dailymed",
+      "label_ibuprofen"
+    ]
+  },
+  {
+    "medA": "Escitalopram",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Additive bleeding risk",
+    "clinical_effect": "GI bleeding risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Caution with chronic NSAID use.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sertraline",
+    "medB": "Aspirin (low-dose / antiplatelet)",
+    "severity": "moderate",
+    "mechanism": "Additive antiplatelet effects",
+    "clinical_effect": "Bleeding risk increase",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Often still combined post-ACS with judgment; watch bleeding.",
+    "sourceKeys": [
+      "label_sertraline",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Fluoxetine",
+    "medB": "Metoprolol",
+    "severity": "moderate",
+    "mechanism": "CYP2D6 inhibition",
+    "clinical_effect": "Increased metoprolol effect / bradycardia",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor HR; consider alternative SSRI with less CYP2D6 effect.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Paroxetine",
+    "medB": "Metoprolol",
+    "severity": "moderate",
+    "mechanism": "CYP2D6 inhibition",
+    "clinical_effect": "Bradycardia / hypotension risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor; adjust therapy.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sertraline",
+    "medB": "Linezolid",
+    "severity": "major",
+    "mechanism": "MAO inhibition + serotonergic drug",
+    "clinical_effect": "Serotonin syndrome risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Generally avoid; if linezolid required, hold SSRI per protocols and monitor.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tramadol",
+    "medB": "Venlafaxine",
+    "severity": "major",
+    "mechanism": "Dual serotonergic effects",
+    "clinical_effect": "Serotonin syndrome / seizure risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid if possible; monitor closely if unavoidable.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tramadol",
+    "medB": "Paroxetine",
+    "severity": "major",
+    "mechanism": "CYP2D6 inhibition + serotonin",
+    "clinical_effect": "Serotonin syndrome; altered tramadol effect",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sumatriptan",
+    "medB": "Sertraline",
+    "severity": "moderate",
+    "mechanism": "Serotonergic combination",
+    "clinical_effect": "Serotonin syndrome (rare but labeled caution)",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Many patients use both with counseling; seek urgent care for hyperreflexia/fever/agitation.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sumatriptan",
+    "medB": "Tramadol",
+    "severity": "moderate",
+    "mechanism": "Serotonergic combination",
+    "clinical_effect": "Serotonin syndrome risk",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Caution; avoid if alternatives exist.",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Lisinopril",
+    "medB": "Potassium chloride",
+    "severity": "major",
+    "mechanism": "Reduced aldosterone + potassium load",
+    "clinical_effect": "Hyperkalemia",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor potassium; often avoid empiric K supplements unless deficient.",
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Ramipril",
+    "medB": "Spironolactone",
+    "severity": "major",
+    "mechanism": "Dual potassium retention",
+    "clinical_effect": "Hyperkalemia / renal decline",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Guideline-supported in HFrEF with monitoring — check K+ and creatinine.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Losartan",
+    "medB": "Spironolactone",
+    "severity": "major",
+    "mechanism": "Additive hyperkalemia",
+    "clinical_effect": "Hyperkalemia",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor labs closely.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf"
+    ]
+  },
+  {
+    "medA": "Lisinopril",
+    "medB": "Sacubitril/valsartan",
+    "severity": "major",
+    "mechanism": "Dual RAAS blockade / angioedema risk",
+    "clinical_effect": "Angioedema; hypotension; hyperkalemia — ACEI must be stopped before ARNI",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Require 36-hour washout from ACEI before starting ARNI per labeling.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf"
+    ]
+  },
+  {
+    "medA": "Simvastatin",
+    "medB": "Amiodarone",
+    "severity": "major",
+    "mechanism": "CYP3A4 inhibition",
+    "clinical_effect": "Myopathy / rhabdomyolysis risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Limit simvastatin dose per label or switch statin; counsel on muscle symptoms.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Simvastatin",
+    "medB": "Verapamil",
+    "severity": "major",
+    "mechanism": "CYP3A4 inhibition",
+    "clinical_effect": "Myopathy risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Dose limits/avoid per label.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Simvastatin",
+    "medB": "Diltiazem",
+    "severity": "major",
+    "mechanism": "CYP3A4 inhibition",
+    "clinical_effect": "Myopathy risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Limit simvastatin dose or choose alternative statin.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Atorvastatin",
+    "medB": "Cyclosporine",
+    "severity": "major",
+    "mechanism": "OATP/CYP interactions",
+    "clinical_effect": "Myopathy risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or use special dosing; prefer interacting-safer statin strategies.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Rosuvastatin",
+    "medB": "Cyclosporine",
+    "severity": "major",
+    "mechanism": "Transporter interactions",
+    "clinical_effect": "Increased rosuvastatin exposure / myopathy",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated or strictly dose-capped per label.",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Methotrexate (low-dose rheumatologic)",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "Reduced methotrexate clearance / additive toxicity risk",
+    "clinical_effect": "Methotrexate toxicity (myelosuppression, mucositis)",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "NSAIDs often used carefully in RA but toxicity reported — monitor CBC/LFTs/renal; seek advice.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "acr_ra"
+    ]
+  },
+  {
+    "medA": "Methotrexate (low-dose rheumatologic)",
+    "medB": "Naproxen",
+    "severity": "major",
+    "mechanism": "Reduced renal clearance of methotrexate",
+    "clinical_effect": "Toxicity risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitoring essential; hydrate; report fever/stomatitis.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Methotrexate (low-dose rheumatologic)",
+    "medB": "Omeprazole",
+    "severity": "moderate",
+    "mechanism": "Possible reduced methotrexate clearance (esp high-dose data)",
+    "clinical_effect": "Toxicity risk uncertain at low weekly doses but labeled caution",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Be aware; monitor; more critical with high-dose MTX.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Digoxin",
+    "medB": "Verapamil",
+    "severity": "major",
+    "mechanism": "P-gp inhibition / AV nodal additive effects",
+    "clinical_effect": "Digoxin toxicity + bradycardia/AV block",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Reduce digoxin dose; monitor levels/HR.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Digoxin",
+    "medB": "Clarithromycin",
+    "severity": "major",
+    "mechanism": "P-gp inhibition + microbiome effects",
+    "clinical_effect": "Digoxin toxicity",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor levels; prefer alternative antibiotic when possible.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Digoxin",
+    "medB": "Spironolactone",
+    "severity": "moderate",
+    "mechanism": "Assay interference / possible exposure changes",
+    "clinical_effect": "Apparent digoxin level changes; hyperkalemia context",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Interpret levels carefully; monitor electrolytes.",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Amiodarone",
+    "medB": "Metoprolol",
+    "severity": "moderate",
+    "mechanism": "Additive bradycardia / CYP effects",
+    "clinical_effect": "Bradycardia / AV block",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor HR; adjust doses.",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Amiodarone",
+    "medB": "Apixaban",
+    "severity": "moderate",
+    "mechanism": "P-gp / CYP3A4 inhibition",
+    "clinical_effect": "Increased bleeding risk possible",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Assess bleeding risk; follow product guidance.",
+    "sourceKeys": [
+      "dailymed",
+      "label_apixaban"
+    ]
+  },
+  {
+    "medA": "Tadalafil",
+    "medB": "Nitroglycerin (glyceryl trinitrate)",
+    "severity": "contraindicated",
+    "mechanism": "cGMP potentiation",
+    "clinical_effect": "Severe hypotension",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated; longer washout after tadalafil (e.g., 48h concepts in labels).",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Colchicine",
+    "medB": "Clarithromycin",
+    "severity": "major",
+    "mechanism": "CYP3A4/P-gp inhibition",
+    "clinical_effect": "Colchicine toxicity (can be fatal)",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination especially in renal impairment.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Colchicine",
+    "medB": "Verapamil",
+    "severity": "major",
+    "mechanism": "CYP3A4/P-gp inhibition",
+    "clinical_effect": "Colchicine toxicity",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or dose-adjust per label; contraindicated in some renal contexts.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Allopurinol",
+    "medB": "Azathioprine",
+    "severity": "major",
+    "mechanism": "Xanthine oxidase inhibition increases thiopurine levels",
+    "clinical_effect": "Myelosuppression",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Major dose reduction of azathioprine or avoid; specialist only.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lithium carbonate",
+    "medB": "Hydrochlorothiazide",
+    "severity": "major",
+    "mechanism": "Reduced lithium clearance",
+    "clinical_effect": "Lithium toxicity",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or monitor lithium levels closely with any diuretic change.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lithium carbonate",
+    "medB": "Furosemide",
+    "severity": "major",
+    "mechanism": "Volume/Na changes affecting lithium",
+    "clinical_effect": "Lithium toxicity risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor levels/renal function.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Lithium carbonate",
+    "medB": "Ramipril",
+    "severity": "major",
+    "mechanism": "Reduced lithium clearance",
+    "clinical_effect": "Lithium toxicity",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor lithium levels when starting ACEI.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Valproate (valproic acid / divalproex)",
+    "medB": "Lamotrigine",
+    "severity": "major",
+    "mechanism": "Valproate inhibits lamotrigine metabolism",
+    "clinical_effect": "Lamotrigine toxicity / serious rash risk if not dose-adjusted",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Use established titration schedules with lower lamotrigine doses.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Carbamazepine",
+    "medB": "Ethinylestradiol contraceptives",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction",
+    "clinical_effect": "Reduced contraceptive efficacy",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Use alternative contraception methods; counseling mandatory.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "acog"
+    ]
+  },
+  {
+    "medA": "Carbamazepine",
+    "medB": "Simvastatin",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction / other pathways",
+    "clinical_effect": "Reduced statin effect; complex interaction profile",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Review lipid therapy choice.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Simvastatin",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP3A inhibition by ritonavir",
+    "clinical_effect": "Myopathy / rhabdomyolysis risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Stop simvastatin during Paxlovid per interaction checker/label.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "nih_covid"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Rivaroxaban",
+    "severity": "major",
+    "mechanism": "CYP3A/P-gp inhibition",
+    "clinical_effect": "Bleeding risk from increased DOAC levels",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Generally avoid combination; use interaction protocols.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "nih_covid"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Quetiapine",
+    "severity": "major",
+    "mechanism": "CYP3A inhibition",
+    "clinical_effect": "Quetiapine toxicity (sedation, QT, hypotension)",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid or hold quetiapine per interaction guidance.",
+    "sourceKeys": [
+      "dailymed",
+      "nih_covid"
+    ]
+  },
+  {
+    "medA": "Paxlovid (nirmatrelvir/ritonavir)",
+    "medB": "Sildenafil",
+    "severity": "major",
+    "mechanism": "CYP3A inhibition",
+    "clinical_effect": "Hypotension / sildenafil toxicity (PAH doses especially)",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated for PAH sildenafil doses; ED use also restricted — follow label.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Clarithromycin",
+    "medB": "Quetiapine",
+    "severity": "major",
+    "mechanism": "CYP3A4 inhibition",
+    "clinical_effect": "Quetiapine toxicity / QT risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid; choose alternative antibiotic/antipsychotic strategy.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Fluconazole",
+    "medB": "Atorvastatin",
+    "severity": "moderate",
+    "mechanism": "CYP3A4 inhibition (moderate)",
+    "clinical_effect": "Myopathy risk increase",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor muscle symptoms; dose adjustments may be needed.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Esomeprazole",
+    "medB": "Clopidogrel",
+    "severity": "moderate",
+    "mechanism": "CYP2C19 inhibition",
+    "clinical_effect": "Possible reduced clopidogrel effect",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Interaction caution similar to omeprazole.",
+    "sourceKeys": [
+      "dailymed",
+      "label_clopidogrel"
+    ]
+  },
+  {
+    "medA": "Levothyroxine",
+    "medB": "Ferrous sulfate",
+    "severity": "moderate",
+    "mechanism": "Impaired absorption",
+    "clinical_effect": "Reduced T4 absorption",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Separate dosing by several hours.",
+    "sourceKeys": [
+      "label_levothyroxine",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Levothyroxine",
+    "medB": "Pantoprazole",
+    "severity": "moderate",
+    "mechanism": "Possible absorption/acid effects",
+    "clinical_effect": "May alter T4 requirements in some patients",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor TSH after PPI changes.",
+    "sourceKeys": [
+      "dailymed",
+      "label_levothyroxine"
+    ]
+  },
+  {
+    "medA": "Furosemide",
+    "medB": "Gentamicin",
+    "severity": "major",
+    "mechanism": "Additive ototoxicity / nephrotoxicity",
+    "clinical_effect": "Hearing loss / renal injury risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination when possible; monitor levels/renal/hearing.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Spironolactone",
+    "medB": "Potassium chloride",
+    "severity": "major",
+    "mechanism": "Additive hyperkalemia",
+    "clinical_effect": "Severe hyperkalemia",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Usually avoid; monitor if treating hypokalemia carefully.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Diltiazem",
+    "medB": "Metoprolol",
+    "severity": "moderate",
+    "mechanism": "Additive AV nodal blockade",
+    "clinical_effect": "Bradycardia / heart block",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Monitor HR/ECG; use cautiously.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Morphine",
+    "medB": "Lorazepam",
+    "severity": "major",
+    "mechanism": "Additive CNS/respiratory depression",
+    "clinical_effect": "Sedation, respiratory failure, death",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid co-prescribing when possible; FDA boxed warning for opioids+benzos.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "label_morphine"
+    ]
+  },
+  {
+    "medA": "Oxycodone",
+    "medB": "Diazepam",
+    "severity": "major",
+    "mechanism": "Additive respiratory depression",
+    "clinical_effect": "Overdose risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination; if unavoidable, lowest doses and naloxone consideration.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Codeine",
+    "medB": "Fluoxetine",
+    "severity": "moderate",
+    "mechanism": "CYP2D6 inhibition reducing activation to morphine",
+    "clinical_effect": "Reduced analgesia; serotonergic caution",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prefer non-codeine analgesic.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Gabapentin",
+    "medB": "Oxycodone",
+    "severity": "major",
+    "mechanism": "Additive respiratory depression",
+    "clinical_effect": "Serious breathing problems",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "FDA warns on gabapentinoids + opioids; avoid if possible.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Pregabalin",
+    "medB": "Tramadol",
+    "severity": "major",
+    "mechanism": "Additive CNS/respiratory depression + seizure risk complexity",
+    "clinical_effect": "Sedation / respiratory depression",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Caution; avoid unnecessary combination.",
+    "sourceKeys": [
+      "dailymed",
+      "fda"
+    ]
+  },
+  {
+    "medA": "Rifampin",
+    "medB": "Warfarin",
+    "severity": "major",
+    "mechanism": "Strong CYP induction",
+    "clinical_effect": "Reduced anticoagulation / thrombosis risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Expect major INR drop; monitor intensively or redesign therapy.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Rifampin",
+    "medB": "Apixaban",
+    "severity": "major",
+    "mechanism": "CYP3A/P-gp induction",
+    "clinical_effect": "Reduced DOAC effect / thrombosis",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination per DOAC labels.",
+    "sourceKeys": [
+      "label_apixaban",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "St. John's wort",
+    "medB": "Sertraline",
+    "severity": "major",
+    "mechanism": "Serotonin excess + CYP induction",
+    "clinical_effect": "Serotonin syndrome; reduced drug levels of many meds",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid St. John's wort with serotonergic drugs and many CYPs substrates.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "St. John's wort",
+    "medB": "Oral contraceptives (combined) — class overview",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction",
+    "clinical_effect": "Contraceptive failure",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid; use backup contraception.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "acog"
+    ]
+  },
+  {
+    "medA": "Aspirin (low-dose / antiplatelet)",
+    "medB": "Ibuprofen",
+    "severity": "moderate",
+    "mechanism": "Ibuprofen may interfere with aspirin’s irreversible platelet inhibition if timed poorly; additive bleeding",
+    "clinical_effect": "Reduced cardioprotection theoretical + bleeding risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "If both needed, follow timing guidance; prefer alternative non-NSAID analgesic when possible.",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "label_ibuprofen"
+    ]
+  },
+  {
+    "medA": "Empagliflozin",
+    "medB": "Furosemide",
+    "severity": "moderate",
+    "mechanism": "Additive volume depletion",
+    "clinical_effect": "Hypotension / AKI risk",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Assess volume status; adjust diuretic when starting SGLT2i.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "ada_diabetes"
+    ]
+  },
+  {
+    "medA": "Lisinopril",
+    "medB": "Empagliflozin",
+    "severity": "moderate",
+    "mechanism": "Initial eGFR dip / volume effects",
+    "clinical_effect": "Hemodynamic creatinine rise usually expected; watch volume",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor renal function; usually continue if expected dip and patient stable.",
+    "sourceKeys": [
+      "dailymed",
+      "kdigo",
+      "esc_hf"
+    ]
+  }
+]

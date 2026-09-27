@@ -1,0 +1,2697 @@
+[
+  {
+    "genericName": "Naproxen",
+    "brandNames": [
+      "Aleve",
+      "Naprosyn"
+    ],
+    "drugClass": "NSAID",
+    "mechanism": "COX inhibition reducing prostaglandins.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "NSAID class evidence; longer half-life than ibuprofen.",
+    "benefitsSummary": "Analgesic/anti-inflammatory with longer dosing interval options.",
+    "whyStillPrescribed": "Effective analgesics/anti-inflammatories with extensive trial and guideline support; risks are managed by patient selection, dose/duration limits, and gastroprotection when appropriate.",
+    "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
+    "indications": [
+      {
+        "indication": "Pain and inflammation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pain (mild to moderate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fever / antipyresis",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product-dependent"
+      },
+      {
+        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "See product labeling"
+      },
+      {
+        "indication": "Migraine / headache symptomatic relief (selected)",
+        "approved": false,
+        "evidence": "moderate",
+        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "GI ulceration / bleeding",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning class risk"
+      },
+      {
+        "effect": "CV thrombotic risk",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia, abdominal pain, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of cardiovascular thrombotic events (MI, stroke)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning class risk"
+      },
+      {
+        "effect": "Renal impairment / fluid retention / edema",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypertension worsening",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypersensitivity / asthma exacerbation in aspirin-sensitive patients",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes / rare hepatotoxicity",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "High-risk NSAID populations",
+        "severity": "major",
+        "details": "Class NSAID boxed warnings apply."
+      },
+      {
+        "type": "boxed",
+        "population": "Cardiovascular disease / risk",
+        "severity": "major",
+        "details": "NSAIDs increase risk of serious CV thrombotic events; contraindicated for peri-operative CABG pain in US labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "GI bleeding risk groups",
+        "severity": "major",
+        "details": "Increased risk of serious GI adverse events including bleeding, ulceration, perforation."
+      },
+      {
+        "type": "contraindication",
+        "population": "Third trimester pregnancy (generally)",
+        "severity": "major",
+        "details": "Avoid NSAIDs in late pregnancy due to fetal risk (ductus arteriosus / oligohydramnios concerns)."
+      },
+      {
+        "type": "precaution",
+        "population": "Heart failure, CKD, elderly, concurrent anticoagulants/steroids/SSRIs",
+        "severity": "major",
+        "details": "Higher bleeding and renal risk — clinician risk–benefit assessment required."
+      },
+      {
+        "type": "warning",
+        "population": "Aspirin-sensitive asthma",
+        "severity": "major",
+        "details": "Cross-reactivity possible."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid especially in third trimester; earlier pregnancy requires clinician discussion.",
+      "lactation": "Generally short courses of some NSAIDs may be compatible — product-specific; ask clinician.",
+      "renal": "Avoid or use extreme caution in significant CKD; may reduce GFR.",
+      "hepatic": "Caution in hepatic disease; rare severe hepatotoxicity.",
+      "geriatric": "Higher GI, renal, and CV risk — prefer lowest dose/shortest duration; consider gastroprotection strategies when indicated."
+    },
+    "monitoring": [
+      "Blood pressure if used regularly",
+      "Renal function and electrolytes in higher-risk patients",
+      "Watch for GI bleeding signs (melena, hematemesis, anemia)"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "ema",
+      "label_ibuprofen",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Aspirin (low-dose / antiplatelet)",
+    "brandNames": [
+      "Aspirin",
+      "Asaflow"
+    ],
+    "drugClass": "Antiplatelet / NSAID",
+    "mechanism": "Irreversible COX-1 inhibition in platelets → reduced thromboxane A2.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Strong evidence for secondary CV prevention. Primary prevention benefit–risk is individualized.",
+    "benefitsSummary": "Reduces recurrent atherothrombotic events when indicated.",
+    "whyStillPrescribed": "Effective analgesics/anti-inflammatories with extensive trial and guideline support; risks are managed by patient selection, dose/duration limits, and gastroprotection when appropriate.",
+    "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
+    "indications": [
+      {
+        "indication": "Secondary prevention after MI/ischemic stroke/ASCVD",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pain/fever (higher doses)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pain (mild to moderate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fever / antipyresis",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product-dependent"
+      },
+      {
+        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "See product labeling"
+      },
+      {
+        "indication": "Migraine / headache symptomatic relief (selected)",
+        "approved": false,
+        "evidence": "moderate",
+        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+      },
+      {
+        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "PAD symptomatic management (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Net benefit often unfavorable in average-risk adults"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding (GI and other)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Reye syndrome risk in children with viral illness",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia, abdominal pain, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI ulceration / bleeding",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning class risk"
+      },
+      {
+        "effect": "Increased risk of cardiovascular thrombotic events (MI, stroke)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning class risk"
+      },
+      {
+        "effect": "Renal impairment / fluid retention / edema",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypertension worsening",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypersensitivity / asthma exacerbation in aspirin-sensitive patients",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes / rare hepatotoxicity",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding / bruising",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia / GI bleeding (aspirin)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspnea (ticagrelor)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Thrombotic thrombocytopenic purpura (rare — clopidogrel)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Bleeding risk / concurrent anticoagulants",
+        "severity": "major",
+        "details": "Increases bleeding risk; clinician oversight needed with anticoagulants."
+      },
+      {
+        "type": "boxed",
+        "population": "Cardiovascular disease / risk",
+        "severity": "major",
+        "details": "NSAIDs increase risk of serious CV thrombotic events; contraindicated for peri-operative CABG pain in US labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "GI bleeding risk groups",
+        "severity": "major",
+        "details": "Increased risk of serious GI adverse events including bleeding, ulceration, perforation."
+      },
+      {
+        "type": "contraindication",
+        "population": "Third trimester pregnancy (generally)",
+        "severity": "major",
+        "details": "Avoid NSAIDs in late pregnancy due to fetal risk (ductus arteriosus / oligohydramnios concerns)."
+      },
+      {
+        "type": "precaution",
+        "population": "Heart failure, CKD, elderly, concurrent anticoagulants/steroids/SSRIs",
+        "severity": "major",
+        "details": "Higher bleeding and renal risk — clinician risk–benefit assessment required."
+      },
+      {
+        "type": "warning",
+        "population": "Aspirin-sensitive asthma",
+        "severity": "major",
+        "details": "Cross-reactivity possible."
+      },
+      {
+        "type": "boxed",
+        "population": "Bleeding (prasugrel/ticagrelor)",
+        "severity": "major",
+        "details": "See product boxed warnings."
+      },
+      {
+        "type": "warning",
+        "population": "CYP2C19 poor metabolizers (clopidogrel)",
+        "severity": "moderate",
+        "details": "Reduced antiplatelet effect — boxed warning in US."
+      },
+      {
+        "type": "warning",
+        "population": "Omeprazole/esomeprazole interaction discussions with clopidogrel",
+        "severity": "moderate",
+        "details": "Prefer interaction-safer acid suppression when needed."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid especially in third trimester; earlier pregnancy requires clinician discussion.",
+      "lactation": "Generally short courses of some NSAIDs may be compatible — product-specific; ask clinician.",
+      "renal": "Avoid or use extreme caution in significant CKD; may reduce GFR.",
+      "hepatic": "Caution in hepatic disease; rare severe hepatotoxicity.",
+      "geriatric": "Higher GI, renal, and CV risk — prefer lowest dose/shortest duration; consider gastroprotection strategies when indicated."
+    },
+    "monitoring": [
+      "Blood pressure if used regularly",
+      "Renal function and electrolytes in higher-risk patients",
+      "Watch for GI bleeding signs (melena, hematemesis, anemia)",
+      "Bleeding signs",
+      "Adherence after stents (critical)",
+      "Hemoglobin if occult bleed suspected"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "fda",
+      "who",
+      "label_ibuprofen",
+      "ema",
+      "nice",
+      "bnf",
+      "esc_hf"
+    ]
+  },
+  {
+    "genericName": "Amlodipine",
+    "brandNames": [
+      "Norvasc",
+      "Istin"
+    ],
+    "drugClass": "Dihydropyridine calcium channel blocker",
+    "mechanism": "Inhibits L-type calcium channels in vascular smooth muscle → arterial vasodilation.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "High-quality outcome evidence as antihypertensive; guideline-endorsed.",
+    "benefitsSummary": "Effective once-daily blood pressure lowering; useful in angina as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic stable angina (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina (chronic stable / vasospastic — product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Raynaud phenomenon (often off-label)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Peripheral edema",
+        "severity": "common",
+        "frequencyNote": "Dose-related",
+        "evidence": "high"
+      },
+      {
+        "effect": "Flushing, headache, dizziness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Gingival hyperplasia (long-term)",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Palpitations / reflex tachycardia (shorter-acting agents)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypotension",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "precaution",
+        "population": "Severe aortic stenosis",
+        "severity": "moderate",
+        "details": "Use caution; see labeling."
+      },
+      {
+        "type": "precaution",
+        "population": "Severe aortic stenosis / unstable hemodynamics",
+        "severity": "moderate",
+        "details": "Vasodilation risks."
+      },
+      {
+        "type": "warning",
+        "population": "Short-acting nifedipine historically cautioned for hypertensive urgency misuse",
+        "severity": "moderate",
+        "details": "Prefer long-acting formulations."
+      }
+    ],
+    "special": {
+      "hepatic": "Dose caution in hepatic impairment (amlodipine).",
+      "pregnancy": "Some DHPs used in pregnancy hypertension under specialist care.",
+      "lactation": "Discuss agent-specific data.",
+      "renal": "Generally no major dose change for amlodipine.",
+      "geriatric": "Edema and hypotension — start low."
+    },
+    "monitoring": [
+      "Blood pressure",
+      "Edema / tolerability",
+      "BP",
+      "Edema / weight"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "nice",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Lisinopril",
+    "brandNames": [
+      "Zestril",
+      "Prinivil"
+    ],
+    "drugClass": "ACE inhibitor",
+    "mechanism": "Inhibits ACE → ↓ angiotensin II; ↑ bradykinin.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Extensive RCT and guideline support for hypertension, HFrEF, and post-MI as labeled.",
+    "benefitsSummary": "BP reduction; mortality/morbidity benefit in heart failure and post-MI when indicated.",
+    "whyStillPrescribed": "Outcome-proven for hypertension, HFrEF, and selected renal protection indications despite cough and angioedema risks.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure (HFrEF)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure with reduced ejection fraction (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "See product and guideline labeling"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Dry cough",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyperkalemia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Angioedema",
+        "severity": "serious",
+        "frequencyNote": "Uncommon but potentially life-threatening",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute kidney injury / creatinine rise",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypotension / dizziness (especially first doses / volume depletion)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute kidney injury (especially with bilateral renal artery stenosis or volume depletion)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Angioedema (rare but serious)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Higher risk in some populations; can be life-threatening"
+      },
+      {
+        "effect": "Elevated creatinine (hemodynamic)",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "ACE inhibitors can cause fetal injury/death (boxed warning US)."
+      },
+      {
+        "type": "contraindication",
+        "population": "History of ACEI angioedema",
+        "severity": "major",
+        "details": "Do not rechallenge."
+      },
+      {
+        "type": "boxed",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "Can cause injury and death to the developing fetus — discontinue when pregnancy detected."
+      },
+      {
+        "type": "contraindication",
+        "population": "History of ACEI-related angioedema",
+        "severity": "major",
+        "details": "Do not rechallenge."
+      },
+      {
+        "type": "warning",
+        "population": "Bilateral renal artery stenosis / hyperkalemia / volume depletion",
+        "severity": "major",
+        "details": "Risk of renal failure or severe hypotension."
+      },
+      {
+        "type": "precaution",
+        "population": "Concurrent potassium-sparing diuretics / K+ supplements / ARNI",
+        "severity": "moderate",
+        "details": "Hyperkalemia risk — monitor."
+      }
+    ],
+    "special": {
+      "pregnancy": "Contraindicated — fetal toxicity boxed warning.",
+      "renal": "Dose adjust / monitor creatinine and potassium; caution in advanced CKD.",
+      "lactation": "Discuss with clinician; some ACEIs have more lactation data than others.",
+      "hepatic": "Product-specific; generally not primarily hepatically cleared.",
+      "geriatric": "Start low; monitor renal function and potassium closely."
+    },
+    "monitoring": [
+      "Creatinine and potassium after initiation",
+      "Blood pressure",
+      "Serum creatinine / eGFR",
+      "Serum potassium"
+    ],
+    "withdrawal": "Do not stop abruptly without clinician advice in HF or post-MI contexts.",
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "esc_hf",
+      "nice",
+      "fda",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Ramipril",
+    "brandNames": [
+      "Altace",
+      "Triatec"
+    ],
+    "drugClass": "ACE inhibitor",
+    "mechanism": "ACE inhibition reducing angiotensin II.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Supported by outcome trials and guidelines.",
+    "benefitsSummary": "Hypertension and CV risk reduction / heart failure as labeled.",
+    "whyStillPrescribed": "Outcome-proven for hypertension, HFrEF, and selected renal protection indications despite cough and angioedema risks.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CV risk reduction / HF as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure with reduced ejection fraction (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "See product and guideline labeling"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Cough, hyperkalemia, angioedema risk",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dry cough",
+        "severity": "common",
+        "evidence": "high",
+        "frequencyNote": "Often leads to switch to ARB"
+      },
+      {
+        "effect": "Hypotension / dizziness (especially first doses / volume depletion)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute kidney injury (especially with bilateral renal artery stenosis or volume depletion)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Angioedema (rare but serious)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Higher risk in some populations; can be life-threatening"
+      },
+      {
+        "effect": "Elevated creatinine (hemodynamic)",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "Fetotoxicity — contraindicated."
+      },
+      {
+        "type": "boxed",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "Can cause injury and death to the developing fetus — discontinue when pregnancy detected."
+      },
+      {
+        "type": "contraindication",
+        "population": "History of ACEI-related angioedema",
+        "severity": "major",
+        "details": "Do not rechallenge."
+      },
+      {
+        "type": "warning",
+        "population": "Bilateral renal artery stenosis / hyperkalemia / volume depletion",
+        "severity": "major",
+        "details": "Risk of renal failure or severe hypotension."
+      },
+      {
+        "type": "precaution",
+        "population": "Concurrent potassium-sparing diuretics / K+ supplements / ARNI",
+        "severity": "moderate",
+        "details": "Hyperkalemia risk — monitor."
+      }
+    ],
+    "special": {
+      "pregnancy": "Contraindicated — fetal toxicity boxed warning.",
+      "lactation": "Discuss with clinician; some ACEIs have more lactation data than others.",
+      "renal": "Dose adjust / monitor creatinine and potassium; caution in advanced CKD.",
+      "hepatic": "Product-specific; generally not primarily hepatically cleared.",
+      "geriatric": "Start low; monitor renal function and potassium closely."
+    },
+    "monitoring": [
+      "Blood pressure",
+      "Serum creatinine / eGFR",
+      "Serum potassium"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "aha_hypertension",
+      "esc_hf",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Losartan",
+    "brandNames": [
+      "Cozaar"
+    ],
+    "drugClass": "Angiotensin II receptor blocker (ARB)",
+    "mechanism": "Selective AT1 receptor blockade.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Guideline-supported antihypertensive; alternative when ACEI cough occurs.",
+    "benefitsSummary": "Blood pressure lowering; diabetic nephropathy indication as labeled.",
+    "whyStillPrescribed": "Guideline-preferred alternative when ACEI cough occurs; strong outcome data for BP and selected renal/HF indications.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Diabetic nephropathy (type 2) as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Hyperkalemia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dizziness / hypotension",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute kidney injury in susceptible patients",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Angioedema (less common than ACEIs but possible)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Fatigue",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "Boxed warning — fetal toxicity."
+      },
+      {
+        "type": "boxed",
+        "population": "Pregnancy",
+        "severity": "major",
+        "details": "Fetal toxicity — discontinue when pregnancy detected."
+      },
+      {
+        "type": "warning",
+        "population": "Volume depletion / renal artery stenosis / hyperkalemia",
+        "severity": "major",
+        "details": "Similar hemodynamic renal risks as ACEIs."
+      },
+      {
+        "type": "precaution",
+        "population": "Dual blockade with ACEI/ARNI generally avoided",
+        "severity": "major",
+        "details": "Increased renal/hyperkalemia harm without routine benefit."
+      }
+    ],
+    "special": {
+      "pregnancy": "Contraindicated — fetal toxicity.",
+      "lactation": "Discuss with clinician.",
+      "renal": "Monitor creatinine and potassium; dose considerations in CKD.",
+      "hepatic": "Some ARBs need hepatic dose adjustment (product-specific).",
+      "geriatric": "Monitor renal function and BP."
+    },
+    "monitoring": [
+      "Creatinine, potassium, BP",
+      "Blood pressure",
+      "Creatinine / eGFR",
+      "Potassium"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "nice",
+      "esc_hf",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Metoprolol",
+    "brandNames": [
+      "Lopressor",
+      "Toprol-XL",
+      "Beloc"
+    ],
+    "drugClass": "Beta-1 selective blocker",
+    "mechanism": "Selective blockade of cardiac β1-adrenergic receptors.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Strong evidence across hypertension, angina, HFrEF (succinate), and post-MI.",
+    "benefitsSummary": "Reduces heart rate and myocardial oxygen demand; outcome benefits in indicated cardiac conditions.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure (ER succinate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Post-MI",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina pectoris",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Agent-specific"
+      },
+      {
+        "indication": "Post-MI / rate control in AF (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Fatigue, bradycardia, dizziness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Worsening HF if inappropriately titrated",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bradycardia, fatigue, dizziness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Cold extremities",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Sleep disturbance / vivid dreams (lipophilic agents)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Sexual dysfunction",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Worsening of acute decompensated HF if started inappropriately",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bronchospasm risk (esp. nonselective)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Masked hypoglycemia symptoms in insulin-treated patients",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Abrupt discontinuation",
+        "severity": "major",
+        "details": "Abrupt withdrawal can exacerbate angina/MI — taper under guidance."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt withdrawal",
+        "severity": "major",
+        "details": "Can precipitate angina, MI, or rebound hypertension — taper."
+      },
+      {
+        "type": "contraindication",
+        "population": "Severe bradycardia / high-grade AV block without pacemaker / acute decompensated HF (selected contexts)",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "precaution",
+        "population": "Asthma / severe COPD (esp. nonselective)",
+        "severity": "moderate",
+        "details": "Prefer cardioselective agents if beta blocker required."
+      },
+      {
+        "type": "precaution",
+        "population": "Diabetes",
+        "severity": "moderate",
+        "details": "May mask hypoglycemia warning signs."
+      }
+    ],
+    "special": {
+      "pregnancy": "Some agents used (e.g., labetalol) for hypertension in pregnancy — specialist guidance.",
+      "lactation": "Several beta blockers used with caution — agent-specific.",
+      "renal": "Atenolol renally cleared — adjust.",
+      "hepatic": "Many are hepatically metabolized — caution.",
+      "geriatric": "Start low; fall and bradycardia risk."
+    },
+    "monitoring": [
+      "Heart rate, BP",
+      "HF signs during titration",
+      "Heart rate and BP",
+      "Signs of HF decompensation when initiating",
+      "Glucose awareness in diabetics"
+    ],
+    "withdrawal": "Do not stop suddenly after chronic use — taper under clinician guidance to reduce rebound ischemia/hypertension risk.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "aha_hypertension",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Bisoprolol",
+    "brandNames": [
+      "Concor",
+      "Zebeta"
+    ],
+    "drugClass": "Beta-1 selective blocker",
+    "mechanism": "Selective β1 blockade.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Evidence-based in HFrEF and hypertension.",
+    "benefitsSummary": "Once-daily β-blocker for HF and hypertension.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic heart failure",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina pectoris",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Agent-specific"
+      },
+      {
+        "indication": "Post-MI / rate control in AF (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bradycardia, fatigue, dizziness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Cold extremities",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Sleep disturbance / vivid dreams (lipophilic agents)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Sexual dysfunction",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Worsening of acute decompensated HF if started inappropriately",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bronchospasm risk (esp. nonselective)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Masked hypoglycemia symptoms in insulin-treated patients",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Abrupt stop",
+        "severity": "major",
+        "details": "Taper; avoid abrupt withdrawal."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt withdrawal",
+        "severity": "major",
+        "details": "Can precipitate angina, MI, or rebound hypertension — taper."
+      },
+      {
+        "type": "contraindication",
+        "population": "Severe bradycardia / high-grade AV block without pacemaker / acute decompensated HF (selected contexts)",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "precaution",
+        "population": "Asthma / severe COPD (esp. nonselective)",
+        "severity": "moderate",
+        "details": "Prefer cardioselective agents if beta blocker required."
+      },
+      {
+        "type": "precaution",
+        "population": "Diabetes",
+        "severity": "moderate",
+        "details": "May mask hypoglycemia warning signs."
+      }
+    ],
+    "special": {
+      "pregnancy": "Some agents used (e.g., labetalol) for hypertension in pregnancy — specialist guidance.",
+      "lactation": "Several beta blockers used with caution — agent-specific.",
+      "renal": "Atenolol renally cleared — adjust.",
+      "hepatic": "Many are hepatically metabolized — caution.",
+      "geriatric": "Start low; fall and bradycardia risk."
+    },
+    "monitoring": [
+      "Heart rate and BP",
+      "Signs of HF decompensation when initiating",
+      "Glucose awareness in diabetics"
+    ],
+    "withdrawal": "Do not stop suddenly after chronic use — taper under clinician guidance to reduce rebound ischemia/hypertension risk.",
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "ema",
+      "aha_hypertension",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Atenolol",
+    "brandNames": [
+      "Tenormin"
+    ],
+    "drugClass": "Beta-1 selective blocker",
+    "mechanism": "β1-adrenergic receptor blockade.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Older β-blocker; still used for certain indications.",
+    "benefitsSummary": "Rate control / BP lowering.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Angina",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina pectoris",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Agent-specific"
+      },
+      {
+        "indication": "Post-MI / rate control in AF (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bradycardia, fatigue, cold extremities",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bradycardia, fatigue, dizziness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Sleep disturbance / vivid dreams (lipophilic agents)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Sexual dysfunction",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Worsening of acute decompensated HF if started inappropriately",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bronchospasm risk (esp. nonselective)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Masked hypoglycemia symptoms in insulin-treated patients",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Abrupt discontinuation",
+        "severity": "major",
+        "details": "Taper under medical supervision."
+      },
+      {
+        "type": "warning",
+        "population": "Abrupt withdrawal",
+        "severity": "major",
+        "details": "Can precipitate angina, MI, or rebound hypertension — taper."
+      },
+      {
+        "type": "contraindication",
+        "population": "Severe bradycardia / high-grade AV block without pacemaker / acute decompensated HF (selected contexts)",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "precaution",
+        "population": "Asthma / severe COPD (esp. nonselective)",
+        "severity": "moderate",
+        "details": "Prefer cardioselective agents if beta blocker required."
+      },
+      {
+        "type": "precaution",
+        "population": "Diabetes",
+        "severity": "moderate",
+        "details": "May mask hypoglycemia warning signs."
+      }
+    ],
+    "special": {
+      "pregnancy": "Some agents used (e.g., labetalol) for hypertension in pregnancy — specialist guidance.",
+      "lactation": "Several beta blockers used with caution — agent-specific.",
+      "renal": "Atenolol renally cleared — adjust.",
+      "hepatic": "Many are hepatically metabolized — caution.",
+      "geriatric": "Start low; fall and bradycardia risk."
+    },
+    "monitoring": [
+      "Heart rate and BP",
+      "Signs of HF decompensation when initiating",
+      "Glucose awareness in diabetics"
+    ],
+    "withdrawal": "Do not stop suddenly after chronic use — taper under clinician guidance to reduce rebound ischemia/hypertension risk.",
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "bnf",
+      "aha_hypertension",
+      "esc_hf",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Hydrochlorothiazide",
+    "brandNames": [
+      "Microzide",
+      "Esidrex"
+    ],
+    "drugClass": "Thiazide diuretic",
+    "mechanism": "Inhibits Na-Cl cotransporter in distal convoluted tubule.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Foundational antihypertensive class; electrolyte effects well characterized.",
+    "benefitsSummary": "Blood pressure reduction; often combined with ACEI/ARB/CCB.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Edema",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Edema (selected contexts)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Nephrolithiasis prevention with hypercalciuria (off-label / selected)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Hypokalemia, hyponatremia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyperuricemia / gout flare",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyperglycemia / lipid changes",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Photosensitivity / rare severe skin reactions",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dehydration / hypotension",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "precaution",
+        "population": "Sulfa allergy",
+        "severity": "moderate",
+        "details": "Discuss allergy history with clinician."
+      },
+      {
+        "type": "precaution",
+        "population": "Severe hyponatremia risk (esp. elderly women)",
+        "severity": "major",
+        "details": "Monitor electrolytes."
+      },
+      {
+        "type": "precaution",
+        "population": "Gout / sulfonamide allergy history",
+        "severity": "moderate",
+        "details": "Clinical judgment."
+      },
+      {
+        "type": "warning",
+        "population": "Anuria",
+        "severity": "major",
+        "details": "Contraindicated."
+      }
+    ],
+    "special": {
+      "pregnancy": "Not first-line for pregnancy hypertension.",
+      "lactation": "May reduce milk volume — discuss.",
+      "renal": "Less effective at low GFR; metolazone sometimes used.",
+      "geriatric": "Hyponatremia risk high."
+    },
+    "monitoring": [
+      "Electrolytes, renal function",
+      "Electrolytes",
+      "Renal function",
+      "Uric acid / glucose as indicated",
+      "BP"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "aha_hypertension",
+      "nice",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Furosemide",
+    "brandNames": [
+      "Lasix"
+    ],
+    "drugClass": "Loop diuretic",
+    "mechanism": "Inhibits Na-K-2Cl cotransporter in thick ascending limb.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Essential for volume overload in heart failure; electrolyte depletion established.",
+    "benefitsSummary": "Potent diuresis for edema and acute pulmonary edema as indicated.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Edema due to HF / cirrhosis / renal disease",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acute pulmonary edema",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Hypertension (selected — not usually first-line)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Hypercalcemia adjunct (off-label contexts)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Electrolyte depletion (K, Mg, Na)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dehydration / hypotension",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Ototoxicity (high IV doses)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Electrolyte depletion (K+, Mg2+, Na+)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dehydration / prerenal azotemia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Ototoxicity (high doses / rapid IV)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hyperuricemia",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypotension",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Anuria",
+        "severity": "major",
+        "details": "Contraindicated in anuria."
+      },
+      {
+        "type": "warning",
+        "population": "Profound diuresis / electrolyte loss",
+        "severity": "major",
+        "details": "Monitor closely."
+      },
+      {
+        "type": "precaution",
+        "population": "Aminoglycoside co-use",
+        "severity": "moderate",
+        "details": "Ototoxicity/nephrotoxicity potentiation."
+      },
+      {
+        "type": "precaution",
+        "population": "Sulfa allergy (most loops)",
+        "severity": "moderate",
+        "details": "Ethacrynic acid alternative rarely used."
+      }
+    ],
+    "special": {
+      "pregnancy": "Use only if clearly needed.",
+      "lactation": "Discuss — may suppress lactation.",
+      "renal": "Higher doses often needed in CKD.",
+      "hepatic": "Risk of precipitating hepatic encephalopathy with overdiuresis."
+    },
+    "monitoring": [
+      "Volume status, electrolytes, renal function",
+      "Daily weights",
+      "Electrolytes",
+      "Renal function",
+      "BP"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Spironolactone",
+    "brandNames": [
+      "Aldactone"
+    ],
+    "drugClass": "Mineralocorticoid receptor antagonist",
+    "mechanism": "Antagonizes aldosterone at mineralocorticoid receptors.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Mortality benefit in HFrEF; hyperkalemia risk established.",
+    "benefitsSummary": "Heart failure, resistant hypertension, primary aldosteronism as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "HFrEF",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Resistant hypertension / primary aldosteronism",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "HFrEF / HF outcome benefit as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Edema / ascites in cirrhosis (spironolactone)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acne / hirsutism (spironolactone off-label)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Hyperkalemia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Gynecomastia / menstrual irregularities (spironolactone)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dizziness / hypotension",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Renal function decline",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Hyperkalemia; Addison disease",
+        "severity": "major",
+        "details": "Monitor potassium closely especially with ACEI/ARB."
+      },
+      {
+        "type": "contraindication",
+        "population": "Hyperkalemia / Addison disease (spironolactone)",
+        "severity": "major",
+        "details": "See label."
+      },
+      {
+        "type": "warning",
+        "population": "ACEI/ARB/ARNI + potassium combinations",
+        "severity": "major",
+        "details": "Hyperkalemia — monitor."
+      },
+      {
+        "type": "precaution",
+        "population": "Pregnancy (anti-androgenic effects of spironolactone)",
+        "severity": "major",
+        "details": "Avoid."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid spironolactone.",
+      "lactation": "Discuss.",
+      "renal": "Dose adjust / avoid in advanced CKD per product.",
+      "geriatric": "Hyperkalemia risk."
+    },
+    "monitoring": [
+      "Serum potassium and creatinine",
+      "Potassium",
+      "Creatinine",
+      "BP"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "esc_hf",
+      "ema",
+      "aha_hypertension"
+    ]
+  },
+  {
+    "genericName": "Metformin",
+    "brandNames": [
+      "Glucophage",
+      "Glucophage XR"
+    ],
+    "drugClass": "Biguanide antihyperglycemic",
+    "mechanism": "Decreases hepatic glucose production; improves insulin sensitivity.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "First-line pharmacotherapy for type 2 diabetes in most major guidelines when tolerated.",
+    "benefitsSummary": "Improves glycemic control; weight-neutral/modest loss; low hypoglycemia risk as monotherapy.",
+    "whyStillPrescribed": "Foundational T2DM therapy with outcome and glycemic evidence, low hypoglycemia risk when used alone, and extensive global experience; lactic acidosis is rare when renal/hypoxia cautions are respected.",
+    "longTermEvidence": "Long-term use associated with durable glycemic benefit; B12 monitoring increasingly emphasized; CV outcome neutrality/benefit discussed historically (UKPDS era) with modern agents adding incremental CV/kidney benefits in higher-risk patients.",
+    "indications": [
+      {
+        "indication": "Type 2 diabetes mellitus (first-line in many guidelines when tolerated)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prediabetes / diabetes prevention (guideline off-label in some regions)",
+        "approved": false,
+        "evidence": "moderate",
+        "notes": "Not a universal labeled indication — guideline-dependent"
+      },
+      {
+        "indication": "PCOS metabolic features (commonly used off-label)",
+        "approved": false,
+        "evidence": "moderate",
+        "notes": "Off-label"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "GI upset (diarrhea, nausea, abdominal discomfort)",
+        "severity": "common",
+        "evidence": "high",
+        "frequencyNote": "Often dose-related; XR may help"
+      },
+      {
+        "effect": "Vitamin B12 reduction with long-term use",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Lactic acidosis (rare when eGFR/hypoxia cautions followed)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning — absolute risk low in appropriately selected patients"
+      },
+      {
+        "effect": "Vitamin B12 deficiency with long-term use",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Metallic taste",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Severe renal impairment (eGFR cutoffs per labeling)",
+        "severity": "major",
+        "details": "Do not initiate below labeled eGFR thresholds; hold in AKI/contrast per protocols."
+      },
+      {
+        "type": "boxed",
+        "population": "Lactic acidosis risk groups",
+        "severity": "major",
+        "details": "Rare but potentially fatal; risk increases with substantial renal impairment and hypoxic states."
+      },
+      {
+        "type": "contraindication",
+        "population": "Severe renal impairment (eGFR thresholds product/region-specific)",
+        "severity": "major",
+        "details": "See current labeling for initiation/continuation cutoffs."
+      },
+      {
+        "type": "warning",
+        "population": "Iodinated contrast / acute illness with dehydration",
+        "severity": "moderate",
+        "details": "Temporary interruption often advised — follow local protocols."
+      },
+      {
+        "type": "precaution",
+        "population": "Heavy alcohol use / hepatic disease / HF instability",
+        "severity": "moderate",
+        "details": "Increased lactic acidosis risk."
+      }
+    ],
+    "special": {
+      "renal": "Dose adjust / stop per eGFR thresholds.",
+      "hepatic": "Avoid in significant hepatic disease (lactic acidosis risk).",
+      "pregnancy": "Increasingly used in gestational diabetes in some guidelines — clinician decision; insulin often preferred historically.",
+      "lactation": "Generally considered compatible — confirm.",
+      "geriatric": "Assess renal function carefully."
+    },
+    "monitoring": [
+      "eGFR",
+      "Vitamin B12 periodically with long-term use",
+      "eGFR at baseline and periodically",
+      "HbA1c / glucose",
+      "Consider B12 with long-term use"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_metformin",
+      "ada_diabetes",
+      "nice",
+      "dailymed",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Insulin glargine",
+    "brandNames": [
+      "Lantus",
+      "Toujeo",
+      "Basaglar"
+    ],
+    "drugClass": "Long-acting basal insulin analogue",
+    "mechanism": "Recombinant insulin analogue with prolonged absorption — basal coverage.",
+    "routes": [
+      "subcutaneous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Standard basal insulin option; hypoglycemia is the principal dose-related risk.",
+    "benefitsSummary": "Provides relatively peakless basal insulin for diabetes as indicated.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Diabetes mellitus requiring basal insulin",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Type 1 diabetes mellitus",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Type 2 diabetes when insulin required",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Gestational diabetes / pregnancy diabetes (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Hyperkalemia acute management (IV regular insulin protocols)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Hospital protocols"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Hypoglycemia",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Injection-site reactions, weight gain",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Weight gain",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Injection-site lipodystrophy",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hypokalemia (esp. IV)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Allergic reactions (rare with human/analogue insulins)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All insulin users",
+        "severity": "major",
+        "details": "Never share pens/needles. Do not mix glargine with other insulins in same syringe."
+      },
+      {
+        "type": "warning",
+        "population": "Hypoglycemia unawareness / driving safety",
+        "severity": "major",
+        "details": "Educate on recognition and treatment."
+      },
+      {
+        "type": "warning",
+        "population": "Dosing errors / mix-ups between insulin products",
+        "severity": "major",
+        "details": "High-alert medication."
+      },
+      {
+        "type": "precaution",
+        "population": "Renal/hepatic impairment",
+        "severity": "moderate",
+        "details": "Increased hypo risk."
+      }
+    ],
+    "special": {
+      "pregnancy": "Insulin is standard when pharmacotherapy needed.",
+      "lactation": "Compatible.",
+      "renal": "Lower requirements often.",
+      "geriatric": "Hypoglycemia risk — simplify regimens."
+    },
+    "monitoring": [
+      "Blood glucose / CGM",
+      "Hypoglycemia education",
+      "Glucose / CGM / HbA1c",
+      "Hypoglycemia frequency",
+      "Injection sites",
+      "Ketones when indicated"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ada_diabetes",
+      "ema",
+      "nice",
+      "who"
+    ]
+  },
+  {
+    "genericName": "Empagliflozin",
+    "brandNames": [
+      "Jardiance"
+    ],
+    "drugClass": "SGLT2 inhibitor",
+    "mechanism": "Inhibits SGLT2 in proximal tubule → glucosuria and natriuresis.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "High-quality outcome trials for CV death/HF hospitalization and CKD progression in labeled populations.",
+    "benefitsSummary": "Glycemic control plus cardiorenal outcome benefits in indicated patients.",
+    "whyStillPrescribed": "Cardiorenal outcome benefits beyond glucose lowering have made SGLT2 inhibitors foundational in HF and CKD guidelines.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Type 2 diabetes mellitus",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Heart failure (HFrEF/HFpEF — agent-specific labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic kidney disease",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CKD / diabetic kidney disease progression risk reduction (agent-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CV death risk reduction in T2DM with CVD (empagliflozin — labeled)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Genital mycotic infections",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Volume depletion",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Euglycemic DKA (rare)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "UTIs / rare urosepsis",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Fournier gangrene (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      },
+      {
+        "effect": "Amputation risk signal (canagliflozin historically labeled)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Product-specific historical warning"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Perioperative / acute illness",
+        "severity": "major",
+        "details": "Risk of ketoacidosis; hold per perioperative protocols."
+      },
+      {
+        "type": "warning",
+        "population": "DKA risk even with near-normal glucose",
+        "severity": "major",
+        "details": "Hold in acute illness / peri-op per protocols."
+      },
+      {
+        "type": "precaution",
+        "population": "Volume depletion / loop diuretics / low BP",
+        "severity": "moderate",
+        "details": "Adjust concomitant therapy."
+      },
+      {
+        "type": "warning",
+        "population": "Severe renal impairment thresholds for glycemic vs cardiorenal indications",
+        "severity": "moderate",
+        "details": "Indication-specific eGFR cutoffs."
+      }
+    ],
+    "special": {
+      "pregnancy": "Not recommended.",
+      "lactation": "Not recommended.",
+      "renal": "Indication and dose depend on eGFR — check current label.",
+      "geriatric": "Volume depletion / fall risk."
+    },
+    "monitoring": [
+      "Renal function",
+      "Volume status",
+      "Genital hygiene counseling",
+      "Ketones if DKA symptoms"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ada_diabetes",
+      "esc_hf",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Semaglutide",
+    "brandNames": [
+      "Ozempic",
+      "Wegovy",
+      "Rybelsus"
+    ],
+    "drugClass": "GLP-1 receptor agonist",
+    "mechanism": "Activates GLP-1 receptors → glucose-dependent insulin, ↓ glucagon, slows gastric emptying.",
+    "routes": [
+      "subcutaneous",
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Strong glycemic and weight evidence; CV outcome data for some formulations.",
+    "benefitsSummary": "Improves glycemic control and weight; CV risk reduction as labeled for certain products.",
+    "whyStillPrescribed": "Robust glycemic, weight, and for some agents CV outcome benefits outweigh common GI AEs for many patients when titrated carefully.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Type 2 diabetes (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic weight management (Wegovy)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Type 2 diabetes mellitus",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic weight management (selected doses/products — labeled)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product/dose-specific"
+      },
+      {
+        "indication": "CV risk reduction in T2DM with CVD (selected agents)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, vomiting, diarrhea, constipation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Gallbladder disease",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Thyroid C-cell tumors in rodents — human relevance uncertain (boxed)",
+        "severity": "boxed",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Pancreatitis (uncommon — labeled warning)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Injection-site reactions",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Thyroid C-cell tumor boxed warning (rodent; human relevance uncertain)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Contraindicated with MTC/MEN2 personal/family history for many agents"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Personal/family history of MTC or MEN2",
+        "severity": "major",
+        "details": "Contraindicated per US labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "MTC / MEN2 history (many GLP-1 RAs)",
+        "severity": "major",
+        "details": "Contraindicated — rodent C-cell tumor signal."
+      },
+      {
+        "type": "warning",
+        "population": "History of pancreatitis",
+        "severity": "moderate",
+        "details": "Generally avoid rechallenge if pancreatitis occurs."
+      },
+      {
+        "type": "precaution",
+        "population": "Gastroparesis / severe GI disease",
+        "severity": "moderate",
+        "details": "May worsen."
+      }
+    ],
+    "special": {
+      "pregnancy": "Discontinue when pregnancy recognized for weight products; diabetes needs specialist plan.",
+      "lactation": "Limited data — discuss.",
+      "renal": "Dehydration from GI AEs can worsen renal function.",
+      "hepatic": "Limited specific restrictions."
+    },
+    "monitoring": [
+      "GI tolerability / titration",
+      "Gallbladder symptoms",
+      "Glucose / weight goals"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ada_diabetes",
+      "fda",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Atorvastatin",
+    "brandNames": [
+      "Lipitor"
+    ],
+    "drugClass": "HMG-CoA reductase inhibitor (statin)",
+    "mechanism": "Inhibits HMG-CoA reductase → ↓ hepatic cholesterol synthesis → ↑ LDL receptors.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Extensive RCT evidence for ASCVD risk reduction.",
+    "benefitsSummary": "Lowers LDL-C and reduces major cardiovascular events as indicated.",
+    "whyStillPrescribed": "Among the most evidence-backed therapies for ASCVD risk reduction; absolute diabetes and myopathy risks are generally small versus CV benefit in indicated patients.",
+    "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
+    "indications": [
+      {
+        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prevention of cardiovascular events",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary prevention in diabetes / elevated risk as labeled/guidelines",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Secondary prevention post-ACS",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Myalgia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myopathy / rhabdomyolysis (uncommon)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "New-onset diabetes (small absolute risk increase)",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Myalgia / muscle symptoms",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myopathy / rhabdomyolysis (rare)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Risk rises with dose and interacting drugs"
+      },
+      {
+        "effect": "New-onset diabetes mellitus (small absolute risk increase)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Labeled for class; benefits usually outweigh in indicated patients"
+      },
+      {
+        "effect": "Headache, GI upset",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Cognitive symptoms reported (rare/uncertain causality)",
+        "severity": "moderate",
+        "evidence": "low",
+        "frequencyNote": "Discussed in labels/safety communications; usually reversible if related"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Active liver disease; check current pregnancy labeling",
+        "severity": "major",
+        "details": "Follow current labeling for pregnancy."
+      },
+      {
+        "type": "contraindication",
+        "population": "Active liver disease / unexplained persistent LFT elevations",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "contraindication",
+        "population": "Pregnancy / breastfeeding (generally avoid)",
+        "severity": "major",
+        "details": "Cholesterol synthesis important in fetal development — discuss exceptions with specialist."
+      },
+      {
+        "type": "warning",
+        "population": "Strong CYP3A4 inhibitors with simvastatin/lovastatin",
+        "severity": "major",
+        "details": "Myopathy risk — many combinations contraindicated."
+      },
+      {
+        "type": "precaution",
+        "population": "Alcohol use disorder / hepatic risk factors",
+        "severity": "moderate",
+        "details": "Monitor LFTs as clinically indicated."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally contraindicated; specialist advice if exceptional circumstances.",
+      "lactation": "Generally not recommended.",
+      "renal": "Some statins need renal dose adjustment (e.g., rosuvastatin, simvastatin at higher doses).",
+      "hepatic": "Contraindicated in active liver disease.",
+      "geriatric": "Higher myopathy risk with polypharmacy — review interactions."
+    },
+    "monitoring": [
+      "Lipid panel",
+      "Baseline LFTs; CK if severe muscle symptoms",
+      "Baseline LFTs; repeat if clinically indicated",
+      "CK if unexplained muscle symptoms",
+      "Lipid panel for efficacy"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_atorvastatin",
+      "dailymed",
+      "nice",
+      "ema",
+      "aha_hypertension",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Simvastatin",
+    "brandNames": [
+      "Zocor"
+    ],
+    "drugClass": "Statin",
+    "mechanism": "HMG-CoA reductase inhibition.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Outcome evidence exists; dose limits with certain CYP3A4 interactions.",
+    "benefitsSummary": "LDL lowering and CV risk reduction as labeled.",
+    "whyStillPrescribed": "Among the most evidence-backed therapies for ASCVD risk reduction; absolute diabetes and myopathy risks are generally small versus CV benefit in indicated patients.",
+    "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
+    "indications": [
+      {
+        "indication": "Hyperlipidemia / CV prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Myopathy risk (dose- and interaction-related)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myalgia / muscle symptoms",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Myopathy / rhabdomyolysis (rare)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Risk rises with dose and interacting drugs"
+      },
+      {
+        "effect": "New-onset diabetes mellitus (small absolute risk increase)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Labeled for class; benefits usually outweigh in indicated patients"
+      },
+      {
+        "effect": "Headache, GI upset",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Cognitive symptoms reported (rare/uncertain causality)",
+        "severity": "moderate",
+        "evidence": "low",
+        "frequencyNote": "Discussed in labels/safety communications; usually reversible if related"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Strong CYP3A4 inhibitors",
+        "severity": "major",
+        "details": "Contraindicated or dose-restricted combinations — see labeling."
+      },
+      {
+        "type": "contraindication",
+        "population": "Active liver disease / unexplained persistent LFT elevations",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "contraindication",
+        "population": "Pregnancy / breastfeeding (generally avoid)",
+        "severity": "major",
+        "details": "Cholesterol synthesis important in fetal development — discuss exceptions with specialist."
+      },
+      {
+        "type": "warning",
+        "population": "Strong CYP3A4 inhibitors with simvastatin/lovastatin",
+        "severity": "major",
+        "details": "Myopathy risk — many combinations contraindicated."
+      },
+      {
+        "type": "precaution",
+        "population": "Alcohol use disorder / hepatic risk factors",
+        "severity": "moderate",
+        "details": "Monitor LFTs as clinically indicated."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally contraindicated; specialist advice if exceptional circumstances.",
+      "lactation": "Generally not recommended.",
+      "renal": "Some statins need renal dose adjustment (e.g., rosuvastatin, simvastatin at higher doses).",
+      "hepatic": "Contraindicated in active liver disease.",
+      "geriatric": "Higher myopathy risk with polypharmacy — review interactions."
+    },
+    "monitoring": [
+      "Baseline LFTs; repeat if clinically indicated",
+      "CK if unexplained muscle symptoms",
+      "Lipid panel for efficacy"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "bnf",
+      "label_atorvastatin",
+      "ema",
+      "nice",
+      "aha_hypertension"
+    ]
+  },
+  {
+    "genericName": "Rosuvastatin",
+    "brandNames": [
+      "Crestor"
+    ],
+    "drugClass": "Statin",
+    "mechanism": "HMG-CoA reductase inhibition.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "High-intensity statin option with robust LDL lowering.",
+    "benefitsSummary": "Potent LDL reduction; CV risk reduction indications.",
+    "whyStillPrescribed": "Among the most evidence-backed therapies for ASCVD risk reduction; absolute diabetes and myopathy risks are generally small versus CV benefit in indicated patients.",
+    "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
+    "indications": [
+      {
+        "indication": "Hyperlipidemia / primary prevention as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Myalgia, rare myopathy",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myalgia / muscle symptoms",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Myopathy / rhabdomyolysis (rare)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Risk rises with dose and interacting drugs"
+      },
+      {
+        "effect": "New-onset diabetes mellitus (small absolute risk increase)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Labeled for class; benefits usually outweigh in indicated patients"
+      },
+      {
+        "effect": "Headache, GI upset",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Cognitive symptoms reported (rare/uncertain causality)",
+        "severity": "moderate",
+        "evidence": "low",
+        "frequencyNote": "Discussed in labels/safety communications; usually reversible if related"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "precaution",
+        "population": "Asian ancestry (start lower per some labels)",
+        "severity": "moderate",
+        "details": "Pharmacokinetic differences — follow labeling."
+      },
+      {
+        "type": "contraindication",
+        "population": "Active liver disease / unexplained persistent LFT elevations",
+        "severity": "major",
+        "details": "See labeling."
+      },
+      {
+        "type": "contraindication",
+        "population": "Pregnancy / breastfeeding (generally avoid)",
+        "severity": "major",
+        "details": "Cholesterol synthesis important in fetal development — discuss exceptions with specialist."
+      },
+      {
+        "type": "warning",
+        "population": "Strong CYP3A4 inhibitors with simvastatin/lovastatin",
+        "severity": "major",
+        "details": "Myopathy risk — many combinations contraindicated."
+      },
+      {
+        "type": "precaution",
+        "population": "Alcohol use disorder / hepatic risk factors",
+        "severity": "moderate",
+        "details": "Monitor LFTs as clinically indicated."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally contraindicated; specialist advice if exceptional circumstances.",
+      "lactation": "Generally not recommended.",
+      "renal": "Some statins need renal dose adjustment (e.g., rosuvastatin, simvastatin at higher doses).",
+      "hepatic": "Contraindicated in active liver disease.",
+      "geriatric": "Higher myopathy risk with polypharmacy — review interactions."
+    },
+    "monitoring": [
+      "Baseline LFTs; repeat if clinically indicated",
+      "CK if unexplained muscle symptoms",
+      "Lipid panel for efficacy"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "nice",
+      "label_atorvastatin",
+      "aha_hypertension",
+      "bnf"
+    ]
+  }
+]

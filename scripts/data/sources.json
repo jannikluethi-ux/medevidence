@@ -1,0 +1,489 @@
+[
+  {
+    "key": "dailymed",
+    "title": "DailyMed — FDA Labeling Database",
+    "organization": "U.S. National Library of Medicine / FDA",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda",
+    "title": "FDA Drug Databases & Safety Communications",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "ema",
+    "title": "EMA Medicines — EPARs & SmPC concepts",
+    "organization": "European Medicines Agency",
+    "evidenceType": "regulatory",
+    "url": "https://www.ema.europa.eu/en/medicines",
+    "jurisdiction": "EU"
+  },
+  {
+    "key": "nice",
+    "title": "NICE Guidance",
+    "organization": "National Institute for Health and Care Excellence",
+    "evidenceType": "guideline",
+    "url": "https://www.nice.org.uk/guidance",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "mhra",
+    "title": "MHRA Product Information & Safety Updates",
+    "organization": "Medicines and Healthcare products Regulatory Agency",
+    "evidenceType": "regulatory",
+    "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "swissmedic",
+    "title": "Swissmedic Product Information",
+    "organization": "Swissmedic",
+    "evidenceType": "regulatory",
+    "url": "https://www.swissmedic.ch/swissmedic/en/home.html",
+    "jurisdiction": "CH"
+  },
+  {
+    "key": "who",
+    "title": "WHO Model List of Essential Medicines",
+    "organization": "World Health Organization",
+    "evidenceType": "guideline",
+    "url": "https://www.who.int/groups/expert-committee-on-selection-and-use-of-essential-medicines/essential-medicines-lists"
+  },
+  {
+    "key": "aha_hypertension",
+    "title": "ACC/AHA High Blood Pressure Guideline",
+    "organization": "American College of Cardiology / American Heart Association",
+    "evidenceType": "guideline",
+    "url": "https://www.acc.org/guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "ada_diabetes",
+    "title": "Standards of Care in Diabetes",
+    "organization": "American Diabetes Association",
+    "evidenceType": "guideline",
+    "url": "https://diabetesjournals.org/care",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_ppi_magnesium",
+    "title": "FDA DSC: Low magnesium levels with long-term PPI use",
+    "organization": "U.S. Food and Drug Administration",
+    "publicationDate": "2011-03-02",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-low-magnesium-levels-can-be-associated-long-term-use-proton-pump",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_fluoroquinolone",
+    "title": "FDA reinforces fluoroquinolone serious side effect warnings",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-reinforces-safety-information-about-serious-side-effects-fluoroquinolone-antibiotics",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_warfarin",
+    "title": "Warfarin sodium prescribing information (boxed bleeding warning)",
+    "organization": "U.S. Food and Drug Administration / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "bnf",
+    "title": "British National Formulary (BNF)",
+    "organization": "NICE / BMJ / RPS",
+    "evidenceType": "guideline",
+    "url": "https://bnf.nice.org.uk/",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "cdc_stis",
+    "title": "CDC STI Treatment Guidelines",
+    "organization": "Centers for Disease Control and Prevention",
+    "evidenceType": "guideline",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "gold_copd",
+    "title": "GOLD COPD Strategy",
+    "organization": "Global Initiative for Chronic Obstructive Lung Disease",
+    "evidenceType": "guideline",
+    "url": "https://goldcopd.org/"
+  },
+  {
+    "key": "gina_asthma",
+    "title": "GINA Asthma Strategy",
+    "organization": "Global Initiative for Asthma",
+    "evidenceType": "guideline",
+    "url": "https://ginasthma.org/"
+  },
+  {
+    "key": "esc_hf",
+    "title": "ESC Heart Failure Guidelines",
+    "organization": "European Society of Cardiology",
+    "evidenceType": "guideline",
+    "url": "https://www.escardio.org/Guidelines",
+    "jurisdiction": "EU"
+  },
+  {
+    "key": "acog",
+    "title": "ACOG Clinical Guidance",
+    "organization": "American College of Obstetricians and Gynecologists",
+    "evidenceType": "guideline",
+    "url": "https://www.acog.org/clinical",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_omeprazole",
+    "title": "Omeprazole delayed-release capsules — prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_ibuprofen",
+    "title": "Ibuprofen — prescribing information (NSAID boxed warning)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_paracetamol",
+    "title": "Acetaminophen / Paracetamol labeling — hepatotoxicity warning",
+    "organization": "FDA / EMA / MHRA",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability"
+  },
+  {
+    "key": "label_sertraline",
+    "title": "Sertraline — prescribing information (suicidality boxed warning)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_metformin",
+    "title": "Metformin hydrochloride — prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_atorvastatin",
+    "title": "Atorvastatin calcium — prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_amoxicillin",
+    "title": "Amoxicillin — prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_levothyroxine",
+    "title": "Levothyroxine sodium — prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_apixaban",
+    "title": "Apixaban — prescribing information (boxed warning)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_ciprofloxacin",
+    "title": "Ciprofloxacin — prescribing information (fluoroquinolone boxed warnings)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "cochrane_overview",
+    "title": "Cochrane Library — systematic reviews (methodology reference)",
+    "organization": "Cochrane",
+    "evidenceType": "guideline",
+    "url": "https://www.cochranelibrary.com/"
+  },
+  {
+    "key": "idsa",
+    "title": "IDSA Practice Guidelines",
+    "organization": "Infectious Diseases Society of America",
+    "evidenceType": "guideline",
+    "url": "https://www.idsociety.org/practice-guideline/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "nih_covid",
+    "title": "NIH COVID-19 Treatment Guidelines",
+    "organization": "National Institutes of Health",
+    "evidenceType": "guideline",
+    "url": "https://www.covid19treatmentguidelines.nih.gov/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "aha_cholesterol",
+    "title": "ACC/AHA Cholesterol Guideline",
+    "organization": "American College of Cardiology / American Heart Association",
+    "evidenceType": "guideline",
+    "url": "https://www.acc.org/guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "aha_af",
+    "title": "AHA/ACC/HRS Atrial Fibrillation Guideline",
+    "organization": "American Heart Association / ACC / HRS",
+    "evidenceType": "guideline",
+    "url": "https://www.acc.org/guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "kdigo",
+    "title": "KDIGO Clinical Practice Guidelines",
+    "organization": "Kidney Disease: Improving Global Outcomes",
+    "evidenceType": "guideline",
+    "url": "https://kdigo.org/guidelines/"
+  },
+  {
+    "key": "acr_gout",
+    "title": "ACR Gout Guideline",
+    "organization": "American College of Rheumatology",
+    "evidenceType": "guideline",
+    "url": "https://rheumatology.org/clinical-practice-guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "acr_ra",
+    "title": "ACR Rheumatoid Arthritis Guideline",
+    "organization": "American College of Rheumatology",
+    "evidenceType": "guideline",
+    "url": "https://rheumatology.org/clinical-practice-guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "asrm",
+    "title": "ASRM / reproductive medicine guidance portal",
+    "organization": "American Society for Reproductive Medicine",
+    "evidenceType": "guideline",
+    "url": "https://www.asrm.org/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "aasm",
+    "title": "AASM Sleep Medicine Guidelines",
+    "organization": "American Academy of Sleep Medicine",
+    "evidenceType": "guideline",
+    "url": "https://aasm.org/clinical-resources/practice-standards/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "aan",
+    "title": "AAN Practice Guidelines",
+    "organization": "American Academy of Neurology",
+    "evidenceType": "guideline",
+    "url": "https://www.aan.com/practice/guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "ilae",
+    "title": "ILAE Epilepsy Resources",
+    "organization": "International League Against Epilepsy",
+    "evidenceType": "guideline",
+    "url": "https://www.ilae.org/"
+  },
+  {
+    "key": "cdc_adult_abx",
+    "title": "CDC Adult Outpatient Antibiotic Treatment Summaries",
+    "organization": "Centers for Disease Control and Prevention",
+    "evidenceType": "guideline",
+    "url": "https://www.cdc.gov/antibiotic-use/index.html",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_ssri_suicidality",
+    "title": "Antidepressant suicidality boxed warning information",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/suicidality-children-and-adolescents-being-treated-antidepressant-medications",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_nsaid_boxed",
+    "title": "NSAID cardiovascular and GI boxed warning communications",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_benzo",
+    "title": "FDA requiring boxed warning updates for benzodiazepines",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requiring-boxed-warning-updated-improve-safe-use-benzodiazepine-drug-class",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_montelukast",
+    "title": "FDA strengthens montelukast boxed warning (neuropsychiatric)",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requires-boxed-warning-about-serious-mental-health-side-effects-asthma-and-allergy-drug",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "fda_metformin_egfr",
+    "title": "FDA revises metformin renal dosing recommendations",
+    "organization": "U.S. Food and Drug Administration",
+    "evidenceType": "regulatory",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-revises-warnings-regarding-use-diabetes-medicine-metformin-certain",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "ema_valproate",
+    "title": "EMA valproate pregnancy prevention programme",
+    "organization": "European Medicines Agency",
+    "evidenceType": "regulatory",
+    "url": "https://www.ema.europa.eu/en/medicines/human/referrals/valproate-related-substances",
+    "jurisdiction": "EU"
+  },
+  {
+    "key": "mhra_valproate",
+    "title": "MHRA valproate safety and pregnancy prevention",
+    "organization": "Medicines and Healthcare products Regulatory Agency",
+    "evidenceType": "regulatory",
+    "url": "https://www.gov.uk/guidance/valproate-use-by-women-and-girls",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "label_warfarin_full",
+    "title": "Coumadin / warfarin sodium prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_lisinopril",
+    "title": "Lisinopril prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_amlodipine",
+    "title": "Amlodipine prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_levofloxacin",
+    "title": "Levofloxacin prescribing information (fluoroquinolone warnings)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_prednisone",
+    "title": "Prednisone / prednisolone prescribing information",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_morphine",
+    "title": "Morphine sulfate prescribing information (opioid boxed warnings)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_clopidogrel",
+    "title": "Clopidogrel prescribing information (CYP2C19 boxed warning)",
+    "organization": "FDA / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "esc_hypertension",
+    "title": "ESC Hypertension Guidelines",
+    "organization": "European Society of Cardiology",
+    "evidenceType": "guideline",
+    "url": "https://www.escardio.org/Guidelines",
+    "jurisdiction": "EU"
+  },
+  {
+    "key": "easd_ada",
+    "title": "ADA/EASD Hyperglycemia Management Consensus",
+    "organization": "American Diabetes Association / European Association for the Study of Diabetes",
+    "evidenceType": "guideline",
+    "url": "https://diabetesjournals.org/care"
+  },
+  {
+    "key": "chest_vte",
+    "title": "CHEST Antithrombotic Guidelines",
+    "organization": "American College of Chest Physicians",
+    "evidenceType": "guideline",
+    "url": "https://www.chestnet.org/guidelines",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "uspstf",
+    "title": "USPSTF Recommendations",
+    "organization": "U.S. Preventive Services Task Force",
+    "evidenceType": "guideline",
+    "url": "https://www.uspreventiveservicestaskforce.org/",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "cochrane_ppi",
+    "title": "Cochrane reviews on PPIs / GERD (methodology reference)",
+    "organization": "Cochrane",
+    "evidenceType": "systematic_review",
+    "url": "https://www.cochranelibrary.com/"
+  },
+  {
+    "key": "swissmedic_pi",
+    "title": "Swissmedic product information finder",
+    "organization": "Swissmedic",
+    "evidenceType": "regulatory",
+    "url": "https://www.swissmedicinfo.ch/",
+    "jurisdiction": "CH"
+  },
+  {
+    "key": "who_aWaRe",
+    "title": "WHO AWaRe antibiotic classification",
+    "organization": "World Health Organization",
+    "evidenceType": "guideline",
+    "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.04"
+  }
+]

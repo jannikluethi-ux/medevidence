@@ -1,0 +1,806 @@
+[
+  {
+    "genericName": "Omeprazole",
+    "brandNames": [
+      "Prilosec",
+      "Losec"
+    ],
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "mechanism": "Irreversibly inhibits the gastric H+/K+-ATPase (proton pump) in parietal cells, reducing gastric acid secretion.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "High-quality evidence for short-term healing of erosive esophagitis and ulcer disease. Long-term safety includes established label warnings and observational associations that are not proven causal.",
+    "benefitsSummary": "Effectively reduces stomach acid; used for GERD, erosive esophagitis, peptic ulcer disease, and H. pylori regimens as labeled.",
+    "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
+    "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
+    "indications": [
+      {
+        "indication": "Gastroesophageal reflux disease (GERD)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Erosive esophagitis healing / maintenance",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Peptic ulcer disease / H. pylori combination therapy",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "H. pylori eradication (combination regimens)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "As part of labeled multi-drug regimens"
+      },
+      {
+        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "See specific product labeling"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Headache",
+        "severity": "common",
+        "frequencyNote": "Among more frequently reported effects",
+        "evidence": "high"
+      },
+      {
+        "effect": "Diarrhea, abdominal pain, nausea, flatulence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypomagnesemia with prolonged use",
+        "severity": "serious",
+        "frequencyNote": "Uncommon but labeled; may be severe",
+        "evidence": "high"
+      },
+      {
+        "effect": "Clostridioides difficile–associated diarrhea (label/safety communications note association)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Fundic gland polyps with long-term use",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Clostridioides difficile–associated diarrhea (associated in safety communications)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Vitamin B12 deficiency with prolonged use (possible)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Association discussed in labels/observational data"
+      },
+      {
+        "effect": "Acute interstitial nephritis (rare)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Rare but labeled"
+      },
+      {
+        "effect": "Cutaneous lupus / SLE flare reports (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "Use lowest effective dose for shortest appropriate duration. Reassess ongoing need."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at risk of osteoporosis-related fractures",
+        "severity": "moderate",
+        "details": "Long-term PPI therapy associated with increased fracture risk in observational data; causality uncertain."
+      },
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "Use lowest effective dose for shortest appropriate duration; reassess ongoing need."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at fracture risk",
+        "severity": "moderate",
+        "details": "Long-term PPI use associated with fracture risk in observational data; causality uncertain."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at C. difficile risk",
+        "severity": "moderate",
+        "details": "Consider diagnosis of C. difficile if persistent diarrhea occurs."
+      },
+      {
+        "type": "warning",
+        "population": "Severe cutaneous adverse reactions (rare)",
+        "severity": "major",
+        "details": "Discontinue if severe rash / suspected SJS/TEN (labeled for some PPIs)."
+      }
+    ],
+    "special": {
+      "pregnancy": "Discuss with clinician; many PPIs have relatively reassuring human data but product-specific guidance applies.",
+      "lactation": "Small amounts may appear in milk; discuss risk/benefit with clinician.",
+      "hepatic": "Dose adjustment may be needed in hepatic impairment (product-specific).",
+      "renal": "No routine renal dose change for most PPIs; monitor magnesium with prolonged use.",
+      "geriatric": "Higher likelihood of polypharmacy interactions and long-term safety concerns — deprescribe when appropriate."
+    },
+    "monitoring": [
+      "Consider magnesium monitoring with prolonged therapy",
+      "Reassess indication periodically; consider deprescribing when indication unclear",
+      "Consider magnesium (and possibly B12) monitoring with prolonged therapy"
+    ],
+    "withdrawal": "Rebound acid hypersecretion may occur after prolonged PPI therapy; step-down or on-demand strategies sometimes used when deprescribing.",
+    "sourceKeys": [
+      "label_omeprazole",
+      "fda_ppi_magnesium",
+      "dailymed",
+      "nice",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Pantoprazole",
+    "brandNames": [
+      "Protonix",
+      "Pantozol"
+    ],
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "mechanism": "Inhibits gastric H+/K+-ATPase, suppressing acid secretion.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Similar class evidence profile to other PPIs for acid-related disorders.",
+    "benefitsSummary": "Acid suppression for GERD and erosive esophagitis; IV option available in many regions.",
+    "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
+    "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
+    "indications": [
+      {
+        "indication": "GERD / erosive esophagitis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Gastroesophageal reflux disease (GERD)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Erosive esophagitis healing / maintenance",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Peptic ulcer disease",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori eradication (combination regimens)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "As part of labeled multi-drug regimens"
+      },
+      {
+        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "See specific product labeling"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Headache, diarrhea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypomagnesemia with prolonged use",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Diarrhea, abdominal pain, nausea, flatulence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Clostridioides difficile–associated diarrhea (associated in safety communications)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Fundic gland polyps with long-term use",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Vitamin B12 deficiency with prolonged use (possible)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Association discussed in labels/observational data"
+      },
+      {
+        "effect": "Acute interstitial nephritis (rare)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Rare but labeled"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "Class PPI precautions apply; see labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "Use lowest effective dose for shortest appropriate duration; reassess ongoing need."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at fracture risk",
+        "severity": "moderate",
+        "details": "Long-term PPI use associated with fracture risk in observational data; causality uncertain."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at C. difficile risk",
+        "severity": "moderate",
+        "details": "Consider diagnosis of C. difficile if persistent diarrhea occurs."
+      },
+      {
+        "type": "warning",
+        "population": "Severe cutaneous adverse reactions (rare)",
+        "severity": "major",
+        "details": "Discontinue if severe rash / suspected SJS/TEN (labeled for some PPIs)."
+      }
+    ],
+    "special": {
+      "pregnancy": "Discuss with clinician; many PPIs have relatively reassuring human data but product-specific guidance applies.",
+      "lactation": "Small amounts may appear in milk; discuss risk/benefit with clinician.",
+      "hepatic": "Dose adjustment may be needed in hepatic impairment (product-specific).",
+      "renal": "No routine renal dose change for most PPIs; monitor magnesium with prolonged use.",
+      "geriatric": "Higher likelihood of polypharmacy interactions and long-term safety concerns — deprescribe when appropriate."
+    },
+    "monitoring": [
+      "Reassess indication periodically; consider deprescribing when indication unclear",
+      "Consider magnesium (and possibly B12) monitoring with prolonged therapy"
+    ],
+    "withdrawal": "Abrupt stop after prolonged use may be followed by rebound acid hypersecretion/symptoms in some patients; taper or step-down strategies are sometimes used clinically.",
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "fda_ppi_magnesium",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Esomeprazole",
+    "brandNames": [
+      "Nexium"
+    ],
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "mechanism": "S-isomer of omeprazole; inhibits the proton pump.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Well-studied PPI; class safety considerations apply.",
+    "benefitsSummary": "Used for GERD, erosive esophagitis, H. pylori regimens as labeled.",
+    "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
+    "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
+    "indications": [
+      {
+        "indication": "GERD / erosive esophagitis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori eradication (combination regimens)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "As part of labeled multi-drug regimens"
+      },
+      {
+        "indication": "Gastroesophageal reflux disease (GERD)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Erosive esophagitis healing / maintenance",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Peptic ulcer disease",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "See specific product labeling"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Headache, diarrhea, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypomagnesemia with prolonged use",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Diarrhea, abdominal pain, nausea, flatulence",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Clostridioides difficile–associated diarrhea (associated in safety communications)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Fundic gland polyps with long-term use",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Vitamin B12 deficiency with prolonged use (possible)",
+        "severity": "moderate",
+        "evidence": "moderate",
+        "frequencyNote": "Association discussed in labels/observational data"
+      },
+      {
+        "effect": "Acute interstitial nephritis (rare)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Rare but labeled"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "PPI class labeled risks; reassess chronic therapy need."
+      },
+      {
+        "type": "warning",
+        "population": "Long-term users",
+        "severity": "moderate",
+        "details": "Use lowest effective dose for shortest appropriate duration; reassess ongoing need."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at fracture risk",
+        "severity": "moderate",
+        "details": "Long-term PPI use associated with fracture risk in observational data; causality uncertain."
+      },
+      {
+        "type": "precaution",
+        "population": "Patients at C. difficile risk",
+        "severity": "moderate",
+        "details": "Consider diagnosis of C. difficile if persistent diarrhea occurs."
+      },
+      {
+        "type": "warning",
+        "population": "Severe cutaneous adverse reactions (rare)",
+        "severity": "major",
+        "details": "Discontinue if severe rash / suspected SJS/TEN (labeled for some PPIs)."
+      }
+    ],
+    "special": {
+      "pregnancy": "Discuss with clinician; many PPIs have relatively reassuring human data but product-specific guidance applies.",
+      "lactation": "Small amounts may appear in milk; discuss risk/benefit with clinician.",
+      "hepatic": "Dose adjustment may be needed in hepatic impairment (product-specific).",
+      "renal": "No routine renal dose change for most PPIs; monitor magnesium with prolonged use.",
+      "geriatric": "Higher likelihood of polypharmacy interactions and long-term safety concerns — deprescribe when appropriate."
+    },
+    "monitoring": [
+      "Reassess indication periodically; consider deprescribing when indication unclear",
+      "Consider magnesium (and possibly B12) monitoring with prolonged therapy"
+    ],
+    "withdrawal": "Abrupt stop after prolonged use may be followed by rebound acid hypersecretion/symptoms in some patients; taper or step-down strategies are sometimes used clinically.",
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "fda_ppi_magnesium",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Paracetamol (Acetaminophen)",
+    "brandNames": [
+      "Tylenol",
+      "Panadol",
+      "Dafalgan"
+    ],
+    "drugClass": "Analgesic / antipyretic",
+    "mechanism": "Not fully elucidated; central COX inhibition and other pathways contribute to analgesia and antipyresis.",
+    "routes": [
+      "oral",
+      "rectal",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Extensive clinical experience. Hepatotoxicity with overdose is established and labeled.",
+    "benefitsSummary": "First-line for mild–moderate pain and fever when used within recommended doses.",
+    "whyStillPrescribed": "First-line analgesic/antipyretic with a different risk profile than NSAIDs (no typical NSAID GI/CV/renal class effects at therapeutic doses), but overdose hepatotoxicity is critical to prevent.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Mild to moderate pain",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fever",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pain (mild to moderate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Osteoarthritis symptomatic relief (adjunct)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Post-vaccine / viral illness symptomatic care",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Supportive — not disease-modifying"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Generally well tolerated at labeled doses",
+        "severity": "common",
+        "frequencyNote": "Adverse effects uncommon at therapeutic doses",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hepatotoxicity / acute liver failure in overdose or with risk factors",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Leading cause of acute liver failure in some countries"
+      },
+      {
+        "effect": "Rare severe skin reactions (SJS/TEN/AGEP)",
+        "severity": "serious",
+        "evidence": "low"
+      },
+      {
+        "effect": "Nausea with higher doses",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All users — dosing limits",
+        "severity": "major",
+        "details": "Do not exceed labeled maximum daily dose. Account for all acetaminophen/paracetamol-containing products."
+      },
+      {
+        "type": "contraindication",
+        "population": "Severe hepatic impairment / active liver disease (per labeling)",
+        "severity": "major",
+        "details": "Contraindicated or extreme caution per regional labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Overdose / chronic supratherapeutic dosing",
+        "severity": "major",
+        "details": "Severe hepatotoxicity — do not exceed labeled daily maximum; account for combination products."
+      },
+      {
+        "type": "precaution",
+        "population": "Chronic alcohol use / malnutrition / liver disease",
+        "severity": "major",
+        "details": "Lower thresholds for harm."
+      },
+      {
+        "type": "warning",
+        "population": "Multiple acetaminophen-containing products",
+        "severity": "major",
+        "details": "Unintentional overdose risk."
+      }
+    ],
+    "special": {
+      "hepatic": "Avoid or use extreme caution in active liver disease.",
+      "pregnancy": "Widely used analgesic in pregnancy when needed — still use lowest effective dose/duration.",
+      "lactation": "Compatible at labeled doses.",
+      "renal": "Extend interval in severe CKD for some regimens.",
+      "geriatric": "Watch total daily dose from all sources."
+    },
+    "monitoring": [
+      "Suspected overdose: urgent medical evaluation",
+      "Total daily acetaminophen from all products",
+      "LFTs if overdose or prolonged high-risk use"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_paracetamol",
+      "fda",
+      "ema",
+      "mhra",
+      "who",
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Ibuprofen",
+    "brandNames": [
+      "Advil",
+      "Motrin",
+      "Nurofen"
+    ],
+    "drugClass": "NSAID (propionic acid)",
+    "mechanism": "Nonselective inhibition of COX-1 and COX-2, reducing prostaglandin synthesis.",
+    "routes": [
+      "oral",
+      "topical",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Strong evidence for analgesia and anti-inflammatory effects. Boxed warnings for CV and GI risk on US labels.",
+    "benefitsSummary": "Effective for pain, inflammation, and fever.",
+    "whyStillPrescribed": "Effective analgesics/anti-inflammatories with extensive trial and guideline support; risks are managed by patient selection, dose/duration limits, and gastroprotection when appropriate.",
+    "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
+    "indications": [
+      {
+        "indication": "Mild to moderate pain",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fever",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Inflammatory arthritis conditions (Rx strengths)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pain (mild to moderate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Fever / antipyresis",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product-dependent"
+      },
+      {
+        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "See product labeling"
+      },
+      {
+        "indication": "Migraine / headache symptomatic relief (selected)",
+        "approved": false,
+        "evidence": "moderate",
+        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Dyspepsia, nausea, abdominal pain",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI ulceration / bleeding",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of serious cardiovascular thrombotic events",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Fluid retention, hypertension",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Acute kidney injury (volume depletion or CKD)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dyspepsia, abdominal pain, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of cardiovascular thrombotic events (MI, stroke)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning class risk"
+      },
+      {
+        "effect": "Renal impairment / fluid retention / edema",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypertension worsening",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypersensitivity / asthma exacerbation in aspirin-sensitive patients",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Elevated liver enzymes / rare hepatotoxicity",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Perioperative CABG surgery (US labeling)",
+        "severity": "major",
+        "details": "NSAIDs contraindicated for perioperative pain in CABG setting per US labeling."
+      },
+      {
+        "type": "warning",
+        "population": "History of peptic ulcer/GI bleed; elderly; anticoagulants",
+        "severity": "major",
+        "details": "Elevated GI bleeding risk."
+      },
+      {
+        "type": "boxed",
+        "population": "Cardiovascular disease / risk",
+        "severity": "major",
+        "details": "NSAIDs increase risk of serious CV thrombotic events; contraindicated for peri-operative CABG pain in US labeling."
+      },
+      {
+        "type": "boxed",
+        "population": "GI bleeding risk groups",
+        "severity": "major",
+        "details": "Increased risk of serious GI adverse events including bleeding, ulceration, perforation."
+      },
+      {
+        "type": "contraindication",
+        "population": "Third trimester pregnancy (generally)",
+        "severity": "major",
+        "details": "Avoid NSAIDs in late pregnancy due to fetal risk (ductus arteriosus / oligohydramnios concerns)."
+      },
+      {
+        "type": "precaution",
+        "population": "Heart failure, CKD, elderly, concurrent anticoagulants/steroids/SSRIs",
+        "severity": "major",
+        "details": "Higher bleeding and renal risk — clinician risk–benefit assessment required."
+      },
+      {
+        "type": "warning",
+        "population": "Aspirin-sensitive asthma",
+        "severity": "major",
+        "details": "Cross-reactivity possible."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid especially in third trimester; earlier pregnancy requires clinician discussion.",
+      "renal": "Avoid or use extreme caution in significant CKD; may reduce GFR.",
+      "geriatric": "Higher GI, renal, and CV risk — prefer lowest dose/shortest duration; consider gastroprotection strategies when indicated.",
+      "lactation": "Generally short courses of some NSAIDs may be compatible — product-specific; ask clinician.",
+      "hepatic": "Caution in hepatic disease; rare severe hepatotoxicity."
+    },
+    "monitoring": [
+      "BP, renal function, GI bleeding signs in higher-risk use",
+      "Blood pressure if used regularly",
+      "Renal function and electrolytes in higher-risk patients",
+      "Watch for GI bleeding signs (melena, hematemesis, anemia)"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_ibuprofen",
+      "dailymed",
+      "fda",
+      "ema",
+      "bnf",
+      "nice"
+    ]
+  }
+]

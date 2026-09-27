@@ -1,0 +1,2657 @@
+[
+  {
+    "genericName": "Sertraline",
+    "brandNames": [
+      "Zoloft"
+    ],
+    "drugClass": "SSRI",
+    "mechanism": "Inhibits serotonin reuptake transporter (SERT).",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Multiple RCTs and guidelines support use in depression and several anxiety disorders. Boxed warning for suicidality in young people.",
+    "benefitsSummary": "First-line antidepressant/anxiolytic option for many adults when psychotherapy alone is insufficient.",
+    "whyStillPrescribed": "First-line pharmacotherapy for many depressive and anxiety disorders with extensive RCT support despite boxed suicidality warning in youth and common tolerability issues.",
+    "longTermEvidence": "Maintenance therapy reduces relapse in recurrent depression; sexual side effects and discontinuation symptoms remain clinically important long-term considerations.",
+    "indications": [
+      {
+        "indication": "Major depressive disorder",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "OCD",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Panic disorder, PTSD, social anxiety (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific approvals"
+      },
+      {
+        "indication": "Bulimia nervosa (fluoxetine — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, diarrhea, insomnia or somnolence, sexual dysfunction",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased suicidality risk in children, adolescents, young adults",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome (with interacting drugs)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hyponatremia (SIADH), especially elderly",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Nausea, diarrhea or constipation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Insomnia or somnolence, headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of suicidal thinking/behavior in children, adolescents, and young adults",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning — monitor closely early in treatment"
+      },
+      {
+        "effect": "Serotonin syndrome (especially with interacting drugs)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyponatremia / SIADH (esp. elderly)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding risk increase (esp. with NSAIDs/anticoagulants)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation (notably citalopram/escitalopram dose-related)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Product-specific dose caps"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Children, adolescents, young adults",
+        "severity": "major",
+        "details": "Boxed warning — monitor for clinical worsening and suicidality during initiation/dose changes."
+      },
+      {
+        "type": "contraindication",
+        "population": "MAOIs / concurrent pimozide",
+        "severity": "major",
+        "details": "Dangerous interactions — observe washout periods."
+      },
+      {
+        "type": "boxed",
+        "population": "Children, adolescents, young adults",
+        "severity": "major",
+        "details": "Antidepressants increase risk of suicidal thinking and behavior in young people — close monitoring required."
+      },
+      {
+        "type": "contraindication",
+        "population": "MAOIs / linezolid / IV methylene blue (timing rules)",
+        "severity": "major",
+        "details": "Serotonin syndrome risk — observe washout rules in labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Activation of mania/hypomania in bipolar spectrum",
+        "severity": "major",
+        "details": "Screen for bipolar risk."
+      },
+      {
+        "type": "precaution",
+        "population": "Concurrent NSAIDs, antiplatelets, anticoagulants",
+        "severity": "moderate",
+        "details": "Increased bleeding risk."
+      },
+      {
+        "type": "warning",
+        "population": "Discontinuation syndrome",
+        "severity": "moderate",
+        "details": "Taper rather than abrupt stop when appropriate."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit discussion; some SSRIs have more data than others; neonatal adaptation syndrome possible; paroxetine has additional cardiac concerns historically discussed.",
+      "lactation": "Sertraline and some others often preferred when treatment needed — clinician decision.",
+      "renal": "Dose adjustment may be needed (product-specific).",
+      "hepatic": "Use caution / dose adjust in hepatic impairment.",
+      "geriatric": "Start low; watch hyponatremia and falls; citalopram max doses lower in elderly."
+    },
+    "monitoring": [
+      "Mood and suicidality especially early",
+      "Sodium in at-risk patients",
+      "Suicidality / clinical worsening especially first weeks and after dose changes",
+      "Sodium in elderly or symptomatic patients",
+      "Drug interactions (MAOIs, triptans, tramadol, linezolid, etc.)"
+    ],
+    "withdrawal": "SSRI discontinuation syndrome (dizziness, electric-shock sensations, irritability, insomnia, flu-like symptoms) can occur — taper under clinician guidance, especially with shorter-half-life agents (e.g., paroxetine).",
+    "sourceKeys": [
+      "label_sertraline",
+      "dailymed",
+      "nice",
+      "fda",
+      "ema",
+      "mhra",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Escitalopram",
+    "brandNames": [
+      "Lexapro",
+      "Cipralex"
+    ],
+    "drugClass": "SSRI",
+    "mechanism": "SERT inhibition (S-enantiomer of citalopram).",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Well-studied SSRI for depression and GAD.",
+    "benefitsSummary": "Antidepressant/anxiolytic with relatively simple dosing.",
+    "whyStillPrescribed": "First-line pharmacotherapy for many depressive and anxiety disorders with extensive RCT support despite boxed suicidality warning in youth and common tolerability issues.",
+    "longTermEvidence": "Long-term maintenance reduces relapse risk in recurrent depression; ongoing risk–benefit reassessment advised.",
+    "indications": [
+      {
+        "indication": "Major depressive disorder",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific approvals"
+      },
+      {
+        "indication": "Bulimia nervosa (fluoxetine — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, sexual dysfunction, insomnia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation (dose-related)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Suicidality boxed warning in young people",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Nausea, diarrhea or constipation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Insomnia or somnolence, headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of suicidal thinking/behavior in children, adolescents, and young adults",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning — monitor closely early in treatment"
+      },
+      {
+        "effect": "Serotonin syndrome (especially with interacting drugs)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyponatremia / SIADH (esp. elderly)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding risk increase (esp. with NSAIDs/anticoagulants)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation (notably citalopram/escitalopram dose-related)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Product-specific dose caps"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Young people; QT risk factors",
+        "severity": "major",
+        "details": "Monitor per labeling; avoid abrupt stop."
+      },
+      {
+        "type": "boxed",
+        "population": "Children, adolescents, young adults",
+        "severity": "major",
+        "details": "Antidepressants increase risk of suicidal thinking and behavior in young people — close monitoring required."
+      },
+      {
+        "type": "contraindication",
+        "population": "MAOIs / linezolid / IV methylene blue (timing rules)",
+        "severity": "major",
+        "details": "Serotonin syndrome risk — observe washout rules in labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Activation of mania/hypomania in bipolar spectrum",
+        "severity": "major",
+        "details": "Screen for bipolar risk."
+      },
+      {
+        "type": "precaution",
+        "population": "Concurrent NSAIDs, antiplatelets, anticoagulants",
+        "severity": "moderate",
+        "details": "Increased bleeding risk."
+      },
+      {
+        "type": "warning",
+        "population": "Discontinuation syndrome",
+        "severity": "moderate",
+        "details": "Taper rather than abrupt stop when appropriate."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit discussion; some SSRIs have more data than others; neonatal adaptation syndrome possible; paroxetine has additional cardiac concerns historically discussed.",
+      "lactation": "Sertraline and some others often preferred when treatment needed — clinician decision.",
+      "renal": "Dose adjustment may be needed (product-specific).",
+      "hepatic": "Use caution / dose adjust in hepatic impairment.",
+      "geriatric": "Start low; watch hyponatremia and falls; citalopram max doses lower in elderly."
+    },
+    "monitoring": [
+      "Suicidality / clinical worsening especially first weeks and after dose changes",
+      "Sodium in elderly or symptomatic patients",
+      "Drug interactions (MAOIs, triptans, tramadol, linezolid, etc.)"
+    ],
+    "withdrawal": "SSRI discontinuation syndrome (dizziness, electric-shock sensations, irritability, insomnia, flu-like symptoms) can occur — taper under clinician guidance, especially with shorter-half-life agents (e.g., paroxetine).",
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "fda",
+      "label_sertraline",
+      "ema",
+      "mhra",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Fluoxetine",
+    "brandNames": [
+      "Prozac"
+    ],
+    "drugClass": "SSRI",
+    "mechanism": "SERT inhibition; long half-life including active metabolite.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Long clinical history; approved for several psychiatric indications.",
+    "benefitsSummary": "Depression, OCD, bulimia, panic as labeled.",
+    "whyStillPrescribed": "First-line pharmacotherapy for many depressive and anxiety disorders with extensive RCT support despite boxed suicidality warning in youth and common tolerability issues.",
+    "longTermEvidence": "Long-term maintenance reduces relapse risk in recurrent depression; ongoing risk–benefit reassessment advised.",
+    "indications": [
+      {
+        "indication": "Major depressive disorder",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "OCD, bulimia, panic (as labeled)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific approvals"
+      },
+      {
+        "indication": "Bulimia nervosa (fluoxetine — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Insomnia, anxiety, sexual dysfunction, GI effects",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Suicidality boxed warning in young people",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Nausea, diarrhea or constipation",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Insomnia or somnolence, headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Increased risk of suicidal thinking/behavior in children, adolescents, and young adults",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning — monitor closely early in treatment"
+      },
+      {
+        "effect": "Serotonin syndrome (especially with interacting drugs)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyponatremia / SIADH (esp. elderly)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding risk increase (esp. with NSAIDs/anticoagulants)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation (notably citalopram/escitalopram dose-related)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Product-specific dose caps"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "MAOIs",
+        "severity": "major",
+        "details": "Long washout required due to long half-life."
+      },
+      {
+        "type": "boxed",
+        "population": "Children, adolescents, young adults",
+        "severity": "major",
+        "details": "Antidepressants increase risk of suicidal thinking and behavior in young people — close monitoring required."
+      },
+      {
+        "type": "contraindication",
+        "population": "MAOIs / linezolid / IV methylene blue (timing rules)",
+        "severity": "major",
+        "details": "Serotonin syndrome risk — observe washout rules in labeling."
+      },
+      {
+        "type": "warning",
+        "population": "Activation of mania/hypomania in bipolar spectrum",
+        "severity": "major",
+        "details": "Screen for bipolar risk."
+      },
+      {
+        "type": "precaution",
+        "population": "Concurrent NSAIDs, antiplatelets, anticoagulants",
+        "severity": "moderate",
+        "details": "Increased bleeding risk."
+      },
+      {
+        "type": "warning",
+        "population": "Discontinuation syndrome",
+        "severity": "moderate",
+        "details": "Taper rather than abrupt stop when appropriate."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit discussion; some SSRIs have more data than others; neonatal adaptation syndrome possible; paroxetine has additional cardiac concerns historically discussed.",
+      "lactation": "Sertraline and some others often preferred when treatment needed — clinician decision.",
+      "renal": "Dose adjustment may be needed (product-specific).",
+      "hepatic": "Use caution / dose adjust in hepatic impairment.",
+      "geriatric": "Start low; watch hyponatremia and falls; citalopram max doses lower in elderly."
+    },
+    "monitoring": [
+      "Suicidality / clinical worsening especially first weeks and after dose changes",
+      "Sodium in elderly or symptomatic patients",
+      "Drug interactions (MAOIs, triptans, tramadol, linezolid, etc.)"
+    ],
+    "withdrawal": "SSRI discontinuation syndrome (dizziness, electric-shock sensations, irritability, insomnia, flu-like symptoms) can occur — taper under clinician guidance, especially with shorter-half-life agents (e.g., paroxetine).",
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "nice",
+      "label_sertraline",
+      "ema",
+      "mhra",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Venlafaxine",
+    "brandNames": [
+      "Effexor XR"
+    ],
+    "drugClass": "SNRI",
+    "mechanism": "Serotonin and norepinephrine reuptake inhibition.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Effective antidepressant; discontinuation symptoms can be prominent; BP increases possible.",
+    "benefitsSummary": "Depression and anxiety disorders as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Major depressive disorder",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "GAD, social anxiety, panic",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Generalized anxiety disorder (selected SNRIs)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Diabetic peripheral neuropathic pain / fibromyalgia / chronic musculoskeletal pain (duloxetine — labeled)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Product-specific"
+      },
+      {
+        "indication": "Panic / social anxiety (venlafaxine XR — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Nausea, sweating, insomnia, sexual dysfunction",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dose-related blood pressure increase",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Discontinuation syndrome",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Nausea, dry mouth, sweating",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Blood pressure elevation (dose-related, esp. venlafaxine)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Suicidality risk in young people (class boxed warning)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Serotonin syndrome with interacting agents",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Urinary hesitation / hepatotoxicity concerns (duloxetine)",
+        "severity": "serious",
+        "evidence": "moderate",
+        "frequencyNote": "Product-specific"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Abrupt discontinuation",
+        "severity": "major",
+        "details": "Taper carefully; boxed suicidality warning in young people applies."
+      },
+      {
+        "type": "boxed",
+        "population": "Children, adolescents, young adults",
+        "severity": "major",
+        "details": "Suicidality boxed warning — monitor."
+      },
+      {
+        "type": "contraindication",
+        "population": "MAOIs (washout rules)",
+        "severity": "major",
+        "details": "Serotonin syndrome risk."
+      },
+      {
+        "type": "warning",
+        "population": "Uncontrolled hypertension",
+        "severity": "moderate",
+        "details": "Particularly relevant for venlafaxine."
+      },
+      {
+        "type": "warning",
+        "population": "Substantial alcohol use / chronic liver disease (duloxetine)",
+        "severity": "major",
+        "details": "Hepatotoxicity concerns — see label."
+      }
+    ],
+    "special": {
+      "pregnancy": "Risk–benefit discussion with clinician.",
+      "lactation": "Discuss with clinician.",
+      "renal": "Dose adjust / avoid in severe impairment (product-specific).",
+      "hepatic": "Caution or avoid (esp. duloxetine in substantial alcohol use / chronic liver disease).",
+      "geriatric": "Watch BP, falls, hyponatremia."
+    },
+    "monitoring": [
+      "Blood pressure",
+      "Mood/suicidality",
+      "BP",
+      "Suicidality / clinical response",
+      "Liver symptoms if relevant"
+    ],
+    "withdrawal": "Often pronounced discontinuation symptoms — taper slowly under clinician guidance.",
+    "sourceKeys": [
+      "dailymed",
+      "nice",
+      "fda",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Amoxicillin",
+    "brandNames": [
+      "Amoxil"
+    ],
+    "drugClass": "Aminopenicillin antibiotic",
+    "mechanism": "Inhibits bacterial cell wall synthesis (PBPs).",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Widely used; resistance patterns vary — stewardship essential.",
+    "benefitsSummary": "Empiric and directed therapy for susceptible infections as indicated.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Susceptible bacterial infections (otitis, strep throat, etc.)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori combination regimens",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Otitis media / streptococcal pharyngitis / sinusitis (when bacterial)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Lower respiratory tract infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "UTI (selected contexts / susceptibility)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori regimens (amoxicillin component)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prophylaxis in selected procedures (guideline-directed)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Dental infections as labeled/guidelines",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Lyme disease early (alternative regimens region-dependent)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Diarrhea, rash, nausea",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypersensitivity / anaphylaxis",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "C. difficile–associated diarrhea",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Diarrhea, nausea, rash",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Interstitial nephritis (rare)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Drug reaction with eosinophilia (rare severe cutaneous reactions)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Serious penicillin allergy",
+        "severity": "major",
+        "details": "Avoid in immediate hypersensitivity to penicillins."
+      },
+      {
+        "type": "contraindication",
+        "population": "Serious penicillin allergy",
+        "severity": "major",
+        "details": "Cross-reactivity considerations with other beta-lactams."
+      },
+      {
+        "type": "warning",
+        "population": "Infectious mononucleosis",
+        "severity": "moderate",
+        "details": "High rate of rash with aminopenicillins."
+      },
+      {
+        "type": "precaution",
+        "population": "History of C. difficile",
+        "severity": "moderate",
+        "details": "Risk of recurrence."
+      }
+    ],
+    "special": {
+      "pregnancy": "Penicillins generally considered compatible when indicated.",
+      "lactation": "Generally compatible — monitor infant for diarrhea/rash.",
+      "renal": "Dose adjust in significant impairment.",
+      "hepatic": "Clavulanate component — hepatic caution with Augmentin."
+    },
+    "monitoring": [
+      "Allergy history",
+      "Renal dosing",
+      "Diarrhea / C. difficile symptoms"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_amoxicillin",
+      "dailymed",
+      "who",
+      "cdc_stis",
+      "ema",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Amoxicillin/clavulanate",
+    "brandNames": [
+      "Augmentin",
+      "Co-amoxiclav"
+    ],
+    "drugClass": "Penicillin + beta-lactamase inhibitor",
+    "mechanism": "Amoxicillin plus clavulanate protects against some beta-lactamases.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Broader spectrum than amoxicillin alone; higher GI side effect rate.",
+    "benefitsSummary": "Useful when beta-lactamase–producing organisms suspected.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Bacterial infections needing beta-lactamase coverage",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Otitis media / streptococcal pharyngitis / sinusitis (when bacterial)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Lower respiratory tract infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "UTI (selected contexts / susceptibility)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori regimens (amoxicillin component)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prophylaxis in selected procedures (guideline-directed)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Diarrhea (more than amoxicillin alone)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hepatotoxicity (uncommon, often cholestatic)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Diarrhea, nausea, rash",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypersensitivity / anaphylaxis",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "C. difficile–associated diarrhea",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Interstitial nephritis (rare)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Drug reaction with eosinophilia (rare severe cutaneous reactions)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "History of cholestatic jaundice with co-amoxiclav",
+        "severity": "major",
+        "details": "Contraindicated if prior co-amoxiclav hepatic dysfunction."
+      },
+      {
+        "type": "contraindication",
+        "population": "Serious penicillin allergy",
+        "severity": "major",
+        "details": "Cross-reactivity considerations with other beta-lactams."
+      },
+      {
+        "type": "warning",
+        "population": "Infectious mononucleosis",
+        "severity": "moderate",
+        "details": "High rate of rash with aminopenicillins."
+      },
+      {
+        "type": "precaution",
+        "population": "History of C. difficile",
+        "severity": "moderate",
+        "details": "Risk of recurrence."
+      }
+    ],
+    "special": {
+      "pregnancy": "Penicillins generally considered compatible when indicated.",
+      "lactation": "Generally compatible — monitor infant for diarrhea/rash.",
+      "renal": "Dose adjust in significant impairment.",
+      "hepatic": "Clavulanate component — hepatic caution with Augmentin."
+    },
+    "monitoring": [
+      "Allergy history",
+      "Renal dosing",
+      "Diarrhea / C. difficile symptoms"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "bnf",
+      "ema",
+      "label_amoxicillin",
+      "nice",
+      "cdc_stis"
+    ]
+  },
+  {
+    "genericName": "Azithromycin",
+    "brandNames": [
+      "Zithromax"
+    ],
+    "drugClass": "Macrolide antibiotic",
+    "mechanism": "Binds 50S ribosomal subunit inhibiting bacterial protein synthesis.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Convenient dosing; QT prolongation and resistance concerns important.",
+    "benefitsSummary": "Respiratory and some STI indications as labeled.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Community-acquired respiratory infections (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Certain STIs per guidelines",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Community-acquired respiratory infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Chlamydia / selected STIs (azithromycin — guideline regimens)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "H. pylori regimens (clarithromycin-containing)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "MAC prophylaxis/treatment (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "COPD exacerbation antibiotic contexts (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "GI upset",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation / arrhythmia risk",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "QT prolongation / torsades risk",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hepatotoxicity",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hearing loss (high-dose / prolonged — rare)",
+        "severity": "serious",
+        "evidence": "low"
+      },
+      {
+        "effect": "C. difficile diarrhea",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Known QT prolongation / interacting QT drugs",
+        "severity": "major",
+        "details": "Avoid or use caution."
+      },
+      {
+        "type": "warning",
+        "population": "QT prolongation risk factors / interacting drugs",
+        "severity": "major",
+        "details": "Especially erythromycin/clarithromycin; azithromycin also has FDA QT communication."
+      },
+      {
+        "type": "warning",
+        "population": "Strong CYP3A4 inhibition (clarithromycin/erythromycin)",
+        "severity": "major",
+        "details": "Serious interactions (e.g., some statins, colchicine)."
+      },
+      {
+        "type": "precaution",
+        "population": "Myasthenia gravis",
+        "severity": "moderate",
+        "details": "May exacerbate."
+      }
+    ],
+    "special": {
+      "pregnancy": "Often used when indicated; discuss product-specific data.",
+      "lactation": "Generally considered compatible with monitoring.",
+      "renal": "Clarithromycin adjust in renal impairment.",
+      "hepatic": "Caution — hepatotoxicity reports."
+    },
+    "monitoring": [
+      "Drug interaction review",
+      "ECG if high QT risk"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "fda",
+      "cdc_stis",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Ciprofloxacin",
+    "brandNames": [
+      "Cipro"
+    ],
+    "drugClass": "Fluoroquinolone antibiotic",
+    "mechanism": "Inhibits bacterial DNA gyrase and topoisomerase IV.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Effective for selected serious infections but boxed warnings for tendinopathy, neuropathy, CNS effects — reserve when alternatives less suitable.",
+    "benefitsSummary": "Gram-negative coverage including some urinary pathogens; stewardship critical.",
+    "whyStillPrescribed": "Still important for selected serious infections and resistant organisms when benefits outweigh well-documented serious risks; stewardship and FDA reserve guidance apply.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Selected complicated UTI and other labeled infections",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Complicated UTI / pyelonephritis (when appropriate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Selected respiratory / skin / bone infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Anthrax / plague (selected agents — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Special-use labeled indications"
+      },
+      {
+        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Reserve use due to serious risks"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Tendinitis / tendon rupture (incl. Achilles)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Peripheral neuropathy (may be irreversible)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "CNS effects (seizures, psychiatric)",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation / arrhythmia risk (esp. moxifloxacin)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "GI upset, headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "CNS effects (seizures, psychosis, anxiety, confusion)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Aortic aneurysm/dissection risk signal (labeled warnings)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Dysglycemia (hypo/hyperglycemia)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "C. difficile–associated diarrhea",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Photosensitivity",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Myasthenia gravis",
+        "severity": "major",
+        "details": "May exacerbate muscle weakness — avoid."
+      },
+      {
+        "type": "warning",
+        "population": "Generally reserve use",
+        "severity": "major",
+        "details": "FDA advises reserving fluoroquinolones for serious infections when alternatives unavailable."
+      },
+      {
+        "type": "boxed",
+        "population": "Systemic fluoroquinolones",
+        "severity": "major",
+        "details": "Serious adverse reactions including tendinopathy, peripheral neuropathy, and CNS effects; reserve for patients with no alternative for certain uncomplicated infections."
+      },
+      {
+        "type": "precaution",
+        "population": "Elderly, corticosteroid users, transplant, renal impairment",
+        "severity": "major",
+        "details": "Higher tendon injury risk."
+      },
+      {
+        "type": "warning",
+        "population": "QT risk factors / interacting QT drugs",
+        "severity": "major",
+        "details": "Product-specific."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally avoid unless no safer alternatives — discuss with clinician.",
+      "lactation": "Discuss; often avoided when alternatives exist.",
+      "renal": "Dose adjust for many fluoroquinolones.",
+      "hepatic": "Product-specific caution.",
+      "geriatric": "Higher tendon and CNS risk."
+    },
+    "monitoring": [
+      "Reassess need; switch if serious AE symptoms appear",
+      "Glucose in diabetics",
+      "ECG considerations if QT risk"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_ciprofloxacin",
+      "fda_fluoroquinolone",
+      "dailymed",
+      "ema",
+      "mhra",
+      "cdc_stis"
+    ]
+  },
+  {
+    "genericName": "Levofloxacin",
+    "brandNames": [
+      "Levaquin"
+    ],
+    "drugClass": "Fluoroquinolone antibiotic",
+    "mechanism": "DNA gyrase / topoisomerase IV inhibition.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Same boxed warning class as other systemic fluoroquinolones.",
+    "benefitsSummary": "Respiratory and other labeled indications; stewardship critical.",
+    "whyStillPrescribed": "Broad gram-negative and atypical coverage useful for selected serious infections; FDA advises reserving for situations without safer alternatives for many uncomplicated indications.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Selected bacterial infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Complicated UTI / pyelonephritis (when appropriate)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Selected respiratory / skin / bone infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Anthrax / plague (selected agents — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Special-use labeled indications"
+      },
+      {
+        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Reserve use due to serious risks"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Tendinopathy, neuropathy, CNS effects (class boxed warnings)",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI upset, headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Tendinitis / tendon rupture (incl. Achilles)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Peripheral neuropathy (may be irreversible)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "CNS effects (seizures, psychosis, anxiety, confusion)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "QT prolongation / arrhythmia risk (esp. moxifloxacin)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Aortic aneurysm/dissection risk signal (labeled warnings)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Dysglycemia (hypo/hyperglycemia)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "C. difficile–associated diarrhea",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Photosensitivity",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Reserve for appropriate infections",
+        "severity": "major",
+        "details": "Class fluoroquinolone safety warnings apply."
+      },
+      {
+        "type": "boxed",
+        "population": "Systemic fluoroquinolones",
+        "severity": "major",
+        "details": "Serious adverse reactions including tendinopathy, peripheral neuropathy, and CNS effects; reserve for patients with no alternative for certain uncomplicated infections."
+      },
+      {
+        "type": "warning",
+        "population": "Myasthenia gravis",
+        "severity": "major",
+        "details": "May exacerbate muscle weakness — avoid."
+      },
+      {
+        "type": "precaution",
+        "population": "Elderly, corticosteroid users, transplant, renal impairment",
+        "severity": "major",
+        "details": "Higher tendon injury risk."
+      },
+      {
+        "type": "warning",
+        "population": "QT risk factors / interacting QT drugs",
+        "severity": "major",
+        "details": "Product-specific."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally avoid unless no safer alternatives — discuss with clinician.",
+      "lactation": "Discuss; often avoided when alternatives exist.",
+      "renal": "Dose adjust for many fluoroquinolones.",
+      "hepatic": "Product-specific caution.",
+      "geriatric": "Higher tendon and CNS risk."
+    },
+    "monitoring": [
+      "Reassess need; switch if serious AE symptoms appear",
+      "Glucose in diabetics",
+      "ECG considerations if QT risk"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "fda_fluoroquinolone",
+      "dailymed",
+      "ema",
+      "label_ciprofloxacin",
+      "mhra",
+      "cdc_stis"
+    ]
+  },
+  {
+    "genericName": "Doxycycline",
+    "brandNames": [
+      "Vibramycin",
+      "Doryx"
+    ],
+    "drugClass": "Tetracycline antibiotic",
+    "mechanism": "30S ribosomal inhibition.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Broad utility including atypical pneumonia, acne, some STIs, tick-borne disease.",
+    "benefitsSummary": "Versatile antibiotic with anti-inflammatory properties used in acne.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Susceptible infections (respiratory, tick-borne, STI)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acne (inflammatory)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Respiratory / skin infections as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acne (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Lyme / rickettsial / atypical infections",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "STI regimens (e.g., chlamydia — doxycycline)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Malaria prophylaxis (doxycycline)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Photosensitivity, esophagitis, GI upset",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Tooth discoloration risk in young children/pregnancy",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "GI upset / esophagitis",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Tooth discoloration / bone effects in children / pregnancy (class)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Generally avoid in 2nd/3rd trimester and young children for tooth risk — doxycycline nuances exist in short courses per some guidelines"
+      },
+      {
+        "effect": "Intracranial hypertension (rare)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hepatotoxicity (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Pregnancy; children under 8 (exceptions for life-threatening tick-borne disease)",
+        "severity": "major",
+        "details": "Follow guideline exceptions for RMSF etc."
+      },
+      {
+        "type": "warning",
+        "population": "Pregnancy / children <8 years (class concerns)",
+        "severity": "major",
+        "details": "Tooth/bone effects — see current guideline exceptions for doxycycline short courses."
+      },
+      {
+        "type": "warning",
+        "population": "Esophagitis — take with water, remain upright",
+        "severity": "moderate",
+        "details": "Counseling point."
+      },
+      {
+        "type": "precaution",
+        "population": "Photosensitivity",
+        "severity": "moderate",
+        "details": "Sun protection."
+      }
+    ],
+    "special": {
+      "pregnancy": "Generally avoid; discuss exceptions.",
+      "lactation": "Short doxycycline courses sometimes acceptable — discuss.",
+      "renal": "Doxycycline preferred among tetracyclines in renal impairment."
+    },
+    "monitoring": [
+      "Sun exposure counseling",
+      "Pill esophagitis prevention"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "cdc_stis",
+      "who",
+      "ema",
+      "nice",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Trimethoprim/sulfamethoxazole",
+    "brandNames": [
+      "Bactrim",
+      "Septra"
+    ],
+    "drugClass": "Sulfonamide antibiotic",
+    "mechanism": "Sequential blockade of folate synthesis.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Important for UTI, PCP prophylaxis/treatment; allergy and hyperkalemia relevant.",
+    "benefitsSummary": "Effective for susceptible UTI and opportunistic infection indications.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "UTI (susceptible organisms)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pneumocystis prophylaxis/treatment",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "UTI",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Pneumocystis jirovecii prophylaxis/treatment",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "MRSA skin infections (selected)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Travelers diarrhea / other labeled infections",
+        "approved": true,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Rash / photosensitivity",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Severe cutaneous reactions (SJS/TEN)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hyperkalemia (trimethoprim component)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bone marrow suppression / cytopenias",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Hepatitis / aseptic meningitis (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "contraindication",
+        "population": "Significant sulfa allergy",
+        "severity": "major",
+        "details": "Avoid in serious sulfonamide hypersensitivity."
+      },
+      {
+        "type": "contraindication",
+        "population": "Sulfa allergy / late pregnancy / marked hepatic failure (selected)",
+        "severity": "major",
+        "details": "See label."
+      },
+      {
+        "type": "warning",
+        "population": "Methotrexate interaction / warfarin potentiation",
+        "severity": "major",
+        "details": "Clinically important."
+      },
+      {
+        "type": "precaution",
+        "population": "G6PD deficiency",
+        "severity": "moderate",
+        "details": "Hemolysis risk."
+      }
+    ],
+    "special": {
+      "pregnancy": "Avoid near term (kernicterus risk with sulfa); earlier pregnancy risk–benefit.",
+      "renal": "Dose adjust.",
+      "geriatric": "Hyperkalemia / renal risk."
+    },
+    "monitoring": [
+      "CBC with prolonged courses",
+      "Potassium / creatinine",
+      "Rash vigilance"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "who",
+      "bnf",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Warfarin",
+    "brandNames": [
+      "Coumadin",
+      "Marevan"
+    ],
+    "drugClass": "Vitamin K antagonist anticoagulant",
+    "mechanism": "Inhibits vitamin K epoxide reductase → ↓ clotting factors II, VII, IX, X.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Decades of evidence for VTE and mechanical valve anticoagulation. Narrow therapeutic index; INR monitoring mandatory.",
+    "benefitsSummary": "Prevents and treats thromboembolism when INR maintained in target range; required for mechanical heart valves.",
+    "whyStillPrescribed": "Still required/preferred for mechanical heart valves, some APS patients, and settings where DOACs are unsuitable or unaffordable; extensive clinical experience.",
+    "longTermEvidence": "Decades of use with INR-guided therapy; DOACs preferred for many NVAF/VTE patients but warfarin remains essential for mechanical valves and selected APS.",
+    "indications": [
+      {
+        "indication": "VTE treatment/prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Stroke prevention in AF (selected)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Mechanical heart valve anticoagulation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prophylaxis/treatment of venous thrombosis and PE",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Thromboembolic complications of AF / cardiac valve replacement",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Secondary prevention after MI (selected contexts)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Antiphospholipid syndrome / mechanical valves (often preferred anticoagulant class)",
+        "approved": true,
+        "evidence": "high",
+        "notes": "DOACs often inappropriate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Major bleeding",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Skin necrosis (rare, esp. protein C/S deficiency)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Major and minor bleeding",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Boxed warning"
+      },
+      {
+        "effect": "Purple toe syndrome (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      },
+      {
+        "effect": "Teratogenicity / fetal harm",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Drug and food (vitamin K) interaction instability",
+        "severity": "moderate",
+        "evidence": "high"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "All patients — bleeding risk",
+        "severity": "major",
+        "details": "Boxed warning for major or fatal bleeding. Regular INR monitoring required."
+      },
+      {
+        "type": "contraindication",
+        "population": "Pregnancy (except selected mechanical valve scenarios under specialist care)",
+        "severity": "major",
+        "details": "Teratogenic / fetal bleeding risk."
+      },
+      {
+        "type": "boxed",
+        "population": "Bleeding risk",
+        "severity": "major",
+        "details": "Can cause major or fatal bleeding; monitor INR."
+      },
+      {
+        "type": "contraindication",
+        "population": "Pregnancy (except special mechanical valve scenarios under specialist care)",
+        "severity": "major",
+        "details": "Teratogenic / fetopathic."
+      },
+      {
+        "type": "warning",
+        "population": "Numerous drug–drug and drug–food interactions",
+        "severity": "major",
+        "details": "Antibiotics, amiodarone, NSAIDs, acetaminophen (high dose), herbals, vitamin K intake changes."
+      }
+    ],
+    "special": {
+      "pregnancy": "Contraindicated in most pregnancies; specialist protocols exist for some mechanical valves.",
+      "lactation": "Generally considered compatible — confirm with clinician.",
+      "renal": "Not renally cleared primarily but comorbidity affects bleeding risk.",
+      "hepatic": "Impaired synthesis of clotting factors increases sensitivity.",
+      "geriatric": "Higher bleeding risk — careful INR management."
+    },
+    "monitoring": [
+      "INR frequently during initiation and with interacting drugs",
+      "CBC, signs of bleeding",
+      "INR regularly",
+      "CBC / signs of bleeding",
+      "Medication and diet review at each change"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "fda_warfarin",
+      "dailymed",
+      "nice",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Apixaban",
+    "brandNames": [
+      "Eliquis"
+    ],
+    "drugClass": "Direct oral anticoagulant (factor Xa inhibitor)",
+    "mechanism": "Selective inhibition of factor Xa.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Large RCTs support labeled indications; boxed warnings for premature discontinuation and spinal/epidural hematoma.",
+    "benefitsSummary": "Stroke prevention in NVAF and VTE treatment/prevention without routine INR monitoring.",
+    "whyStillPrescribed": "For many NVAF and VTE indications, DOACs have RCT evidence of similar/better efficacy and less intracranial bleeding vs warfarin, with fewer routine INR checks — not interchangeable for mechanical valves or APS in many guidelines.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "NVAF — stroke prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "DVT/PE treatment and recurrence reduction",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Treatment of DVT / PE",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Secondary prevention of recurrent VTE",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Anemia, nausea",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Bleeding (any site)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Primary risk"
+      },
+      {
+        "effect": "GI bleeding",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Intracranial hemorrhage (less than warfarin in many trials, still serious)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Anemia",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Nausea",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Premature discontinuation",
+        "severity": "major",
+        "details": "Increases thrombotic risk — transition carefully."
+      },
+      {
+        "type": "warning",
+        "population": "Neuraxial anesthesia",
+        "severity": "major",
+        "details": "Risk of epidural/spinal hematoma — boxed warning."
+      },
+      {
+        "type": "boxed",
+        "population": "Premature discontinuation",
+        "severity": "major",
+        "details": "Increases thrombotic event risk — provide alternative anticoagulation coverage if stopping."
+      },
+      {
+        "type": "boxed",
+        "population": "Spinal/epidural hematoma risk with neuraxial anesthesia",
+        "severity": "major",
+        "details": "See labeling timing rules."
+      },
+      {
+        "type": "contraindication",
+        "population": "Active pathological bleeding / mechanical prosthetic valves (generally)",
+        "severity": "major",
+        "details": "DOACs not for mechanical valves; dabigatran specifically failed in that setting."
+      },
+      {
+        "type": "warning",
+        "population": "Significant drug interactions (P-gp/CYP3A4)",
+        "severity": "major",
+        "details": "Many combinations require avoidance or dose change — e.g., strong dual inhibitors/inducers."
+      }
+    ],
+    "special": {
+      "renal": "Dose adjust or avoid based on CrCl/eGFR thresholds — product-specific (critical for safety).",
+      "pregnancy": "Limited data; specialist management for anticoagulation in pregnancy usually prefers other agents.",
+      "lactation": "Generally avoided; specialist advice.",
+      "hepatic": "Avoid in significant hepatic disease associated with coagulopathy (product-specific).",
+      "geriatric": "Fall and bleeding risk higher — still often preferred over warfarin when indicated."
+    },
+    "monitoring": [
+      "Renal function periodically",
+      "Bleed risk assessment",
+      "Renal function at baseline and periodically",
+      "CBC / signs of bleeding",
+      "Adherence counseling (short half-life vs warfarin)"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_apixaban",
+      "dailymed",
+      "ema",
+      "nice",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Rivaroxaban",
+    "brandNames": [
+      "Xarelto"
+    ],
+    "drugClass": "Factor Xa inhibitor DOAC",
+    "mechanism": "Direct factor Xa inhibition.",
+    "routes": [
+      "oral"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "RCT-supported for NVAF and VTE; some doses require food.",
+    "benefitsSummary": "Once or twice daily regimens depending on indication.",
+    "whyStillPrescribed": "For many NVAF and VTE indications, DOACs have RCT evidence of similar/better efficacy and less intracranial bleeding vs warfarin, with fewer routine INR checks — not interchangeable for mechanical valves or APS in many guidelines.",
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "NVAF stroke prevention; VTE as labeled",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Treatment of DVT / PE",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Secondary prevention of recurrent VTE",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Product-specific"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Bleeding",
+        "severity": "boxed",
+        "evidence": "high"
+      },
+      {
+        "effect": "Bleeding (any site)",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "Primary risk"
+      },
+      {
+        "effect": "GI bleeding",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Intracranial hemorrhage (less than warfarin in many trials, still serious)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Anemia",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Nausea",
+        "severity": "common",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Premature stop; neuraxial procedures",
+        "severity": "major",
+        "details": "Boxed warnings similar to class."
+      },
+      {
+        "type": "boxed",
+        "population": "Premature discontinuation",
+        "severity": "major",
+        "details": "Increases thrombotic event risk — provide alternative anticoagulation coverage if stopping."
+      },
+      {
+        "type": "boxed",
+        "population": "Spinal/epidural hematoma risk with neuraxial anesthesia",
+        "severity": "major",
+        "details": "See labeling timing rules."
+      },
+      {
+        "type": "contraindication",
+        "population": "Active pathological bleeding / mechanical prosthetic valves (generally)",
+        "severity": "major",
+        "details": "DOACs not for mechanical valves; dabigatran specifically failed in that setting."
+      },
+      {
+        "type": "warning",
+        "population": "Significant drug interactions (P-gp/CYP3A4)",
+        "severity": "major",
+        "details": "Many combinations require avoidance or dose change — e.g., strong dual inhibitors/inducers."
+      }
+    ],
+    "special": {
+      "pregnancy": "Limited data; specialist management for anticoagulation in pregnancy usually prefers other agents.",
+      "lactation": "Generally avoided; specialist advice.",
+      "renal": "Dose adjust or avoid based on CrCl/eGFR thresholds — product-specific (critical for safety).",
+      "hepatic": "Avoid in significant hepatic disease associated with coagulopathy (product-specific).",
+      "geriatric": "Fall and bleeding risk higher — still often preferred over warfarin when indicated."
+    },
+    "monitoring": [
+      "Renal function at baseline and periodically",
+      "CBC / signs of bleeding",
+      "Adherence counseling (short half-life vs warfarin)"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "ema",
+      "nice",
+      "label_apixaban",
+      "esc_hf",
+      "bnf"
+    ]
+  },
+  {
+    "genericName": "Salbutamol (Albuterol)",
+    "brandNames": [
+      "Ventolin",
+      "ProAir"
+    ],
+    "drugClass": "Short-acting beta-2 agonist (SABA)",
+    "mechanism": "Stimulates β2 receptors → bronchial smooth muscle relaxation.",
+    "routes": [
+      "inhalation",
+      "nebulization"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Essential reliever therapy; over-reliance without controller is a warning sign in asthma.",
+    "benefitsSummary": "Rapid relief of bronchospasm in asthma and COPD as indicated.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Acute bronchospasm relief (asthma/COPD)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Prevention of exercise-induced bronchospasm",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Exercise-induced bronchospasm prevention",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Hyperkalemia acute shift (nebulized/IV protocols — off-label ED use)",
+        "approved": false,
+        "evidence": "moderate"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Tremor, tachycardia, nervousness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypokalemia (high doses)",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Tremor, tachycardia, palpitations",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Nervousness / headache",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Hypokalemia / lactic acidosis with high doses",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Paradoxical bronchospasm (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Increasing use / lack of response",
+        "severity": "major",
+        "details": "Worsening asthma needing more frequent SABA requires urgent clinical review."
+      },
+      {
+        "type": "warning",
+        "population": "Increasing rescue use signals uncontrolled disease",
+        "severity": "major",
+        "details": "Escalate controller therapy per GINA/GOLD."
+      },
+      {
+        "type": "precaution",
+        "population": "Cardiovascular disease",
+        "severity": "moderate",
+        "details": "Tachycardia/arrhythmia risk."
+      }
+    ],
+    "special": {
+      "pregnancy": "SABA rescue commonly used when needed.",
+      "lactation": "Compatible."
+    },
+    "monitoring": [
+      "Rescue frequency",
+      "Inhaler technique",
+      "HR with high-dose nebulization"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "gina_asthma",
+      "gold_copd",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Budesonide/formoterol",
+    "brandNames": [
+      "Symbicort"
+    ],
+    "drugClass": "ICS/LABA combination inhaler",
+    "mechanism": "Inhaled corticosteroid anti-inflammatory + long-acting β2 agonist.",
+    "routes": [
+      "inhalation"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Guideline-central for asthma and COPD as labeled.",
+    "benefitsSummary": "Controller therapy reducing exacerbations when used correctly.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Asthma maintenance (and MART where licensed)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "COPD",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Allergic rhinitis (intranasal formulations — related products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Different products"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Oral thrush, dysphonia",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Tremor, palpitations",
+        "severity": "common",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Oropharyngeal candidiasis",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dysphonia / hoarseness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Pneumonia risk increase in COPD with ICS",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Systemic corticosteroid effects at high doses (adrenal, bone, ocular)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Not for sole treatment of status asthmaticus",
+        "severity": "major",
+        "details": "Acute severe asthma needs emergency care."
+      },
+      {
+        "type": "warning",
+        "population": "Not for acute bronchospasm rescue (maintenance ICS)",
+        "severity": "major",
+        "details": "Use SABA/SMART protocols as directed."
+      },
+      {
+        "type": "precaution",
+        "population": "COPD patients — pneumonia risk",
+        "severity": "moderate",
+        "details": "Reassess ICS need."
+      }
+    ],
+    "special": {
+      "pregnancy": "Inhaled corticosteroids (esp. budesonide) often continued for asthma control.",
+      "lactation": "Generally compatible.",
+      "pediatric": "Growth velocity monitoring with long-term ICS."
+    },
+    "monitoring": [
+      "Inhaler technique / rinse mouth",
+      "Exacerbation frequency",
+      "Growth in children"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "gina_asthma",
+      "gold_copd",
+      "ema",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Fluticasone (inhaled)",
+    "brandNames": [
+      "Flovent",
+      "Flixotide"
+    ],
+    "drugClass": "Inhaled corticosteroid",
+    "mechanism": "Local glucocorticoid anti-inflammatory effects in airways.",
+    "routes": [
+      "inhalation"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Cornerstone asthma controller therapy.",
+    "benefitsSummary": "Reduces airway inflammation and exacerbations.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "Asthma maintenance",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Allergic rhinitis (intranasal formulations — related products)",
+        "approved": true,
+        "evidence": "moderate",
+        "notes": "Different products"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Oral candidiasis, hoarseness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Systemic corticosteroid effects at high long-term doses",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Oropharyngeal candidiasis",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dysphonia / hoarseness",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Pneumonia risk increase in COPD with ICS",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Systemic corticosteroid effects at high doses (adrenal, bone, ocular)",
+        "severity": "serious",
+        "evidence": "moderate"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Not a rescue inhaler",
+        "severity": "moderate",
+        "details": "Use SABA or approved MART for acute symptoms."
+      },
+      {
+        "type": "warning",
+        "population": "Not for acute bronchospasm rescue (maintenance ICS)",
+        "severity": "major",
+        "details": "Use SABA/SMART protocols as directed."
+      },
+      {
+        "type": "precaution",
+        "population": "COPD patients — pneumonia risk",
+        "severity": "moderate",
+        "details": "Reassess ICS need."
+      }
+    ],
+    "special": {
+      "pregnancy": "Inhaled corticosteroids (esp. budesonide) often continued for asthma control.",
+      "lactation": "Generally compatible.",
+      "pediatric": "Growth velocity monitoring with long-term ICS."
+    },
+    "monitoring": [
+      "Inhaler technique / rinse mouth",
+      "Exacerbation frequency",
+      "Growth in children"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "gina_asthma",
+      "nice",
+      "gold_copd",
+      "ema"
+    ]
+  },
+  {
+    "genericName": "Tiotropium",
+    "brandNames": [
+      "Spiriva"
+    ],
+    "drugClass": "Long-acting muscarinic antagonist (LAMA)",
+    "mechanism": "Blocks M3 receptors in airway smooth muscle → bronchodilation.",
+    "routes": [
+      "inhalation"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Strong COPD evidence; asthma add-on in some labels.",
+    "benefitsSummary": "Improves lung function and reduces COPD exacerbations.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": null,
+    "indications": [
+      {
+        "indication": "COPD maintenance",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Asthma (selected products as labeled)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Asthma maintenance (tiotropium Respimat — labeled)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Dry mouth",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Urinary retention / glaucoma caution",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Urinary retention (caution in BPH)",
+        "severity": "moderate",
+        "evidence": "high"
+      },
+      {
+        "effect": "Glaucoma precipitation if mist in eyes",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Paradoxical bronchospasm (rare)",
+        "severity": "serious",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Not for acute bronchospasm rescue",
+        "severity": "moderate",
+        "details": "Maintenance therapy only."
+      },
+      {
+        "type": "warning",
+        "population": "Not for acute rescue",
+        "severity": "major",
+        "details": "Maintenance only."
+      },
+      {
+        "type": "precaution",
+        "population": "Narrow-angle glaucoma / urinary retention",
+        "severity": "moderate",
+        "details": "Anticholinergic effects."
+      }
+    ],
+    "special": null,
+    "monitoring": [
+      "Exacerbation rate",
+      "Inhaler technique"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "dailymed",
+      "gold_copd",
+      "ema",
+      "gina_asthma",
+      "nice"
+    ]
+  },
+  {
+    "genericName": "Levothyroxine",
+    "brandNames": [
+      "Synthroid",
+      "Euthyrox",
+      "Eltroxin"
+    ],
+    "drugClass": "Thyroid hormone (T4)",
+    "mechanism": "Synthetic thyroxine converted peripherally to T3.",
+    "routes": [
+      "oral",
+      "intravenous"
+    ],
+    "regulatoryStatus": {
+      "US": "FDA-approved (see current labeling)",
+      "EU": "Authorized in EU / national procedures (see SmPC)",
+      "UK": "Licensed (see MHRA product information)",
+      "CH": "Authorized (see Swissmedic product information)"
+    },
+    "evidenceQualityOverview": "Standard replacement for hypothyroidism; narrow therapeutic index.",
+    "benefitsSummary": "Restores euthyroidism; improves symptoms and prevents myxedema complications.",
+    "whyStillPrescribed": null,
+    "longTermEvidence": "Lifelong therapy usually required for primary hypothyroidism; overtreatment associated with AF and osteoporosis risk.",
+    "indications": [
+      {
+        "indication": "Hypothyroidism (replacement)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "TSH suppression in selected thyroid cancer protocols",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Myxedema coma (IV formulations — specialist)",
+        "approved": true,
+        "evidence": "high"
+      }
+    ],
+    "adverse": [
+      {
+        "effect": "Iatrogenic hyperthyroidism symptoms if over-replaced",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Reduced BMD with chronic over-replacement",
+        "severity": "serious",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Symptoms of iatrogenic hyperthyroidism if over-replaced (palpitations, tremor, insomnia, weight loss)",
+        "severity": "common",
+        "evidence": "high"
+      },
+      {
+        "effect": "Arrhythmias / bone loss with chronic overtreatment",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Allergic reactions to excipients (rare)",
+        "severity": "moderate",
+        "evidence": "low"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "warning",
+        "population": "Not for weight loss in euthyroid individuals",
+        "severity": "major",
+        "details": "Boxed warning in US — dangerous for weight loss in euthyroid people."
+      },
+      {
+        "type": "boxed",
+        "population": "Not for weight loss / euthyroid obesity",
+        "severity": "major",
+        "details": "Ineffective and dangerous in euthyroid patients."
+      },
+      {
+        "type": "warning",
+        "population": "Adrenal insufficiency should be treated before starting thyroid hormone",
+        "severity": "major",
+        "details": "Risk of precipitating adrenal crisis."
+      },
+      {
+        "type": "precaution",
+        "population": "CAD / elderly — start low",
+        "severity": "moderate",
+        "details": "Demand ischemia risk."
+      }
+    ],
+    "special": {
+      "pregnancy": "Increased requirements common — monitor TSH closely; treat hypothyroidism in pregnancy.",
+      "lactation": "Compatible.",
+      "renal": "No specific contraindication.",
+      "hepatic": "No specific contraindication.",
+      "geriatric": "Start low, titrate slowly."
+    },
+    "monitoring": [
+      "TSH 6–8 weeks after dose changes",
+      "More frequent monitoring in pregnancy",
+      "TSH (and free T4 as indicated) 6–8 weeks after dose changes"
+    ],
+    "withdrawal": null,
+    "sourceKeys": [
+      "label_levothyroxine",
+      "dailymed",
+      "nice",
+      "ema",
+      "bnf"
+    ]
+  }
+]

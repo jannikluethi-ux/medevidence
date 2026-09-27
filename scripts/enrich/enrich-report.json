@@ -1,0 +1,67 @@
+{
+  "before": {
+    "meds": 106,
+    "conditions": 30,
+    "interactions": 29,
+    "sources": 29,
+    "claims": 17
+  },
+  "after": {
+    "meds": 204,
+    "conditions": 55,
+    "interactions": 100,
+    "sources": 62,
+    "claims": 89,
+    "symptomLinks": 202,
+    "additions": 98,
+    "skippedInteractions": 9,
+    "aeAvg": 7.32,
+    "indAvg": 5.24,
+    "thinRemaining": 0,
+    "thinNames": []
+  },
+  "exemplars": {
+    "Omeprazole": {
+      "ae": 11,
+      "ind": 9,
+      "warn": 6,
+      "mon": 3
+    },
+    "Warfarin": {
+      "ae": 7,
+      "ind": 7,
+      "warn": 5,
+      "mon": 5
+    },
+    "Sertraline": {
+      "ae": 12,
+      "ind": 7,
+      "warn": 7,
+      "mon": 5
+    },
+    "Amoxicillin": {
+      "ae": 6,
+      "ind": 9,
+      "warn": 4,
+      "mon": 3
+    },
+    "Metformin": {
+      "ae": 7,
+      "ind": 4,
+      "warn": 5,
+      "mon": 5
+    },
+    "Atorvastatin": {
+      "ae": 9,
+      "ind": 8,
+      "warn": 5,
+      "mon": 5
+    },
+    "Levofloxacin": {
+      "ae": 10,
+      "ind": 5,
+      "warn": 5,
+      "mon": 3
+    }
+  }
+}
