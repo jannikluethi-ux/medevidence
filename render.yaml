@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: medevidence
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

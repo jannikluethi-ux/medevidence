@@ -18,7 +18,29 @@ npm run build         # re-seeds then next build
 npm start
 ```
 
-Admin review password: set `ADMIN_PASSWORD` (default `review`) in `.env.local`.
+Admin password: set `ADMIN_PASSWORD` in `.env.local` for local use (development only falls back to a local default if unset; production requires the env var).
+
+
+## Deploy to Render
+
+Free web service for private family testing. The SQLite DB is rebuilt at build time (`npm run seed` inside `npm run build`) and read from the service disk at runtime. On the free plan the disk is ephemeral: **admin writes are lost on redeploy/restart** — acceptable for testing.
+
+### Blueprint (recommended)
+
+1. Push this repo to GitHub (already on `main`).
+2. In Render: **New → Blueprint**, connect the `medevidence` repo.
+3. Render reads `render.yaml` (service name `medevidence`, Node, free plan, `npm ci && npm run build` / `npm start`).
+4. Confirm and create. `ADMIN_PASSWORD` is auto-generated — copy it from the service **Environment** tab.
+5. Open the service URL after the first deploy finishes.
+
+### Manual Web Service
+
+1. **New → Web Service**, pick the GitHub repo.
+2. Runtime: Node. Build: `npm ci && npm run build`. Start: `npm start`.
+3. Plan: Free. Set env vars: `NODE_VERSION=20`, `ADMIN_PASSWORD` (generate a strong secret), `NEXT_TELEMETRY_DISABLED=1`. Do **not** set `NODE_ENV=production` at install time so `npm ci` still installs build-time devDependencies (`tsx`, `typescript`, Tailwind).
+4. Deploy. Find the admin password under Environment in the Render dashboard.
+
+`next start` listens on Render’s `$PORT` automatically (the start script does not hardcode a port).
 
 ## Architecture
 

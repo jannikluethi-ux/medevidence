@@ -72,13 +72,6 @@ export function Nav() {
               </Link>
             );
           })}
-          <Link
-            href="/admin"
-            onClick={() => setOpen(false)}
-            className="rounded-lg px-3 py-2 text-sm text-slate-500 hover:bg-white"
-          >
-            Admin
-          </Link>
           <div className="px-2 py-2 lg:hidden">
             <JurisdictionSelector />
           </div>

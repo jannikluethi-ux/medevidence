@@ -18,7 +18,6 @@ export function Footer() {
             <li><Link href="/safety">Safety & emergencies</Link></li>
             <li><Link href="/evidence">Evidence hierarchy</Link></li>
             <li><Link href="/sources">How sourcing works</Link></li>
-            <li><Link href="/admin">Content review (admin)</Link></li>
           </ul>
         </div>
         <Disclaimer />

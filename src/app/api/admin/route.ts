@@ -3,11 +3,18 @@ import { getSqlite } from "@/lib/db";
 
 export const runtime = "nodejs";
 
+/** Production requires ADMIN_PASSWORD; local/dev may fall back to "review". */
+function expectedPassword(): string | null {
+  if (process.env.ADMIN_PASSWORD) return process.env.ADMIN_PASSWORD;
+  if (process.env.NODE_ENV === "production") return null;
+  return "review";
+}
+
 function authorized(req: NextRequest) {
-  const pwd = process.env.ADMIN_PASSWORD || "review";
+  const pwd = expectedPassword();
+  if (pwd === null) return false;
   const header = req.headers.get("x-admin-password") ?? "";
-  const bodyPwd = header;
-  return bodyPwd === pwd;
+  return header === pwd;
 }
 
 export async function GET(req: NextRequest) {
@@ -17,8 +24,9 @@ export async function GET(req: NextRequest) {
   const sqlite = getSqlite();
   const claims = sqlite
     .prepare(
-      `SELECT c.*, m.generic_name FROM claims c
-       LEFT JOIN medications m ON m.id = c.entity_id
+      `SELECT c.*, m.generic_name, m.slug as med_slug
+       FROM claims c
+       LEFT JOIN medications m ON m.id = c.entity_id AND c.entity_type = 'medication'
        WHERE c.status IN ('draft','reviewed','rejected')
        ORDER BY c.id DESC`
     )
