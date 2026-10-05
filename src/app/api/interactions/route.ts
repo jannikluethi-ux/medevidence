@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { findInteractions, logAudit } from "@/lib/search";
+import { findInteractions, logAudit, resolveMedicationInput } from "@/lib/search";
 import { getSqlite } from "@/lib/db";
 import { scanEmergency } from "@/lib/safety/emergency";
 
@@ -13,6 +13,14 @@ export async function GET(req: NextRequest) {
     .split(",")
     .map((x) => Number(x.trim()))
     .filter((n) => !Number.isNaN(n) && n > 0);
+  // names=marcoumar,algifor — brand names / synonyms / slugs resolved via the synonyms layer
+  const names = (req.nextUrl.searchParams.get("names") ?? "")
+    .split(",")
+    .map((x) => x.trim())
+    .filter(Boolean)
+    .slice(0, 5);
+  const resolved = names.map((n) => resolveMedicationInput(n));
+  for (const r of resolved) if (r.meds.length === 1 && !ids.includes(r.meds[0].id)) ids.push(r.meds[0].id);
 
   const interactions = findInteractions(ids);
   const sqlite = getSqlite();
@@ -26,5 +34,5 @@ export async function GET(req: NextRequest) {
     safetyFlags: emergency ? [emergency.ruleName] : [],
   });
 
-  return NextResponse.json({ emergency, meds, interactions });
+  return NextResponse.json({ emergency, meds, interactions, resolved });
 }

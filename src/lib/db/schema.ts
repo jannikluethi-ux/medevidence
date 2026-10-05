@@ -222,9 +222,22 @@ export const emergencyRules = sqliteTable("emergency_rules", {
   active: integer("active").notNull().default(1),
 });
 
+export const synonyms = sqliteTable("synonyms", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
+  term: text("term").notNull(),
+  normalizedTerm: text("normalized_term").notNull(),
+  targetType: text("target_type").notNull(), // medication|condition|symptom
+  targetId: integer("target_id"), // medications.id / conditions.id; null for symptom
+  targetLabel: text("target_label").notNull(),
+  kind: text("kind").notNull(), // brand|international_name|lay_term|misspelling|abbreviation|german|french|italian
+  language: text("language"),
+  region: text("region"),
+});
+
 export type Medication = typeof medications.$inferSelect;
 export type Condition = typeof conditions.$inferSelect;
 export type Claim = typeof claims.$inferSelect;
 export type Source = typeof sources.$inferSelect;
 export type Interaction = typeof interactions.$inferSelect;
 export type EmergencyRule = typeof emergencyRules.$inferSelect;
+export type Synonym = typeof synonyms.$inferSelect;

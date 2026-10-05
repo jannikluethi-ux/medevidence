@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts",
-    "db:seed": "tsx scripts/seed.ts"
+    "db:seed": "tsx scripts/seed.ts",
+    "test": "tsx scripts/tests/run.ts",
+    "enrich:v2": "node scripts/enrich/v2/build.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",

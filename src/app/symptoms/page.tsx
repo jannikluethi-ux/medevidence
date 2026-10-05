@@ -3,6 +3,7 @@ import { EmergencyBanner } from "@/components/EmergencyBanner";
 import { Disclaimer } from "@/components/Disclaimer";
 import { symptomSearch, universalSearch } from "@/lib/search";
 import Link from "next/link";
+import { InterpretationNote, SymptomInterpretationNote } from "@/components/InterpretationNote";
 
 export const metadata = { title: "Symptom explorer" };
 
@@ -12,9 +13,12 @@ export default async function SymptomsPage({
   searchParams: Promise<{ q?: string }>;
 }) {
   const { q = "" } = await searchParams;
-  const { emergency, matches } = q ? symptomSearch(q) : { emergency: null, matches: [] };
-  const { hits } = q ? universalSearch(q, 8) : { hits: [] };
-  const medHits = hits.filter((h) => h.type === "medication");
+  const { emergency, matches, interpretation: symptomInterp } = q
+    ? symptomSearch(q)
+    : { emergency: null, matches: [], interpretation: [] };
+  const { hits, interpretation } = q ? universalSearch(q, 12) : { hits: [], interpretation: null };
+  const medHits = hits.filter((h) => h.type === "medication").slice(0, 16);
+  const condHits = hits.filter((h) => h.type === "condition" && !matches.some((m) => m.slug === h.slug)).slice(0, 6);
 
   return (
     <div>
@@ -38,6 +42,9 @@ export default async function SymptomsPage({
         <div className="mt-6">
           <Disclaimer />
         </div>
+
+        {q ? <InterpretationNote interpretation={interpretation} /> : null}
+        {q ? <SymptomInterpretationNote interpretation={symptomInterp} /> : null}
 
         {q ? (
           <section className="mt-8">
@@ -96,6 +103,24 @@ export default async function SymptomsPage({
                 ))}
               </ul>
             )}
+
+            {condHits.length > 0 ? (
+              <div className="mt-8">
+                <h2 className="text-lg font-semibold">Related conditions</h2>
+                <ul className="mt-2 flex flex-wrap gap-2">
+                  {condHits.map((h) => (
+                    <li key={h.slug}>
+                      <Link
+                        href={`/conditions/${h.slug}`}
+                        className="rounded-full border border-slate-200 bg-white px-3 py-1 text-sm hover:border-teal-400"
+                      >
+                        {h.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
 
             {medHits.length > 0 ? (
               <div className="mt-8">

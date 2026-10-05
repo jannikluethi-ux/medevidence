@@ -3,7 +3,7 @@ import { parseJsonArray, parseJsonObject } from "@/lib/utils";
 
 export function listMedications(opts?: { q?: string; limit?: number }) {
   const sqlite = getSqlite();
-  const limit = opts?.limit ?? 200;
+  const limit = opts?.limit ?? 1000;
   if (opts?.q?.trim()) {
     const like = `%${opts.q.trim()}%`;
     return sqlite

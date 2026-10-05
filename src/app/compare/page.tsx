@@ -1,7 +1,9 @@
-import { listMedications, getMedicationBySlug } from "@/lib/data";
+import { getMedicationBySlug } from "@/lib/data";
 import { Disclaimer } from "@/components/Disclaimer";
 import { EvidenceBadge } from "@/components/EvidenceBadge";
 import { CompareForm } from "./CompareForm";
+import { medicationSuggestions, resolveMedicationInput } from "@/lib/search";
+import { MedResolutionNotes } from "@/components/MedResolutionNotes";
 import Link from "next/link";
 
 export const metadata = { title: "Medication comparison" };
@@ -12,12 +14,12 @@ export default async function ComparePage({
   searchParams: Promise<{ a?: string; b?: string; c?: string }>;
 }) {
   const sp = await searchParams;
-  const all = listMedications({ limit: 500 }) as {
-    slug: string;
-    generic_name: string;
-  }[];
-  const slugs = [sp.a, sp.b, sp.c].filter(Boolean) as string[];
-  const meds = slugs
+  const rawInputs = (["a", "b", "c"] as const).map((key) => ({ key, raw: (sp[key] ?? "").trim() })).filter((x) => x.raw);
+  const resolutions = rawInputs.map((x) => ({ key: x.key, res: resolveMedicationInput(x.raw) }));
+  const resolvedSlugs = [...new Set(resolutions.filter((r) => r.res.meds.length === 1).map((r) => r.res.meds[0].slug))];
+  const slugs = rawInputs.map((x) => x.raw);
+  const passthrough = Object.fromEntries(rawInputs.map((x) => [x.key, x.raw]));
+  const meds = resolvedSlugs
     .map((s) => getMedicationBySlug(s))
     .filter(Boolean) as NonNullable<ReturnType<typeof getMedicationBySlug>>[];
 
@@ -33,8 +35,9 @@ export default async function ComparePage({
         <Disclaimer />
       </div>
       <div className="mt-6">
-        <CompareForm meds={all} initial={slugs} />
+        <CompareForm suggestions={medicationSuggestions()} initial={slugs} />
       </div>
+      <MedResolutionNotes resolutions={resolutions} basePath="/compare" param={passthrough} />
 
       {meds.length >= 2 ? (
         <div className="mt-8 overflow-x-auto">

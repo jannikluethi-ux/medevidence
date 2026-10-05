@@ -194,6 +194,27 @@ CREATE TABLE IF NOT EXISTS emergency_rules (
   active INTEGER NOT NULL DEFAULT 1
 );
 
+-- Synonyms layer (search/recognition only): brands, international names, lay terms,
+-- misspellings, abbreviations and DE/FR/IT terms mapped to a canonical target.
+CREATE TABLE IF NOT EXISTS synonyms (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  term TEXT NOT NULL,
+  normalized_term TEXT NOT NULL,
+  target_type TEXT NOT NULL, -- medication|condition|symptom
+  target_id INTEGER,         -- medications.id / conditions.id; NULL for symptom
+  target_label TEXT NOT NULL, -- canonical name / canonical symptom text
+  kind TEXT NOT NULL,        -- brand|international_name|lay_term|misspelling|abbreviation|german|french|italian
+  language TEXT,
+  region TEXT                -- e.g. CH,DE (brands)
+);
+CREATE INDEX IF NOT EXISTS idx_synonyms_norm ON synonyms(normalized_term);
+CREATE INDEX IF NOT EXISTS idx_synonyms_target ON synonyms(target_type, target_id);
+
+CREATE VIRTUAL TABLE IF NOT EXISTS synonyms_fts USING fts5(
+  term, normalized_term, target_label,
+  content='synonyms', content_rowid='id'
+);
+
 CREATE VIRTUAL TABLE IF NOT EXISTS meds_fts USING fts5(
   generic_name, brand_names, drug_class, mechanism, slug,
   content='medications', content_rowid='id'

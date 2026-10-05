@@ -2,6 +2,9 @@ import { listMedications } from "@/lib/data";
 import { MedCard } from "@/components/MedCard";
 import { SearchBox } from "@/components/SearchBox";
 import { Disclaimer } from "@/components/Disclaimer";
+import { InterpretationNote } from "@/components/InterpretationNote";
+import { universalSearch } from "@/lib/search";
+import { getSqlite } from "@/lib/db";
 
 export const metadata = { title: "Medications" };
 
@@ -11,12 +14,22 @@ export default async function MedicationsPage({
   searchParams: Promise<{ q?: string }>;
 }) {
   const { q = "" } = await searchParams;
-  const meds = listMedications({ q: q || undefined }) as {
-    slug: string;
-    generic_name: string;
-    drug_class: string;
-    brand_names: string;
-  }[];
+  type Row = { id: number; slug: string; generic_name: string; drug_class: string; brand_names: string };
+  let meds: Row[];
+  let interpretation: ReturnType<typeof universalSearch>["interpretation"] = null;
+  if (q.trim()) {
+    // synonyms/brands/misspellings first, then plain name/brand/class text matches
+    const res = universalSearch(q, 60);
+    interpretation = res.interpretation;
+    const sqlite = getSqlite();
+    const byId = sqlite.prepare(`SELECT id, slug, generic_name, drug_class, brand_names FROM medications WHERE id = ?`);
+    const resolved = res.hits.filter((h) => h.type === "medication").map((h) => byId.get(h.id) as Row).filter(Boolean);
+    const like = listMedications({ q }) as Row[];
+    const seen = new Set<number>();
+    meds = [...resolved, ...like].filter((m) => (seen.has(m.id) ? false : (seen.add(m.id), true)));
+  } else {
+    meds = listMedications({}) as Row[];
+  }
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
@@ -29,9 +42,10 @@ export default async function MedicationsPage({
         <SearchBox
           initialQuery={q}
           action="/medications"
-          placeholder="Search generic or brand name…"
+          placeholder="Search generic or brand name (e.g. Dafalgan, Marcoumar, blood thinner)…"
         />
       </div>
+      <InterpretationNote interpretation={interpretation} />
       <div className="mt-4">
         <Disclaimer compact />
       </div>

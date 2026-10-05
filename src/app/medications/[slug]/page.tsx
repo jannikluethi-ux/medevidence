@@ -6,6 +6,7 @@ import { RiskBucket } from "@/components/RiskBucket";
 import { CitationList } from "@/components/CitationList";
 import { Disclaimer } from "@/components/Disclaimer";
 import { JurisdictionNote } from "@/components/JurisdictionSelector";
+import { getMedicationAliases } from "@/lib/search";
 
 export async function generateStaticParams() {
   const meds = listMedications({ limit: 500 }) as { slug: string }[];
@@ -67,11 +68,7 @@ export default async function MedicationPage({
       </p>
       <h1 className="mt-2 text-3xl font-bold text-slate-900">{String(med.generic_name)}</h1>
       <p className="mt-1 text-teal-800">{String(med.drug_class)}</p>
-      {(med.brandNames as string[]).length > 0 ? (
-        <p className="mt-1 text-sm text-slate-500">
-          Brand names (examples): {(med.brandNames as string[]).join(", ")}
-        </p>
-      ) : null}
+      <AlsoKnownAs medId={Number(med.id)} fallbackBrands={med.brandNames as string[]} />
 
       <div className="mt-4 flex flex-wrap gap-2">
         {(med.routes as string[]).map((r) => (
@@ -367,6 +364,55 @@ export default async function MedicationPage({
           <CitationList sources={sources} title="Sources for this medication page" />
         </section>
       </article>
+    </div>
+  );
+}
+
+const LANG: Record<string, string> = { de: "German", fr: "French", it: "Italian" };
+
+function AlsoKnownAs({ medId, fallbackBrands }: { medId: number; fallbackBrands: string[] }) {
+  const a = getMedicationAliases(medId);
+  const brands = a.brands.length ? a.brands : fallbackBrands.map((b) => ({ term: b, region: null as string | null }));
+  if (!brands.length && !a.international.length && !a.languages.length) return null;
+  const byLang = new Map<string, string[]>();
+  for (const l of a.languages) {
+    const k = l.language ?? "other";
+    byLang.set(k, [...(byLang.get(k) ?? []), l.term]);
+  }
+  return (
+    <div className="mt-2 rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm text-slate-700" data-testid="also-known-as">
+      <p className="font-medium text-slate-800">Also known as</p>
+      {brands.length ? (
+        <p className="mt-1">
+          <span className="text-slate-500">Brand names (examples): </span>
+          {brands.map((b, i) => (
+            <span key={b.term}>
+              {i > 0 ? ", " : null}
+              {b.term}
+              {b.region ? <span className="text-xs text-slate-500"> ({b.region.split(",").join(", ")})</span> : null}
+            </span>
+          ))}
+        </p>
+      ) : null}
+      {a.international.length ? (
+        <p className="mt-1">
+          <span className="text-slate-500">International / other names: </span>
+          {a.international.join(", ")}
+        </p>
+      ) : null}
+      {[...byLang.entries()].map(([lang, terms]) => (
+        <p key={lang} className="mt-1">
+          <span className="text-slate-500">{LANG[lang] ?? lang}: </span>
+          {terms.join(", ")}
+        </p>
+      ))}
+      {a.classTerms.length ? (
+        <p className="mt-1 text-xs text-slate-500">Found by everyday searches such as: {a.classTerms.join(", ")}</p>
+      ) : null}
+      <p className="mt-1 text-xs text-slate-500">
+        Brand availability, strengths and formulations differ between countries; regional tags are indicative only. Check
+        current product information (e.g. Swissmedic: swissmedicinfo.ch, FDA DailyMed, EMA).
+      </p>
     </div>
   );
 }

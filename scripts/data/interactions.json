@@ -1431,5 +1431,1030 @@
       "kdigo",
       "esc_hf"
     ]
+  },
+  {
+    "medA": "Metamizole (Dipyrone)",
+    "medB": "Methotrexate (low-dose rheumatologic)",
+    "severity": "major",
+    "mechanism": "Additive haematotoxicity (bone-marrow suppression).",
+    "clinical_effect": "Metamizole can increase the blood-toxicity of methotrexate, particularly in older people; listed as a combination to avoid in metamizole product information.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber/pharmacist should review; blood counts if co-use is unavoidable. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "ema_metamizole_2024",
+      "compendium_ch"
+    ]
+  },
+  {
+    "medA": "Metamizole (Dipyrone)",
+    "medB": "Aspirin (low-dose / antiplatelet)",
+    "severity": "moderate",
+    "mechanism": "Metamizole may competitively block aspirin's access to platelet COX-1 when taken together.",
+    "clinical_effect": "May reduce the antiplatelet (cardioprotective) effect of low-dose aspirin; noted in metamizole product information.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Discuss with the prescriber if both are needed (timing/alternatives are a clinician decision). Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "compendium_ch"
+    ]
+  },
+  {
+    "medA": "Metamizole (Dipyrone)",
+    "medB": "Cyclosporine",
+    "severity": "moderate",
+    "mechanism": "Possible induction of ciclosporin metabolism.",
+    "clinical_effect": "Ciclosporin blood levels may fall; listed in metamizole product information.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "low",
+    "professional_followup": "Ciclosporin level monitoring by the treating team if combined. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "compendium_ch"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet effect and GI mucosal injury plus vitamin K antagonism.",
+    "clinical_effect": "Markedly increased risk of serious (especially GI) bleeding.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid NSAIDs where possible; pharmacist/prescriber to advise on safer analgesia. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf",
+      "chest_vte"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Diclofenac",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet/GI injury plus VKA effect.",
+    "clinical_effect": "Increased risk of serious bleeding.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination where possible; clinician review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Mefenamic acid",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet/GI injury plus VKA effect.",
+    "clinical_effect": "Increased risk of serious bleeding.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid combination where possible; clinician review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Aspirin (low-dose / antiplatelet)",
+    "severity": "major",
+    "mechanism": "Additive antiplatelet + anticoagulant effect; GI mucosal injury.",
+    "clinical_effect": "Increased major bleeding risk; combination only when a specific indication exists (clinician decision).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination should be deliberate and reviewed regularly by the prescriber. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "esc_hf",
+      "chest_vte"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Trimethoprim/sulfamethoxazole",
+    "severity": "major",
+    "mechanism": "Inhibition of coumarin metabolism (CYP2C9) and protein-binding displacement.",
+    "clinical_effect": "INR can rise substantially, with bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Closer INR checks or alternative antibiotic — prescriber decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Amiodarone",
+    "severity": "major",
+    "mechanism": "Inhibition of coumarin metabolism; effect builds over weeks and persists after stopping amiodarone.",
+    "clinical_effect": "Raised INR and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "INR monitoring and VKA dose review by the anticoagulation clinic. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Fluconazole",
+    "severity": "major",
+    "mechanism": "CYP2C9/3A4 inhibition reducing coumarin clearance.",
+    "clinical_effect": "Raised INR and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "INR monitoring if combined; prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Amoxicillin/clavulanate",
+    "severity": "moderate",
+    "mechanism": "Altered gut flora/vitamin K and infection-related changes.",
+    "clinical_effect": "INR rises have been reported with many antibiotics; effect is variable.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "low",
+    "professional_followup": "Consider an extra INR check during/after the course (clinician decision). Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "Paracetamol (Acetaminophen)",
+    "severity": "moderate",
+    "mechanism": "Mechanism uncertain (possible interference with vitamin K cycle).",
+    "clinical_effect": "Regular paracetamol use over several days can raise INR in some patients; occasional doses are generally considered acceptable.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "low",
+    "professional_followup": "Tell the anticoagulation clinic about regular paracetamol use. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Phenprocoumon",
+    "medB": "St. John's wort",
+    "severity": "major",
+    "mechanism": "Induction of coumarin metabolism.",
+    "clinical_effect": "Reduced anticoagulant effect (low INR) — clot risk; INR may rise when the herb is stopped.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid the herbal product; clinician to manage INR. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Acenocoumarol",
+    "medB": "Ibuprofen",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet/GI injury plus VKA effect.",
+    "clinical_effect": "Increased risk of serious bleeding.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid NSAIDs where possible; clinician review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Acenocoumarol",
+    "medB": "Trimethoprim/sulfamethoxazole",
+    "severity": "major",
+    "mechanism": "CYP2C9 inhibition reducing acenocoumarol clearance.",
+    "clinical_effect": "Marked INR increase and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Alternative antibiotic or close INR monitoring — prescriber decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Acenocoumarol",
+    "medB": "Amiodarone",
+    "severity": "major",
+    "mechanism": "Inhibition of coumarin metabolism.",
+    "clinical_effect": "Raised INR and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "INR monitoring and dose review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "swissmedic_pi",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Mefenamic acid",
+    "medB": "Warfarin",
+    "severity": "major",
+    "mechanism": "NSAID antiplatelet/GI injury plus anticoagulation; possible protein-binding displacement.",
+    "clinical_effect": "Increased risk of serious bleeding.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid where possible; clinician review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Etoricoxib",
+    "medB": "Warfarin",
+    "severity": "moderate",
+    "mechanism": "Etoricoxib increases INR modestly (label) and adds NSAID GI risk.",
+    "clinical_effect": "Higher INR and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "INR monitoring when starting/changing etoricoxib. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Etoricoxib",
+    "medB": "Lisinopril",
+    "severity": "moderate",
+    "mechanism": "NSAIDs blunt renal prostaglandins; with ACE inhibitors reduces GFR and antihypertensive effect.",
+    "clinical_effect": "Risk of acute kidney injury (especially with diuretics/dehydration) and higher blood pressure.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Renal function/BP monitoring if combined. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tapentadol",
+    "medB": "Sertraline",
+    "severity": "major",
+    "mechanism": "Additive serotonergic effects (tapentadol noradrenaline/serotonergic activity).",
+    "clinical_effect": "Serotonin syndrome reported; label warns against combination without monitoring.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review; seek urgent care for agitation, tremor, fever, muscle twitching. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Tapentadol",
+    "medB": "Lorazepam",
+    "severity": "major",
+    "mechanism": "Additive CNS and respiratory depression.",
+    "clinical_effect": "Profound sedation, respiratory depression, coma and death (opioid + benzodiazepine boxed warning).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid unless no alternative; lowest doses and close monitoring — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "fda_benzo",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Oxazepam",
+    "medB": "Oxycodone",
+    "severity": "major",
+    "mechanism": "Additive CNS and respiratory depression.",
+    "clinical_effect": "Profound sedation, respiratory depression, coma and death.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid unless no alternative — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "fda_benzo",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Domperidone",
+    "medB": "Clarithromycin",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition raises domperidone levels; both prolong QT.",
+    "clinical_effect": "Risk of serious ventricular arrhythmia / sudden cardiac death.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination contraindicated in EU product information — prescriber to choose alternatives. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_domperidone",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Domperidone",
+    "medB": "Amiodarone",
+    "severity": "contraindicated",
+    "mechanism": "Additive QT prolongation.",
+    "clinical_effect": "Risk of torsades de pointes / sudden cardiac death.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated — prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_domperidone",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Domperidone",
+    "medB": "Citalopram",
+    "severity": "contraindicated",
+    "mechanism": "Additive QT prolongation.",
+    "clinical_effect": "Risk of serious ventricular arrhythmia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Contraindicated in EU product information — prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_domperidone",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Domperidone",
+    "medB": "Paxlovid (nirmatrelvir/ritonavir)",
+    "severity": "contraindicated",
+    "mechanism": "Ritonavir strongly inhibits CYP3A4, raising domperidone exposure.",
+    "clinical_effect": "Increased risk of QT prolongation and arrhythmia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Avoid combination; prescriber/pharmacist review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_domperidone",
+      "nih_covid"
+    ]
+  },
+  {
+    "medA": "Metoclopramide",
+    "medB": "Levodopa/carbidopa",
+    "severity": "major",
+    "mechanism": "Dopamine-receptor antagonism opposes levodopa.",
+    "clinical_effect": "Worsening of Parkinson's symptoms; metoclopramide is contraindicated in Parkinson's disease (EU).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Use a non-dopamine-blocking antiemetic — prescriber decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_metoclopramide",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Metoclopramide",
+    "medB": "Haloperidol",
+    "severity": "moderate",
+    "mechanism": "Additive dopamine D2 blockade.",
+    "clinical_effect": "Higher risk of extrapyramidal effects and neuroleptic malignant syndrome.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review; report abnormal movements. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_metoclopramide",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Haloperidol",
+    "medB": "Citalopram",
+    "severity": "major",
+    "mechanism": "Additive QT prolongation.",
+    "clinical_effect": "Increased risk of torsades de pointes.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "ECG/electrolyte monitoring or alternatives — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Haloperidol",
+    "medB": "Levodopa/carbidopa",
+    "severity": "major",
+    "mechanism": "D2 antagonism opposes dopaminergic therapy.",
+    "clinical_effect": "Marked worsening of parkinsonism; haloperidol is contraindicated in Parkinson's disease.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Specialist to choose alternatives if antipsychotic needed. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Isotretinoin",
+    "medB": "Doxycycline",
+    "severity": "contraindicated",
+    "mechanism": "Both can raise intracranial pressure.",
+    "clinical_effect": "Idiopathic intracranial hypertension (pseudotumor cerebri).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination contraindicated in labeling. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_retinoids",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Isotretinoin",
+    "medB": "Minocycline",
+    "severity": "contraindicated",
+    "mechanism": "Both can raise intracranial pressure.",
+    "clinical_effect": "Idiopathic intracranial hypertension.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Combination contraindicated in labeling. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_retinoids",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Trimethoprim",
+    "medB": "Methotrexate (low-dose rheumatologic)",
+    "severity": "major",
+    "mechanism": "Additive antifolate effect; reduced renal methotrexate clearance.",
+    "clinical_effect": "Bone-marrow suppression (pancytopenia), mucositis — fatal cases reported.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid combination; prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Trimethoprim",
+    "medB": "Spironolactone",
+    "severity": "major",
+    "mechanism": "Trimethoprim blocks ENaC (amiloride-like), reducing potassium excretion.",
+    "clinical_effect": "Hyperkalaemia — population studies show increased hospitalisation/sudden death in older patients.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Alternative antibiotic or potassium check — prescriber decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Trimethoprim",
+    "medB": "Lisinopril",
+    "severity": "moderate",
+    "mechanism": "Reduced renal potassium excretion plus ACE-inhibitor effect.",
+    "clinical_effect": "Hyperkalaemia, especially in older people or renal impairment.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Potassium monitoring in at-risk patients. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Febuxostat",
+    "medB": "Azathioprine",
+    "severity": "contraindicated",
+    "mechanism": "Xanthine oxidase inhibition blocks azathioprine/mercaptopurine metabolism.",
+    "clinical_effect": "Severe, potentially fatal myelotoxicity.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination — prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Mesalazine (Mesalamine)",
+    "medB": "Azathioprine",
+    "severity": "moderate",
+    "mechanism": "Aminosalicylates inhibit TPMT, raising thiopurine metabolites.",
+    "clinical_effect": "Increased risk of bone-marrow suppression.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Blood count monitoring when combined (common in IBD under specialist care). Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Tizanidine",
+    "medB": "Ciprofloxacin",
+    "severity": "contraindicated",
+    "mechanism": "Ciprofloxacin strongly inhibits CYP1A2, raising tizanidine levels about 10-fold.",
+    "clinical_effect": "Severe hypotension, bradycardia, excessive sedation.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tizanidine",
+    "medB": "Fluvoxamine",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP1A2 inhibition.",
+    "clinical_effect": "Severe hypotension and sedation.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tacrolimus",
+    "medB": "Clarithromycin",
+    "severity": "major",
+    "mechanism": "CYP3A4/P-gp inhibition raises tacrolimus levels.",
+    "clinical_effect": "Nephrotoxicity, neurotoxicity and QT prolongation.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Transplant team to manage (level monitoring or alternative antibiotic). Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Tacrolimus",
+    "medB": "Paxlovid (nirmatrelvir/ritonavir)",
+    "severity": "major",
+    "mechanism": "Ritonavir profoundly inhibits CYP3A4.",
+    "clinical_effect": "Large rises in tacrolimus levels with toxicity risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Specialist management required before any Paxlovid course. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "nih_covid",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Tacrolimus",
+    "medB": "Rifampin",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction.",
+    "clinical_effect": "Marked fall in tacrolimus levels — rejection risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Transplant team to manage. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Methadone",
+    "medB": "Citalopram",
+    "severity": "major",
+    "mechanism": "Additive QT prolongation (plus serotonergic effects).",
+    "clinical_effect": "Increased risk of torsades de pointes.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "ECG monitoring/alternatives — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Methadone",
+    "medB": "Diazepam",
+    "severity": "major",
+    "mechanism": "Additive CNS and respiratory depression.",
+    "clinical_effect": "Profound sedation, respiratory depression, death.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Avoid unless no alternative — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "fda_benzo",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Methadone",
+    "medB": "Rifampin",
+    "severity": "major",
+    "mechanism": "CYP3A4/2B6 induction lowers methadone levels.",
+    "clinical_effect": "Opioid withdrawal and relapse risk; toxicity if rifampicin is later stopped.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Treatment service to adjust care. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "who"
+    ]
+  },
+  {
+    "medA": "Ivabradine",
+    "medB": "Diltiazem",
+    "severity": "contraindicated",
+    "mechanism": "Moderate CYP3A4 inhibition plus additive heart-rate lowering.",
+    "clinical_effect": "Excessive bradycardia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Ivabradine",
+    "medB": "Verapamil",
+    "severity": "contraindicated",
+    "mechanism": "CYP3A4 inhibition plus additive heart-rate lowering.",
+    "clinical_effect": "Excessive bradycardia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Ivabradine",
+    "medB": "Clarithromycin",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition raises ivabradine exposure.",
+    "clinical_effect": "Severe bradycardia and conduction disturbance.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Contraindicated combination. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Flecainide",
+    "medB": "Amiodarone",
+    "severity": "major",
+    "mechanism": "Amiodarone inhibits flecainide metabolism; additive conduction effects.",
+    "clinical_effect": "Raised flecainide levels and proarrhythmia risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Specialist dose review and ECG monitoring. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sotalol",
+    "medB": "Amiodarone",
+    "severity": "major",
+    "mechanism": "Additive QT prolongation and bradycardia.",
+    "clinical_effect": "Torsades de pointes risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Specialist decision with ECG monitoring. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Sotalol",
+    "medB": "Citalopram",
+    "severity": "major",
+    "mechanism": "Additive QT prolongation.",
+    "clinical_effect": "Torsades de pointes risk.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "ECG/alternatives — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Desogestrel (progestogen-only pill)",
+    "medB": "Carbamazepine",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction lowers progestogen levels.",
+    "clinical_effect": "Contraceptive failure.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Use a method unaffected by enzyme inducers (e.g., IUD) — discuss with a clinician. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "who"
+    ]
+  },
+  {
+    "medA": "Ulipristal acetate",
+    "medB": "Carbamazepine",
+    "severity": "major",
+    "mechanism": "CYP3A4 induction reduces ulipristal exposure.",
+    "clinical_effect": "Reduced emergency-contraceptive efficacy (inducer use within previous 4 weeks).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Copper IUD or alternative EC advised — pharmacist/clinician. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Ulipristal acetate",
+    "medB": "Desogestrel (progestogen-only pill)",
+    "severity": "moderate",
+    "mechanism": "Progestogen exposure within 5 days after ulipristal may counteract its ovulation-delaying effect.",
+    "clinical_effect": "Reduced effectiveness of emergency contraception; product information gives timing advice for restarting hormonal contraception.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Follow product timing advice and use condoms meanwhile — pharmacist/clinician.",
+    "sourceKeys": [
+      "ema",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Glimepiride",
+    "medB": "Fluconazole",
+    "severity": "major",
+    "mechanism": "CYP2C9 inhibition raises sulfonylurea levels.",
+    "clinical_effect": "Hypoglycaemia (can be severe).",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Glucose monitoring/dose review — prescriber. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Pioglitazone",
+    "medB": "Insulin glargine",
+    "severity": "moderate",
+    "mechanism": "Additive fluid retention.",
+    "clinical_effect": "Oedema and heart failure risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Monitor weight, oedema and breathlessness. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Hydroxyzine",
+    "medB": "Escitalopram",
+    "severity": "major",
+    "mechanism": "Additive QT prolongation.",
+    "clinical_effect": "Torsades de pointes risk; EMA advises avoiding hydroxyzine with QT-prolonging drugs.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "ema_hydroxyzine",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Amitriptyline",
+    "medB": "Tramadol",
+    "severity": "major",
+    "mechanism": "Both lower seizure threshold; additive serotonergic effects.",
+    "clinical_effect": "Seizures and serotonin syndrome.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review; seek urgent care for agitation, tremor, fever. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Amitriptyline",
+    "medB": "Fluoxetine",
+    "severity": "moderate",
+    "mechanism": "Fluoxetine inhibits CYP2D6, raising tricyclic levels; additive serotonergic effects.",
+    "clinical_effect": "TCA toxicity (anticholinergic, QT) and serotonin syndrome risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review; levels/ECG if combined. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tamoxifen",
+    "medB": "Paroxetine",
+    "severity": "major",
+    "mechanism": "Strong CYP2D6 inhibition reduces conversion to endoxifen.",
+    "clinical_effect": "Possibly reduced tamoxifen effectiveness; clinical outcome data are mixed.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "moderate",
+    "professional_followup": "Oncology team may prefer antidepressants with less CYP2D6 inhibition. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Letrozole",
+    "medB": "Tamoxifen",
+    "severity": "moderate",
+    "mechanism": "Tamoxifen lowers letrozole plasma levels (label).",
+    "clinical_effect": "Reduced letrozole exposure; not used together.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Oncology team decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "ema"
+    ]
+  },
+  {
+    "medA": "Epinephrine (Adrenaline)",
+    "medB": "Propranolol",
+    "severity": "moderate",
+    "mechanism": "Non-selective beta-blockade leaves alpha effects unopposed and blunts beta-mediated rescue.",
+    "clinical_effect": "Reduced response to adrenaline in anaphylaxis; possible severe hypertension with reflex bradycardia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Still use adrenaline in anaphylaxis and call emergency services; allergist to review beta-blocker choice.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Acetylcysteine",
+    "medB": "Nitroglycerin (glyceryl trinitrate)",
+    "severity": "moderate",
+    "mechanism": "Acetylcysteine (sulfhydryl donor) may enhance nitrate vasodilation.",
+    "clinical_effect": "Hypotension and headache.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "low",
+    "professional_followup": "Monitor blood pressure if combined. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "bnf",
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Tranexamic acid",
+    "medB": "Oral contraceptives (combined) — class overview",
+    "severity": "moderate",
+    "mechanism": "Both may increase thrombotic tendency.",
+    "clinical_effect": "Possible additive thrombosis risk.",
+    "established_vs_theoretical": "theoretical",
+    "evidence_level": "low",
+    "professional_followup": "Clinician to weigh VTE risk factors. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Pramipexole",
+    "medB": "Haloperidol",
+    "severity": "moderate",
+    "mechanism": "Dopamine agonist vs D2 antagonist.",
+    "clinical_effect": "Mutual loss of effect — worsening Parkinson's or psychosis control.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Specialist decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Donepezil",
+    "medB": "Bisoprolol",
+    "severity": "moderate",
+    "mechanism": "Additive bradycardic effects (cholinergic + beta-blockade).",
+    "clinical_effect": "Bradycardia, syncope, falls.",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "low",
+    "professional_followup": "Pulse monitoring; report dizziness/fainting. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "nice"
+    ]
+  },
+  {
+    "medA": "Baclofen",
+    "medB": "Oxycodone",
+    "severity": "moderate",
+    "mechanism": "Additive CNS depression.",
+    "clinical_effect": "Sedation and respiratory depression.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Lowest effective doses; caution — clinician decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Mebendazole",
+    "medB": "Metronidazole",
+    "severity": "moderate",
+    "mechanism": "Unknown.",
+    "clinical_effect": "SJS/TEN reported with combined use (mebendazole labeling).",
+    "established_vs_theoretical": "theoretical_to_established",
+    "evidence_level": "low",
+    "professional_followup": "Avoid combination where possible. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed"
+    ]
+  },
+  {
+    "medA": "Testosterone",
+    "medB": "Warfarin",
+    "severity": "moderate",
+    "mechanism": "Androgens may increase anticoagulant sensitivity.",
+    "clinical_effect": "Raised INR and bleeding risk.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "low",
+    "professional_followup": "INR monitoring when starting/stopping testosterone. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tramadol",
+    "medB": "Escitalopram",
+    "severity": "major",
+    "mechanism": "Additive serotonergic effects; tramadol lowers seizure threshold.",
+    "clinical_effect": "Serotonin syndrome and seizures.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review; seek urgent care for agitation, tremor, fever. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tramadol",
+    "medB": "Citalopram",
+    "severity": "major",
+    "mechanism": "Additive serotonergic effects; seizure threshold lowering.",
+    "clinical_effect": "Serotonin syndrome and seizures.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Tramadol",
+    "medB": "Duloxetine",
+    "severity": "major",
+    "mechanism": "Additive serotonergic effects; CYP2D6 inhibition by duloxetine reduces tramadol activation.",
+    "clinical_effect": "Serotonin syndrome and seizures; altered analgesia.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "moderate",
+    "professional_followup": "Prescriber review. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
+  },
+  {
+    "medA": "Clarithromycin",
+    "medB": "Lovastatin",
+    "severity": "contraindicated",
+    "mechanism": "Strong CYP3A4 inhibition raises lovastatin exposure.",
+    "clinical_effect": "Myopathy and rhabdomyolysis.",
+    "established_vs_theoretical": "established",
+    "evidence_level": "high",
+    "professional_followup": "Statin is usually paused or an alternative antibiotic chosen — prescriber decision. Do not stop or change prescribed medicines on your own.",
+    "sourceKeys": [
+      "dailymed",
+      "bnf"
+    ]
   }
 ]

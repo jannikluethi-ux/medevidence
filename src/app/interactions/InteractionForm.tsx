@@ -3,13 +3,11 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-type Med = { id: number; slug: string; generic_name: string };
-
 export function InteractionForm({
-  meds,
+  suggestions,
   initial,
 }: {
-  meds: Med[];
+  suggestions: string[];
   initial: string[];
 }) {
   const router = useRouter();
@@ -20,36 +18,39 @@ export function InteractionForm({
   function submit(e: React.FormEvent) {
     e.preventDefault();
     const params = new URLSearchParams();
-    if (a) params.set("a", a);
-    if (b) params.set("b", b);
-    if (c) params.set("c", c);
+    if (a.trim()) params.set("a", a.trim());
+    if (b.trim()) params.set("b", b.trim());
+    if (c.trim()) params.set("c", c.trim());
     router.push(`/interactions?${params.toString()}`);
   }
 
-  const selectClass =
+  const inputClass =
     "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-200";
 
   return (
     <form onSubmit={submit} className="grid gap-3 rounded-xl border border-slate-200 bg-white p-4 md:grid-cols-4">
-      {[
-        ["Medication A", a, setA],
-        ["Medication B", b, setB],
-        ["Medication C (optional)", c, setC],
-      ].map(([label, value, setter]) => (
-        <label key={label as string} className="text-sm">
-          <span className="mb-1 block font-medium text-slate-700">{label as string}</span>
-          <select
-            className={selectClass}
-            value={value as string}
-            onChange={(e) => (setter as (v: string) => void)(e.target.value)}
-          >
-            <option value="">Select…</option>
-            {meds.map((m) => (
-              <option key={m.slug} value={m.slug}>
-                {m.generic_name}
-              </option>
-            ))}
-          </select>
+      <datalist id="med-suggestions">
+        {suggestions.map((s) => (
+          <option key={s} value={s} />
+        ))}
+      </datalist>
+      {(
+        [
+          ["Medication A", a, setA],
+          ["Medication B", b, setB],
+          ["Medication C (optional)", c, setC],
+        ] as const
+      ).map(([label, value, setter]) => (
+        <label key={label} className="text-sm">
+          <span className="mb-1 block font-medium text-slate-700">{label}</span>
+          <input
+            className={inputClass}
+            list="med-suggestions"
+            value={value}
+            placeholder="Generic or brand name…"
+            autoComplete="off"
+            onChange={(e) => setter(e.target.value)}
+          />
         </label>
       ))}
       <div className="flex items-end">

@@ -1,5 +1,6 @@
 import { listMedications } from "@/lib/data";
-import { findInteractions } from "@/lib/search";
+import { findInteractions, medicationSuggestions, resolveMedicationInput } from "@/lib/search";
+import { MedResolutionNotes } from "@/components/MedResolutionNotes";
 import { scanEmergency } from "@/lib/safety/emergency";
 import { EmergencyBanner } from "@/components/EmergencyBanner";
 import { Disclaimer } from "@/components/Disclaimer";
@@ -21,8 +22,22 @@ export default async function InteractionsPage({
     generic_name: string;
   }[];
 
-  const selectedSlugs = [sp.a, sp.b, sp.c, sp.med].filter(Boolean) as string[];
-  const selected = meds.filter((m) => selectedSlugs.includes(m.slug));
+  // Inputs may be slugs, generic names, brand names (e.g. "Marcoumar", "Algifor"), international
+  // names, or common misspellings — resolve them via the synonyms layer.
+  const rawInputs = (["a", "b", "c", "med"] as const)
+    .map((key) => ({ key, raw: (sp[key] ?? "").trim() }))
+    .filter((x) => x.raw);
+  const resolutions = rawInputs.map((x) => ({ key: x.key, res: resolveMedicationInput(x.raw) }));
+  const selected: typeof meds = [];
+  for (const r of resolutions) {
+    if (r.res.meds.length === 1) {
+      const m = meds.find((x) => x.id === r.res.meds[0].id);
+      if (m && !selected.some((s) => s.id === m.id)) selected.push(m);
+    }
+  }
+  const selectedSlugs = rawInputs.map((x) => x.raw);
+  const suggestions = medicationSuggestions();
+  const passthrough = Object.fromEntries(rawInputs.map((x) => [x.key, x.raw]));
   // Also allow id selection via form posting slugs only
   const ids = selected.map((m) => m.id);
   const interactions = findInteractions(ids) as {
@@ -56,8 +71,9 @@ export default async function InteractionsPage({
         </div>
 
         <div className="mt-6">
-          <InteractionForm meds={meds} initial={selectedSlugs} />
+          <InteractionForm suggestions={suggestions} initial={selectedSlugs} />
         </div>
+        <MedResolutionNotes resolutions={resolutions} basePath="/interactions" param={passthrough} />
 
         {ids.length >= 2 ? (
           <section className="mt-8">
@@ -118,13 +134,19 @@ export default async function InteractionsPage({
         )}
 
         <p className="mt-8 text-sm text-slate-500">
-          Example:{" "}
-          <Link
-            href="/interactions?a=warfarin&b=ibuprofen"
-            className="text-teal-700 underline"
-          >
+          Examples:{" "}
+          <Link href="/interactions?a=warfarin&b=ibuprofen" className="text-teal-700 underline">
             warfarin + ibuprofen
           </Link>
+          {" · "}
+          <Link href="/interactions?a=Marcoumar&b=Algifor" className="text-teal-700 underline">
+            Marcoumar + Algifor
+          </Link>
+          {" · "}
+          <Link href="/interactions?a=Xarelto&b=Aspirin" className="text-teal-700 underline">
+            Xarelto + Aspirin
+          </Link>
+          <span className="block text-xs">You can type generic names, brand names (CH/EU/US/UK) or common spellings.</span>
         </p>
       </div>
     </div>
