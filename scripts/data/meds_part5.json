@@ -12,9 +12,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Reduces pregnancy risk after unprotected intercourse; efficacy declines with time.",
     "benefitsSummary": "Post-coital contraception within labeled time window.",
@@ -22,20 +22,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Emergency contraception (levonorgestrel / ulipristal products)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
-      },
-      {
-        "indication": "Prevention of pregnancy",
+        "indication": "Emergency contraception",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Menstrual cycle regulation / acne / endometriosis symptoms (selected CHCs — labeled)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -125,9 +114,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective acid suppression; generally fewer long-term concerns than chronic PPI for some patients.",
     "benefitsSummary": "GERD/heartburn and ulcer indications; OTC and Rx.",
@@ -140,19 +129,14 @@
         "evidence": "high"
       },
       {
-        "indication": "GERD / heartburn",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Peptic ulcer disease",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Stress ulcer prophylaxis (ICU protocols — selected)",
+        "indication": "GERD / heartburn",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       }
     ],
     "adverse": [
@@ -238,25 +222,10 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Historical: GERD/ulcers — products largely withdrawn",
+        "indication": "Historical: GERD/ulcers — products largely withdrawn due to NDMA impurity concerns",
         "approved": false,
-        "evidence": "no_established",
-        "notes": "Regulatory withdrawals due to NDMA"
-      },
-      {
-        "indication": "GERD / heartburn",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Peptic ulcer disease",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Stress ulcer prophylaxis (ICU protocols — selected)",
-        "approved": true,
-        "evidence": "moderate"
+        "evidence": "low",
+        "notes": "Do not use; historical reference only"
       }
     ],
     "adverse": [
@@ -333,9 +302,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Anchor DMARD for RA; weekly dosing critical — daily dosing errors can be fatal.",
     "benefitsSummary": "Disease modification in RA and other inflammatory diseases.",
@@ -348,22 +317,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Psoriasis / other labeled uses",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Psoriasis / psoriatic arthritis",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Oncology indications (higher doses — different protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Ectopic pregnancy medical management (specialist)",
+        "indication": "Psoriasis / psoriatic arthritis as labeled",
         "approved": true,
         "evidence": "high"
       }
@@ -471,9 +425,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Reduces vertebral and nonvertebral fractures in osteoporosis with correct administration.",
     "benefitsSummary": "Fracture risk reduction in postmenopausal and glucocorticoid-induced osteoporosis.",
@@ -487,11 +441,6 @@
       },
       {
         "indication": "Paget disease of bone",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hypercalcemia of malignancy / oncology bone mets (IV agents)",
         "approved": true,
         "evidence": "high"
       }
@@ -695,9 +644,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for iron deficiency anemia; GI intolerance common.",
     "benefitsSummary": "Corrects iron deficiency anemia.",
@@ -797,9 +746,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Improves LUTS from BPH; IFIS relevant for cataract surgery.",
     "benefitsSummary": "Symptom relief in benign prostatic hyperplasia.",
@@ -899,9 +848,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Reduces prostate volume / hair loss as labeled; pregnancy handling precautions.",
     "benefitsSummary": "BPH (5 mg) and male pattern hair loss (1 mg) as labeled.",
@@ -1023,9 +972,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for ED and PAH; absolute contraindication with nitrates.",
     "benefitsSummary": "Erectile dysfunction; pulmonary arterial hypertension (separate dosing).",
@@ -1039,16 +988,6 @@
       },
       {
         "indication": "Pulmonary arterial hypertension (Revatio)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Pulmonary arterial hypertension (specific products/doses)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "BPH (tadalafil daily — labeled)",
         "approved": true,
         "evidence": "high"
       }
@@ -1243,9 +1182,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Classic antianginal; absolute contraindication with PDE5 inhibitors.",
     "benefitsSummary": "Acute relief of angina; prevention in situational use.",
@@ -1258,17 +1197,12 @@
         "evidence": "high"
       },
       {
-        "indication": "Angina relief / prophylaxis",
+        "indication": "Angina prophylaxis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Acute coronary syndromes adjunct",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hypertensive emergencies / HF (selected IV)",
+        "indication": "Acute coronary syndromes adjunct (IV protocols)",
         "approved": true,
         "evidence": "moderate"
       }
@@ -1356,9 +1290,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective anxiolytic/anticonvulsant short-term; dependence and fall risk established.",
     "benefitsSummary": "Short-term anxiety, alcohol withdrawal, status epilepticus protocols as labeled.",
@@ -1366,35 +1300,25 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Anxiety (short-term); alcohol withdrawal; seizures as labeled",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
+        "indication": "Anxiety disorders (short-term)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
+        "indication": "Acute alcohol withdrawal",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Alcohol withdrawal (selected protocols)",
+        "indication": "Muscle spasm",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Muscle spasm (diazepam)",
+        "indication": "Adjunct in convulsive disorders / status epilepticus (selected routes)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
+        "evidence": "high",
+        "notes": "Rectal/IV products as labeled"
       }
     ],
     "adverse": [
@@ -1493,9 +1417,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Short-term insomnia; complex sleep behaviors boxed warning.",
     "benefitsSummary": "Short-term sleep onset assistance — CBT-I preferred long-term.",
@@ -1503,98 +1427,61 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Short-term insomnia",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
+        "indication": "Short-term treatment of insomnia (sleep onset; some formulations also maintenance)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
       {
-        "effect": "Drowsiness, dizziness",
+        "effect": "Drowsiness, dizziness, headache",
         "severity": "common",
         "evidence": "high"
       },
       {
-        "effect": "Complex sleep behaviors (sleep-driving) — boxed",
-        "severity": "boxed",
-        "evidence": "high"
-      },
-      {
-        "effect": "Sedation, dizziness, ataxia",
-        "severity": "common",
-        "evidence": "high"
-      },
-      {
-        "effect": "Cognitive impairment / dependence",
+        "effect": "Complex sleep behaviors (sleep-walking, sleep-driving) — boxed warning",
         "severity": "serious",
         "evidence": "high"
       },
       {
-        "effect": "Respiratory depression with opioids / alcohol",
+        "effect": "Next-day impairment / falls",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Dependence / withdrawal with prolonged use",
+        "severity": "moderate",
+        "evidence": "moderate"
+      },
+      {
+        "effect": "Respiratory depression risk with opioids / alcohol / other CNS depressants",
         "severity": "serious",
         "evidence": "high"
       },
       {
         "effect": "Paradoxical agitation (esp. elderly)",
         "severity": "moderate",
-        "evidence": "high"
-      },
-      {
-        "effect": "Falls and fractures in elderly",
-        "severity": "serious",
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "warnings": [
       {
-        "type": "contraindication",
-        "population": "Prior complex sleep behavior with zolpidem",
-        "severity": "major",
-        "details": "Discontinue permanently if occurs."
-      },
-      {
         "type": "boxed",
-        "population": "Opioid co-use",
+        "population": "All patients",
         "severity": "major",
-        "details": "Profound sedation, respiratory depression, death."
+        "details": "Complex sleep behaviors (sleep-walking, sleep-driving, other activities while not fully awake) — discontinue if they occur."
       },
       {
         "type": "warning",
-        "population": "Abuse, misuse, addiction; physical dependence; withdrawal reactions",
+        "population": "Elderly; concurrent CNS depressants",
         "severity": "major",
-        "details": "FDA class boxed warnings."
+        "details": "Higher risk of falls, confusion, and respiratory depression."
       },
       {
         "type": "precaution",
-        "population": "Elderly (Beers Criteria)",
-        "severity": "major",
-        "details": "Prefer avoidance for insomnia/agitation."
+        "population": "History of substance use disorder",
+        "severity": "moderate",
+        "details": "Abuse and dependence potential — keep courses short."
       }
     ],
     "special": {
@@ -1629,9 +1516,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Indicated for schizophrenia/bipolar; metabolic effects and elderly dementia boxed warning.",
     "benefitsSummary": "Mood and psychotic disorder management as labeled.",
@@ -1639,25 +1526,19 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Schizophrenia; bipolar disorder as labeled",
+        "indication": "Schizophrenia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar mania/depression (product-specific)",
+        "indication": "Bipolar disorder as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Adjunct MDD (selected agents)",
+        "indication": "Adjunct MDD (extended-release — as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Off-label insomnia / agitation (common but cautioned)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Risks often outweigh for primary insomnia"
       }
     ],
     "adverse": [
@@ -1764,9 +1645,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Gold-standard long-term prophylaxis in bipolar disorder; narrow therapeutic index.",
     "benefitsSummary": "Reduces manic relapse; evidence for suicide risk reduction in bipolar disorder.",
@@ -1774,29 +1655,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Bipolar disorder (mania/maintenance)",
+        "indication": "Bipolar disorder (mania / maintenance)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Bipolar disorder (agent-specific roles)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1904,9 +1765,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for focal seizures and trigeminal neuralgia; HLA-B*1502 associated SJS risk.",
     "benefitsSummary": "Seizure control and trigeminal neuralgia pain.",
@@ -1914,27 +1775,17 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Epilepsy (focal); trigeminal neuralgia",
+        "indication": "Epilepsy (focal seizures / generalized tonic-clonic — as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar disorder (agent-specific roles)",
+        "indication": "Trigeminal neuralgia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
+        "indication": "Acute manic / mixed episodes in bipolar I (selected products)",
         "approved": true,
         "evidence": "moderate"
       }
@@ -2051,9 +1902,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Highly teratogenic — major restrictions in women of childbearing potential.",
     "benefitsSummary": "Broad-spectrum antiseizure and bipolar mania treatment under pregnancy prevention programs.",
@@ -2061,29 +1912,20 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Epilepsy; bipolar mania as labeled",
+        "indication": "Epilepsy (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar disorder (agent-specific roles)",
+        "indication": "Manic episodes associated with bipolar disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Epilepsy / seizure disorders as labeled",
+        "indication": "Migraine prophylaxis",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
-        "approved": true,
-        "evidence": "moderate"
+        "evidence": "high",
+        "notes": "Contraindicated in pregnancy for migraine prophylaxis"
       }
     ],
     "adverse": [
@@ -2191,9 +2033,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for seizures and bipolar maintenance; slow titration to reduce SJS risk.",
     "benefitsSummary": "Seizure control and bipolar maintenance.",
@@ -2201,29 +2043,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Epilepsy; bipolar I maintenance",
+        "indication": "Epilepsy (adjunctive / monotherapy as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar disorder (agent-specific roles)",
+        "indication": "Maintenance treatment of bipolar I disorder to delay mood episodes",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -2329,9 +2156,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Modest symptom duration reduction in healthy outpatients when started early; more important for high-risk patients.",
     "benefitsSummary": "Treatment and prophylaxis of influenza as labeled.",
@@ -2439,9 +2266,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Established for HSV and VZV; hydrate to reduce crystalluria with IV.",
     "benefitsSummary": "Shortens herpesvirus outbreaks when timed appropriately.",
@@ -2552,9 +2379,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Established in SLE/RA. Not established as COVID-19 treatment. Retinal toxicity with long-term use.",
     "benefitsSummary": "Disease control in SLE and RA as labeled.",
@@ -2562,15 +2389,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "SLE; rheumatoid arthritis",
+        "indication": "Rheumatoid arthritis",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "COVID-19 treatment",
-        "approved": false,
-        "evidence": "no_established",
-        "notes": "RCTs did not support routine use"
       },
       {
         "indication": "Systemic lupus erythematosus",
@@ -2581,12 +2402,6 @@
         "indication": "Malaria treatment/prophylaxis as labeled",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "COVID-19 outpatient (not established for routine use)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Large RCTs did not support routine benefit — historical misuse caution"
       }
     ],
     "adverse": [
@@ -2792,9 +2607,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Guideline antihypertensive/HF agent.",
     "benefitsSummary": "BP lowering and HF indications.",
@@ -2802,25 +2617,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Hypertension; HF as labeled",
+        "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
+        "indication": "Heart failure (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Stroke risk reduction in hypertension with LVH (losartan — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
@@ -2911,9 +2715,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Used for rate control and angina/hypertension.",
     "benefitsSummary": "Rate control in AF; angina/HTN as labeled.",
@@ -2921,7 +2725,7 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Hypertension; angina; AF rate control",
+        "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
@@ -2934,11 +2738,6 @@
         "indication": "Rate control in atrial fibrillation/flutter",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "IV for acute rate control (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -3028,9 +2827,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Rate control and angina; CYP3A4/P-gp interactions.",
     "benefitsSummary": "AF rate control; hypertension/angina.",
@@ -3038,12 +2837,12 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Angina; hypertension; SVT/AF rate control",
+        "indication": "Angina",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Angina",
+        "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
@@ -3053,7 +2852,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Cluster headache prophylaxis (off-label high-dose specialist)",
+        "indication": "Cluster headache prophylaxis",
         "approved": false,
         "evidence": "moderate"
       }
@@ -3143,9 +2942,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Respiratory infections and H. pylori regimens; many drug interactions.",
     "benefitsSummary": "Selected bacterial infections; H. pylori combos.",
@@ -3274,9 +3073,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Broad hospital antibiotic for serious infections.",
     "benefitsSummary": "Empiric therapy for selected serious bacterial infections.",
@@ -3400,9 +3199,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Nephrotoxicity and ototoxicity established; levels often monitored.",
     "benefitsSummary": "Serious gram-negative infections.",
@@ -3504,9 +3303,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "MRSA and C. diff (oral) mainstay; levels and infusion reactions matter.",
     "benefitsSummary": "Serious gram-positive infections; oral for C. difficile.",
@@ -3614,9 +3413,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Anaerobes, protozoa, C. diff (historically); disulfiram-like reaction with alcohol.",
     "benefitsSummary": "Anaerobic infections, trichomoniasis, bacterial vaginosis, etc.",
@@ -3744,9 +3543,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Common candidiasis therapy; CYP interactions and QT caution.",
     "benefitsSummary": "Mucosal and systemic candidiasis as labeled.",
@@ -3853,9 +3652,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for dermatophyte onychomycosis; hepatotoxicity rare but labeled.",
     "benefitsSummary": "Onychomycosis and other dermatophyte infections.",
@@ -3946,9 +3745,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Standard prandial insulin option; hypoglycemia risk.",
     "benefitsSummary": "Mealtime insulin coverage for diabetes.",
@@ -3969,17 +3768,6 @@
         "indication": "Type 2 diabetes when insulin required",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Gestational diabetes / pregnancy diabetes (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hyperkalemia acute management (IV regular insulin protocols)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Hospital protocols"
       }
     ],
     "adverse": [
@@ -4073,9 +3861,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective glucose lowering; hypoglycemia and weight gain risks.",
     "benefitsSummary": "Type 2 diabetes when insulin secretion still present.",
@@ -4086,17 +3874,6 @@
         "indication": "Type 2 diabetes mellitus",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Add-on when metformin insufficient (guideline pathways)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Not for type 1 diabetes or DKA",
-        "approved": false,
-        "evidence": "high",
-        "notes": "Contraindicated contexts — educational contrast"
       }
     ],
     "adverse": [
@@ -4173,9 +3950,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Modest A1c reduction; generally weight-neutral; pancreatitis rare signal.",
     "benefitsSummary": "Type 2 diabetes add-on therapy.",
@@ -4186,17 +3963,6 @@
         "indication": "Type 2 diabetes mellitus (monotherapy or combination)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Add-on to metformin / other antihyperglycemics as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Not for type 1 diabetes or DKA",
-        "approved": false,
-        "evidence": "high",
-        "notes": "Labeled limitation"
       }
     ],
     "adverse": [
@@ -4284,9 +4050,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "LDL lowering; outcome benefit in IMPROVE-IT with statin post-ACS.",
     "benefitsSummary": "Adjunct to statin or statin-intolerant LDL lowering.",
@@ -4294,24 +4060,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Primary hyperlipidemia; homozygous FH as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Primary hyperlipidemia ± statin",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Homozygous familial hypercholesterolemia adjunct",
+        "indication": "Homozygous familial hypercholesterolemia (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Sitosterolemia",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -4374,9 +4130,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "TG lowering; CV outcome benefit mainly in hypertriglyceridemia subgroups — not first-line for LDL.",
     "benefitsSummary": "Severe hypertriglyceridemia to reduce pancreatitis risk.",
@@ -4386,18 +4142,12 @@
       {
         "indication": "Severe hypertriglyceridemia",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       },
       {
         "indication": "Mixed dyslipidemia adjunct (selected)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic retinopathy progression adjunct (some regions — fenofibrate)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Jurisdiction-specific evidence/labeling"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -4491,9 +4241,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Angina prophylaxis; nitrate tolerance with continuous dosing.",
     "benefitsSummary": "Prevention of angina pectoris.",
@@ -4504,21 +4254,6 @@
         "indication": "Angina prophylaxis",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina relief / prophylaxis",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Acute coronary syndromes adjunct",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hypertensive emergencies / HF (selected IV)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -4602,9 +4337,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Antihypertensive and other uses; rebound hypertension on abrupt withdrawal.",
     "benefitsSummary": "Hypertension; ADHD (selected products); other labeled uses.",
@@ -4614,7 +4349,7 @@
       {
         "indication": "Hypertension",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       },
       {
         "indication": "ADHD (extended-release — labeled US)",
@@ -4622,12 +4357,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Menopausal flushing / withdrawal adjuncts (off-label)",
-        "approved": false,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Opioid/alcohol withdrawal supportive (off-label)",
+        "indication": "Menopausal flushing / opioid withdrawal adjuncts",
         "approved": false,
         "evidence": "moderate"
       }
@@ -4715,9 +4445,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "BPH and hypertension; orthostatic hypotension especially first dose.",
     "benefitsSummary": "BPH symptoms; hypertension (less preferred first-line for HTN alone).",
@@ -4725,17 +4455,12 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "BPH; hypertension",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Hypertension (not usually first-line)",
+        "indication": "BPH symptoms",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "BPH symptoms",
+        "indication": "Hypertension (not usually first-line)",
         "approved": true,
         "evidence": "high"
       }
@@ -4818,9 +4543,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Overactive bladder option; BP increases possible.",
     "benefitsSummary": "Overactive bladder with urgency incontinence.",
@@ -4926,9 +4651,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "OAB treatment; anticholinergic cognitive effects in elderly.",
     "benefitsSummary": "Overactive bladder symptoms.",

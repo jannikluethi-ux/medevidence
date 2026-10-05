@@ -1,0 +1,2459 @@
+{
+  "Loperamide": [
+    {
+      "indication": "Acute nonspecific diarrhea",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic diarrhea associated with inflammatory bowel disease (adjunct)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "As labeled; avoid in fever/bloody stools / invasive infection"
+    }
+  ],
+  "Naloxone": [
+    {
+      "indication": "Known or suspected opioid overdose (emergency reversal)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Take-home naloxone for opioid overdose risk reduction",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Where authorized for community supply"
+    }
+  ],
+  "Colchicine": [
+    {
+      "indication": "Acute gout flares",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Prophylaxis of gout flares",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Including when starting urate-lowering therapy"
+    },
+    {
+      "indication": "Familial Mediterranean fever",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cardiovascular risk reduction in selected coronary disease patients (low-dose — product-specific)",
+      "approved": true,
+      "evidence": "moderate",
+      "notes": "See current labeled CV indications where authorized"
+    }
+  ],
+  "Zolpidem": [
+    {
+      "indication": "Short-term treatment of insomnia (sleep onset; some formulations also maintenance)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Zopiclone": [
+    {
+      "indication": "Short-term treatment of insomnia",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Eszopiclone": [
+    {
+      "indication": "Insomnia (sleep onset and/or sleep maintenance)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Dexlansoprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Labeled for healing/maintenance of erosive esophagitis and symptomatic non-erosive GERD heartburn"
+    },
+    {
+      "indication": "Healing of erosive esophagitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Maintenance of healed erosive esophagitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heartburn associated with non-erosive GERD",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Bumetanide": [
+    {
+      "indication": "Edema associated with congestive heart failure",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Edema associated with hepatic disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Edema associated with renal disease (including nephrotic syndrome)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Torsemide": [
+    {
+      "indication": "Edema associated with heart failure, renal disease, or hepatic disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Furosemide": [
+    {
+      "indication": "Edema associated with congestive heart failure, cirrhosis of the liver, and renal disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute pulmonary edema",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension (alone or in combination)",
+      "approved": true,
+      "evidence": "moderate",
+      "notes": "Not usually first-line"
+    }
+  ],
+  "Morphine": [
+    {
+      "indication": "Moderate to severe acute pain when non-opioids insufficient",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cancer / palliative pain",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic pain only with careful selection (generally last-line)",
+      "approved": true,
+      "evidence": "moderate",
+      "notes": "Guideline-restricted"
+    }
+  ],
+  "Oxycodone": [
+    {
+      "indication": "Moderate to severe acute pain when non-opioids insufficient",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cancer / palliative pain (selected)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Severe chronic pain requiring around-the-clock opioid when alternatives inadequate",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Hydrocodone": [
+    {
+      "indication": "Moderate to severe pain (often in combination products)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Product-specific"
+    },
+    {
+      "indication": "Severe chronic pain requiring around-the-clock opioid when alternatives inadequate (ER products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Hydromorphone": [
+    {
+      "indication": "Moderate to severe acute pain when non-opioids insufficient",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cancer / palliative pain (selected)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Fentanyl": [
+    {
+      "indication": "Severe acute pain (e.g., perioperative / transmucosal products as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic pain in opioid-tolerant patients (transdermal / certain transmucosal — labeled)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Only for opioid-tolerant patients"
+    }
+  ],
+  "Tramadol": [
+    {
+      "indication": "Moderate to moderately severe pain",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Codeine": [
+    {
+      "indication": "Mild to moderate pain (selected adults)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Restrictions in children / ultra-rapid metabolizers"
+    },
+    {
+      "indication": "Antitussive (selected products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Buprenorphine": [
+    {
+      "indication": "Opioid use disorder (maintenance / induction as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Moderate to severe pain (selected formulations)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Neonatal opioid withdrawal protocols",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Specialist protocols"
+    }
+  ],
+  "Diazepam": [
+    {
+      "indication": "Anxiety disorders (short-term)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute alcohol withdrawal",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Muscle spasm",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Adjunct in convulsive disorders / status epilepticus (selected routes)",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Rectal/IV products as labeled"
+    }
+  ],
+  "Lorazepam": [
+    {
+      "indication": "Anxiety disorders (short-term)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Insomnia due to anxiety or transient situational stress (short-term)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Preoperative sedation / amnesia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Status epilepticus (IV)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Alprazolam": [
+    {
+      "indication": "Anxiety disorders (short-term)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder (with or without agoraphobia)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Clonazepam": [
+    {
+      "indication": "Seizure disorders (Lennox-Gastaut, akinetic, myoclonic — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Temazepam": [
+    {
+      "indication": "Short-term treatment of insomnia",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Fluoxetine": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Obsessive-compulsive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Bulimia nervosa",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Premenstrual dysphoric disorder (selected products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Sertraline": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Obsessive-compulsive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-traumatic stress disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Social anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Premenstrual dysphoric disorder",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Escitalopram": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Generalized anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Citalopram": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Paroxetine": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Obsessive-compulsive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Social anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Generalized anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-traumatic stress disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Premenstrual dysphoric disorder (selected products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Fluvoxamine": [
+    {
+      "indication": "Obsessive-compulsive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Social anxiety disorder (some regions)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Major depressive disorder (jurisdiction-dependent)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Venlafaxine": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Generalized anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Social anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Panic disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Duloxetine": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Generalized anxiety disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Diabetic peripheral neuropathic pain",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Fibromyalgia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic musculoskeletal pain (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Desvenlafaxine": [
+    {
+      "indication": "Major depressive disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Empagliflozin": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (HFrEF and HFpEF — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic kidney disease (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV death risk reduction in T2DM with established CVD",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Dapagliflozin": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (HFrEF and HFpEF — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic kidney disease (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk / HF hospitalization risk reduction as labeled",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Canagliflozin": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in T2DM with established CVD / risk factors (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Diabetic kidney disease progression risk reduction (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Liraglutide": [
+    {
+      "indication": "Type 2 diabetes mellitus (Victoza)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic weight management (Saxenda — labeled dose/product)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in T2DM with established CVD (Victoza — as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Dulaglutide": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in T2DM with established CVD / multiple risk factors (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Semaglutide": [
+    {
+      "indication": "Type 2 diabetes mellitus (Ozempic / Rybelsus)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic weight management (Wegovy)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in T2DM with established CVD (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Lisinopril": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (HFrEF)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute myocardial infarction (within 24 hours in hemodynamically stable patients — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ramipril": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure after MI / CV risk reduction as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Reduction of CV events in high-risk patients (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Enalapril": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Asymptomatic left ventricular dysfunction (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Perindopril": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Stable coronary artery disease — risk reduction (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Heart failure (selected products/jurisdictions)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Benazepril": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Losartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Diabetic nephropathy in type 2 diabetes with hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Stroke risk reduction in hypertension with left ventricular hypertrophy (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Valsartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (NYHA class II–IV)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-MI left ventricular failure / dysfunction (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Candesartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Irbesartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Diabetic nephropathy in type 2 diabetes with hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Olmesartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Telmisartan": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in high-risk patients (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Sacubitril/valsartan": [
+    {
+      "indication": "Chronic heart failure with reduced ejection fraction",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Atorvastatin": [
+    {
+      "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Familial hypercholesterolemia (hetero/homo — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Prevention of cardiovascular events in high-risk patients",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Rosuvastatin": [
+    {
+      "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Familial hypercholesterolemia (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Primary prevention of CV events in elevated-risk patients (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Simvastatin": [
+    {
+      "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Familial hypercholesterolemia (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV event risk reduction in high-risk patients (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Pravastatin": [
+    {
+      "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Primary and secondary prevention of coronary events (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Lovastatin": [
+    {
+      "indication": "Primary hyperlipidemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Primary prevention of coronary heart disease (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Pitavastatin": [
+    {
+      "indication": "Primary hyperlipidemia / mixed dyslipidemia",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ibuprofen": [
+    {
+      "indication": "Mild to moderate pain",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Fever",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Dysmenorrhea",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Naproxen": [
+    {
+      "indication": "Pain (mild to moderate)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Fever / antipyresis",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Dysmenorrhea",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Ankylosing spondylitis / acute gout (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Diclofenac": [
+    {
+      "indication": "Pain (mild to moderate)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Ankylosing spondylitis / acute migraine (selected products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Celecoxib": [
+    {
+      "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Osteoarthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Rheumatoid arthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Ankylosing spondylitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute pain / primary dysmenorrhea (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Juvenile rheumatoid arthritis (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Meloxicam": [
+    {
+      "indication": "Osteoarthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Rheumatoid arthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Juvenile rheumatoid arthritis (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Indomethacin": [
+    {
+      "indication": "Moderate to severe rheumatoid arthritis / osteoarthritis / ankylosing spondylitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute gouty arthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute painful shoulder (bursitis/tendinitis)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Ketorolac": [
+    {
+      "indication": "Short-term (≤5 days) management of moderately severe acute pain requiring analgesia at opioid level",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Not for chronic use"
+    }
+  ],
+  "Aspirin (low-dose / antiplatelet)": [
+    {
+      "indication": "Secondary prevention after MI / ischemic stroke / ASCVD",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pain/fever (higher doses)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute coronary syndromes (chewed/loading dose protocols)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Cetirizine": [
+    {
+      "indication": "Allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Urticaria",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Loratadine": [
+    {
+      "indication": "Allergic rhinitis / urticaria",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Fexofenadine": [
+    {
+      "indication": "Allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic idiopathic urticaria",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Desloratadine": [
+    {
+      "indication": "Allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic idiopathic urticaria",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Levocetirizine": [
+    {
+      "indication": "Allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic idiopathic urticaria",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Lithium carbonate": [
+    {
+      "indication": "Bipolar disorder (mania / maintenance)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Carbamazepine": [
+    {
+      "indication": "Epilepsy (focal seizures / generalized tonic-clonic — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Trigeminal neuralgia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute manic / mixed episodes in bipolar I (selected products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Valproate (valproic acid / divalproex)": [
+    {
+      "indication": "Epilepsy (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Manic episodes associated with bipolar disorder",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Migraine prophylaxis",
+      "approved": true,
+      "evidence": "high",
+      "notes": "Contraindicated in pregnancy for migraine prophylaxis"
+    }
+  ],
+  "Lamotrigine": [
+    {
+      "indication": "Epilepsy (adjunctive / monotherapy as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Maintenance treatment of bipolar I disorder to delay mood episodes",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Levetiracetam": [
+    {
+      "indication": "Focal and generalized seizures as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Myoclonic seizures / primary generalized tonic-clonic (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Status epilepticus (IV — guideline use in many settings)",
+      "approved": false,
+      "evidence": "moderate"
+    }
+  ],
+  "Phenytoin": [
+    {
+      "indication": "Focal and generalized tonic-clonic seizures",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Status epilepticus (IV fosphenytoin/phenytoin protocols)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Seizure prophylaxis after neurosurgery (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Topiramate": [
+    {
+      "indication": "Epilepsy (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Migraine prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Gabapentin": [
+    {
+      "indication": "Postherpetic neuralgia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Partial-onset seizures (adjunct)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Pregabalin": [
+    {
+      "indication": "Diabetic peripheral neuropathy",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Postherpetic neuralgia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Fibromyalgia (US)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Partial-onset seizures (adjunct)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Neuropathic pain (EU and other labels)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Generalized anxiety disorder (licensed some regions)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Gabapentin enacarbil": [
+    {
+      "indication": "Restless legs syndrome",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Postherpetic neuralgia",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Allopurinol": [
+    {
+      "indication": "Chronic gout / hyperuricemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Tumor lysis syndrome prevention (selected oncology protocols)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Recurrent calcium stones with hyperuricosuria (selected)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Spironolactone": [
+    {
+      "indication": "HFrEF / NYHA class III–IV heart failure (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension (usually add-on / resistant)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Primary hyperaldosteronism",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Edema / ascites in cirrhosis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acne / hirsutism",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Off-label common uses"
+    }
+  ],
+  "Eplerenone": [
+    {
+      "indication": "HFrEF after MI / chronic HFrEF (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Omeprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Erosive esophagitis healing / maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Peptic ulcer disease / H. pylori combination therapy",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Pantoprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Erosive esophagitis healing / maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Peptic ulcer disease",
+      "approved": true,
+      "evidence": "moderate",
+      "notes": "Product/jurisdiction-specific"
+    }
+  ],
+  "Esomeprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Erosive esophagitis healing / maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "H. pylori eradication (combination regimens)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "NSAID-associated gastric ulcer risk reduction (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Lansoprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Erosive esophagitis healing / maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Peptic ulcer disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "H. pylori eradication (combination regimens)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "NSAID-associated gastric ulcer healing / risk reduction (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Rabeprazole": [
+    {
+      "indication": "Gastroesophageal reflux disease (GERD)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Erosive esophagitis healing / maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Peptic ulcer disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "H. pylori eradication (combination regimens)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Apixaban": [
+    {
+      "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Treatment of DVT / PE and reduction of recurrence",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "VTE prophylaxis after hip/knee replacement (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Rivaroxaban": [
+    {
+      "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Treatment of DVT / PE and reduction of recurrence",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "VTE prophylaxis after hip/knee replacement (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "CV risk reduction in CAD/PAD (vascular dose — as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Dabigatran": [
+    {
+      "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Treatment of DVT / PE and reduction of recurrence",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "VTE prophylaxis after hip replacement (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Edoxaban": [
+    {
+      "indication": "Stroke prevention in nonvalvular atrial fibrillation",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Treatment of DVT / PE",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Warfarin": [
+    {
+      "indication": "Prophylaxis/treatment of venous thrombosis and PE",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Thromboembolic complications of AF / cardiac valve replacement",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Mechanical heart valve anticoagulation",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Secondary prevention after MI (selected contexts)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Clopidogrel": [
+    {
+      "indication": "ACS / recent MI / recent stroke / established PAD as labeled",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Prasugrel": [
+    {
+      "indication": "ACS managed with PCI — reduction of thrombotic events (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ticagrelor": [
+    {
+      "indication": "ACS — reduction of CV death/MI/stroke (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Atenolol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina pectoris",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-MI (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Bisoprolol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic heart failure (HFrEF)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina pectoris",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Metoprolol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina pectoris",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Heart failure (metoprolol succinate ER)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-MI",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Carvedilol": [
+    {
+      "indication": "HFrEF",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Post-MI left ventricular dysfunction",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Nebivolol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Labetalol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertensive emergencies (IV — as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Propranolol": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina pectoris",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Arrhythmias as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Migraine prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Essential tremor",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Performance anxiety / situational anxiety",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Off-label common use"
+    }
+  ],
+  "Amlodipine": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic stable angina / vasospastic angina (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Nifedipine": [
+    {
+      "indication": "Hypertension (extended-release)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina (chronic stable / vasospastic — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Felodipine": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Diltiazem": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic stable angina",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Rate control in atrial fibrillation/flutter",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Verapamil": [
+    {
+      "indication": "Angina",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Rate control / SVT (selected)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cluster headache prophylaxis",
+      "approved": false,
+      "evidence": "moderate"
+    }
+  ],
+  "Beclomethasone (inhaled)": [
+    {
+      "indication": "Asthma maintenance",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Budesonide (inhaled)": [
+    {
+      "indication": "Asthma maintenance",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Fluticasone (inhaled)": [
+    {
+      "indication": "Asthma maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Fluticasone/salmeterol": [
+    {
+      "indication": "Asthma maintenance",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "COPD maintenance (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Budesonide/formoterol": [
+    {
+      "indication": "Asthma maintenance (and MART where licensed)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "COPD (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Dexamethasone": [
+    {
+      "indication": "Inflammatory / allergic / autoimmune conditions as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cerebral edema / oncology / antiemetic protocols (selected)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Severe COVID-19 requiring oxygen / ventilation (guideline-supported)",
+      "approved": false,
+      "evidence": "high",
+      "notes": "RECOVERY / guidelines — confirm product labeling"
+    }
+  ],
+  "Methylprednisolone": [
+    {
+      "indication": "Inflammatory / allergic / autoimmune conditions as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Asthma / COPD exacerbations (short courses)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Prednisone / Prednisolone": [
+    {
+      "indication": "Multiple inflammatory / autoimmune conditions as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Asthma / COPD exacerbations (short courses)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ciprofloxacin": [
+    {
+      "indication": "Complicated UTI / pyelonephritis (when appropriate)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Selected susceptible infections as labeled (not first-line for uncomplicated infections)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Levofloxacin": [
+    {
+      "indication": "Selected bacterial infections as labeled (respiratory, UTI, skin — when appropriate)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Moxifloxacin": [
+    {
+      "indication": "Community-acquired pneumonia and other labeled susceptible infections",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ofloxacin": [
+    {
+      "indication": "Selected susceptible infections as labeled (UTI, skin, STI historically)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Hydrochlorothiazide": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Edema",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Chlorthalidone": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Edema (selected contexts)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Indapamide": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Olanzapine": [
+    {
+      "indication": "Schizophrenia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Bipolar I disorder (acute mania / mixed / maintenance as labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Treatment-resistant depression (adjunct with fluoxetine — as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Risperidone": [
+    {
+      "indication": "Schizophrenia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Bipolar mania",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Irritability associated with autistic disorder (pediatric — as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Quetiapine": [
+    {
+      "indication": "Schizophrenia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Bipolar disorder as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Adjunct MDD (extended-release — as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Aripiprazole": [
+    {
+      "indication": "Schizophrenia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Bipolar I",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Adjunct MDD",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Irritability in autistic disorder (pediatric labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Tourette disorder (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Clozapine": [
+    {
+      "indication": "Treatment-resistant schizophrenia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Reduction of recurrent suicidal behavior in schizophrenia/schizoaffective disorder",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Minocycline": [
+    {
+      "indication": "Susceptible bacterial infections as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Inflammatory acne (selected)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Potassium chloride": [
+    {
+      "indication": "Hypokalemia treatment and prevention",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "St. John's wort": [
+    {
+      "indication": "Mild depressive symptoms (jurisdiction-dependent; herbal/supplement status varies)",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Evidence mixed; major interaction risk"
+    }
+  ],
+  "Fosfomycin": [
+    {
+      "indication": "Uncomplicated cystitis in women (single-dose sachet regimens)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Atomoxetine": [
+    {
+      "indication": "ADHD (children/adults as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Digoxin": [
+    {
+      "indication": "Heart failure (adjunct for rate/symptom control in selected patients)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Atrial fibrillation rate control",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Amiodarone": [
+    {
+      "indication": "Life-threatening ventricular arrhythmias",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Atrial arrhythmias rate/rhythm control",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Common use; significant toxicity — risk–benefit"
+    }
+  ],
+  "Paracetamol (Acetaminophen)": [
+    {
+      "indication": "Mild to moderate pain",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Fever",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Osteoarthritis symptomatic relief (adjunct)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Oral contraceptives (combined) — class overview": [
+    {
+      "indication": "Prevention of pregnancy",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Selected noncontraceptive labeled uses (acne, PMDD — product-specific)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Ethinylestradiol contraceptives": [
+    {
+      "indication": "Contraception (as part of combined hormonal contraceptives)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cycle control / acne (selected combination products)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Levonorgestrel emergency contraception": [
+    {
+      "indication": "Emergency contraception",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Enoxaparin": [
+    {
+      "indication": "VTE treatment and prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "ACS / procedural anticoagulation as labeled",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Heparin (unfractionated)": [
+    {
+      "indication": "VTE treatment and prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "ACS / procedural anticoagulation",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ondansetron": [
+    {
+      "indication": "Chemotherapy-induced nausea/vomiting",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Radiotherapy-induced nausea/vomiting",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Postoperative nausea/vomiting",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Famotidine": [
+    {
+      "indication": "Heartburn / GERD / ulcers as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Peptic ulcer disease",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "GERD / heartburn",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ranitidine (historical / withdrawn)": [
+    {
+      "indication": "Historical: GERD/ulcers — products largely withdrawn due to NDMA impurity concerns",
+      "approved": false,
+      "evidence": "low",
+      "notes": "Do not use; historical reference only"
+    }
+  ],
+  "Montelukast": [
+    {
+      "indication": "Asthma maintenance (not acute rescue)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Allergic rhinitis (selected)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Exercise-induced bronchoconstriction prevention (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Umeclidinium/vilanterol": [
+    {
+      "indication": "COPD maintenance",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Insulin glargine": [
+    {
+      "indication": "Diabetes mellitus requiring basal insulin",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Type 1 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Type 2 diabetes when insulin required",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Insulin aspart": [
+    {
+      "indication": "Diabetes mellitus requiring prandial insulin",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Type 1 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Type 2 diabetes when insulin required",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Tirzepatide": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Chronic weight management (Zepbound — labeled)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Obstructive sleep apnea with obesity (as labeled)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Alendronate": [
+    {
+      "indication": "Osteoporosis treatment/prevention as labeled",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Paget disease of bone",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Isosorbide mononitrate": [
+    {
+      "indication": "Angina prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Nitroglycerin (glyceryl trinitrate)": [
+    {
+      "indication": "Acute angina pectoris",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Angina prophylaxis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Acute coronary syndromes adjunct (IV protocols)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Hydroxychloroquine": [
+    {
+      "indication": "Rheumatoid arthritis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Systemic lupus erythematosus",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Malaria treatment/prophylaxis as labeled",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Methotrexate (low-dose rheumatologic)": [
+    {
+      "indication": "Rheumatoid arthritis (low-dose weekly)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Psoriasis / psoriatic arthritis as labeled",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Sildenafil": [
+    {
+      "indication": "Erectile dysfunction",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pulmonary arterial hypertension (Revatio)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Tadalafil": [
+    {
+      "indication": "Erectile dysfunction",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "BPH",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Pulmonary arterial hypertension (Adcirca)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Diphenhydramine": [
+    {
+      "indication": "Allergic reactions / allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Allergic rhinitis",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Insomnia (short-term OTC — not preferred in elderly)",
+      "approved": true,
+      "evidence": "moderate"
+    },
+    {
+      "indication": "Motion sickness",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Metformin": [
+    {
+      "indication": "Type 2 diabetes mellitus (first-line in many guidelines when tolerated)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Prediabetes / diabetes prevention in selected high-risk adults",
+      "approved": false,
+      "evidence": "moderate",
+      "notes": "Guideline-supported; check local labeling"
+    }
+  ],
+  "Levothyroxine": [
+    {
+      "indication": "Hypothyroidism (replacement)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "TSH suppression in selected thyroid cancer protocols",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Myxedema coma (IV formulations — specialist)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Sitagliptin": [
+    {
+      "indication": "Type 2 diabetes mellitus (monotherapy or combination)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Gliclazide": [
+    {
+      "indication": "Type 2 diabetes mellitus",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Ezetimibe": [
+    {
+      "indication": "Primary hyperlipidemia ± statin",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Homozygous familial hypercholesterolemia (as labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Fenofibrate": [
+    {
+      "indication": "Severe hypertriglyceridemia",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Mixed dyslipidemia adjunct (selected)",
+      "approved": true,
+      "evidence": "moderate"
+    }
+  ],
+  "Clonidine": [
+    {
+      "indication": "Hypertension",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "ADHD (extended-release — labeled US)",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Menopausal flushing / opioid withdrawal adjuncts",
+      "approved": false,
+      "evidence": "moderate"
+    }
+  ],
+  "Doxazosin": [
+    {
+      "indication": "BPH symptoms",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Hypertension (not usually first-line)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ],
+  "Sumatriptan": [
+    {
+      "indication": "Acute migraine treatment",
+      "approved": true,
+      "evidence": "high"
+    },
+    {
+      "indication": "Cluster headache (sumatriptan injectable — labeled)",
+      "approved": true,
+      "evidence": "high"
+    }
+  ]
+}

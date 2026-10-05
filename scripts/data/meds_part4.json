@@ -12,9 +12,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Potent and effective short-term; long-term toxicity well established.",
     "benefitsSummary": "Rapid control of inflammatory and immune-mediated conditions.",
@@ -22,35 +22,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Multiple inflammatory/autoimmune conditions",
+        "indication": "Multiple inflammatory / autoimmune conditions as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Asthma/COPD exacerbations (short courses)",
+        "indication": "Asthma / COPD exacerbations (short courses)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Inflammatory / allergic / autoimmune flares as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Asthma / COPD exacerbations (systemic short courses)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Adrenal insufficiency replacement (physiologic dosing — selected agents)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Oncology / antiemetic adjunct / COVID protocols (context-specific)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Indication and dose highly context-specific"
       }
     ],
     "adverse": [
@@ -158,9 +137,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for allergic rhinitis and urticaria; less sedating than first-generation.",
     "benefitsSummary": "Symptom relief for allergic rhinitis and chronic urticaria.",
@@ -176,16 +155,6 @@
         "indication": "Urticaria",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -264,9 +233,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Nonsedating at usual doses for most people.",
     "benefitsSummary": "Allergic rhinitis and urticaria symptom control.",
@@ -277,16 +246,6 @@
         "indication": "Allergic rhinitis / urticaria",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -354,9 +313,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Useful add-on in asthma/allergic rhinitis; boxed warning for serious neuropsychiatric events.",
     "benefitsSummary": "Oral non-steroid option for asthma and allergic rhinitis as labeled.",
@@ -364,9 +323,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Asthma prophylaxis (not acute attack)",
+        "indication": "Asthma maintenance (not acute rescue)",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       },
       {
         "indication": "Allergic rhinitis (selected)",
@@ -374,14 +333,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Asthma maintenance (not acute rescue)",
+        "indication": "Exercise-induced bronchoconstriction prevention (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Exercise-induced bronchoconstriction prevention",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -457,9 +411,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Evidence for postherpetic neuralgia and partial seizures; misuse potential increasingly recognized.",
     "benefitsSummary": "Neuropathic pain and seizure adjunct as labeled.",
@@ -469,33 +423,12 @@
       {
         "indication": "Postherpetic neuralgia",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Partial seizures adjunct (gabapentin/pregabalin)",
-        "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Neuropathic pain (product-specific)",
+        "indication": "Partial-onset seizures (adjunct)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Fibromyalgia (pregabalin — labeled US)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety (pregabalin — licensed some regions)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Jurisdiction-specific"
-      },
-      {
-        "indication": "Perioperative pain / off-label uses",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -587,9 +520,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Approved for neuropathic pain, fibromyalgia (US), seizures; controlled in US.",
     "benefitsSummary": "Neuropathic pain and other labeled indications.",
@@ -597,39 +530,33 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Diabetic neuropathy / postherpetic neuralgia",
+        "indication": "Diabetic peripheral neuropathy",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
+      },
+      {
+        "indication": "Postherpetic neuralgia",
+        "approved": true,
+        "evidence": "high"
       },
       {
         "indication": "Fibromyalgia (US)",
         "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Partial-onset seizures (adjunct)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Neuropathic pain (EU and other labels)",
+        "approved": true,
         "evidence": "moderate"
       },
       {
-        "indication": "Neuropathic pain (product-specific)",
+        "indication": "Generalized anxiety disorder (licensed some regions)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Partial seizures adjunct (gabapentin/pregabalin)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fibromyalgia (pregabalin — labeled US)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety (pregabalin — licensed some regions)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Jurisdiction-specific"
-      },
-      {
-        "indication": "Perioperative pain / off-label uses",
-        "approved": false,
         "evidence": "moderate"
       }
     ],
@@ -723,9 +650,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Analgesic option with seizure and serotonin syndrome risks.",
     "benefitsSummary": "Moderate pain when non-opioid options insufficient — use caution.",
@@ -735,29 +662,7 @@
       {
         "indication": "Moderate to moderately severe pain",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
       }
     ],
     "adverse": [
@@ -883,29 +788,13 @@
       {
         "indication": "Mild to moderate pain (selected adults)",
         "approved": true,
-        "evidence": "low"
+        "evidence": "high",
+        "notes": "Restrictions in children / ultra-rapid metabolizers"
       },
       {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
+        "indication": "Antitussive (selected products)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1012,9 +901,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Gold-standard strong opioid for severe pain; addiction and respiratory depression established.",
     "benefitsSummary": "Severe acute and cancer pain management under controlled frameworks.",
@@ -1022,31 +911,20 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Severe pain",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Moderate to severe acute pain when non-opioids insufficient",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Cancer / palliative pain (selected)",
+        "indication": "Cancer / palliative pain",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "indication": "Chronic pain only with careful selection (generally last-line)",
         "approved": true,
         "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "notes": "Guideline-restricted"
       }
     ],
     "adverse": [
@@ -1150,9 +1028,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Narrow therapeutic index; used for rate control in AF and symptomatic HFrEF as adjunct.",
     "benefitsSummary": "Rate control and symptom benefit in selected heart failure patients.",
@@ -1160,22 +1038,12 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Heart failure (adjunct)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "AF rate control",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Heart failure rate/symptom adjunct (selected patients)",
+        "indication": "Heart failure (adjunct for rate/symptom control in selected patients)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Rate control in atrial fibrillation",
+        "indication": "Atrial fibrillation rate control",
         "approved": true,
         "evidence": "high"
       }
@@ -1256,9 +1124,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Highly effective for many arrhythmias but substantial multi-organ toxicity.",
     "benefitsSummary": "Maintains sinus rhythm / controls arrhythmias when benefits justify monitoring.",
@@ -1271,10 +1139,10 @@
         "evidence": "high"
       },
       {
-        "indication": "Atrial arrhythmias rate/rhythm control (common use; risk–benefit)",
-        "approved": true,
+        "indication": "Atrial arrhythmias rate/rhythm control",
+        "approved": false,
         "evidence": "moderate",
-        "notes": "Many uses are guideline-supported but toxicity substantial"
+        "notes": "Common use; significant toxicity — risk–benefit"
       }
     ],
     "adverse": [
@@ -1366,9 +1234,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "DAPT cornerstone post-ACS/stent; CYP2C19 poor metabolizers may have reduced effect.",
     "benefitsSummary": "Reduces stent thrombosis and ischemic events in ACS/PCI as indicated.",
@@ -1376,25 +1244,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "ACS / recent MI/stroke / PAD as labeled",
+        "indication": "ACS / recent MI / recent stroke / established PAD as labeled",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PAD symptomatic management (selected)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Net benefit often unfavorable in average-risk adults"
       }
     ],
     "adverse": [
@@ -1479,9 +1331,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Essential hospital anticoagulant; HIT is an established immune adverse effect.",
     "benefitsSummary": "Rapid anticoagulation with short half-life and protamine reversibility.",
@@ -1489,24 +1341,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "VTE, ACS, perioperative anticoagulation",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "VTE treatment and prophylaxis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "ACS / procedural anticoagulation (UFH)",
+        "indication": "ACS / procedural anticoagulation",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Bridging anticoagulation contexts",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1594,9 +1436,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Predictable anticoagulation for VTE; renal dosing important.",
     "benefitsSummary": "Outpatient-capable LMWH for many VTE indications.",
@@ -1604,24 +1446,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "DVT/PE treatment and prophylaxis; ACS",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "VTE treatment and prophylaxis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "ACS / procedural anticoagulation (UFH)",
+        "indication": "ACS / procedural anticoagulation as labeled",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Bridging anticoagulation contexts",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1710,9 +1542,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "First-line urate lowering for gout; HLA-B*5801 risk for SCARs in some populations.",
     "benefitsSummary": "Prevents gout flares long-term when titrated to target urate.",
@@ -1725,18 +1557,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Tumor lysis prevention (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Gout (urate lowering or flare)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific roles"
-      },
-      {
-        "indication": "Tumor lysis syndrome prevention (allopurinol)",
+        "indication": "Tumor lysis syndrome prevention (selected oncology protocols)",
         "approved": true,
         "evidence": "high"
       },
@@ -1833,9 +1654,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for acute gout and FMF; narrow therapeutic index with CYP3A4/P-gp interactions.",
     "benefitsSummary": "Acute gout flares and prophylaxis during urate-lowering initiation.",
@@ -1843,9 +1664,15 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Acute gout; prophylaxis",
+        "indication": "Acute gout flares",
         "approved": true,
         "evidence": "high"
+      },
+      {
+        "indication": "Prophylaxis of gout flares",
+        "approved": true,
+        "evidence": "high",
+        "notes": "Including when starting urate-lowering therapy"
       },
       {
         "indication": "Familial Mediterranean fever",
@@ -1853,86 +1680,54 @@
         "evidence": "high"
       },
       {
-        "indication": "Gout (urate lowering or flare)",
+        "indication": "Cardiovascular risk reduction in selected coronary disease patients (low-dose — product-specific)",
         "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific roles"
-      },
-      {
-        "indication": "Tumor lysis syndrome prevention (allopurinol)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Recurrent calcium stones with hyperuricosuria (selected)",
-        "approved": true,
-        "evidence": "moderate"
+        "evidence": "moderate",
+        "notes": "See current labeled CV indications where authorized"
       }
     ],
     "adverse": [
       {
-        "effect": "Diarrhea, nausea",
+        "effect": "Diarrhea, nausea, vomiting, abdominal pain",
         "severity": "common",
         "evidence": "high"
       },
       {
-        "effect": "Bone marrow suppression / myopathy (toxicity)",
+        "effect": "Bone marrow suppression (toxicity)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Myopathy / rhabdomyolysis (toxicity; higher with interacting drugs)",
+        "severity": "serious",
+        "evidence": "high"
+      },
+      {
+        "effect": "Neuropathy with prolonged toxicity",
         "severity": "serious",
         "evidence": "moderate"
-      },
-      {
-        "effect": "Rash / severe SCARs including DRESS/SJS (allopurinol)",
-        "severity": "serious",
-        "evidence": "high"
-      },
-      {
-        "effect": "GI upset / diarrhea (colchicine)",
-        "severity": "common",
-        "evidence": "high"
-      },
-      {
-        "effect": "Myelosuppression / myopathy (colchicine toxicity)",
-        "severity": "serious",
-        "evidence": "high"
-      },
-      {
-        "effect": "Liver enzyme elevations (febuxostat)",
-        "severity": "moderate",
-        "evidence": "high"
       }
     ],
     "warnings": [
       {
+        "type": "warning",
+        "population": "Renal / hepatic impairment; CYP3A4 or P-gp inhibitors",
+        "severity": "major",
+        "details": "Life-threatening toxicity risk — dose adjust or avoid combinations per labeling."
+      },
+      {
         "type": "contraindication",
-        "population": "Strong CYP3A4/P-gp inhibitors in renal/hepatic impairment",
+        "population": "Patients with both renal and hepatic impairment (many labels)",
         "severity": "major",
-        "details": "Life-threatening toxicity possible."
-      },
-      {
-        "type": "warning",
-        "population": "HLA-B*5801 risk allele (allopurinol SCARs)",
-        "severity": "major",
-        "details": "Screen in high-risk ancestries per labels/guidelines."
-      },
-      {
-        "type": "warning",
-        "population": "Colchicine–CYP3A4/P-gp inhibitor interactions",
-        "severity": "major",
-        "details": "Can be fatal."
-      },
-      {
-        "type": "boxed",
-        "population": "Febuxostat CV death warning (US)",
-        "severity": "major",
-        "details": "Use limited to allopurinol-intolerant in US labeling."
+        "details": "See product labeling for absolute contraindications."
       }
     ],
     "special": null,
     "monitoring": [
-      "Uric acid for ULT",
-      "Rash vigilance",
-      "CBC/CK if colchicine toxicity risk",
-      "LFTs"
+      "GI symptom vigilance (early toxicity)",
+      "CBC / CK if toxicity risk (DDI, renal impairment)",
+      "Renal function",
+      "Drug interaction check (CYP3A4 / P-gp inhibitors)"
     ],
     "withdrawal": null,
     "sourceKeys": [
@@ -1958,9 +1753,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Established acute migraine therapy; contraindicated in significant CV disease.",
     "benefitsSummary": "Abortive treatment for acute migraine as labeled.",
@@ -2065,9 +1860,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Highly effective for CINV and PONV; QT prolongation caution.",
     "benefitsSummary": "Prevents and treats nausea/vomiting in labeled settings.",
@@ -2075,24 +1870,19 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Chemotherapy-induced and postoperative nausea/vomiting",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Chemotherapy-induced nausea/vomiting",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Radiotherapy-associated nausea",
+        "indication": "Radiotherapy-induced nausea/vomiting",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       },
       {
-        "indication": "Pregnancy nausea (off-label common; risk debates)",
-        "approved": false,
-        "evidence": "moderate"
+        "indication": "Postoperative nausea/vomiting",
+        "approved": true,
+        "evidence": "high"
       }
     ],
     "adverse": [
@@ -2160,9 +1950,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective symptomatic antidiarrheal; high-dose abuse causes serious cardiac events.",
     "benefitsSummary": "Short-term control of acute nonspecific diarrhea.",
@@ -2172,29 +1962,13 @@
       {
         "indication": "Acute nonspecific diarrhea",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Cancer / palliative pain (selected)",
+        "indication": "Chronic diarrhea associated with inflammatory bowel disease (adjunct)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "evidence": "high",
+        "notes": "As labeled; avoid in fever/bloody stools / invasive infection"
       }
     ],
     "adverse": [
@@ -2204,39 +1978,23 @@
         "evidence": "high"
       },
       {
-        "effect": "QT prolongation / cardiac arrest with supra-therapeutic doses",
-        "severity": "serious",
-        "evidence": "high"
-      },
-      {
-        "effect": "Constipation, nausea, sedation",
+        "effect": "Nausea, flatulence, dizziness",
         "severity": "common",
-        "evidence": "high"
-      },
-      {
-        "effect": "Respiratory depression",
-        "severity": "serious",
-        "evidence": "high",
-        "frequencyNote": "Boxed warning"
-      },
-      {
-        "effect": "Dependence / addiction / misuse",
-        "severity": "serious",
-        "evidence": "high",
-        "frequencyNote": "Boxed warning"
-      },
-      {
-        "effect": "Hypogonadism with chronic use",
-        "severity": "moderate",
         "evidence": "moderate"
       },
       {
-        "effect": "Falls / cognitive impairment",
-        "severity": "moderate",
+        "effect": "QT prolongation / Torsades / cardiac arrest with supra-therapeutic doses",
+        "severity": "serious",
+        "evidence": "high",
+        "frequencyNote": "FDA warning — especially high doses / abuse"
+      },
+      {
+        "effect": "Ileus / toxic megacolon risk if used in invasive colitis / C. difficile",
+        "severity": "serious",
         "evidence": "high"
       },
       {
-        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "effect": "CNS depression in overdose (esp. children)",
         "severity": "serious",
         "evidence": "moderate"
       }
@@ -2244,27 +2002,21 @@
     "warnings": [
       {
         "type": "warning",
-        "population": "Do not exceed labeled doses",
+        "population": "High-dose / abuse situations",
         "severity": "major",
-        "details": "FDA warns against high-dose abuse."
+        "details": "FDA warns against high doses — serious cardiac adverse events including QT prolongation and death."
       },
       {
-        "type": "boxed",
-        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
+        "type": "contraindication",
+        "population": "Children <2 years (many labels); acute dysentery / bloody diarrhea / high fever / bacterial enterocolitis",
         "severity": "major",
-        "details": "See full opioid analgesic REMS / labeling."
+        "details": "Risk of serious GI and CNS adverse events; do not use as sole therapy in these settings."
       },
       {
-        "type": "boxed",
-        "population": "Benzodiazepines / CNS depressants co-use",
-        "severity": "major",
-        "details": "Profound sedation, respiratory depression, death."
-      },
-      {
-        "type": "warning",
-        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
-        "severity": "major",
-        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+        "type": "precaution",
+        "population": "Hepatic impairment",
+        "severity": "moderate",
+        "details": "Increased systemic exposure possible — use caution."
       }
     ],
     "special": {
@@ -2275,10 +2027,9 @@
       "geriatric": "High risk — start low, go slow; prefer non-opioids first."
     },
     "monitoring": [
-      "Sedation / respiration",
-      "Constipation plan",
-      "Misuse risk / PDMP where applicable",
-      "Functional goals"
+      "Duration of use (avoid prolonged self-medication)",
+      "Watch for constipation / abdominal distension",
+      "Cardiac symptoms with high/supratherapeutic doses (QT risk)"
     ],
     "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
     "sourceKeys": [
@@ -2303,9 +2054,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Highly effective with perfect use; VTE risk elevated vs non-use; follow MEC criteria.",
     "benefitsSummary": "Contraception; cycle regulation; some treat acne as labeled.",
@@ -2318,18 +2069,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Selected noncontraceptive labeled uses",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Emergency contraception (levonorgestrel / ulipristal products)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
-      },
-      {
-        "indication": "Menstrual cycle regulation / acne / endometriosis symptoms (selected CHCs — labeled)",
+        "indication": "Selected noncontraceptive labeled uses (acne, PMDD — product-specific)",
         "approved": true,
         "evidence": "moderate"
       }

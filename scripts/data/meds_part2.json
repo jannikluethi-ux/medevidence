@@ -12,20 +12,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "NSAID class evidence; longer half-life than ibuprofen.",
     "benefitsSummary": "Analgesic/anti-inflammatory with longer dosing interval options.",
     "whyStillPrescribed": "Effective analgesics/anti-inflammatories with extensive trial and guideline support; risks are managed by patient selection, dose/duration limits, and gastroprotection when appropriate.",
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
-      {
-        "indication": "Pain and inflammation",
-        "approved": true,
-        "evidence": "high"
-      },
       {
         "indication": "Pain (mild to moderate)",
         "approved": true,
@@ -34,8 +29,7 @@
       {
         "indication": "Fever / antipyresis",
         "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
+        "evidence": "moderate"
       },
       {
         "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
@@ -43,16 +37,14 @@
         "evidence": "high"
       },
       {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "indication": "Dysmenorrhea",
         "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
+        "evidence": "moderate"
       },
       {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+        "indication": "Ankylosing spondylitis / acute gout (as labeled)",
+        "approved": true,
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -172,9 +164,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Strong evidence for secondary CV prevention. Primary prevention benefit–risk is individualized.",
     "benefitsSummary": "Reduces recurrent atherothrombotic events when indicated.",
@@ -182,7 +174,7 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "Secondary prevention after MI/ischemic stroke/ASCVD",
+        "indication": "Secondary prevention after MI / ischemic stroke / ASCVD",
         "approved": true,
         "evidence": "high"
       },
@@ -192,48 +184,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Pain (mild to moderate)",
+        "indication": "Acute coronary syndromes (chewed/loading dose protocols)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
-        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
-      },
-      {
-        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PAD symptomatic management (selected)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Net benefit often unfavorable in average-risk adults"
       }
     ],
     "adverse": [
@@ -407,9 +360,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "High-quality outcome evidence as antihypertensive; guideline-endorsed.",
     "benefitsSummary": "Effective once-daily blood pressure lowering; useful in angina as labeled.",
@@ -422,19 +375,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Chronic stable angina (as labeled)",
+        "indication": "Chronic stable angina / vasospastic angina (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina (chronic stable / vasospastic — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Raynaud phenomenon (often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -519,9 +462,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Extensive RCT and guideline support for hypertension, HFrEF, and post-MI as labeled.",
     "benefitsSummary": "BP reduction; mortality/morbidity benefit in heart failure and post-MI when indicated.",
@@ -539,20 +482,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
+        "indication": "Acute myocardial infarction (within 24 hours in hemodynamically stable patients — as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product and guideline labeling"
       }
     ],
     "adverse": [
@@ -674,9 +606,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by outcome trials and guidelines.",
     "benefitsSummary": "Hypertension and CV risk reduction / heart failure as labeled.",
@@ -689,25 +621,14 @@
         "evidence": "high"
       },
       {
-        "indication": "CV risk reduction / HF as labeled",
+        "indication": "Heart failure after MI / CV risk reduction as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure with reduced ejection fraction (as labeled)",
+        "indication": "Reduction of CV events in high-risk patients (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product and guideline labeling"
       }
     ],
     "adverse": [
@@ -810,9 +731,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Guideline-supported antihypertensive; alternative when ACEI cough occurs.",
     "benefitsSummary": "Blood pressure lowering; diabetic nephropathy indication as labeled.",
@@ -825,19 +746,14 @@
         "evidence": "high"
       },
       {
-        "indication": "Diabetic nephropathy (type 2) as labeled",
+        "indication": "Diabetic nephropathy in type 2 diabetes with hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
+        "indication": "Stroke risk reduction in hypertension with left ventricular hypertrophy (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -930,9 +846,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Strong evidence across hypertension, angina, HFrEF (succinate), and post-MI.",
     "benefitsSummary": "Reduces heart rate and myocardial oxygen demand; outcome benefits in indicated cardiac conditions.",
@@ -945,12 +861,12 @@
         "evidence": "high"
       },
       {
-        "indication": "Angina",
+        "indication": "Angina pectoris",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure (ER succinate)",
+        "indication": "Heart failure (metoprolol succinate ER)",
         "approved": true,
         "evidence": "high"
       },
@@ -958,27 +874,6 @@
         "indication": "Post-MI",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina pectoris",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1096,9 +991,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Evidence-based in HFrEF and hypertension.",
     "benefitsSummary": "Once-daily β-blocker for HF and hypertension.",
@@ -1111,7 +1006,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Chronic heart failure",
+        "indication": "Chronic heart failure (HFrEF)",
         "approved": true,
         "evidence": "high"
       },
@@ -1119,22 +1014,6 @@
         "indication": "Angina pectoris",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1239,9 +1118,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Older β-blocker; still used for certain indications.",
     "benefitsSummary": "Rate control / BP lowering.",
@@ -1251,11 +1130,6 @@
       {
         "indication": "Hypertension",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Angina",
-        "approved": true,
         "evidence": "high"
       },
       {
@@ -1264,20 +1138,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
+        "indication": "Post-MI (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1384,9 +1247,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Foundational antihypertensive class; electrolyte effects well characterized.",
     "benefitsSummary": "Blood pressure reduction; often combined with ACEI/ARB/CCB.",
@@ -1401,17 +1264,7 @@
       {
         "indication": "Edema",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Edema (selected contexts)",
-        "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Nephrolithiasis prevention with hypercalciuria (off-label / selected)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -1501,9 +1354,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Essential for volume overload in heart failure; electrolyte depletion established.",
     "benefitsSummary": "Potent diuresis for edema and acute pulmonary edema as indicated.",
@@ -1511,7 +1364,7 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Edema due to HF / cirrhosis / renal disease",
+        "indication": "Edema associated with congestive heart failure, cirrhosis of the liver, and renal disease",
         "approved": true,
         "evidence": "high"
       },
@@ -1521,14 +1374,10 @@
         "evidence": "high"
       },
       {
-        "indication": "Hypertension (selected — not usually first-line)",
+        "indication": "Hypertension (alone or in combination)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Hypercalcemia adjunct (off-label contexts)",
-        "approved": false,
-        "evidence": "moderate"
+        "evidence": "moderate",
+        "notes": "Not usually first-line"
       }
     ],
     "adverse": [
@@ -1632,9 +1481,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Mortality benefit in HFrEF; hyperkalemia risk established.",
     "benefitsSummary": "Heart failure, resistant hypertension, primary aldosteronism as labeled.",
@@ -1642,29 +1491,30 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "HFrEF",
+        "indication": "HFrEF / NYHA class III–IV heart failure (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Resistant hypertension / primary aldosteronism",
+        "indication": "Hypertension (usually add-on / resistant)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "HFrEF / HF outcome benefit as labeled",
+        "indication": "Primary hyperaldosteronism",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Edema / ascites in cirrhosis (spironolactone)",
+        "indication": "Edema / ascites in cirrhosis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Acne / hirsutism (spironolactone off-label)",
+        "indication": "Acne / hirsutism",
         "approved": false,
-        "evidence": "moderate"
+        "evidence": "moderate",
+        "notes": "Off-label common uses"
       }
     ],
     "adverse": [
@@ -1748,9 +1598,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "First-line pharmacotherapy for type 2 diabetes in most major guidelines when tolerated.",
     "benefitsSummary": "Improves glycemic control; weight-neutral/modest loss; low hypoglycemia risk as monotherapy.",
@@ -1763,16 +1613,10 @@
         "evidence": "high"
       },
       {
-        "indication": "Prediabetes / diabetes prevention (guideline off-label in some regions)",
+        "indication": "Prediabetes / diabetes prevention in selected high-risk adults",
         "approved": false,
         "evidence": "moderate",
-        "notes": "Not a universal labeled indication — guideline-dependent"
-      },
-      {
-        "indication": "PCOS metabolic features (commonly used off-label)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label"
+        "notes": "Guideline-supported; check local labeling"
       }
     ],
     "adverse": [
@@ -1874,9 +1718,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Standard basal insulin option; hypoglycemia is the principal dose-related risk.",
     "benefitsSummary": "Provides relatively peakless basal insulin for diabetes as indicated.",
@@ -1897,17 +1741,6 @@
         "indication": "Type 2 diabetes when insulin required",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Gestational diabetes / pregnancy diabetes (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hyperkalemia acute management (IV regular insulin protocols)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Hospital protocols"
       }
     ],
     "adverse": [
@@ -2003,9 +1836,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "High-quality outcome trials for CV death/HF hospitalization and CKD progression in labeled populations.",
     "benefitsSummary": "Glycemic control plus cardiorenal outcome benefits in indicated patients.",
@@ -2018,22 +1851,17 @@
         "evidence": "high"
       },
       {
-        "indication": "Heart failure (HFrEF/HFpEF — agent-specific labeled)",
+        "indication": "Heart failure (HFrEF and HFpEF — as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Chronic kidney disease",
+        "indication": "Chronic kidney disease (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "CKD / diabetic kidney disease progression risk reduction (agent-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CV death risk reduction in T2DM with CVD (empagliflozin — labeled)",
+        "indication": "CV death risk reduction in T2DM with established CVD",
         "approved": true,
         "evidence": "high"
       }
@@ -2133,9 +1961,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Strong glycemic and weight evidence; CV outcome data for some formulations.",
     "benefitsSummary": "Improves glycemic control and weight; CV risk reduction as labeled for certain products.",
@@ -2143,7 +1971,7 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Type 2 diabetes (as labeled)",
+        "indication": "Type 2 diabetes mellitus (Ozempic / Rybelsus)",
         "approved": true,
         "evidence": "high"
       },
@@ -2153,20 +1981,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Type 2 diabetes mellitus",
+        "indication": "CV risk reduction in T2DM with established CVD (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic weight management (selected doses/products — labeled)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product/dose-specific"
-      },
-      {
-        "indication": "CV risk reduction in T2DM with CVD (selected agents)",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -2260,9 +2077,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Extensive RCT evidence for ASCVD risk reduction.",
     "benefitsSummary": "Lowers LDL-C and reduces major cardiovascular events as indicated.",
@@ -2270,37 +2087,17 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Prevention of cardiovascular events",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Primary hyperlipidemia / mixed dyslipidemia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
+        "indication": "Familial hypercholesterolemia (hetero/homo — as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in diabetes / elevated risk as labeled/guidelines",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Secondary prevention post-ACS",
+        "indication": "Prevention of cardiovascular events in high-risk patients",
         "approved": true,
         "evidence": "high"
       }
@@ -2423,9 +2220,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Outcome evidence exists; dose limits with certain CYP3A4 interactions.",
     "benefitsSummary": "LDL lowering and CV risk reduction as labeled.",
@@ -2433,27 +2230,17 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "Hyperlipidemia / CV prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Primary hyperlipidemia / mixed dyslipidemia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
+        "indication": "Familial hypercholesterolemia (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "indication": "CV event risk reduction in high-risk patients (as labeled)",
         "approved": true,
         "evidence": "high"
       }
@@ -2565,9 +2352,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "High-intensity statin option with robust LDL lowering.",
     "benefitsSummary": "Potent LDL reduction; CV risk reduction indications.",
@@ -2575,27 +2362,17 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "Hyperlipidemia / primary prevention as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Primary hyperlipidemia / mixed dyslipidemia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
+        "indication": "Familial hypercholesterolemia (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "indication": "Primary prevention of CV events in elevated-risk patients (as labeled)",
         "approved": true,
         "evidence": "high"
       }

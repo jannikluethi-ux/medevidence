@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "medicines_audited": 284,
+    "medicines_changed": 201,
+    "indications_removed_or_corrected": 921,
+    "boilerplate_regulatory_removed": 198,
+    "placeholders_replaced_with_label_aes": 65,
+    "placeholders_marked_unreviewed": 0,
+    "condition_links_dropped": 0,
+    "full_indication_overrides_applied": 165,
+    "condition_links_remapped": 3,
+    "condition_links_final": 104
+  },
+  "needs_review": [],
+  "examples": {
+    "Loperamide": {
+      "before": [
+        "Acute nonspecific diarrhea",
+        "Moderate to severe acute pain when non-opioids insufficient",
+        "Cancer / palliative pain (selected)",
+        "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "Antitussive (codeine — labeled in some products)"
+      ],
+      "after": [
+        "Acute nonspecific diarrhea",
+        "Chronic diarrhea associated with inflammatory bowel disease (adjunct)"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Removed opioid monitoring items; kept ['(none — set drug-specific)']; Retained gut/cardiac-risk AEs; removed systemic opioid template AEs; Adjusted warnings toward labeled cardiac high-dose risk and appropriate use limits"
+    },
+    "Naloxone": {
+      "before": [
+        "Known/suspected opioid overdose",
+        "Take-home naloxone harm reduction",
+        "Moderate to severe acute pain when non-opioids insufficient",
+        "Cancer / palliative pain (selected)",
+        "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "Antitussive (codeine — labeled in some products)"
+      ],
+      "after": [
+        "Known or suspected opioid overdose (emergency reversal)",
+        "Take-home naloxone for opioid overdose risk reduction"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Removed opioid monitoring items; kept ['(none — set drug-specific)']; Set antagonist-appropriate adverse effects and monitoring"
+    },
+    "Colchicine": {
+      "before": [
+        "Acute gout; prophylaxis",
+        "Familial Mediterranean fever",
+        "Gout (urate lowering or flare)",
+        "Tumor lysis syndrome prevention (allopurinol)",
+        "Recurrent calcium stones with hyperuricosuria (selected)"
+      ],
+      "after": [
+        "Acute gout flares",
+        "Prophylaxis of gout flares",
+        "Familial Mediterranean fever",
+        "Cardiovascular risk reduction in selected coronary disease patients (low-dose — product-specific)"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Set to ['CBC/CK if colchicine toxicity risk', 'LFTs']; Removed allopurinol-specific AEs; ensured colchicine-relevant AEs; Dropped link"
+    },
+    "Zolpidem": {
+      "before": [
+        "Short-term insomnia",
+        "Acute anxiety / panic (short-term)",
+        "Seizure / status epilepticus (selected agents/routes)",
+        "Alcohol withdrawal (selected protocols)",
+        "Muscle spasm (diazepam)",
+        "Insomnia short-term (selected)"
+      ],
+      "after": [
+        "Short-term treatment of insomnia (sleep onset; some formulations also maintenance)"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Limited to insomnia-labeled use; removed seizure/alcohol/spasm framing; Dropped link"
+    },
+    "Dexlansoprazole": {
+      "before": [
+        "See labeling for approved indications",
+        "Guideline-supported uses within class",
+        "Gastroesophageal reflux disease (GERD)",
+        "Erosive esophagitis healing / maintenance",
+        "Peptic ulcer disease",
+        "H. pylori eradication (combination regimens)",
+        "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+        "NSAID-associated ulcer risk reduction (selected regimens)"
+      ],
+      "after": [
+        "Gastroesophageal reflux disease (GERD)",
+        "Healing of erosive esophagitis",
+        "Maintenance of healed erosive esophagitis",
+        "Heartburn associated with non-erosive GERD"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Removed placeholders; retained class/label adverse effects already present"
+    },
+    "Bumetanide": {
+      "before": [
+        "See labeling for approved indications",
+        "Guideline-supported uses within class",
+        "Edema due to HF / cirrhosis / renal disease",
+        "Acute pulmonary edema",
+        "Hypertension (selected — not usually first-line)",
+        "Hypercalcemia adjunct (off-label contexts)"
+      ],
+      "after": [
+        "Edema associated with congestive heart failure",
+        "Edema associated with hepatic disease",
+        "Edema associated with renal disease (including nephrotic syndrome)"
+      ],
+      "other": "Replaced with US=FDA-approved; EU/UK/CH=authorisation status not verified; Removed placeholders; retained class/label adverse effects already present"
+    }
+  },
+  "report": "/workspace/medevidence/docs/content-audit-2026-10-05.md",
+  "changed_meds_sample": [
+    "Aciclovir (Acyclovir)",
+    "Alendronate",
+    "Allopurinol",
+    "Alprazolam",
+    "Amiodarone",
+    "Amlodipine",
+    "Amoxicillin",
+    "Amoxicillin/clavulanate",
+    "Amphetamine salts (mixed)",
+    "Apixaban",
+    "Aripiprazole",
+    "Aspirin (low-dose / antiplatelet)",
+    "Atenolol",
+    "Atomoxetine",
+    "Atorvastatin",
+    "Azathioprine",
+    "Azithromycin",
+    "Aztreonam",
+    "Beclomethasone (inhaled)",
+    "Benazepril",
+    "Bisoprolol",
+    "Budesonide (inhaled)",
+    "Budesonide/formoterol",
+    "Bumetanide",
+    "Buprenorphine",
+    "Bupropion",
+    "Canagliflozin",
+    "Candesartan",
+    "Carbamazepine",
+    "Carvedilol",
+    "Ceftriaxone",
+    "Celecoxib",
+    "Cetirizine",
+    "Chlorthalidone",
+    "Ciprofloxacin",
+    "Citalopram",
+    "Clarithromycin",
+    "Clindamycin",
+    "Clonazepam",
+    "Clonidine",
+    "Clopidogrel",
+    "Clozapine",
+    "Codeine",
+    "Colchicine",
+    "Cyclosporine",
+    "Dabigatran",
+    "Dapagliflozin",
+    "Desloratadine",
+    "Desvenlafaxine",
+    "Dexamethasone"
+  ]
+}

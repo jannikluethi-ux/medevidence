@@ -11,25 +11,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "PPI for GERD, erosive esophagitis, ulcers, and H. pylori regimens as labeled.",
     "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
     "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Gastroesophageal reflux disease (GERD)",
         "approved": true,
@@ -48,36 +38,24 @@
       {
         "indication": "H. pylori eradication (combination regimens)",
         "approved": true,
-        "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
+        "evidence": "high"
+      },
+      {
+        "indication": "NSAID-associated gastric ulcer healing / risk reduction (as labeled)",
+        "approved": true,
+        "evidence": "high"
       },
       {
         "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "See specific product labeling"
+        "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Headache",
@@ -183,25 +161,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Rabeprazole is used for labeled indications within the Proton pump inhibitor (PPI) class.",
     "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
     "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Gastroesophageal reflux disease (GERD)",
         "approved": true,
@@ -220,36 +188,19 @@
       {
         "indication": "H. pylori eradication (combination regimens)",
         "approved": true,
-        "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
+        "evidence": "high"
       },
       {
         "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "See specific product labeling"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Headache",
@@ -354,9 +305,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Dexlansoprazole is used for labeled indications within the Proton pump inhibitor (PPI) class.",
@@ -364,63 +315,32 @@
     "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Gastroesophageal reflux disease (GERD)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Erosive esophagitis healing / maintenance",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Peptic ulcer disease",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "H. pylori eradication (combination regimens)",
-        "approved": true,
         "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
+        "notes": "Labeled for healing/maintenance of erosive esophagitis and symptomatic non-erosive GERD heartburn"
       },
       {
-        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
+        "indication": "Healing of erosive esophagitis",
         "approved": true,
-        "evidence": "moderate"
+        "evidence": "high"
       },
       {
-        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+        "indication": "Maintenance of healed erosive esophagitis",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "See specific product labeling"
+        "evidence": "high"
+      },
+      {
+        "indication": "Heartburn associated with non-erosive GERD",
+        "approved": true,
+        "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Headache",
@@ -526,9 +446,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "NSAID analgesic/anti-inflammatory; topical and systemic forms — systemic use carries boxed CV/GI warnings.",
@@ -536,25 +456,9 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Pain (mild to moderate)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
       },
       {
         "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
@@ -562,33 +466,16 @@
         "evidence": "high"
       },
       {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "indication": "Ankylosing spondylitis / acute migraine (selected products)",
         "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dyspepsia, abdominal pain, nausea",
@@ -700,9 +587,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "COX-2 selective NSAID that may reduce some GI ulcer risk vs nonselective NSAIDs but retains CV risk boxed warning.",
@@ -710,59 +597,41 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
         "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "indication": "Osteoarthritis",
         "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
+        "evidence": "high"
       },
       {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+        "indication": "Rheumatoid arthritis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Ankylosing spondylitis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acute pain / primary dysmenorrhea (as labeled)",
+        "approved": true,
+        "evidence": "moderate"
+      },
+      {
+        "indication": "Juvenile rheumatoid arthritis (as labeled)",
+        "approved": true,
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dyspepsia, abdominal pain, nausea",
@@ -886,9 +755,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Meloxicam is used for labeled indications within the NSAID class.",
@@ -896,59 +765,26 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Osteoarthritis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Rheumatoid arthritis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Juvenile rheumatoid arthritis (as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
-        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dyspepsia, abdominal pain, nausea",
@@ -1060,9 +896,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Indomethacin is used for labeled indications within the NSAID class.",
@@ -1070,59 +906,26 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Moderate to severe rheumatoid arthritis / osteoarthritis / ankylosing spondylitis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Acute gouty arthritis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Acute painful shoulder (bursitis/tendinitis)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
-        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dyspepsia, abdominal pain, nausea",
@@ -1237,9 +1040,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Ketorolac is used for labeled indications within the NSAID class.",
@@ -1247,59 +1050,17 @@
     "longTermEvidence": "Chronic NSAID use carries established GI, CV, and renal risks proportional to dose, duration, and patient factors.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
+        "indication": "Short-term (≤5 days) management of moderately severe acute pain requiring analgesia at opioid level",
         "approved": true,
         "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
-        "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+        "notes": "Not for chronic use"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dyspepsia, abdominal pain, nausea",
@@ -1418,9 +1179,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Enalapril is used for labeled indications within the ACE inhibitor class.",
@@ -1428,52 +1189,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure with reduced ejection fraction (as labeled)",
+        "indication": "Heart failure",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
+        "indication": "Asymptomatic left ventricular dysfunction (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product and guideline labeling"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dry cough",
@@ -1575,9 +1310,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Perindopril is used for labeled indications within the ACE inhibitor class.",
@@ -1585,52 +1320,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure with reduced ejection fraction (as labeled)",
+        "indication": "Stable coronary artery disease — risk reduction (as labeled)",
         "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       },
       {
-        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
+        "indication": "Heart failure (selected products/jurisdictions)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product and guideline labeling"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dry cough",
@@ -1731,9 +1440,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Benazepril is used for labeled indications within the ACE inhibitor class.",
@@ -1741,52 +1450,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Post-myocardial infarction / CV risk reduction (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy / CKD with albuminuria (selected ACEIs)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "See product and guideline labeling"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dry cough",
@@ -1887,9 +1560,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "ARB for hypertension and HFrEF as labeled; historically subject to nitrosamine recalls — use current approved products.",
@@ -1897,46 +1570,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
+        "indication": "Heart failure (NYHA class II–IV)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
+        "indication": "Post-MI left ventricular failure / dysfunction (as labeled)",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dizziness / hypotension",
@@ -2024,9 +1677,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Irbesartan is used for labeled indications within the Angiotensin II receptor blocker (ARB) class.",
@@ -2034,42 +1687,21 @@
     "longTermEvidence": null,
     "indications": [
       {
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
         "indication": "Diabetic nephropathy in type 2 diabetes with hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Stroke risk reduction in hypertension with LVH (losartan — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dizziness / hypotension",
@@ -2157,9 +1789,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Olmesartan is used for labeled indications within the Angiotensin II receptor blocker (ARB) class.",
@@ -2167,46 +1799,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dizziness / hypotension",
@@ -2300,9 +1902,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Telmisartan is used for labeled indications within the Angiotensin II receptor blocker (ARB) class.",
@@ -2310,46 +1912,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
+        "indication": "CV risk reduction in high-risk patients (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dizziness / hypotension",
@@ -2436,9 +2013,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Evidence-based HFrEF beta blocker; also used for hypertension and post-MI as labeled.",
@@ -2456,47 +2033,16 @@
         "evidence": "high"
       },
       {
-        "indication": "Post-MI LV dysfunction as labeled",
+        "indication": "Post-MI left ventricular dysfunction",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina pectoris",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bradycardia, fatigue, dizziness",
@@ -2599,9 +2145,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Propranolol is used for labeled indications within the Beta blocker (nonselective) class.",
@@ -2609,7 +2155,17 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Hypertension / angina / arrhythmia as labeled",
+        "indication": "Hypertension",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Angina pectoris",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Arrhythmias as labeled",
         "approved": true,
         "evidence": "high"
       },
@@ -2624,47 +2180,17 @@
         "evidence": "high"
       },
       {
-        "indication": "Performance anxiety (off-label common)",
+        "indication": "Performance anxiety / situational anxiety",
         "approved": false,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Thyrotoxicosis symptomatic control",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Angina pectoris",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate",
+        "notes": "Off-label common use"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bradycardia, fatigue, dizziness",
@@ -2769,9 +2295,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Nebivolol is used for labeled indications within the Beta-1 selective blocker class.",
@@ -2779,57 +2305,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina pectoris",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bradycardia, fatigue, dizziness",
@@ -2933,9 +2418,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Frequently used for hypertension in pregnancy and acute hypertensive management IV.",
@@ -2943,57 +2428,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Angina pectoris",
+        "indication": "Hypertensive emergencies (IV — as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure with reduced ejection fraction (evidence-based agents: carvedilol, bisoprolol, metoprolol succinate)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Agent-specific"
-      },
-      {
-        "indication": "Post-MI / rate control in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis / tremor / performance anxiety (selected agents, often off-label)",
-        "approved": false,
         "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bradycardia, fatigue, dizziness",
@@ -3098,9 +2547,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Long-acting nifedipine used for hypertension including pregnancy contexts; avoid short-acting capsules for acute BP misuse.",
@@ -3108,46 +2557,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Hypertension (extended-release)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Hypertension",
+        "indication": "Angina (chronic stable / vasospastic — as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina (chronic stable / vasospastic — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Raynaud phenomenon (often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Peripheral edema",
@@ -3227,9 +2651,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Felodipine is used for labeled indications within the Dihydropyridine calcium channel blocker class.",
@@ -3237,46 +2661,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Angina (chronic stable / vasospastic — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Raynaud phenomenon (often off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Peripheral edema",
@@ -3355,25 +2749,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Potent thiazide-like diuretic with strong guideline support for hypertension; more hypokalemia than HCTZ often.",
     "whyStillPrescribed": "Preferred thiazide-like agent in many hypertension guidelines due to outcome trial heritage.",
     "longTermEvidence": null,
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Hypertension",
         "approved": true,
@@ -3382,29 +2766,14 @@
       {
         "indication": "Edema (selected contexts)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Nephrolithiasis prevention with hypercalciuria (off-label / selected)",
-        "approved": false,
         "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Hypokalemia, hyponatremia",
@@ -3491,9 +2860,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Indapamide is used for labeled indications within the Thiazide-like diuretic class.",
@@ -3501,46 +2870,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Edema (selected contexts)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Nephrolithiasis prevention with hypercalciuria (off-label / selected)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Hypokalemia, hyponatremia",
@@ -3626,9 +2965,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Bumetanide is used for labeled indications within the Loop diuretic class.",
@@ -3636,51 +2975,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Edema associated with congestive heart failure",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Edema due to HF / cirrhosis / renal disease",
+        "indication": "Edema associated with hepatic disease",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Acute pulmonary edema",
+        "indication": "Edema associated with renal disease (including nephrotic syndrome)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Hypertension (selected — not usually first-line)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Hypercalcemia adjunct (off-label contexts)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Electrolyte depletion (K+, Mg2+, Na+)",
@@ -3766,9 +3080,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Torsemide is used for labeled indications within the Loop diuretic class.",
@@ -3776,51 +3090,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Edema associated with heart failure, renal disease, or hepatic disease",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Edema due to HF / cirrhosis / renal disease",
+        "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Acute pulmonary edema",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hypertension (selected — not usually first-line)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Hypercalcemia adjunct (off-label contexts)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Electrolyte depletion (K+, Mg2+, Na+)",
@@ -3906,9 +3190,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "MRA for HFrEF/post-MI with less gynecomastia than spironolactone; hyperkalemia remains key risk.",
@@ -3916,51 +3200,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "HFrEF after MI / chronic HFrEF (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "HFrEF / HF outcome benefit as labeled",
+        "indication": "Hypertension",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Resistant hypertension / primary aldosteronism",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Edema / ascites in cirrhosis (spironolactone)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Acne / hirsutism (spironolactone off-label)",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Hyperkalemia",
@@ -4040,9 +3294,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Hydrophilic statin with fewer CYP3A4 interactions — useful when interacting drugs present.",
@@ -4050,51 +3304,21 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Primary hyperlipidemia / mixed dyslipidemia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
+        "indication": "Primary and secondary prevention of coronary events (as labeled)",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Myalgia / muscle symptoms",
@@ -4196,9 +3420,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Lovastatin is used for labeled indications within the HMG-CoA reductase inhibitor (statin) class.",
@@ -4206,51 +3430,21 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Primary hyperlipidemia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Primary prevention of coronary heart disease (as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Primary hyperlipidemia / mixed dyslipidemia",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
-        "approved": true,
-        "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Myalgia / muscle symptoms",
@@ -4358,9 +3552,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Pitavastatin is used for labeled indications within the HMG-CoA reductase inhibitor (statin) class.",
@@ -4368,51 +3562,16 @@
     "longTermEvidence": "Decades of RCT outcome data for CV event reduction; long-term safety profile well characterized with known muscle and glycemic signals.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Primary hyperlipidemia / mixed dyslipidemia",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Familial hypercholesterolemia (hetero/homo — product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Atherosclerotic cardiovascular disease risk reduction / secondary prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Primary prevention in elevated CV risk as labeled/guideline-supported",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Myalgia / muscle symptoms",
@@ -4515,9 +3674,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Dapagliflozin is used for labeled indications within the SGLT2 inhibitor class.",
@@ -4525,51 +3684,31 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Type 2 diabetes mellitus",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure (HFrEF/HFpEF — agent-specific labeled)",
+        "indication": "Heart failure (HFrEF and HFpEF — as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "CKD / diabetic kidney disease progression risk reduction (agent-specific)",
+        "indication": "Chronic kidney disease (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "CV death risk reduction in T2DM with CVD (empagliflozin — labeled)",
+        "indication": "CV risk / HF hospitalization risk reduction as labeled",
         "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Genital mycotic infections",
@@ -4662,9 +3801,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Canagliflozin is used for labeled indications within the SGLT2 inhibitor class.",
@@ -4672,51 +3811,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Type 2 diabetes mellitus",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Heart failure (HFrEF/HFpEF — agent-specific labeled)",
+        "indication": "CV risk reduction in T2DM with established CVD / risk factors (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "CKD / diabetic kidney disease progression risk reduction (agent-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CV death risk reduction in T2DM with CVD (empagliflozin — labeled)",
+        "indication": "Diabetic kidney disease progression risk reduction (as labeled)",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Genital mycotic infections",
@@ -4823,9 +3937,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "T2DM (Victoza) and chronic weight management (Saxenda) — dose/product-specific; CV benefit in T2DM with CVD for Victoza.",
@@ -4833,47 +3947,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Type 2 diabetes mellitus (Victoza)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Chronic weight management (Saxenda — labeled dose/product)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "CV risk reduction in T2DM with established CVD (Victoza — as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Type 2 diabetes mellitus",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic weight management (selected doses/products — labeled)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product/dose-specific"
-      },
-      {
-        "indication": "CV risk reduction in T2DM with CVD (selected agents)",
-        "approved": true,
-        "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, vomiting, diarrhea, constipation",
@@ -4961,9 +4054,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Dulaglutide is used for labeled indications within the GLP-1 receptor agonist class.",
@@ -4971,47 +4064,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Type 2 diabetes mellitus",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Chronic weight management (selected doses/products — labeled)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product/dose-specific"
-      },
-      {
-        "indication": "CV risk reduction in T2DM with CVD (selected agents)",
+        "indication": "CV risk reduction in T2DM with established CVD / multiple risk factors (as labeled)",
         "approved": true,
         "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, vomiting, diarrhea, constipation",
@@ -5100,9 +4167,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Potent glycemic and weight effects for T2DM (Mounjaro) and weight management (Zepbound); GI AEs and MTC boxed warning similar to GLP-1 class concepts.",
@@ -5120,38 +4187,16 @@
         "evidence": "high"
       },
       {
-        "indication": "Obstructive sleep apnea with obesity (selected labeled expansion)",
+        "indication": "Obstructive sleep apnea with obesity (as labeled)",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Check current labeling"
-      },
-      {
-        "indication": "Chronic weight management (selected doses/products — labeled)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product/dose-specific"
-      },
-      {
-        "indication": "CV risk reduction in T2DM with CVD (selected agents)",
-        "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, vomiting, diarrhea, constipation",
@@ -5239,9 +4284,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Citalopram is used for labeled indications within the SSRI class.",
@@ -5249,58 +4294,16 @@
     "longTermEvidence": "Long-term maintenance reduces relapse risk in recurrent depression; ongoing risk–benefit reassessment advised.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Major depressive disorder",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
-      },
-      {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, diarrhea or constipation",
@@ -5424,9 +4427,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Paroxetine is used for labeled indications within the SSRI class.",
@@ -5434,58 +4437,46 @@
     "longTermEvidence": "Long-term maintenance reduces relapse risk in recurrent depression; ongoing risk–benefit reassessment advised.",
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Major depressive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "indication": "Obsessive-compulsive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "indication": "Panic disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "indication": "Social anxiety disorder",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
+        "evidence": "high"
       },
       {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
+        "indication": "Generalized anxiety disorder",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "high"
+      },
+      {
+        "indication": "Post-traumatic stress disorder",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Premenstrual dysphoric disorder (selected products)",
+        "approved": true,
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, diarrhea or constipation",
@@ -5602,9 +4593,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Fluvoxamine is used for labeled indications within the SSRI class.",
@@ -5612,58 +4603,26 @@
     "longTermEvidence": "Long-term maintenance reduces relapse risk in recurrent depression; ongoing risk–benefit reassessment advised.",
     "indications": [
       {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "indication": "Obsessive-compulsive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Social anxiety (some regions)",
+        "indication": "Social anxiety disorder (some regions)",
         "approved": true,
         "evidence": "moderate"
       },
       {
-        "indication": "Depression (jurisdiction-specific)",
+        "indication": "Major depressive disorder (jurisdiction-dependent)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Major depressive disorder",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
-      },
-      {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, diarrhea or constipation",
@@ -5780,9 +4739,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "SNRI for MDD, GAD, and multiple chronic pain indications (diabetic neuropathy, fibromyalgia, chronic musculoskeletal pain) as labeled.",
@@ -5790,53 +4749,36 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Major depressive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder (selected SNRIs)",
+        "indication": "Generalized anxiety disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Diabetic peripheral neuropathic pain / fibromyalgia / chronic musculoskeletal pain (duloxetine — labeled)",
+        "indication": "Diabetic peripheral neuropathic pain",
         "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
+        "evidence": "high"
       },
       {
-        "indication": "Panic / social anxiety (venlafaxine XR — labeled)",
+        "indication": "Fibromyalgia",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "high"
+      },
+      {
+        "indication": "Chronic musculoskeletal pain (as labeled)",
+        "approved": true,
+        "evidence": "high"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, dry mouth, sweating",
@@ -5939,9 +4881,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Desvenlafaxine is used for labeled indications within the SNRI class.",
@@ -5949,53 +4891,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Major depressive disorder",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety disorder (selected SNRIs)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic peripheral neuropathic pain / fibromyalgia / chronic musculoskeletal pain (duloxetine — labeled)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
-      },
-      {
-        "indication": "Panic / social anxiety (venlafaxine XR — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Nausea, dry mouth, sweating",
@@ -6098,9 +5003,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Moxifloxacin is used for labeled indications within the Fluoroquinolone antibiotic class.",
@@ -6108,53 +5013,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Community-acquired pneumonia and other labeled susceptible infections",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Complicated UTI / pyelonephritis (when appropriate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Selected respiratory / skin / bone infections as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Anthrax / plague (selected agents — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Special-use labeled indications"
-      },
-      {
-        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Reserve use due to serious risks"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "GI upset, headache",
@@ -6276,9 +5144,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Ofloxacin is used for labeled indications within the Fluoroquinolone antibiotic class.",
@@ -6286,53 +5154,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Selected susceptible infections as labeled (UTI, skin, STI historically)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Complicated UTI / pyelonephritis (when appropriate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Selected respiratory / skin / bone infections as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Anthrax / plague (selected agents — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Special-use labeled indications"
-      },
-      {
-        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Reserve use due to serious risks"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "GI upset, headache",
@@ -6448,9 +5279,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "DOAC for NVAF and VTE; idarucizumab available as specific reversal agent in many systems; not for mechanical valves.",
@@ -6458,57 +5289,26 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Stroke prevention in nonvalvular atrial fibrillation",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Treatment of DVT / PE",
+        "indication": "Treatment of DVT / PE and reduction of recurrence",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Secondary prevention of recurrent VTE",
+        "indication": "VTE prophylaxis after hip replacement (as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bleeding (any site)",
@@ -6604,25 +5404,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Edoxaban is used for labeled indications within the Factor Xa inhibitor DOAC class.",
     "whyStillPrescribed": "For many NVAF and VTE indications, DOACs have RCT evidence of similar/better efficacy and less intracranial bleeding vs warfarin, with fewer routine INR checks — not interchangeable for mechanical valves or APS in many guidelines.",
     "longTermEvidence": null,
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Stroke prevention in nonvalvular atrial fibrillation",
         "approved": true,
@@ -6632,39 +5422,13 @@
         "indication": "Treatment of DVT / PE",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Secondary prevention of recurrent VTE",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bleeding (any site)",
@@ -6766,9 +5530,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Prasugrel is used for labeled indications within the P2Y12 inhibitor antiplatelet class.",
@@ -6776,47 +5540,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "ACS managed with PCI — reduction of thrombotic events (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PAD symptomatic management (selected)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Net benefit often unfavorable in average-risk adults"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Bleeding / bruising",
@@ -6899,9 +5632,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Ticagrelor is used for labeled indications within the P2Y12 inhibitor antiplatelet class.",
@@ -6909,30 +5642,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "ACS — reduction of CV death/MI/stroke (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Secondary prevention after ACS / stent / ischemic stroke or TIA (as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PAD symptomatic management (selected)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Primary prevention only in selected higher-risk patients (aspirin) — guideline-narrowed",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Net benefit often unfavorable in average-risk adults"
       }
     ],
     "adverse": [
@@ -7032,9 +5744,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Preferred benzodiazepine in cirrhosis (no active metabolites) for acute anxiety/seizures/alcohol withdrawal protocols.",
@@ -7042,57 +5754,31 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Anxiety disorders (short-term)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Insomnia due to anxiety or transient situational stress (short-term)",
         "approved": true,
         "evidence": "moderate"
       },
       {
-        "indication": "Acute anxiety / panic (short-term)",
+        "indication": "Preoperative sedation / amnesia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
+        "indication": "Status epilepticus (IV)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Sedation, dizziness, ataxia",
@@ -7178,9 +5864,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Alprazolam is used for labeled indications within the Benzodiazepine class.",
@@ -7188,57 +5874,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Anxiety disorders (short-term)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
+        "indication": "Panic disorder (with or without agoraphobia)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Sedation, dizziness, ataxia",
@@ -7325,9 +5975,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Clonazepam is used for labeled indications within the Benzodiazepine class.",
@@ -7335,7 +5985,7 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Seizure disorders as labeled",
+        "indication": "Seizure disorders (Lennox-Gastaut, akinetic, myoclonic — as labeled)",
         "approved": true,
         "evidence": "high"
       },
@@ -7343,54 +5993,13 @@
         "indication": "Panic disorder",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "REM sleep behavior / akathisia (off-label)",
-        "approved": false,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Sedation, dizziness, ataxia",
@@ -7476,9 +6085,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Temazepam is used for labeled indications within the Benzodiazepine class.",
@@ -7486,57 +6095,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Short-term treatment of insomnia",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Sedation, dizziness, ataxia",
@@ -7623,25 +6191,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Potent opioid for severe pain; combination with acetaminophen requires total acetaminophen accounting.",
     "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
     "longTermEvidence": null,
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Moderate to severe acute pain when non-opioids insufficient",
         "approved": true,
@@ -7653,33 +6211,16 @@
         "evidence": "high"
       },
       {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
+        "indication": "Severe chronic pain requiring around-the-clock opioid when alternatives inadequate",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Constipation, nausea, sedation",
@@ -7777,9 +6318,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Hydrocodone is used for labeled indications within the Opioid analgesic class.",
@@ -7787,53 +6328,22 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Moderate to severe pain (often in combination products)",
         "approved": true,
-        "evidence": "high"
+        "evidence": "high",
+        "notes": "Product-specific"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Severe chronic pain requiring around-the-clock opioid when alternatives inadequate (ER products)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Constipation, nausea, sedation",
@@ -7933,25 +6443,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Hydromorphone is used for labeled indications within the Opioid analgesic class.",
     "whyStillPrescribed": "Essential for severe acute, cancer, and palliative pain; chronic non-cancer use increasingly restricted because harms often exceed benefits.",
     "longTermEvidence": null,
     "indications": [
-      {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
       {
         "indication": "Moderate to severe acute pain when non-opioids insufficient",
         "approved": true,
@@ -7961,35 +6461,13 @@
         "indication": "Cancer / palliative pain (selected)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Constipation, nausea, sedation",
@@ -8090,9 +6568,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Fentanyl is used for labeled indications within the Opioid analgesic class.",
@@ -8100,53 +6578,22 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Severe acute pain (e.g., perioperative / transmucosal products as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Chronic pain in opioid-tolerant patients (transdermal / certain transmucosal — labeled)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "evidence": "high",
+        "notes": "Only for opioid-tolerant patients"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Constipation, nausea, sedation",
@@ -8248,9 +6695,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Cornerstone of opioid use disorder treatment (with/without naloxone) and analgesic for selected chronic pain; ceiling on respiratory depression vs full agonists (not absolute safety).",
@@ -8258,58 +6705,27 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Opioid use disorder",
+        "indication": "Opioid use disorder (maintenance / induction as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Moderate-severe pain (selected formulations)",
+        "indication": "Moderate to severe pain (selected formulations)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Neonatal opioid withdrawal protocols (off-label/specialist)",
+        "indication": "Neonatal opioid withdrawal protocols",
         "approved": false,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
         "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "notes": "Specialist protocols"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Constipation, nausea, sedation",
@@ -8410,9 +6826,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Essential overdose reversal agent; expanding community access is guideline-supported.",
@@ -8420,117 +6836,52 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Known/suspected opioid overdose",
+        "indication": "Known or suspected opioid overdose (emergency reversal)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Take-home naloxone harm reduction",
+        "indication": "Take-home naloxone for opioid overdose risk reduction",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Moderate to severe acute pain when non-opioids insufficient",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Cancer / palliative pain (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Chronic non-cancer pain only with careful selection (generally last-line)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Guideline caution — risks often outweigh for many chronic pain states"
-      },
-      {
-        "indication": "Antitussive (codeine — labeled in some products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Restricted in many jurisdictions for children"
+        "evidence": "high",
+        "notes": "Where authorized for community supply"
       }
     ],
     "adverse": [
       {
-        "effect": "Precipitated withdrawal",
+        "effect": "Precipitated opioid withdrawal",
         "severity": "common",
         "evidence": "high"
       },
       {
-        "effect": "Agitation, sweating, tachycardia",
+        "effect": "Agitation, sweating, tachycardia, nausea",
         "severity": "common",
         "evidence": "high"
       },
       {
         "effect": "Pulmonary edema (rare reports)",
         "severity": "serious",
-        "evidence": "low"
-      },
-      {
-        "effect": "Constipation, nausea, sedation",
-        "severity": "common",
-        "evidence": "high"
-      },
-      {
-        "effect": "Respiratory depression",
-        "severity": "serious",
-        "evidence": "high",
-        "frequencyNote": "Boxed warning"
-      },
-      {
-        "effect": "Dependence / addiction / misuse",
-        "severity": "serious",
-        "evidence": "high",
-        "frequencyNote": "Boxed warning"
-      },
-      {
-        "effect": "Hypogonadism with chronic use",
-        "severity": "moderate",
         "evidence": "moderate"
       },
       {
-        "effect": "Falls / cognitive impairment",
-        "severity": "moderate",
-        "evidence": "high"
-      },
-      {
-        "effect": "Serotonin syndrome (tramadol) / seizures (tramadol)",
+        "effect": "Recurrent respiratory depression if opioid effect outlasts naloxone",
         "severity": "serious",
-        "evidence": "moderate"
+        "evidence": "high",
+        "frequencyNote": "Monitor and repeat doses / seek emergency care"
       }
     ],
     "warnings": [
       {
         "type": "warning",
-        "population": "Effects may wear off before opioid — repeat doses / emergency care",
+        "population": "All opioid overdose responses",
         "severity": "major",
-        "details": "Observe after reversal."
+        "details": "Naloxone is temporary — call emergency services; observe for recurrence of respiratory depression."
       },
       {
-        "type": "warning",
-        "population": "Not a substitute for emergency medical care",
-        "severity": "major",
-        "details": "Call emergency services."
-      },
-      {
-        "type": "boxed",
-        "population": "Addiction, abuse, misuse; respiratory depression; accidental ingestion; neonatal opioid withdrawal; CYP450 interaction issues (selected)",
-        "severity": "major",
-        "details": "See full opioid analgesic REMS / labeling."
-      },
-      {
-        "type": "boxed",
-        "population": "Benzodiazepines / CNS depressants co-use",
-        "severity": "major",
-        "details": "Profound sedation, respiratory depression, death."
-      },
-      {
-        "type": "warning",
-        "population": "Ultra-rapid CYP2D6 metabolizers (codeine/tramadol)",
-        "severity": "major",
-        "details": "Life-threatening respiratory depression — contraindicated in children in many labels."
+        "type": "precaution",
+        "population": "Opioid-dependent patients",
+        "severity": "moderate",
+        "details": "May precipitate acute withdrawal; still give if overdose suspected."
       }
     ],
     "special": {
@@ -8541,10 +6892,9 @@
       "geriatric": "High risk — start low, go slow; prefer non-opioids first."
     },
     "monitoring": [
-      "Sedation / respiration",
-      "Constipation plan",
-      "Misuse risk / PDMP where applicable",
-      "Functional goals"
+      "Respiratory status and recurrence of sedation (opioids may outlast naloxone)",
+      "Precipitated withdrawal signs",
+      "Need for repeat doses / emergency care"
     ],
     "withdrawal": "Physiologic withdrawal (yawning, diarrhea, myalgias, anxiety, tachycardia) after chronic use — taper; not the same as addiction but can be severe.",
     "sourceKeys": [
@@ -8572,9 +6922,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Methylprednisolone is used for labeled indications within the Systemic corticosteroid class.",
@@ -8582,52 +6932,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Inflammatory / allergic / autoimmune conditions as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Asthma / COPD exacerbations (short courses)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Inflammatory / allergic / autoimmune flares as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Asthma / COPD exacerbations (systemic short courses)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Adrenal insufficiency replacement (physiologic dosing — selected agents)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Oncology / antiemetic adjunct / COVID protocols (context-specific)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Indication and dose highly context-specific"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Insomnia, mood changes, increased appetite",
@@ -8728,9 +7047,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Used in inflammation, oncology antiemesis, altitude illness, and evidence-based COVID-19 oxygen-requiring protocols; also fetal lung maturation (antenatal).",
@@ -8738,52 +7057,27 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Inflammatory / allergic / autoimmune conditions as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
+        "indication": "Cerebral edema / oncology / antiemetic protocols (selected)",
         "approved": true,
         "evidence": "moderate"
       },
       {
-        "indication": "Inflammatory / allergic / autoimmune flares as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Asthma / COPD exacerbations (systemic short courses)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Adrenal insufficiency replacement (physiologic dosing — selected agents)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Oncology / antiemetic adjunct / COVID protocols (context-specific)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Indication and dose highly context-specific"
+        "indication": "Severe COVID-19 requiring oxygen / ventilation (guideline-supported)",
+        "approved": false,
+        "evidence": "high",
+        "notes": "RECOVERY / guidelines — confirm product labeling"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Insomnia, mood changes, increased appetite",
@@ -8883,9 +7177,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Budesonide (inhaled) is used for labeled indications within the Inhaled corticosteroid class.",
@@ -8893,47 +7187,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Asthma maintenance",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic rhinitis (intranasal formulations — related products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Different products"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Oropharyngeal candidiasis",
@@ -9007,9 +7270,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Beclomethasone (inhaled) is used for labeled indications within the Inhaled corticosteroid class.",
@@ -9017,47 +7280,16 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Asthma maintenance",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic rhinitis (intranasal formulations — related products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Different products"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Oropharyngeal candidiasis",
@@ -9132,9 +7364,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Fluticasone/salmeterol is used for labeled indications within the ICS/LABA combination inhaler class.",
@@ -9142,47 +7374,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Asthma maintenance",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
+        "indication": "COPD maintenance (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Allergic rhinitis (intranasal formulations — related products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Different products"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Oropharyngeal candidiasis",
@@ -9256,9 +7462,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Umeclidinium/vilanterol is used for labeled indications within the LAMA/LABA combination inhaler class.",
@@ -9267,16 +7473,6 @@
     "indications": [
       {
         "indication": "COPD maintenance",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Not for asthma as primary labeled use for this combo — check label",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Asthma maintenance (tiotropium Respimat — labeled)",
         "approved": true,
         "evidence": "high"
       }
@@ -9365,9 +7561,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Ipratropium is used for labeled indications within the Short-acting muscarinic antagonist (SAMA) class.",
@@ -9445,9 +7641,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Fexofenadine is used for labeled indications within the Second-generation H1 antihistamine class.",
@@ -9455,46 +7651,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Allergic rhinitis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
+        "indication": "Chronic idiopathic urticaria (fexofenadine)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Somnolence (cetirizine > loratadine/fexofenadine typically)",
@@ -9562,9 +7733,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Desloratadine is used for labeled indications within the Second-generation H1 antihistamine class.",
@@ -9572,46 +7743,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Allergic rhinitis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
+        "indication": "Chronic idiopathic urticaria (desloratadine)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Somnolence (cetirizine > loratadine/fexofenadine typically)",
@@ -9678,9 +7824,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Levocetirizine is used for labeled indications within the Second-generation H1 antihistamine class.",
@@ -9688,46 +7834,21 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Allergic rhinitis",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
+        "indication": "Uncomplicated skin manifestations of chronic idiopathic urticaria",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Somnolence (cetirizine > loratadine/fexofenadine typically)",
@@ -9794,9 +7915,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Diphenhydramine is used for labeled indications within the First-generation H1 antihistamine class.",
@@ -9804,7 +7925,12 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Allergic reactions",
+        "indication": "Allergic reactions / allergic rhinitis",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "Allergic rhinitis",
         "approved": true,
         "evidence": "high"
       },
@@ -9814,22 +7940,7 @@
         "evidence": "moderate"
       },
       {
-        "indication": "Motion sickness / antitussive combos",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Allergic rhinitis",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Urticaria / chronic spontaneous urticaria (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic conjunctivitis symptomatic relief (selected)",
+        "indication": "Motion sickness",
         "approved": true,
         "evidence": "moderate"
       }
@@ -9922,9 +8033,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Minocycline is used for labeled indications within the Tetracycline antibiotic class.",
@@ -9932,37 +8043,12 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
+        "indication": "Susceptible bacterial infections as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Respiratory / skin infections as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Acne (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Lyme / rickettsial / atypical infections",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "STI regimens (e.g., chlamydia — doxycycline)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Malaria prophylaxis (doxycycline)",
+        "indication": "Inflammatory acne (selected)",
         "approved": true,
         "evidence": "high"
       }
@@ -10069,9 +8155,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Clindamycin is used for labeled indications within the Lincosamide antibiotic class.",
@@ -10158,9 +8244,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Nitrofurantoin is used for labeled indications within the Nitrofuran antibiotic class.",
@@ -10248,9 +8334,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Fosfomycin is used for labeled indications within the Phosphonic acid antibiotic class.",
@@ -10261,11 +8347,6 @@
         "indication": "Uncomplicated cystitis in women (single-dose sachet regimens)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Additional labeled / guideline uses — see SmPC/PI",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -10282,11 +8363,6 @@
       {
         "effect": "Hypersensitivity reactions",
         "severity": "serious",
-        "evidence": "moderate"
-      },
-      {
-        "effect": "Class-related adverse effects — review labeling",
-        "severity": "moderate",
         "evidence": "moderate"
       }
     ],
@@ -10328,9 +8404,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Aztreonam is used for labeled indications within the Monobactam antibiotic class.",
@@ -10400,9 +8476,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Linezolid is used for labeled indications within the Oxazolidinone antibiotic class.",
@@ -10484,9 +8560,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Rifaximin is used for labeled indications within the Rifamycin antibiotic (non-absorbed) class.",
@@ -10523,11 +8599,6 @@
       {
         "effect": "Hypersensitivity reactions",
         "severity": "serious",
-        "evidence": "moderate"
-      },
-      {
-        "effect": "Class-related adverse effects — review labeling",
-        "severity": "moderate",
         "evidence": "moderate"
       }
     ],
@@ -10567,9 +8638,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Topiramate is used for labeled indications within the Anticonvulsant / migraine prophylactic class.",
@@ -10577,7 +8648,7 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Epilepsy",
+        "indication": "Epilepsy (as labeled)",
         "approved": true,
         "evidence": "high"
       },
@@ -10585,26 +8656,6 @@
         "indication": "Migraine prophylaxis",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Weight / binge-eating off-label contexts",
-        "approved": false,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Bipolar disorder (agent-specific roles)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -10745,9 +8796,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Levetiracetam is used for labeled indications within the Anticonvulsant class.",
@@ -10760,28 +8811,13 @@
         "evidence": "high"
       },
       {
-        "indication": "Status epilepticus IV (guideline use)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Bipolar disorder (agent-specific roles)",
+        "indication": "Myoclonic seizures / primary generalized tonic-clonic (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
-        "approved": true,
+        "indication": "Status epilepticus (IV — guideline use in many settings)",
+        "approved": false,
         "evidence": "moderate"
       }
     ],
@@ -10903,9 +8939,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Phenytoin is used for labeled indications within the Anticonvulsant class.",
@@ -10923,22 +8959,7 @@
         "evidence": "high"
       },
       {
-        "indication": "Bipolar disorder (agent-specific roles)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Epilepsy / seizure disorders as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Migraine prophylaxis (valproate/topiramate — not first-line in women of childbearing potential)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Neuropathic pain (selected anticonvulsants)",
+        "indication": "Seizure prophylaxis after neurosurgery (as labeled)",
         "approved": true,
         "evidence": "moderate"
       }
@@ -11083,9 +9104,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Gabapentin enacarbil is used for labeled indications within the Gabapentinoid class.",
@@ -11101,49 +9122,13 @@
         "indication": "Postherpetic neuralgia",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Neuropathic pain (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Partial seizures adjunct (gabapentin/pregabalin)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fibromyalgia (pregabalin — labeled US)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Generalized anxiety (pregabalin — licensed some regions)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Jurisdiction-specific"
-      },
-      {
-        "indication": "Perioperative pain / off-label uses",
-        "approved": false,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Dizziness, somnolence, ataxia",
@@ -11229,9 +9214,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Zopiclone is used for labeled indications within the Non-benzodiazepine hypnotic (Z-drug) class.",
@@ -11239,35 +9224,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Short-term insomnia",
+        "indication": "Short-term treatment of insomnia",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
@@ -11382,9 +9341,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Eszopiclone is used for labeled indications within the Non-benzodiazepine hypnotic (Z-drug) class.",
@@ -11392,35 +9351,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Insomnia",
+        "indication": "Insomnia (sleep onset and/or sleep maintenance)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Acute anxiety / panic (short-term)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Seizure / status epilepticus (selected agents/routes)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Alcohol withdrawal (selected protocols)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Muscle spasm (diazepam)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Insomnia short-term (selected)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Prefer non-drug and non-benzo options first in many guidelines"
       }
     ],
     "adverse": [
@@ -11534,9 +9467,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Mirtazapine is used for labeled indications within the Tetracyclic antidepressant (NaSSA) class.",
@@ -11626,9 +9559,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Bupropion is used for labeled indications within the NDRI antidepressant / smoking cessation class.",
@@ -11734,9 +9667,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Trazodone is used for labeled indications within the Serotonin modulator antidepressant class.",
@@ -11817,9 +9750,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Aripiprazole is used for labeled indications within the Atypical antipsychotic class.",
@@ -11844,45 +9777,19 @@
       {
         "indication": "Irritability in autistic disorder (pediatric labeled)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Tourette disorder (labeled)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Bipolar mania/depression (product-specific)",
-        "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Adjunct MDD (selected agents)",
+        "indication": "Tourette disorder (as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Off-label insomnia / agitation (common but cautioned)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Risks often outweigh for primary insomnia"
       }
     ],
     "adverse": [
       {
-        "effect": "See class adverse effect profile",
-        "severity": "common",
-        "evidence": "moderate"
-      },
-      {
         "effect": "Hypersensitivity (rare)",
         "severity": "serious",
         "evidence": "low"
-      },
-      {
-        "effect": "Class-specific serious risks — review labeling",
-        "severity": "serious",
-        "evidence": "moderate"
       },
       {
         "effect": "Sedation, dry mouth, constipation",
@@ -11979,9 +9886,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Olanzapine is used for labeled indications within the Atypical antipsychotic class.",
@@ -11989,35 +9896,19 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Schizophrenia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar mania/depression (product-specific)",
+        "indication": "Bipolar I disorder (acute mania / mixed / maintenance as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Adjunct MDD (selected agents)",
+        "indication": "Treatment-resistant depression (adjunct with fluoxetine — as labeled)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Off-label insomnia / agitation (common but cautioned)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Risks often outweigh for primary insomnia"
       }
     ],
     "adverse": [
@@ -12136,9 +10027,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Risperidone is used for labeled indications within the Atypical antipsychotic class.",
@@ -12146,35 +10037,19 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "See labeling for approved indications",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Guideline-supported uses within class",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
         "indication": "Schizophrenia",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Bipolar mania/depression (product-specific)",
+        "indication": "Bipolar mania",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Adjunct MDD (selected agents)",
+        "indication": "Irritability associated with autistic disorder (pediatric — as labeled)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Off-label insomnia / agitation (common but cautioned)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Risks often outweigh for primary insomnia"
+        "evidence": "high"
       }
     ],
     "adverse": [
@@ -12294,9 +10169,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Clozapine is used for labeled indications within the Atypical antipsychotic class.",
@@ -12309,25 +10184,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Reduction of recurrent suicidal behavior in schizophrenia/schizoaffective",
+        "indication": "Reduction of recurrent suicidal behavior in schizophrenia/schizoaffective disorder",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Bipolar mania/depression (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Adjunct MDD (selected agents)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Off-label insomnia / agitation (common but cautioned)",
-        "approved": false,
-        "evidence": "low",
-        "notes": "Risks often outweigh for primary insomnia"
       }
     ],
     "adverse": [
@@ -12464,9 +10323,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Atomoxetine is used for labeled indications within the Selective norepinephrine reuptake inhibitor (ADHD) class.",
@@ -12477,11 +10336,6 @@
         "indication": "ADHD (children/adults as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Additional labeled / guideline uses — see SmPC/PI",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -12563,9 +10417,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Methylphenidate is used for labeled indications within the CNS stimulant (ADHD) class.",
@@ -12662,9 +10516,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Supported by regulatory labeling and major clinical guidelines; see product-specific evidence.",
     "benefitsSummary": "Amphetamine salts (mixed) is used for labeled indications within the CNS stimulant (ADHD) class.",
@@ -12740,9 +10594,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Labeled for ED, BPH, and PAH (Adcirca) with extensive trial support.",
     "benefitsSummary": "Longer-acting PDE5 inhibitor for ED/BPH; nitrate contraindication absolute.",
@@ -12759,16 +10613,6 @@
       },
       {
         "indication": "Pulmonary arterial hypertension (Adcirca)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Pulmonary arterial hypertension (specific products/doses)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "BPH (tadalafil daily — labeled)",
         "approved": true,
         "evidence": "high"
       }
@@ -12877,9 +10721,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Cornerstone of TB regimens; interaction burden is extreme.",
     "benefitsSummary": "Essential TB/mycobacterial therapy and selected synergistic uses (e.g., prosthetic infections) — induces metabolism of many drugs.",
@@ -12963,9 +10807,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "First-line TB agent; hepatotoxicity and neuropathy key risks.",
     "benefitsSummary": "Core TB drug; pyridoxine co-therapy prevents neuropathy in at-risk patients.",
@@ -13048,9 +10892,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Used in autoimmune disease and transplant; TPMT/NUDT15 and allopurinol interaction critical.",
     "benefitsSummary": "Steroid-sparing immunosuppressant; myelosuppression mandates monitoring.",
@@ -13143,30 +10987,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Superior to ACEI in HFrEF pivotal trial evidence reflected in guidelines/labels.",
     "benefitsSummary": "Foundational HFrEF therapy replacing ACEI/ARB in many eligible patients; requires ACEI washout.",
     "indications": [
       {
-        "indication": "HFrEF",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Hypertension",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Heart failure / post-MI (selected ARBs as labeled)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Diabetic nephropathy (selected ARBs, e.g., type 2)",
+        "indication": "Chronic heart failure with reduced ejection fraction",
         "approved": true,
         "evidence": "high"
       }
@@ -13295,27 +11124,17 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Standard for hypokalemia correction; hyperkalemia from excess/combos is dangerous.",
     "benefitsSummary": "Treats hypokalemia; avoid indiscriminate use with ACEI/ARB/MRA without labs.",
     "indications": [
       {
-        "indication": "Hypokalemia treatment/prevention",
+        "indication": "Hypokalemia treatment and prevention",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Additional labeled indications — see current SmPC/PI",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Guideline-supported uses within pharmacologic class",
-        "approved": true,
-        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -13380,9 +11199,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Transplant and autoimmune uses; nephrotoxicity and interactions critical.",
     "benefitsSummary": "Potent immunosuppressant; narrow therapeutic index with food/CYP3A/P-gp interactions.",
@@ -13472,20 +11291,10 @@
     "whyStillPrescribed": "Patient self-medication common; clinicians must ask specifically because of serious induction/serotonin interactions.",
     "indications": [
       {
-        "indication": "Mild depressive symptoms (jurisdiction-dependent)",
-        "approved": true,
+        "indication": "Mild depressive symptoms (jurisdiction-dependent; herbal/supplement status varies)",
+        "approved": false,
         "evidence": "moderate",
-        "notes": "Not a substitute for moderate-severe depression care"
-      },
-      {
-        "indication": "Additional labeled indications — see current SmPC/PI",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Guideline-supported uses within pharmacologic class",
-        "approved": true,
-        "evidence": "moderate"
+        "notes": "Evidence mixed; major interaction risk"
       }
     ],
     "adverse": [
@@ -13540,36 +11349,20 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Highly effective when taken correctly without interacting inducers.",
     "benefitsSummary": "Component of CHCs; enzyme-inducing drugs (carbamazepine, rifampin, St John's wort) reduce efficacy.",
     "indications": [
       {
-        "indication": "Contraception (as part of CHC)",
+        "indication": "Contraception (as part of combined hormonal contraceptives)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Cycle control / acne selected products",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "Prevention of pregnancy",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Emergency contraception (levonorgestrel / ulipristal products)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
-      },
-      {
-        "indication": "Menstrual cycle regulation / acne / endometriosis symptoms (selected CHCs — labeled)",
+        "indication": "Cycle control / acne (selected combination products)",
         "approved": true,
         "evidence": "moderate"
       }

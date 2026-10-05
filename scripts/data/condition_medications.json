@@ -604,38 +604,11 @@
   },
   {
     "condition": "Insomnia disorder",
-    "medication": "Zolpidem",
-    "indication": "Short-term insomnia",
-    "form": "oral",
-    "availability": "rx",
-    "note": "Short-term use only; risk of dependence and next-day impairment.",
-    "sourceKey": null
-  },
-  {
-    "condition": "Insomnia disorder",
-    "medication": "Zopiclone",
-    "indication": "Short-term insomnia",
-    "form": "oral",
-    "availability": "rx",
-    "note": "Short-term use only; risk of dependence and next-day impairment.",
-    "sourceKey": null
-  },
-  {
-    "condition": "Insomnia disorder",
     "medication": "Melatonin",
     "indication": "Insomnia / jet lag (jurisdiction-dependent licensing)",
     "form": "oral",
     "availability": "varies",
     "note": "Licensing differs by country (medicine in some, supplement in others).",
-    "sourceKey": null
-  },
-  {
-    "condition": "Gout",
-    "medication": "Colchicine",
-    "indication": "Acute gout; prophylaxis",
-    "form": "oral",
-    "availability": "rx",
-    "note": "For flares and flare prevention.",
     "sourceKey": null
   },
   {
@@ -924,6 +897,42 @@
     "form": "injection",
     "availability": "rx",
     "note": "Adrenaline auto-injector. After using it, call 144 (CH) / 112 (EU).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Insomnia disorder",
+    "medication": "Zolpidem",
+    "indication": "Short-term treatment of insomnia (sleep onset; some formulations also maintenance)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Short-term use only; risk of dependence and next-day impairment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Insomnia disorder",
+    "medication": "Zopiclone",
+    "indication": "Short-term treatment of insomnia",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Short-term use only; risk of dependence and next-day impairment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Colchicine",
+    "indication": "Acute gout flares",
+    "form": "oral",
+    "availability": "rx",
+    "note": "For flares; also used for flare prophylaxis when starting ULT — see medication page.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Colchicine",
+    "indication": "Prophylaxis of gout flares",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Flare prevention, including when starting urate-lowering therapy.",
     "sourceKey": null
   }
 ]

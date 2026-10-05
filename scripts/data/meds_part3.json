@@ -11,9 +11,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Multiple RCTs and guidelines support use in depression and several anxiety disorders. Boxed warning for suicidality in young people.",
     "benefitsSummary": "First-line antidepressant/anxiolytic option for many adults when psychotherapy alone is insufficient.",
@@ -26,36 +26,29 @@
         "evidence": "high"
       },
       {
-        "indication": "OCD",
+        "indication": "Obsessive-compulsive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Panic disorder, PTSD, social anxiety (as labeled)",
+        "indication": "Panic disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "indication": "Post-traumatic stress disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "indication": "Social anxiety disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "indication": "Premenstrual dysphoric disorder",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
-      },
-      {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -199,9 +192,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Well-studied SSRI for depression and GAD.",
     "benefitsSummary": "Antidepressant/anxiolytic with relatively simple dosing.",
@@ -214,26 +207,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "indication": "Generalized anxiety disorder",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
-      },
-      {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
@@ -363,9 +339,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Long clinical history; approved for several psychiatric indications.",
     "benefitsSummary": "Depression, OCD, bulimia, panic as labeled.",
@@ -378,31 +354,24 @@
         "evidence": "high"
       },
       {
-        "indication": "OCD, bulimia, panic (as labeled)",
+        "indication": "Obsessive-compulsive disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder / panic disorder / social anxiety (product-specific)",
+        "indication": "Bulimia nervosa",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Obsessive-compulsive disorder (selected SSRIs)",
+        "indication": "Panic disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "PTSD / PMDD (selected SSRIs as labeled)",
+        "indication": "Premenstrual dysphoric disorder (selected products)",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific approvals"
-      },
-      {
-        "indication": "Bulimia nervosa (fluoxetine — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -527,9 +496,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective antidepressant; discontinuation symptoms can be prominent; BP increases possible.",
     "benefitsSummary": "Depression and anxiety disorders as labeled.",
@@ -542,26 +511,19 @@
         "evidence": "high"
       },
       {
-        "indication": "GAD, social anxiety, panic",
+        "indication": "Generalized anxiety disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Generalized anxiety disorder (selected SNRIs)",
+        "indication": "Social anxiety disorder",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Diabetic peripheral neuropathic pain / fibromyalgia / chronic musculoskeletal pain (duloxetine — labeled)",
+        "indication": "Panic disorder",
         "approved": true,
-        "evidence": "high",
-        "notes": "Product-specific"
-      },
-      {
-        "indication": "Panic / social anxiety (venlafaxine XR — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "high"
       }
     ],
     "adverse": [
@@ -674,9 +636,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Widely used; resistance patterns vary — stewardship essential.",
     "benefitsSummary": "Empiric and directed therapy for susceptible infections as indicated.",
@@ -822,9 +784,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Broader spectrum than amoxicillin alone; higher GI side effect rate.",
     "benefitsSummary": "Useful when beta-lactamase–producing organisms suspected.",
@@ -959,9 +921,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Convenient dosing; QT prolongation and resistance concerns important.",
     "benefitsSummary": "Respiratory and some STI indications as labeled.",
@@ -1094,9 +1056,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Effective for selected serious infections but boxed warnings for tendinopathy, neuropathy, CNS effects — reserve when alternatives less suitable.",
     "benefitsSummary": "Gram-negative coverage including some urinary pathogens; stewardship critical.",
@@ -1104,31 +1066,14 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Selected complicated UTI and other labeled infections",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Complicated UTI / pyelonephritis (when appropriate)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Selected respiratory / skin / bone infections as labeled",
+        "indication": "Selected susceptible infections as labeled (not first-line for uncomplicated infections)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Anthrax / plague (selected agents — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Special-use labeled indications"
-      },
-      {
-        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Reserve use due to serious risks"
       }
     ],
     "adverse": [
@@ -1252,9 +1197,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Same boxed warning class as other systemic fluoroquinolones.",
     "benefitsSummary": "Respiratory and other labeled indications; stewardship critical.",
@@ -1262,31 +1207,9 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "Selected bacterial infections as labeled",
+        "indication": "Selected bacterial infections as labeled (respiratory, UTI, skin — when appropriate)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "Complicated UTI / pyelonephritis (when appropriate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Selected respiratory / skin / bone infections as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Anthrax / plague (selected agents — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Special-use labeled indications"
-      },
-      {
-        "indication": "Uncomplicated infections only when no alternatives (per FDA safety communications)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Reserve use due to serious risks"
       }
     ],
     "adverse": [
@@ -1411,9 +1334,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Broad utility including atypical pneumonia, acne, some STIs, tick-borne disease.",
     "benefitsSummary": "Versatile antibiotic with anti-inflammatory properties used in acne.",
@@ -1548,9 +1471,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Important for UTI, PCP prophylaxis/treatment; allergy and hyperkalemia relevant.",
     "benefitsSummary": "Effective for susceptible UTI and opportunistic infection indications.",
@@ -1673,30 +1596,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Decades of evidence for VTE and mechanical valve anticoagulation. Narrow therapeutic index; INR monitoring mandatory.",
     "benefitsSummary": "Prevents and treats thromboembolism when INR maintained in target range; required for mechanical heart valves.",
     "whyStillPrescribed": "Still required/preferred for mechanical heart valves, some APS patients, and settings where DOACs are unsuitable or unaffordable; extensive clinical experience.",
     "longTermEvidence": "Decades of use with INR-guided therapy; DOACs preferred for many NVAF/VTE patients but warfarin remains essential for mechanical valves and selected APS.",
     "indications": [
-      {
-        "indication": "VTE treatment/prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Stroke prevention in AF (selected)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Mechanical heart valve anticoagulation",
-        "approved": true,
-        "evidence": "high"
-      },
       {
         "indication": "Prophylaxis/treatment of venous thrombosis and PE",
         "approved": true,
@@ -1708,15 +1616,14 @@
         "evidence": "high"
       },
       {
+        "indication": "Mechanical heart valve anticoagulation",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
         "indication": "Secondary prevention after MI (selected contexts)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Antiphospholipid syndrome / mechanical valves (often preferred anticoagulant class)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "DOACs often inappropriate"
       }
     ],
     "adverse": [
@@ -1819,9 +1726,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Large RCTs support labeled indications; boxed warnings for premature discontinuation and spinal/epidural hematoma.",
     "benefitsSummary": "Stroke prevention in NVAF and VTE treatment/prevention without routine INR monitoring.",
@@ -1829,40 +1736,19 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "NVAF — stroke prevention",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "DVT/PE treatment and recurrence reduction",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Stroke prevention in nonvalvular atrial fibrillation",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Treatment of DVT / PE",
+        "indication": "Treatment of DVT / PE and reduction of recurrence",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Secondary prevention of recurrent VTE",
+        "indication": "VTE prophylaxis after hip/knee replacement (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
       }
     ],
     "adverse": [
@@ -1977,9 +1863,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "RCT-supported for NVAF and VTE; some doses require food.",
     "benefitsSummary": "Once or twice daily regimens depending on indication.",
@@ -1987,35 +1873,24 @@
     "longTermEvidence": null,
     "indications": [
       {
-        "indication": "NVAF stroke prevention; VTE as labeled",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Stroke prevention in nonvalvular atrial fibrillation",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Treatment of DVT / PE",
+        "indication": "Treatment of DVT / PE and reduction of recurrence",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Secondary prevention of recurrent VTE",
+        "indication": "VTE prophylaxis after hip/knee replacement (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "VTE prophylaxis after hip/knee replacement (product-specific)",
+        "indication": "CV risk reduction in CAD/PAD (vascular dose — as labeled)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "CAD/PAD risk reduction (rivaroxaban low-dose regimens — labeled)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Product-specific"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -2119,9 +1994,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Essential reliever therapy; over-reliance without controller is a warning sign in asthma.",
     "benefitsSummary": "Rapid relief of bronchospasm in asthma and COPD as indicated.",
@@ -2230,9 +2105,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Guideline-central for asthma and COPD as labeled.",
     "benefitsSummary": "Controller therapy reducing exacerbations when used correctly.",
@@ -2245,20 +2120,9 @@
         "evidence": "high"
       },
       {
-        "indication": "COPD",
+        "indication": "COPD (as labeled)",
         "approved": true,
         "evidence": "high"
-      },
-      {
-        "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic rhinitis (intranasal formulations — related products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Different products"
       }
     ],
     "adverse": [
@@ -2345,9 +2209,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Cornerstone asthma controller therapy.",
     "benefitsSummary": "Reduces airway inflammation and exacerbations.",
@@ -2362,13 +2226,7 @@
       {
         "indication": "COPD (selected ICS-containing regimens — not monotherapy first-line)",
         "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Allergic rhinitis (intranasal formulations — related products)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Different products"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -2454,9 +2312,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Strong COPD evidence; asthma add-on in some labels.",
     "benefitsSummary": "Improves lung function and reduces COPD exacerbations.",
@@ -2555,9 +2413,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Standard replacement for hypothyroidism; narrow therapeutic index.",
     "benefitsSummary": "Restores euthyroidism; improves symptoms and prevents myxedema complications.",
@@ -2577,7 +2435,7 @@
       {
         "indication": "Myxedema coma (IV formulations — specialist)",
         "approved": true,
-        "evidence": "high"
+        "evidence": "moderate"
       }
     ],
     "adverse": [

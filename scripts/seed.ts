@@ -4,6 +4,7 @@ import path from "path";
 import { SCHEMA_SQL } from "./schema-sql";
 import { getBuiltinEmergencyRules } from "../src/lib/safety/emergency";
 import { normalize } from "../src/lib/text";
+import { assertContentChecks } from "./content-checks";
 
 const ROOT = path.join(__dirname, "..");
 const DATA = path.join(__dirname, "data");
@@ -46,6 +47,7 @@ type Med = {
 };
 
 function main() {
+  assertContentChecks();
   fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH);
   for (const suffix of ["-wal", "-shm"]) {

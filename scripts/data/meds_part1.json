@@ -12,9 +12,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "High-quality evidence for short-term healing of erosive esophagitis and ulcer disease. Long-term safety includes established label warnings and observational associations that are not proven causal.",
     "benefitsSummary": "Effectively reduces stomach acid; used for GERD, erosive esophagitis, peptic ulcer disease, and H. pylori regimens as labeled.",
@@ -39,19 +39,12 @@
       {
         "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "H. pylori eradication (combination regimens)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
+        "evidence": "high"
       },
       {
         "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
         "approved": true,
-        "evidence": "moderate",
-        "notes": "See specific product labeling"
+        "evidence": "moderate"
       }
     ],
     "adverse": [
@@ -179,20 +172,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Similar class evidence profile to other PPIs for acid-related disorders.",
     "benefitsSummary": "Acid suppression for GERD and erosive esophagitis; IV option available in many regions.",
     "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
     "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
     "indications": [
-      {
-        "indication": "GERD / erosive esophagitis",
-        "approved": true,
-        "evidence": "high"
-      },
       {
         "indication": "Gastroesophageal reflux disease (GERD)",
         "approved": true,
@@ -204,26 +192,15 @@
         "evidence": "high"
       },
       {
-        "indication": "Peptic ulcer disease",
+        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "H. pylori eradication (combination regimens)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
-      },
-      {
-        "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
-        "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
+        "indication": "Peptic ulcer disease",
         "approved": true,
         "evidence": "moderate",
-        "notes": "See specific product labeling"
+        "notes": "Product/jurisdiction-specific"
       }
     ],
     "adverse": [
@@ -335,26 +312,15 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Well-studied PPI; class safety considerations apply.",
     "benefitsSummary": "Used for GERD, erosive esophagitis, H. pylori regimens as labeled.",
     "whyStillPrescribed": "PPIs remain first-line for documented acid-related disease because healing and symptom-control benefits are well established when used for appropriate indications and durations.",
     "longTermEvidence": "Labels warn about hypomagnesemia with prolonged use. Observational associations (fracture, CKD, dementia, infection) are reported; association ≠ proven causation. Benefits remain established for appropriate acid-related indications.",
     "indications": [
-      {
-        "indication": "GERD / erosive esophagitis",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "H. pylori eradication (combination regimens)",
-        "approved": true,
-        "evidence": "high",
-        "notes": "As part of labeled multi-drug regimens"
-      },
       {
         "indication": "Gastroesophageal reflux disease (GERD)",
         "approved": true,
@@ -366,20 +332,19 @@
         "evidence": "high"
       },
       {
-        "indication": "Peptic ulcer disease",
+        "indication": "H. pylori eradication (combination regimens)",
+        "approved": true,
+        "evidence": "high"
+      },
+      {
+        "indication": "NSAID-associated gastric ulcer risk reduction (as labeled)",
         "approved": true,
         "evidence": "high"
       },
       {
         "indication": "Pathological hypersecretory conditions (e.g., Zollinger–Ellison)",
         "approved": true,
-        "evidence": "moderate"
-      },
-      {
-        "indication": "NSAID-associated ulcer risk reduction (selected regimens)",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "See specific product labeling"
+        "evidence": "high"
       }
     ],
     "adverse": [
@@ -494,9 +459,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Extensive clinical experience. Hepatotoxicity with overdose is established and labeled.",
     "benefitsSummary": "First-line for mild–moderate pain and fever when used within recommended doses.",
@@ -514,20 +479,9 @@
         "evidence": "high"
       },
       {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
         "indication": "Osteoarthritis symptomatic relief (adjunct)",
         "approved": true,
         "evidence": "moderate"
-      },
-      {
-        "indication": "Post-vaccine / viral illness symptomatic care",
-        "approved": true,
-        "evidence": "moderate",
-        "notes": "Supportive — not disease-modifying"
       }
     ],
     "adverse": [
@@ -625,9 +579,9 @@
     ],
     "regulatoryStatus": {
       "US": "FDA-approved (see current labeling)",
-      "EU": "Authorized in EU / national procedures (see SmPC)",
-      "UK": "Licensed (see MHRA product information)",
-      "CH": "Authorized (see Swissmedic product information)"
+      "EU": "authorisation status not verified",
+      "UK": "authorisation status not verified",
+      "CH": "authorisation status not verified"
     },
     "evidenceQualityOverview": "Strong evidence for analgesia and anti-inflammatory effects. Boxed warnings for CV and GI risk on US labels.",
     "benefitsSummary": "Effective for pain, inflammation, and fever.",
@@ -645,37 +599,14 @@
         "evidence": "high"
       },
       {
-        "indication": "Inflammatory arthritis conditions (Rx strengths)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Pain (mild to moderate)",
-        "approved": true,
-        "evidence": "high"
-      },
-      {
-        "indication": "Fever / antipyresis",
-        "approved": true,
-        "evidence": "high",
-        "notes": "Product-dependent"
-      },
-      {
         "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
         "approved": true,
         "evidence": "high"
       },
       {
-        "indication": "Dysmenorrhea (selected NSAIDs)",
+        "indication": "Dysmenorrhea",
         "approved": true,
-        "evidence": "high",
-        "notes": "See product labeling"
-      },
-      {
-        "indication": "Migraine / headache symptomatic relief (selected)",
-        "approved": false,
-        "evidence": "moderate",
-        "notes": "Off-label or product-specific OTC uses — not a diagnosis"
+        "evidence": "moderate"
       }
     ],
     "adverse": [

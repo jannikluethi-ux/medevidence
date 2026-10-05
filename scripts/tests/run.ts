@@ -5,6 +5,7 @@
 import { scanEmergency } from "../../src/lib/safety/emergency";
 import { resolveMedicationInput, symptomSearch, universalSearch } from "../../src/lib/search";
 import { lookupTreatments } from "../../src/lib/treatments";
+import { runContentChecks, INDICATION_DENYLIST, loadAllMeds } from "../content-checks";
 
 let pass = 0;
 let fail = 0;
@@ -204,6 +205,14 @@ check("nonsense -> no_match", lt("xyzzyplonk").status === "no_match" && lt("xyzz
 check("misspelling not in list -> suggestion only", lt("burm").status === "no_match" && lt("burm").suggestions.some((s) => s.label === "Burns (minor, superficial)"), lt("burm"));
 check("medicine name -> hint, no results", lt("ibuprofen").status === "no_match" && lt("ibuprofen").medicationHints.some((m) => m.name === "Ibuprofen"));
 check("empty query", lt("  ").status === "empty_query");
+
+
+// ---------- content integrity (class-template / boilerplate regressions) ----------
+const contentErrs = runContentChecks();
+check("content checks clean", contentErrs.length === 0, contentErrs.slice(0, 10));
+check("denylist covers known bad examples", ["Loperamide", "Naloxone", "Colchicine", "Zolpidem", "Dexlansoprazole", "Bumetanide"].every((n) => INDICATION_DENYLIST[n]?.length > 0));
+const loperamide = loadAllMeds().find((m) => m.genericName === "Loperamide");
+check("loperamide has diarrhea indication only (no opioid pain)", !!loperamide && loperamide.indications.some((i) => /diarrhea/i.test(i.indication)) && !loperamide.indications.some((i) => /acute pain|palliative|antitussive/i.test(i.indication)), loperamide?.indications);
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);
