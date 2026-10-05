@@ -20,6 +20,21 @@ npm start
 
 Admin password: set `ADMIN_PASSWORD` in `.env.local` for local use (development only falls back to a local default if unset; production requires the env var).
 
+## Site password (HTTP Basic Auth)
+
+The **entire site** (every page, API route, `/_next/static` asset, `robots.txt`, favicon) is behind HTTP Basic Auth, enforced by `src/middleware.ts`. There are no excluded paths, not even a health check.
+
+| Env var | Purpose |
+| --- | --- |
+| `SITE_USERNAME` | Login username (not secret). Defaults to `family` if unset. |
+| `SITE_PASSWORD` | Login password (secret). **No default.** |
+
+- **Production (`next start`)**: if `SITE_PASSWORD` is missing or empty, every request returns `503 Site locked: not configured` (fail closed).
+- **Local `npm run dev`**: if `SITE_PASSWORD` is unset the gate is **disabled** (open access, for convenience). Put `SITE_PASSWORD=...` in `.env.local` (git-ignored) to test the gate locally.
+- Credentials are compared in constant time (SHA-256 both sides, then XOR-compare the digests; the edge runtime has no `timingSafeEqual`).
+- Wrong or missing credentials return `401` with `WWW-Authenticate: Basic realm="MedEvidence (private)"`. All responses carry `X-Robots-Tag: noindex, nofollow` and `Cache-Control: private, no-store`.
+- The admin console (`/admin`) still uses its own `ADMIN_PASSWORD` sent as the `x-admin-password` header, so it does not clash with Basic Auth. Log in to the site first, then enter the admin password on `/admin`.
+
 
 ## Deploy to Render
 
@@ -30,15 +45,22 @@ Free web service for private family testing. The SQLite DB is rebuilt at build t
 1. Push this repo to GitHub (already on `main`).
 2. In Render: **New → Blueprint**, connect the `medevidence` repo.
 3. Render reads `render.yaml` (service name `medevidence`, Node, free plan, `npm ci && npm run build` / `npm start`).
-4. Confirm and create. `ADMIN_PASSWORD` is auto-generated — copy it from the service **Environment** tab.
-5. Open the service URL after the first deploy finishes.
+4. Confirm and create. `SITE_PASSWORD` and `ADMIN_PASSWORD` are auto-generated; `SITE_USERNAME` is `family`.
+5. Open the service URL after the first deploy finishes. The browser asks for a username and password: use `SITE_USERNAME` / `SITE_PASSWORD`.
 
 ### Manual Web Service
 
 1. **New → Web Service**, pick the GitHub repo.
 2. Runtime: Node. Build: `npm ci && npm run build`. Start: `npm start`.
-3. Plan: Free. Set env vars: `NODE_VERSION=20`, `ADMIN_PASSWORD` (generate a strong secret), `NEXT_TELEMETRY_DISABLED=1`. Do **not** set `NODE_ENV=production` at install time so `npm ci` still installs build-time devDependencies (`tsx`, `typescript`, Tailwind).
+3. Plan: Free. Set env vars: `NODE_VERSION=20`, `SITE_USERNAME=family`, `SITE_PASSWORD` (generate a strong secret), `ADMIN_PASSWORD` (generate a strong secret), `NEXT_TELEMETRY_DISABLED=1`. Leave **Health Check Path** empty (every path requires auth). Do **not** set `NODE_ENV=production` at install time so `npm ci` still installs build-time devDependencies (`tsx`, `typescript`, Tailwind).
 4. Deploy. Find the admin password under Environment in the Render dashboard.
+
+### Site password: find, change, share
+
+- **Find it**: Render dashboard → service `medevidence` → **Environment** → `SITE_PASSWORD` (click the eye icon to reveal / copy). The username is `SITE_USERNAME` (default `family`).
+- **Change it**: same page → edit `SITE_PASSWORD` → **Save, rebuild, and deploy** (or *Save and deploy*). The new value is read at runtime when the service restarts; old credentials stop working after the deploy. Never set it to an empty value: the site then returns 503 for everyone.
+- **Share it**: send username and password to family members over a private channel (e.g. Signal, in person or a password manager share), never in this public repo, an issue or a commit. Rotate it when someone should lose access.
+- **No health check**: `render.yaml` sets no `healthCheckPath`; Render uses its default port check. Do not add a health path in the dashboard; it would get a 401.
 
 `next start` listens on Render’s `$PORT` automatically (the start script does not hardcode a port).
 

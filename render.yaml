@@ -5,9 +5,18 @@ services:
     plan: free
     buildCommand: npm ci && npm run build
     startCommand: npm start
+    # No healthCheckPath on purpose: every path (including any health route)
+    # is behind HTTP Basic Auth via src/middleware.ts. Render falls back to
+    # its default port check, which needs no unauthenticated endpoint.
     envVars:
       - key: NODE_VERSION
         value: "20"
+      # Site-wide Basic Auth (src/middleware.ts). Username is not secret.
+      - key: SITE_USERNAME
+        value: family
+      # Auto-generated secret. Without it the site returns 503 (fail closed).
+      - key: SITE_PASSWORD
+        generateValue: true
       - key: ADMIN_PASSWORD
         generateValue: true
       - key: NEXT_TELEMETRY_DISABLED
