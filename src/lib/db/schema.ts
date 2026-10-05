@@ -134,12 +134,29 @@ export const conditions = sqliteTable(
     redFlags: text("red_flags").notNull().default("[]"),
     whenToSeekCare: text("when_to_seek_care").notNull(),
     evidenceOverview: text("evidence_overview"),
+    firstAid: text("first_aid").notNull().default("[]"),
     status: text("status").notNull().default("published"),
     createdAt: text("created_at").notNull(),
     updatedAt: text("updated_at").notNull(),
   },
   (t) => [index("cond_slug_idx").on(t.slug)]
 );
+
+/** Curated condition -> medicine links ("Find medicines by condition"; information only). */
+export const conditionMedications = sqliteTable("condition_medications", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
+  conditionId: integer("condition_id")
+    .notNull()
+    .references(() => conditions.id),
+  medicationId: integer("medication_id")
+    .notNull()
+    .references(() => medications.id),
+  indication: text("indication").notNull(),
+  form: text("form").notNull(), // topical|oral|nasal|inhaled|injection
+  availability: text("availability").notNull(), // otc|rx|varies
+  note: text("note"),
+  sourceId: integer("source_id").references(() => sources.id),
+});
 
 export const conditionSymptoms = sqliteTable("condition_symptoms", {
   id: integer("id").primaryKey({ autoIncrement: true }),

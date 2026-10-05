@@ -583,5 +583,70 @@
     "evidenceType": "guideline",
     "url": "https://medlineplus.gov/druginformation.html",
     "jurisdiction": "US"
+  },
+  {
+    "key": "nhs_burns",
+    "title": "Burns and scalds — first aid, when to seek help, and pain relief",
+    "organization": "NHS England",
+    "publicationDate": "2026-03-31",
+    "evidenceType": "guideline",
+    "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "nhs_sunburn",
+    "title": "Sunburn — self-care and when to get urgent advice",
+    "organization": "NHS England",
+    "publicationDate": "2025-11-24",
+    "evidenceType": "guideline",
+    "url": "https://www.nhs.uk/conditions/sunburn/",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "who_burns",
+    "title": "Burns — fact sheet",
+    "organization": "World Health Organization",
+    "evidenceType": "guideline",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/burns"
+  },
+  {
+    "key": "nhs_heartburn",
+    "title": "Heartburn and acid reflux — pharmacy medicines (antacids, alginates) and GP treatment (PPIs)",
+    "organization": "NHS England",
+    "evidenceType": "guideline",
+    "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+    "jurisdiction": "UK"
+  },
+  {
+    "key": "label_ssd",
+    "title": "Silver sulfadiazine cream USP 1% — prescribing information (indication: adjunct for prevention and treatment of wound sepsis in second- and third-degree burns)",
+    "organization": "U.S. National Library of Medicine / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4d6694f-2b0a-4d64-9e05-2fef6d8e60d9",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_pvpi_firstaid",
+    "title": "Povidone-iodine 10% first aid antiseptic — Drug Facts (uses: help prevent infection in minor cuts, scrapes, burns)",
+    "organization": "U.S. National Library of Medicine / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c2f07152-d7fb-4b1f-be77-c94618d5abd6",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_caco3_antacid",
+    "title": "Calcium carbonate antacid chewable tablets — Drug Facts (uses: heartburn, acid indigestion, sour stomach)",
+    "organization": "U.S. National Library of Medicine / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15d3c559-2366-49b8-93ec-60a25dbde14d",
+    "jurisdiction": "US"
+  },
+  {
+    "key": "label_lidocaine_burn",
+    "title": "Lidocaine HCl 2% burn gel — Drug Facts (use: temporary pain relief for minor burns)",
+    "organization": "U.S. National Library of Medicine / DailyMed",
+    "evidenceType": "regulatory",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9d3e9be-1036-fad0-e053-2a95a90a6efe",
+    "jurisdiction": "US"
   }
 ]

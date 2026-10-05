@@ -16,6 +16,18 @@ import { NextResponse, type NextRequest } from "next/server";
  * Local `next dev` without SITE_PASSWORD: access is allowed (no gate) so local
  * development works out of the box. Set SITE_PASSWORD in .env.local to test the
  * gate locally.
+ *
+ * SITE_AUTH_DISABLED=1 (local production preview only): skips the gate ONLY for
+ * requests that are unmistakably local — Host is localhost / 127.0.0.1 / [::1],
+ * every X-Forwarded-For hop is a loopback address (Next.js fills this header
+ * with the socket's remote address when the client did not send one), any
+ * X-Forwarded-Host is also a loopback name, no other proxy headers (X-Real-IP,
+ * Forwarded, CF-Connecting-IP, True-Client-IP) are present, and the process is
+ * not running on a hosting platform (RENDER / VERCEL unset). Every other request
+ * still gets the normal gate (Basic Auth, or 503 when SITE_PASSWORD is unset).
+ * Only use this with a server bound to loopback, e.g.
+ * `SITE_AUTH_DISABLED=1 npx next start -H 127.0.0.1 -p 3000`. Never set it on a
+ * deployed instance.
  */
 
 const REALM = 'Basic realm="MedEvidence (private)"';
@@ -82,7 +94,47 @@ function locked(): NextResponse {
   });
 }
 
+const LOCAL_HOSTNAMES = new Set(["localhost", "127.0.0.1", "[::1]", "::1"]);
+/** Proxy headers that must be entirely absent for the local bypass. */
+const PROXY_HEADERS = ["x-real-ip", "forwarded", "cf-connecting-ip", "true-client-ip"];
+
+/** "127.0.0.1:3000" / "localhost" / "[::1]:3000" -> bare lowercase hostname. */
+function hostnameOf(hostHeader: string): string {
+  const host = hostHeader.trim().toLowerCase();
+  return host.startsWith("[") ? host.slice(0, host.indexOf("]") + 1) : host.split(":")[0];
+}
+
+function isLoopbackIp(ip: string): boolean {
+  const v = ip.trim().toLowerCase();
+  return /^127(\.\d{1,3}){3}$/.test(v) || v === "::1" || /^::ffff:127(\.\d{1,3}){3}$/.test(v);
+}
+
+/**
+ * True only for SITE_AUTH_DISABLED=1 + loopback Host + loopback client address
+ * (every X-Forwarded-For hop) + no external proxy headers + not on a hosting platform.
+ */
+function localAuthBypass(req: NextRequest): boolean {
+  if (process.env.SITE_AUTH_DISABLED !== "1") return false;
+  if (process.env.RENDER || process.env.VERCEL) return false;
+  const host = req.headers.get("host") ?? "";
+  if (!host.trim() || !LOCAL_HOSTNAMES.has(hostnameOf(host))) return false;
+  const fwdHost = req.headers.get("x-forwarded-host");
+  if (fwdHost !== null && !fwdHost.split(",").every((h) => LOCAL_HOSTNAMES.has(hostnameOf(h)))) return false;
+  // Next.js sets X-Forwarded-For to the socket address when the client did not
+  // send one, so this must be present and every hop must be loopback.
+  const xff = req.headers.get("x-forwarded-for");
+  if (!xff || !xff.split(",").every(isLoopbackIp)) return false;
+  for (const h of PROXY_HEADERS) if (req.headers.has(h)) return false;
+  return true;
+}
+
 export async function middleware(req: NextRequest) {
+  if (localAuthBypass(req)) {
+    const res = NextResponse.next();
+    for (const [k, v] of Object.entries(baseHeaders)) res.headers.set(k, v);
+    return res;
+  }
+
   const expectedPass = process.env.SITE_PASSWORD ?? "";
   const expectedUser = process.env.SITE_USERNAME || DEFAULT_USERNAME;
 

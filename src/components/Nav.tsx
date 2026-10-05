@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/symptoms", label: "Search symptoms" },
+  { href: "/treatments", label: "Find by condition" },
   { href: "/medications", label: "Medications" },
   { href: "/conditions", label: "Conditions" },
   { href: "/interactions", label: "Interactions" },

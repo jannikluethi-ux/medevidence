@@ -30,8 +30,8 @@ export default function SafetyPage() {
       <section className="mt-8">
         <h2 className="text-xl font-semibold">Patterns we scan for</h2>
         <ul className="mt-4 space-y-3">
-          {rules.map((r) => (
-            <li key={r.name} className="rounded-xl border border-slate-200 bg-white p-4">
+          {rules.map((r, i) => (
+            <li key={`${r.name}-${i}`} className="rounded-xl border border-slate-200 bg-white p-4">
               <p className="font-semibold">
                 {r.name}{" "}
                 <span className="rounded bg-red-100 px-1.5 text-xs uppercase text-red-800">
@@ -41,7 +41,7 @@ export default function SafetyPage() {
               <p className="mt-1 text-sm text-slate-600">{r.message}</p>
               <p className="mt-2 text-xs text-slate-500">
                 Keyword groups (AND across groups):{" "}
-                {r.groups.map((g) => `[${g.slice(0, 3).join(" | ")}…]`).join(" + ")}
+                {r.groups.map((g) => `[${g.slice(0, 3).map((t) => t.replace(/\$$/, "")).join(" | ")}…]`).join(" + ")}
               </p>
             </li>
           ))}

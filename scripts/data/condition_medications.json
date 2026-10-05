@@ -1,0 +1,929 @@
+[
+  {
+    "condition": "Burns (minor, superficial)",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief while a minor burn heals — NHS first-aid advice names paracetamol or ibuprofen.",
+    "sourceKey": "nhs_burns"
+  },
+  {
+    "condition": "Burns (minor, superficial)",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief while a minor burn heals — NHS first-aid advice names paracetamol or ibuprofen.",
+    "sourceKey": "nhs_burns"
+  },
+  {
+    "condition": "Burns (minor, superficial)",
+    "medication": "Lidocaine",
+    "indication": "Temporary relief of pain from minor burns and sunburn (selected non-prescription topical products, e.g., US OTC gels/sprays)",
+    "form": "topical",
+    "availability": "varies",
+    "note": "Some non-prescription lidocaine gels/sprays are labelled for minor burn pain (e.g., in the US). NHS and WHO first-aid advice is not to put creams on a fresh burn — cool it first and ask a pharmacist before applying anything.",
+    "sourceKey": "label_lidocaine_burn"
+  },
+  {
+    "condition": "Burns (minor, superficial)",
+    "medication": "Povidone-iodine (topical antiseptic)",
+    "indication": "First aid to help prevent infection in minor cuts, scrapes and burns (non-prescription products)",
+    "form": "topical",
+    "availability": "otc",
+    "note": "Antiseptic labelled to help prevent infection in minor burns. Not for large, deep or serious burns; avoid with thyroid disease. Cool the burn first — first-aid guidance advises against applying products to a fresh burn.",
+    "sourceKey": "label_pvpi_firstaid"
+  },
+  {
+    "condition": "Burns (minor, superficial)",
+    "medication": "Silver sulfadiazine",
+    "indication": "Adjunct for prevention and treatment of wound infection (sepsis) in second- and third-degree burns",
+    "form": "topical",
+    "availability": "rx",
+    "note": "Prescription-only. Labelled for deeper (second- and third-degree) burns treated by a clinician — listed for reference, not for self-treatment of minor burns.",
+    "sourceKey": "label_ssd"
+  },
+  {
+    "condition": "Sunburn",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief. NHS self-care advice names paracetamol or ibuprofen.",
+    "sourceKey": "nhs_sunburn"
+  },
+  {
+    "condition": "Sunburn",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief. NHS self-care advice names paracetamol or ibuprofen.",
+    "sourceKey": "nhs_sunburn"
+  },
+  {
+    "condition": "Sunburn",
+    "medication": "Lidocaine",
+    "indication": "Temporary relief of pain from minor burns and sunburn (selected non-prescription topical products, e.g., US OTC gels/sprays)",
+    "form": "topical",
+    "availability": "varies",
+    "note": "Some non-prescription lidocaine gels/sprays are labelled for sunburn pain (e.g., in the US) — check the individual product leaflet.",
+    "sourceKey": "label_lidocaine_burn"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Calcium carbonate (antacid)",
+    "indication": "Relief of heartburn, acid indigestion and sour stomach (non-prescription antacid)",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Antacid for occasional heartburn; short-term relief only.",
+    "sourceKey": "label_caco3_antacid"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Famotidine",
+    "indication": "Heartburn / GERD / ulcers as labeled",
+    "form": "oral",
+    "availability": "varies",
+    "note": "H2-receptor antagonist. Low-strength non-prescription packs exist in some countries.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Omeprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Proton pump inhibitor. Low-strength packs for short-term heartburn are available without prescription in many countries; other uses are prescription-only.",
+    "sourceKey": "nhs_heartburn"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Esomeprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Proton pump inhibitor. Low-strength packs for short-term heartburn are available without prescription in many countries; other uses are prescription-only.",
+    "sourceKey": "nhs_heartburn"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Pantoprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Proton pump inhibitor. Low-strength packs for short-term heartburn are available without prescription in many countries; other uses are prescription-only.",
+    "sourceKey": "nhs_heartburn"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Lansoprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Proton pump inhibitor. Low-strength packs for short-term heartburn are available without prescription in many countries; other uses are prescription-only.",
+    "sourceKey": "nhs_heartburn"
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Rabeprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Dexlansoprazole",
+    "indication": "Gastroesophageal reflux disease (GERD)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor (not marketed in every country).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gastroesophageal reflux disease (GERD)",
+    "medication": "Metoclopramide",
+    "indication": "Symptomatic GERD in adults not responding to other therapy (US label, short-term)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "US label only, short-term; boxed warning for tardive dyskinesia. Since 2013 the EU no longer supports its use for chronic conditions such as reflux.",
+    "sourceKey": "ema_metoclopramide"
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Omeprazole",
+    "indication": "Peptic ulcer disease / H. pylori combination therapy",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Esomeprazole",
+    "indication": "H. pylori eradication (combination regimens)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Lansoprazole",
+    "indication": "Peptic ulcer disease",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Pantoprazole",
+    "indication": "Peptic ulcer disease",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Rabeprazole",
+    "indication": "Peptic ulcer disease",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Proton pump inhibitor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Famotidine",
+    "indication": "Peptic ulcer disease",
+    "form": "oral",
+    "availability": "rx",
+    "note": "H2-receptor antagonist.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Amoxicillin",
+    "indication": "H. pylori combination regimens",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Used only as part of combination regimens to clear H. pylori (a common cause of ulcers) — not on its own.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Clarithromycin",
+    "indication": "H. pylori regimens (clarithromycin-containing)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Used only as part of combination regimens to clear H. pylori (a common cause of ulcers) — not on its own.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Peptic ulcer disease",
+    "medication": "Metronidazole",
+    "indication": "H. pylori regimens",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Used only as part of combination regimens to clear H. pylori (a common cause of ulcers) — not on its own.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Tension-type headache",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief. Using pain relievers on many days a month can cause medication-overuse headache.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Tension-type headache",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief. Using pain relievers on many days a month can cause medication-overuse headache.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Tension-type headache",
+    "medication": "Aspirin (low-dose / antiplatelet)",
+    "indication": "Pain/fever (higher doses)",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Higher-strength aspirin products only (not low-dose 'cardio' aspirin). Not for children and teenagers (Reye's syndrome).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Tension-type headache",
+    "medication": "Naproxen",
+    "indication": "Pain (mild to moderate)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "NSAID pain reliever.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Tension-type headache",
+    "medication": "Amitriptyline",
+    "indication": "Migraine and tension-type headache prophylaxis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Prescribed by a doctor to prevent frequent headaches; licensing for this use varies by country.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Sumatriptan",
+    "indication": "Acute migraine treatment",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Triptan for migraine attacks; also nasal spray and injection. Some low-strength tablets are pharmacy medicines in a few countries.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Rizatriptan",
+    "indication": "Acute treatment of migraine with or without aura (adults)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Triptan for migraine attacks.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief during attacks; guidelines (e.g., NICE) include paracetamol for acute migraine.",
+    "sourceKey": "nice"
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief during attacks; guidelines (e.g., NICE) include ibuprofen for acute migraine.",
+    "sourceKey": "nice"
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Aspirin (low-dose / antiplatelet)",
+    "indication": "Pain/fever (higher doses)",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Higher-strength aspirin products only (not low-dose 'cardio' aspirin); guidelines (e.g., NICE) include aspirin for acute migraine. Not for children and teenagers.",
+    "sourceKey": "nice"
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Metoclopramide",
+    "indication": "Short-term prevention/treatment of nausea and vomiting (incl. postoperative, chemotherapy-delayed, migraine-associated)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "For nausea that comes with migraine attacks; short-term use only (neurological side-effects).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Propranolol",
+    "indication": "Migraine prophylaxis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Prescribed to reduce how often attacks happen.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Topiramate",
+    "indication": "Migraine prophylaxis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Prescribed to reduce how often attacks happen. Harmful in pregnancy — pregnancy-prevention requirements apply.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Migraine",
+    "medication": "Amitriptyline",
+    "indication": "Migraine and tension-type headache prophylaxis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Prescribed to reduce how often attacks happen; licensing for this use varies by country.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Cetirizine",
+    "indication": "Allergic rhinitis",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Non-sedating antihistamine (some people still feel drowsy).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Loratadine",
+    "indication": "Allergic rhinitis / urticaria",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Non-sedating antihistamine.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Fexofenadine",
+    "indication": "Allergic rhinitis",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Non-sedating antihistamine.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Desloratadine",
+    "indication": "Allergic rhinitis",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Non-sedating antihistamine.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Levocetirizine",
+    "indication": "Allergic rhinitis",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Non-sedating antihistamine.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Bilastine",
+    "indication": "Allergic rhinoconjunctivitis (seasonal and perennial)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Non-sedating antihistamine.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Diphenhydramine",
+    "indication": "Allergic rhinitis",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Older, sedating antihistamine — causes drowsiness and can impair driving.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Montelukast",
+    "indication": "Allergic rhinitis (selected)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Leukotriene receptor antagonist; carries a warning about mood and behaviour changes.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Mometasone (nasal)",
+    "indication": "Seasonal and perennial allergic rhinitis",
+    "form": "nasal",
+    "availability": "varies",
+    "note": "Steroid nasal spray.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Allergic rhinitis",
+    "medication": "Xylometazoline",
+    "indication": "Nasal congestion in allergic rhinitis (short-term adjunct)",
+    "form": "nasal",
+    "availability": "otc",
+    "note": "Decongestant spray for short-term use only (labels typically limit use to about 7 days — longer use can cause rebound congestion).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Nitrofurantoin",
+    "indication": "Uncomplicated lower UTI",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Fosfomycin",
+    "indication": "Uncomplicated cystitis in women (single-dose sachet regimens)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic (single-dose sachet).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Trimethoprim",
+    "indication": "Uncomplicated lower urinary tract infection (cystitis)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Trimethoprim/sulfamethoxazole",
+    "indication": "UTI (susceptible organisms)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Cefalexin (Cephalexin)",
+    "indication": "Urinary tract infections",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Cefuroxime",
+    "indication": "Uncomplicated urinary tract infections",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Urinary tract infection (cystitis)",
+    "medication": "Ciprofloxacin",
+    "indication": "Complicated UTI / pyelonephritis (when appropriate)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Fluoroquinolone antibiotic — reserved for complicated infections because of serious side-effect warnings.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Common cold (viral upper respiratory infection)",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Relief of aches, sore throat and fever. Antibiotics do not help colds.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Common cold (viral upper respiratory infection)",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Relief of aches, sore throat and fever. Antibiotics do not help colds.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Common cold (viral upper respiratory infection)",
+    "medication": "Xylometazoline",
+    "indication": "Nasal congestion due to common cold (short-term)",
+    "form": "nasal",
+    "availability": "otc",
+    "note": "Decongestant spray for short-term use only (labels typically limit use to about 7 days).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Influenza (flu)",
+    "medication": "Oseltamivir",
+    "indication": "Influenza treatment (within early symptom window)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antiviral; works best when started within about 48 hours of symptoms.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Influenza (flu)",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Fever",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Relief of fever and aches.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Influenza (flu)",
+    "medication": "Ibuprofen",
+    "indication": "Fever",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Relief of fever and aches.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Constipation (functional)",
+    "medication": "Macrogol (Polyethylene glycol)",
+    "indication": "Chronic constipation",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Osmotic laxative.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Constipation (functional)",
+    "medication": "Lactulose",
+    "indication": "Constipation",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Osmotic laxative.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Constipation (functional)",
+    "medication": "Bisacodyl",
+    "indication": "Constipation (short-term)",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Stimulant laxative for short-term use.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Acute gastroenteritis (stomach bug)",
+    "medication": "Loperamide",
+    "indication": "Acute nonspecific diarrhea",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Relieves diarrhoea in adults. Not for bloody diarrhoea, high fever or young children. Oral rehydration (drinking fluids / rehydration solution) is the mainstay of care.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Insomnia disorder",
+    "medication": "Zolpidem",
+    "indication": "Short-term insomnia",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Short-term use only; risk of dependence and next-day impairment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Insomnia disorder",
+    "medication": "Zopiclone",
+    "indication": "Short-term insomnia",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Short-term use only; risk of dependence and next-day impairment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Insomnia disorder",
+    "medication": "Melatonin",
+    "indication": "Insomnia / jet lag (jurisdiction-dependent licensing)",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Licensing differs by country (medicine in some, supplement in others).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Colchicine",
+    "indication": "Acute gout; prophylaxis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "For flares and flare prevention.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Etoricoxib",
+    "indication": "Acute gouty arthritis (short-term)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "NSAID (not approved in the US).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Allopurinol",
+    "indication": "Chronic gout / hyperuricemia",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Long-term urate-lowering treatment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Gout",
+    "medication": "Febuxostat",
+    "indication": "Chronic hyperuricaemia in gout (typically when allopurinol is unsuitable)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Long-term urate-lowering treatment.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Iron deficiency anemia",
+    "medication": "Ferrous sulfate",
+    "indication": "Iron deficiency anemia",
+    "form": "oral",
+    "availability": "varies",
+    "note": "Oral iron. The cause of iron deficiency should be investigated by a doctor.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Iron deficiency anemia",
+    "medication": "Ferric carboxymaltose",
+    "indication": "Iron deficiency when oral iron is ineffective, not tolerated, or rapid repletion is needed",
+    "form": "injection",
+    "availability": "rx",
+    "note": "Intravenous iron given in clinic or hospital.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Hypothyroidism",
+    "medication": "Levothyroxine",
+    "indication": "Hypothyroidism (replacement)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Thyroid hormone replacement; dose is set from blood tests.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Eczema / atopic dermatitis",
+    "medication": "Tacrolimus",
+    "indication": "Moderate–severe atopic dermatitis (topical ointment, Protopic)",
+    "form": "topical",
+    "availability": "rx",
+    "note": "Topical ointment (e.g., Protopic) — not the same as tacrolimus tablets.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Eczema / atopic dermatitis",
+    "medication": "Hydroxyzine",
+    "indication": "Pruritus (urticaria, atopic dermatitis)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Sedating antihistamine for itch.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Pharyngitis / tonsillitis",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain and fever relief. Most sore throats are viral and get better without antibiotics.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Pharyngitis / tonsillitis",
+    "medication": "Ibuprofen",
+    "indication": "Mild to moderate pain",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain and fever relief. Most sore throats are viral and get better without antibiotics.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Pharyngitis / tonsillitis",
+    "medication": "Phenoxymethylpenicillin (Penicillin V)",
+    "indication": "Streptococcal pharyngitis / tonsillitis",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic — only for bacterial (streptococcal) infection.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Pharyngitis / tonsillitis",
+    "medication": "Amoxicillin",
+    "indication": "Otitis media / streptococcal pharyngitis / sinusitis (when bacterial)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic — only for bacterial infection.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Cellulitis",
+    "medication": "Flucloxacillin",
+    "indication": "Staphylococcal skin and soft-tissue infections (cellulitis, impetigo, infected eczema)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic (not marketed in the US).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Cellulitis",
+    "medication": "Cefalexin (Cephalexin)",
+    "indication": "Skin and soft-tissue infections",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Cellulitis",
+    "medication": "Clindamycin",
+    "indication": "Skin/soft tissue infections including some MRSA",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Cellulitis",
+    "medication": "Phenoxymethylpenicillin (Penicillin V)",
+    "indication": "Mild–moderate skin infections such as erysipelas (streptococcal)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Antibiotic for streptococcal skin infection.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Paracetamol (Acetaminophen)",
+    "indication": "Osteoarthritis symptomatic relief (adjunct)",
+    "form": "oral",
+    "availability": "otc",
+    "note": "Pain relief; benefit in osteoarthritis is modest.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Ibuprofen",
+    "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+    "form": "oral",
+    "availability": "otc",
+    "note": "NSAID; long-term use carries stomach, heart and kidney risks.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Naproxen",
+    "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+    "form": "oral",
+    "availability": "varies",
+    "note": "NSAID; long-term use carries stomach, heart and kidney risks.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Diclofenac",
+    "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+    "form": "oral",
+    "availability": "rx",
+    "note": "NSAID; long-term use carries stomach, heart and kidney risks.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Celecoxib",
+    "indication": "Inflammatory conditions (e.g., osteoarthritis, rheumatoid arthritis) as labeled",
+    "form": "oral",
+    "availability": "rx",
+    "note": "COX-2 selective NSAID.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Osteoarthritis",
+    "medication": "Etoricoxib",
+    "indication": "Osteoarthritis and rheumatoid arthritis symptoms",
+    "form": "oral",
+    "availability": "rx",
+    "note": "COX-2 selective NSAID (not approved in the US).",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Salbutamol (Albuterol)",
+    "indication": "Acute bronchospasm relief (asthma/COPD)",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Reliever inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Budesonide/formoterol",
+    "indication": "Asthma maintenance (and MART where licensed)",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Combination inhaler; in some plans used as both preventer and reliever.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Beclometasone/formoterol",
+    "indication": "Asthma maintenance (and maintenance-and-reliever therapy in selected products)",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Combination inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Fluticasone/salmeterol",
+    "indication": "Asthma maintenance",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Combination preventer inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Fluticasone furoate/vilanterol",
+    "indication": "Asthma maintenance (adolescents/adults)",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Combination preventer inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Budesonide (inhaled)",
+    "indication": "Asthma maintenance",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Steroid preventer inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Beclomethasone (inhaled)",
+    "indication": "Asthma maintenance",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Steroid preventer inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Fluticasone (inhaled)",
+    "indication": "Asthma maintenance",
+    "form": "inhaled",
+    "availability": "rx",
+    "note": "Steroid preventer inhaler.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Asthma",
+    "medication": "Montelukast",
+    "indication": "Asthma maintenance (not acute rescue)",
+    "form": "oral",
+    "availability": "rx",
+    "note": "Add-on tablet; not for an acute attack.",
+    "sourceKey": null
+  },
+  {
+    "condition": "Anaphylaxis",
+    "medication": "Epinephrine (Adrenaline)",
+    "indication": "Emergency treatment of anaphylaxis (intramuscular / auto-injector)",
+    "form": "injection",
+    "availability": "rx",
+    "note": "Adrenaline auto-injector. After using it, call 144 (CH) / 112 (EU).",
+    "sourceKey": null
+  }
+]

@@ -9,6 +9,7 @@ import { MEDS_C } from "./meds-c.mjs";
 import { MEDS_D } from "./meds-d.mjs";
 import { MEDS_E } from "./meds-e.mjs";
 import { MEDS_F } from "./meds-f.mjs";
+import { MEDS_G } from "./meds-g.mjs";
 import { SOURCES_V2 } from "./sources.mjs";
 import { INTERACTIONS_V2 } from "./interactions.mjs";
 import { CONDITIONS_V2, EXTRA_SYMPTOMS_V2 } from "./conditions.mjs";
@@ -17,6 +18,7 @@ import { MED_SYN_2 } from "./syn-meds-2.mjs";
 import { MED_SYN_3 } from "./syn-meds-3.mjs";
 import { CLASS_SYN } from "./syn-classes.mjs";
 import { COND_SYN, SYMPTOM_SYN } from "./syn-conditions.mjs";
+import { CONDITION_MEDS } from "./treatments.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA = path.join(__dirname, "..", "..", "data");
@@ -42,7 +44,7 @@ export function normalize(s) {
 // ---------- 1. meds ----------
 const legacyMeds = [1, 2, 3, 4, 5, 6].flatMap((i) => rd(`meds_part${i}.json`));
 const legacyNames = new Set(legacyMeds.map((m) => m.genericName.toLowerCase()));
-const newMeds = [...MEDS_A, ...MEDS_B, ...MEDS_C, ...MEDS_D, ...MEDS_E, ...MEDS_F].filter((m) => {
+const newMeds = [...MEDS_A, ...MEDS_B, ...MEDS_C, ...MEDS_D, ...MEDS_E, ...MEDS_F, ...MEDS_G].filter((m) => {
   if (legacyNames.has(m.genericName.toLowerCase())) {
     console.warn("skip existing med:", m.genericName);
     return false;
@@ -193,6 +195,29 @@ for (const s of SYMPTOM_SYN) {
   }
 }
 
+// ---------- 5. condition -> medicine links (Find medicines by condition) ----------
+// Every link must point at an indication that already exists in the medicine's data.
+const FORMS = new Set(["topical", "oral", "nasal", "inhaled", "injection"]);
+const AVAIL = new Set(["otc", "rx", "varies"]);
+const medByName = new Map([...legacyMeds, ...newMeds].map((m) => [m.genericName, m]));
+const conditionMeds = [];
+for (const block of CONDITION_MEDS) {
+  if (!condNames.has(block.condition)) { fail(`treatments: unknown condition ${block.condition}`); continue; }
+  const seenLink = new Set();
+  for (const l of block.links) {
+    const m = medByName.get(l.med);
+    if (!m) { fail(`treatments: unknown med ${l.med} (${block.condition})`); continue; }
+    const ind = m.indications.find((i) => i.indication.includes(l.ind));
+    if (!ind) { fail(`treatments: ${l.med} has no indication containing "${l.ind}"`); continue; }
+    if (!FORMS.has(l.form)) fail(`treatments: bad form ${l.form} for ${l.med}`);
+    if (!AVAIL.has(l.avail)) fail(`treatments: bad availability ${l.avail} for ${l.med}`);
+    if (l.src && !srcKeys.has(l.src)) fail(`treatments: unknown source ${l.src} for ${l.med}`);
+    if (seenLink.has(l.med)) fail(`treatments: duplicate ${l.med} under ${block.condition}`);
+    seenLink.add(l.med);
+    conditionMeds.push({ condition: block.condition, medication: l.med, indication: ind.indication, form: l.form, availability: l.avail, note: l.note, sourceKey: l.src });
+  }
+}
+
 if (errors.length) {
   console.error("VALIDATION FAILED:\n" + errors.join("\n"));
   process.exit(1);
@@ -204,6 +229,7 @@ wr("meds_part7.json", newMeds);
 wr("sources.json", sources);
 wr("interactions.json", interactions);
 wr("conditions.json", conditions);
+wr("condition_medications.json", conditionMeds);
 fs.writeFileSync(path.join(DATA, "synonyms.json"), "[\n" + synonyms.map((r) => JSON.stringify(r)).join(",\n") + "\n]\n");
 
 const byKind = {}, byType = {};
@@ -213,5 +239,6 @@ console.log(JSON.stringify({
   sources: sources.length, addedSources,
   interactions: interactions.length, addedIx,
   conditions: conditions.length, addedConds, addedSymLinks,
+  conditionMedicationLinks: conditionMeds.length,
   synonyms: synonyms.length, byKind, byType,
 }, null, 2));

@@ -114,10 +114,25 @@ CREATE TABLE IF NOT EXISTS conditions (
   red_flags TEXT NOT NULL DEFAULT '[]',
   when_to_seek_care TEXT NOT NULL,
   evidence_overview TEXT,
+  first_aid TEXT NOT NULL DEFAULT '[]', -- JSON array of plain-language first-aid / self-care steps
   status TEXT NOT NULL DEFAULT 'published',
   created_at TEXT NOT NULL,
   updated_at TEXT NOT NULL
 );
+
+-- Curated condition -> medicine links for "Find medicines by condition" (information only).
+-- Each row points at an indication that exists in medication_indications for that medicine.
+CREATE TABLE IF NOT EXISTS condition_medications (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  condition_id INTEGER NOT NULL REFERENCES conditions(id),
+  medication_id INTEGER NOT NULL REFERENCES medications(id),
+  indication TEXT NOT NULL,      -- exact medication_indications.indication text
+  form TEXT NOT NULL,            -- topical|oral|nasal|inhaled|injection
+  availability TEXT NOT NULL,    -- otc|rx|varies
+  note TEXT,
+  source_id INTEGER REFERENCES sources(id)
+);
+CREATE INDEX IF NOT EXISTS idx_condmeds_cond ON condition_medications(condition_id);
 
 CREATE TABLE IF NOT EXISTS condition_symptoms (
   id INTEGER PRIMARY KEY AUTOINCREMENT,

@@ -353,6 +353,7 @@ export const MEDS_E = [
     ind: [
       I("Local and regional anaesthesia (infiltration, nerve block)"),
       I("Topical anaesthesia of skin and mucous membranes"),
+      I("Temporary relief of pain from minor burns and sunburn (selected non-prescription topical products, e.g., US OTC gels/sprays)", "low", true, "Product-specific labelling; check the individual product's leaflet."),
       I("Postherpetic neuralgia (5% patch)", "moderate"),
       I("Ventricular arrhythmias (IV, specialist)", "moderate"),
     ],
@@ -374,7 +375,7 @@ export const MEDS_E = [
       pediatric: "Weight-based limits; teething warning.",
     },
     mon: ["Signs of systemic toxicity during procedures", "ECG with IV use"],
-    src: ["dailymed", "fda", "bnf", "nice"],
+    src: ["dailymed", "fda", "bnf", "nice", "label_lidocaine_burn"],
   }),
   med({
     name: "Solifenacin",

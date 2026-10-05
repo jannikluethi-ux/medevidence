@@ -4,6 +4,7 @@
  */
 import { scanEmergency } from "../../src/lib/safety/emergency";
 import { resolveMedicationInput, symptomSearch, universalSearch } from "../../src/lib/search";
+import { lookupTreatments } from "../../src/lib/treatments";
 
 let pass = 0;
 let fail = 0;
@@ -128,6 +129,81 @@ check("Brustschmerzen und Atemnot emergency", ss("Brustschmerzen und Atemnot").e
 check("tummy ache does not match headache conditions", !ss("tummy ache").matches.some((m) => m.name === "Migraine"), ss("tummy ache").matches.map((m) => m.name));
 check("pins and needles in feet -> T2DM", ss("pins and needles in my feet").matches.some((m) => m.name === "Type 2 diabetes mellitus"));
 check("Schwindel -> dizziness conditions", ss("Schwindel").matches.length > 0);
+
+// ---------- burns emergency rules ----------
+const BURN_EMERGENCY = [
+  "chemical burn on face",
+  "chemical burn",
+  "acid burn on my arm",
+  "electrical burn",
+  "got an electric shock and a burn",
+  "Verätzung am Arm",
+  "Stromunfall mit Verbrennung",
+  "brûlure chimique",
+  "ustione elettrica",
+  "smoke inhalation",
+  "Rauchvergiftung",
+  "burns after breathing in smoke",
+  "large burn on my leg",
+  "deep burn",
+  "charred skin burn",
+  "burn on my face",
+  "burned my hand",
+  "burn on the feet",
+  "burn on genitals",
+  "burn over the knee",
+  "my baby burned his arm",
+  "elderly mother burned her arm",
+  "Verbrennung im Gesicht",
+  "Verbrennung an der Hand",
+  "Säugling Verbrennung",
+  "brûlure au visage",
+  "brûlure à la main",
+  "ustione alla mano",
+  "ustione sul viso",
+];
+for (const q of BURN_EMERGENCY) check(`burn emergency: ${q}`, em(q)?.urgency === "emergency", em(q));
+const BURN_NONE = [
+  "burn", "burns", "minor burn", "small burn on arm", "Verbrennung", "Verbrennungen", "brûlure", "ustione", "sunburn", "scald",
+  "heartburn", "acid reflux burns my throat", "burning feet", "burning when peeing", "brûlures d'estomac", "brûlure en urinant", "bruciore di stomaco",
+];
+for (const q of BURN_NONE) check(`burn no emergency: ${q}`, em(q) === null, em(q));
+check("severe sunburn -> urgent", em("sunburn with blisters and fever")?.urgency === "urgent", em("sunburn with blisters and fever"));
+check("Sonnenbrand mit Blasen -> urgent", em("Sonnenbrand mit Blasen")?.urgency === "urgent", em("Sonnenbrand mit Blasen"));
+
+// ---------- find medicines by condition ----------
+const lt = (q: string) => lookupTreatments(q);
+const condSlugs = (q: string) => lt(q).conditions.map((c) => c.slug);
+const medNames = (q: string) => lt(q).conditions.flatMap((c) => c.groups.flatMap((g) => g.items.map((i) => i.name)));
+for (const q of ["burn", "burns", "Verbrennung", "Verbrennungen", "brûlure", "brulure", "ustione", "scald", "burnes", "verbrenung"]) {
+  check(`treatments ${q} -> Burns`, condSlugs(q).includes("burns-minor-superficial"), condSlugs(q));
+}
+const burnMeds = medNames("burn");
+check("burn lists paracetamol, ibuprofen, silver sulfadiazine, povidone-iodine, lidocaine",
+  ["Paracetamol (Acetaminophen)", "Ibuprofen", "Silver sulfadiazine", "Povidone-iodine (topical antiseptic)", "Lidocaine"].every((n) => burnMeds.includes(n)), burnMeds);
+check("burn does not list PPIs", !burnMeds.some((n) => /prazole/.test(n)), burnMeds);
+const burn = lt("burn").conditions[0];
+check("burn has first aid incl. 20 minutes", burn?.firstAid.some((f) => /20 minutes/.test(f)) ?? false);
+check("burn has red flags incl. chemical/electrical", burn?.redFlags.some((f) => /electrical/i.test(f)) ?? false);
+check("burn groups alphabetical", (burn?.groups ?? []).every((g) => g.items.every((it, i, a) => i === 0 || a[i - 1].name.localeCompare(it.name, "en", { sensitivity: "base" }) <= 0)));
+check("silver sulfadiazine is grouped as topical prescription-only", burn?.groups.find((g) => g.key === "topical:rx")?.items.some((i) => i.name === "Silver sulfadiazine") ?? false, burn?.groups.map((g) => g.key));
+check("sunburn -> Sunburn only", JSON.stringify(condSlugs("sunburn")) === JSON.stringify(["sunburn"]), condSlugs("sunburn"));
+check("Sonnenbrand -> Sunburn", condSlugs("Sonnenbrand").includes("sunburn"));
+check("sunburn lists no silver sulfadiazine", !medNames("sunburn").includes("Silver sulfadiazine"));
+for (const q of ["heartburn", "Sodbrennen", "brûlures d'estomac", "bruciore di stomaco", "heart burn"]) {
+  check(`treatments ${q} -> GERD only`, JSON.stringify(condSlugs(q)) === JSON.stringify(["gastroesophageal-reflux-disease-gerd"]), condSlugs(q));
+}
+const hbMeds = medNames("heartburn");
+check("heartburn lists PPIs and antacid", ["Omeprazole", "Pantoprazole", "Calcium carbonate (antacid)", "Famotidine"].every((n) => hbMeds.includes(n)), hbMeds);
+check("heartburn lists no burn creams", !hbMeds.some((n) => /sulfadiazine|Povidone|Lidocaine/.test(n)), hbMeds);
+check("chemical burn on face -> Burns + emergency", condSlugs("chemical burn on face").includes("burns-minor-superficial") && lt("chemical burn on face").emergency?.urgency === "emergency");
+check("brûlure en urinant is not a skin burn", !condSlugs("brûlure en urinant").includes("burns-minor-superficial"), condSlugs("brûlure en urinant"));
+check("headache -> tension-type + migraine", ["tension-type-headache", "migraine"].every((s) => condSlugs("headache").includes(s)), condSlugs("headache"));
+check("hay fever -> allergic rhinitis with cetirizine", condSlugs("hay fever").includes("allergic-rhinitis") && medNames("hay fever").includes("Cetirizine"));
+check("nonsense -> no_match", lt("xyzzyplonk").status === "no_match" && lt("xyzzyplonk").conditions.length === 0);
+check("misspelling not in list -> suggestion only", lt("burm").status === "no_match" && lt("burm").suggestions.some((s) => s.label === "Burns (minor, superficial)"), lt("burm"));
+check("medicine name -> hint, no results", lt("ibuprofen").status === "no_match" && lt("ibuprofen").medicationHints.some((m) => m.name === "Ibuprofen"));
+check("empty query", lt("  ").status === "empty_query");
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

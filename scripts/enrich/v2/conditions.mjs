@@ -64,6 +64,67 @@ export const CONDITIONS_V2 = [
       S("fever", [], 0.6),
     ],
   },
+  // Added 2026-10-05 for "Find medicines by condition". First-aid wording follows NHS "Burns and scalds"
+  // (reviewed 31 Mar 2026), NHS "Sunburn" (reviewed 24 Nov 2025) and the WHO burns fact sheet.
+  {
+    name: "Burns (minor, superficial)",
+    summary: "A minor (superficial) burn damages only the top layer(s) of skin. It is usually caused by dry heat (e.g., a hot pan or iron), hot liquids or steam (scalds). The skin is red and painful and may form small blisters. Small superficial burns can often be cared for at home and usually heal within about 2 weeks. Large, deep, chemical or electrical burns are different — they need medical care.",
+    typical_symptoms: ["Red, painful skin", "Swelling", "Small blisters (in partial-thickness burns)", "Peeling skin as it heals"],
+    red_flags: [
+      "Large burns (bigger than the injured person's hand), deep burns, or burns that look charred, white, brown or leathery — deep burns may hurt less, not more",
+      "Burns on the face, hands, feet, genitals, bottom, or over a major joint (e.g., knee, elbow, shoulder)",
+      "Chemical burns (acids, alkalis, cleaning products) or electrical burns, including from a low-voltage source",
+      "Any burn in a baby or child under 5, an older adult (over 60), or someone pregnant, with diabetes, heart, lung or liver disease, or a weakened immune system",
+      "Smoke inhalation or burns near the mouth or nose: cough, hoarse voice, noisy or difficult breathing, soot around the nose or mouth, singed nasal hair or eyebrows",
+      "Burns that go all the way around a limb, the neck or the chest",
+      "Signs of shock (pale, clammy skin, fast breathing, confusion, fainting)",
+      "Signs of infection while healing: increasing pain, spreading redness or swelling, pus, a bad smell, or fever",
+    ],
+    when_to_seek_care: "Call 144 (Switzerland) or 112 (EU), or go to an emergency department, for any burn with a red flag above. Do not drive yourself. Ask a pharmacist or doctor if you are not sure how serious a burn is, if it is not healing after 2 weeks, or if it shows signs of infection.",
+    evidence_overview: "First-aid advice (cool running water for 20 minutes, no ice, butter, oils or creams, cover loosely) follows NHS and WHO guidance. Medicines listed for this condition relieve pain or are labelled to help prevent infection — none is shown to make minor burns heal faster.",
+    first_aid: [
+      "Stop the burning: move away from the heat source. For electrical burns, switch off the power before touching the person.",
+      "Cool the burn under cool running water for 20 minutes, as soon as possible (it still helps up to 3 hours after the injury). If there is no running water, use cool bottled water or a wet towel.",
+      "Do not use ice or iced water, and do not put butter, oils, toothpaste or creams on a fresh burn.",
+      "Remove clothing and jewellery near the burn — but not anything stuck to the skin.",
+      "Keep the person warm (especially children) while you cool the burn itself, to avoid getting too cold.",
+      "Once cooled, cover the burn loosely with cling film laid on top (not wrapped around) or a clean, non-fluffy dressing. Do not use plasters or sticky dressings.",
+      "Do not burst blisters.",
+      "Paracetamol or ibuprofen can help with pain — follow the leaflet and ask a pharmacist if you are unsure.",
+    ],
+    symptoms: [
+      S("thermal skin injury", ["burnt skin", "burned skin", "scald", "scalded skin", "skin burned by hot liquid", "touched something hot"], 3),
+      S("red, painful skin after heat contact", ["red painful skin after touching something hot"], 2),
+      S("blistering after heat or hot liquid", ["blister after scald"], 1.5),
+    ],
+  },
+  {
+    name: "Sunburn",
+    summary: "Sunburn is skin damage caused by too much ultraviolet (UV) light from the sun or sunbeds. Skin feels hot, sore or painful and may flake or peel after a few days; severe sunburn can blister. It usually gets better within about 7 days. Repeated sunburn increases the risk of skin cancer.",
+    typical_symptoms: ["Skin that feels hot, sore or painful", "Redness (may be less visible on black or brown skin)", "Flaking or peeling after a few days", "Blisters in severe sunburn"],
+    red_flags: [
+      "Blistered or swollen skin, especially over a large area",
+      "Very high temperature, or feeling hot, cold or shivery",
+      "Feeling very tired, dizzy or sick, headache, or muscle cramps (possible heat exhaustion)",
+      "Confusion, fainting or collapse (possible heatstroke) — call 144 (CH) / 112 (EU)",
+      "Any sunburn in a baby or young child",
+    ],
+    when_to_seek_care: "Get urgent medical advice (doctor, pharmacist or a medical helpline) if the skin is blistered or swollen, you feel hot, shivery, very tired, dizzy or sick, have a headache or cramps, or a baby or young child is sunburnt. Severe sunburn can come with heat exhaustion or heatstroke; for confusion, collapse or a very high temperature call 144 (Switzerland) or 112 (EU).",
+    evidence_overview: "Self-care advice follows NHS guidance. Pain relievers (paracetamol, ibuprofen) relieve discomfort; no medicine reverses UV skin damage.",
+    first_aid: [
+      "Get out of the sun as soon as possible.",
+      "Cool the skin with a cool shower, bath or damp towel (take care that babies and young children do not get too cold).",
+      "Apply an after-sun cream or spray, or an unperfumed moisturiser. Do not use petroleum jelly, ice or ice packs.",
+      "Drink plenty of water and avoid alcohol.",
+      "Do not pop blisters, scratch, or pull off peeling skin; avoid tight clothing over the sunburn.",
+      "Paracetamol or ibuprofen can help with pain — follow the leaflet and ask a pharmacist if you are unsure.",
+      "Keep sunburnt skin covered from direct sunlight until it has fully healed.",
+    ],
+    symptoms: [
+      S("red, sore skin after sun exposure", ["sunburnt skin", "sunburned skin", "sunburn", "sun burn", "sonnenbrand", "coup de soleil", "scottatura solare"], 3),
+      S("peeling skin after sun exposure", ["peeling sunburn"], 1.5),
+    ],
+  },
 ];
 
 // condition name -> additional symptom rows

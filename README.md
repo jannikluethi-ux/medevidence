@@ -34,6 +34,7 @@ The **entire site** (every page, API route, `/_next/static` asset, `robots.txt`,
 - Credentials are compared in constant time (SHA-256 both sides, then XOR-compare the digests; the edge runtime has no `timingSafeEqual`).
 - Wrong or missing credentials return `401` with `WWW-Authenticate: Basic realm="MedEvidence (private)"`. All responses carry `X-Robots-Tag: noindex, nofollow` and `Cache-Control: private, no-store`.
 - The admin console (`/admin`) still uses its own `ADMIN_PASSWORD` sent as the `x-admin-password` header, so it does not clash with Basic Auth. Log in to the site first, then enter the admin password on `/admin`.
+- **Local production preview without a password (`SITE_AUTH_DISABLED=1`)**: skips the gate **only** for requests whose `Host` is `localhost`, `127.0.0.1` or `[::1]`, whose client address is loopback (every `X-Forwarded-For` hop is `127.x`/`::1` — Next.js fills that header with the socket address when the client sends none), whose `X-Forwarded-Host` (if any) is also loopback and that carry no other proxy headers (`X-Real-IP`, `Forwarded`, `CF-Connecting-IP`, `True-Client-IP`), on a machine where `RENDER`/`VERCEL` are not set. All other requests keep the normal gate (401, or 503 if `SITE_PASSWORD` is unset). The `Host` header is client-supplied, so only combine it with a loopback-bound server: `SITE_AUTH_DISABLED=1 SITE_PASSWORD= npx next start -H 127.0.0.1 -p 3000`. Never set it on a deployed instance.
 
 
 ## Deploy to Render
@@ -81,11 +82,12 @@ Approximate seeded counts after the content expansion pass:
 
 | Entity | Count |
 | --- | ---: |
-| Medications | 281 |
-| Conditions | 59 |
+| Medications | 284 |
+| Conditions | 61 |
 | Condition–symptom links | 230 |
+| Condition → medicine links (Find by condition) | 103 |
 | Interactions (curated pairs) | 173 |
-| Sources | 74 |
+| Sources | 82 |
 | Claims (+ claim_sources) | 89 |
 | Synonym rows (brands, international names, lay/DE/FR/IT terms, misspellings, abbreviations) | ~6,400 |
 | Adverse-effect rows | ~1,815 |
@@ -103,6 +105,13 @@ Approximate seeded counts after the content expansion pass:
 - Used by universal search (`/symptoms`, `/medications`, `/api/search` — shows "Showing results for … (you searched: …)"), the symptom matcher (lay/German phrases → canonical symptoms), interaction checker and compare (brand names such as `?a=Marcoumar&b=Algifor`), and the "Also known as" box on medication pages. Levenshtein fallback for misspellings.
 - Synonyms never drive dosing or treatment logic. Brand region tags are indicative only.
 - Tests: `npm test` (emergency rules, synonym resolution, search).
+
+### Find medicines by condition (`/treatments`, `/api/treatments?q=`)
+
+- Information-only reference lookup: type a condition or complaint (`burn`, `heartburn`, `Verbrennung`, `brûlure`, `ustione`, `hay fever`…) and see **medicines whose official labelling or major guidelines list this use**. No ranking, no dosing, no questions about the user; grouped by form (topical / oral / nasal / inhaled / injection) and prescription status, alphabetical within each group; each entry links to the medication page with its evidence badge and source.
+- Query → condition resolution uses the synonyms layer (exact term, then phrases within the query). Unknown terms are **never guessed**: fuzzy matches are only offered as "Did you mean" links, and the page shows "No listed medicines for this term yet" with a link to the symptom explorer.
+- The emergency rules engine runs on the query first (burn rules: chemical/electrical burns, smoke inhalation, large/deep/charred burns, burns on face/hands/feet/genitals/joints, burns in babies/children/older people; severe sunburn).
+- Links are curated in `scripts/enrich/v2/treatments.mjs` → `scripts/data/condition_medications.json` → table `condition_medications`. Each link must match an indication already present in that medicine's data; `npm run enrich:v2` and the seed both fail otherwise. Conditions can carry `first_aid` steps (shown for Burns and Sunburn).
 
 ### Quality bar
 
@@ -138,6 +147,7 @@ Expand by editing JSON under `scripts/data/` (or re-running enrichment under `sc
 - http://localhost:3000/medications/omeprazole
 - http://localhost:3000/medications/sertraline
 - http://localhost:3000/interactions?a=warfarin&b=ibuprofen
+- http://localhost:3000/treatments?q=burn
 - http://localhost:3000/symptoms?q=persistent%20heartburn
 - http://localhost:3000/symptoms?q=crushing%20chest%20pain%20and%20left%20arm%20numbness
 - http://localhost:3000/compare?a=amlodipine&b=lisinopril
